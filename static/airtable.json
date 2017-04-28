@@ -9,7 +9,8 @@
           "Item": "Camino Ancestral",
           "id": "13",
           "nota esp": "Un camino ancestral que conectaba la gente desde las comunidades alejado en el Río Putumayo hacia el Río Aguarico con las comunidades Siekopai en la ribera del Río Aguarico y el Río Cuyubeno",
-          "nombre sey": "Ma'ñoka sa'sa"
+          "nombre sey": "Ma'ñoka sa'sa",
+          "tipo": "camino"
         },
         "geometry": null
       },
@@ -137,7 +138,7 @@
         "properties": {
           "Item": "Laguna",
           "id": "2222",
-          "tipo": "Jaira",
+          "tipo": "lake",
           "nombre sey": "Nea Jaira"
         },
         "geometry": null
@@ -239,7 +240,8 @@
         "properties": {
           "Item": "Camino Ancestral",
           "id": "2",
-          "nombre sey": "Camino ancestral Anguisilla / Pekeya / Cañon Negro"
+          "nombre sey": "Camino ancestral Anguisilla / Pekeya / Cañon Negro",
+          "tipo": "camino"
         },
         "geometry": null
       },
@@ -298,7 +300,8 @@
         "properties": {
           "Item": "Laguna",
           "id": "2095830693335069269",
-          "nombre sey": "Onoka Jaira"
+          "nombre sey": "Onoka Jaira",
+          "tipo": "lake"
         },
         "geometry": null
       },
@@ -331,7 +334,8 @@
         "properties": {
           "Item": "Camino Ancestral",
           "id": "12",
-          "nombre sey": "Camino Ancestral: Wajoya / Mañoko Sasa"
+          "nombre sey": "Camino Ancestral: Wajoya / Mañoko Sasa",
+          "tipo": "camino"
         },
         "geometry": null
       },
@@ -341,7 +345,8 @@
         "properties": {
           "Item": "Camino Ancestral",
           "id": "4",
-          "nombre sey": "Camino Wiririma / Mañoko"
+          "nombre sey": "Camino Wiririma / Mañoko",
+          "tipo": "camino"
         },
         "geometry": null
       },
@@ -364,7 +369,7 @@
           "Item": "Laguna",
           "id": "1111",
           "nota esp": "Nombre originario que se da antiguamente por abundante precencia de muchas especies de garza.LL",
-          "tipo": "Jair",
+          "tipo": "lake",
           "nombre sey": "Wakara Jaira"
         },
         "geometry": null
@@ -469,7 +474,8 @@
           "Item": "Camino Ancestral",
           "nota sey": "Ñekuawa'i kuijé pai'ako ukwusiyapi aguaricona pëkeya kwuine pookoya jenitomeje paiko ",
           "id": "14",
-          "nombre sey": "Camino ancestral de Angusiya / Aguarico"
+          "nombre sey": "Camino ancestral de Angusiya / Aguarico",
+          "tipo": "camino"
         },
         "geometry": null
       },
@@ -697,7 +703,8 @@
         "properties": {
           "Item": "Camino Ancestral",
           "id": "1",
-          "nombre sey": "Camino ancestral Gueppi"
+          "nombre sey": "Camino ancestral Gueppi",
+          "tipo": "camino"
         },
         "geometry": null
       },
@@ -973,7 +980,8 @@
           "Item": "Camino Ancestral",
           "nota sey": "Wakara jaira maa'a emuña  jeni tomewe'ña",
           "id": "9",
-          "nombre sey": "Emuña ma'a"
+          "nombre sey": "Emuña ma'a",
+          "tipo": "camino"
         },
         "geometry": null
       },
@@ -1031,7 +1039,8 @@
           "Item": "Camino Ancestral",
           "nota sey": "Emuñapi saotëkapëja'a jenitomejë ku'ijëpa'iakoa \n",
           "id": "10",
-          "nombre sey": "Emuña Sotoya"
+          "nombre sey": "Emuña Sotoya",
+          "tipo": "camino"
         },
         "geometry": null
       },
@@ -1053,7 +1062,8 @@
         "properties": {
           "Item": "Camino Ancestral",
           "id": "3",
-          "nombre sey": "Camino ancestral Anguisilla / Aguas Negras"
+          "nombre sey": "Camino ancestral Anguisilla / Aguas Negras",
+          "tipo": "camino"
         },
         "geometry": null
       },
@@ -1217,7 +1227,7 @@
         "properties": {
           "Name": 5,
           "tipo": "river",
-          "sey": "rio",
+          "sey": "Río",
           "esp": "Río",
           "eng": "River"
         },
