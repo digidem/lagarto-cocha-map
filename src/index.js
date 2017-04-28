@@ -29,12 +29,14 @@ var popupOffsets = {
 mapboxgl.accessToken = 'pk.eyJ1IjoiZ21hY2xlbm5hbiIsImEiOiJSaWVtd2lRIn0.ASYMZE2HhwkAw4Vt7SavEg'
 
 var data
+var translations = {}
 var dataIndex = {}
 var pending = 2
 var lang = 'esp'
 
 var interactiveLayers = [
   'Caminos',
+  'Caminos hover',
   'New communities',
   'Comunidad antigua grande',
   'Comunidad antigua chica',
@@ -59,9 +61,14 @@ var map = new mapboxgl.Map({
 
 d3.json('airtable.json', function (err, _data) {
   if (err) return console.error(err)
-  data = _data[Object.keys(_data)[0]]
+  data = _data['Map Points']
   data.features.forEach(function (feature) {
     dataIndex[feature.properties.id] = feature
+  })
+  _data['Tipo Translations'].features.forEach(function (feature) {
+    var props = feature.properties
+    if (!props.tipo) return
+    translations[props.tipo] = props
   })
   onLoad()
 })
@@ -97,8 +104,6 @@ function onLoad () {
 
   map.on('click', function (e) {
     var features = map.queryRenderedFeatures(e.point, { layers: interactiveLayers })
-    var test = map.queryRenderedFeatures(e.point)
-    if (test && test.length) console.log(test)
     airtableRecord = features && features[0] && dataIndex[features[0].properties.id]
     if (!airtableRecord) {
       popup.remove()
@@ -107,15 +112,15 @@ function onLoad () {
     var isPoint = features[0].geometry.type === 'Point'
     var loc = isPoint ? features[0].geometry.coordinates : e.lngLat
 
-    yo.update(popupNode, renderPopup(airtableRecord.properties, lang))
     popup.options.offset = isPoint ? popupOffsets : 0
     popup.setLngLat(loc).addTo(map)
+    yo.update(popupNode, renderPopup(airtableRecord.properties, lang, translations))
   })
 
   function updateLang (_) {
     lang = _
     if (airtableRecord) {
-      yo.update(popupNode, renderPopup(airtableRecord.properties, lang))
+      yo.update(popupNode, renderPopup(airtableRecord.properties, lang, translations))
     }
   }
 }
