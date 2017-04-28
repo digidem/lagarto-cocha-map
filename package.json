@@ -19,6 +19,7 @@
     "copyfiles": "^1.2.0",
     "gh-pages": "^0.12.0",
     "mkdirp": "^0.5.1",
+    "uglify-js": "^2.8.22",
     "uglifyify": "^3.0.4",
     "varify": "^0.2.0",
     "yo-yoify": "^3.7.0"
@@ -27,7 +28,7 @@
     "start": "budo src/index.js:bundle.js --live -d static -- -t sheetify/transform",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "mkdirp dist && npm run build:js && npm run build:static",
-    "build:js": "browserify -t sheetify/transform src/index.js > dist/bundle.js",
+    "build:js": "browserify -t sheetify/transform -t varify -t yo-yoify -t uglifyify src/index.js | uglifyjs -c -m > dist/bundle.js",
     "build:static": "copyup static/* dist",
     "deploy": "npm run build && gh-pages -d dist"
   },
