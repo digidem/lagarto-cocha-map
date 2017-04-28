@@ -113,8 +113,8 @@ function onLoad () {
     var loc = isPoint ? features[0].geometry.coordinates : e.lngLat
 
     popup.options.offset = isPoint ? popupOffsets : 0
-    popup.setLngLat(loc).addTo(map)
     yo.update(popupNode, renderPopup(airtableRecord.properties, lang, translations))
+    popup.setLngLat(loc).addTo(map)
   })
 
   function updateLang (_) {
