@@ -4,77 +4,14 @@
     <meta charset='utf-8' />
     <title></title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.js'></script>
-    <script src="https://d3js.org/d3-collection.v1.min.js"></script>
-    <script src="https://d3js.org/d3-dispatch.v1.min.js"></script>
-    <script src="https://d3js.org/d3-dsv.v1.min.js"></script>
-    <script src="https://d3js.org/d3-request.v1.min.js"></script>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.css' rel='stylesheet' />
     <style>
         body { margin:0; padding:0; }
         #map { position:absolute; top:0; bottom:0; width:100%; }
-
-        .dd_map_menu {
-            background: #fff;
-            position: absolute;
-            z-index: 1;
-            top: 10px;
-            right: 10px;
-            border-radius: 3px;
-            width: 200px;
-            border: 1px solid rgba(0,0,0,0.4);
-            font-family: 'Open Sans', sans-serif;
-        }
-
-        .mapboxgl-popup-content {
-            padding: 0;
-        }
-
-        .mapboxgl-popup-close-button {
-            color: white;
-            z-index: 99;
-        }
-
-        .popup-wrapper {
-            max-width: 300px
-        }
-
-        .popup-wrapper img {
-            position: relative;
-            width: 300px;
-            height: 200px;
-            top: 0;
-            left: 0;
-            display: block;
-        }
-
-        .popup-inner {
-            padding: 0 10px 10px 10px;
-        }
-
-        .btn-group {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            background-color: white;
-            padding: 10px;
-            border: 1px solid grey;
-        }
     </style>
 </head>
 <body>
 <div id='map'></div>
-<div class="btn-group" data-toggle="buttons">
-  <label class="btn btn-primary active">
-    <input type="radio" name="language" id="sey" autocomplete="off" checked> Siekopai
-  </label>
-  <label class="btn btn-primary">
-    <input type="radio" name="language" id="esp" autocomplete="off"> Español
-  </label>
-  <label class="btn btn-primary">
-    <input type="radio" name="language" id="eng" autocomplete="off"> English
-  </label>
-</div>
-<script src='index.js'></script>
+
+<script src='bundle.js'></script>
 </body>
 </html>
