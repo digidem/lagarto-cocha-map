@@ -14,6 +14,17 @@ var langStyle = css`
     right: 20px;
   }
 `
+var markerRadius = 20
+var popupOffsets = {
+  'top': [0, markerRadius],
+  'top-left': [0, markerRadius],
+  'top-right': [0, markerRadius],
+  'bottom': [0, -markerRadius],
+  'bottom-left': [0, -markerRadius],
+  'bottom-right': [0, -markerRadius],
+  'left': [markerRadius, 0],
+  'right': [-markerRadius, 0]
+}
 
 mapboxgl.accessToken = 'pk.eyJ1IjoiZ21hY2xlbm5hbiIsImEiOiJSaWVtd2lRIn0.ASYMZE2HhwkAw4Vt7SavEg'
 
@@ -93,9 +104,12 @@ function onLoad () {
       popup.remove()
       return
     }
+    var isPoint = features[0].geometry.type === 'Point'
+    var loc = isPoint ? features[0].geometry.coordinates : e.lngLat
 
-    popup.setLngLat(e.lngLat).addTo(map)
     yo.update(popupNode, renderPopup(airtableRecord.properties, lang))
+    popup.options.offset = isPoint ? popupOffsets : 0
+    popup.setLngLat(loc).addTo(map)
   })
 
   function updateLang (_) {
