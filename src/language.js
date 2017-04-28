@@ -24,10 +24,14 @@ module.exports = function (onClick, lang) {
   var el = yo`
     <div class="btn-group ${style}" data-toggle="buttons">
       <label class="btn btn-outline-primary ${lang === 'esp' ? 'active' : ''}">
-        <input type="radio" onclick=${handleClick} ${lang === 'esp' ? 'checked' : ''} name="language" id="esp" autocomplete="off"> Español
+        <input type="radio" onclick=${handleClick} checked="${lang === 'esp'}" name="language" id="esp" autocomplete="off">
+          Español
+        </input>
       </label>
       <label class="btn btn-outline-primary ${lang === 'eng' ? 'active' : ''}">
-        <input type="radio" onclick=${handleClick} ${lang === 'eng' ? 'checked' : ''} name="language" id="eng" autocomplete="off"> English
+        <input type="radio" onclick=${handleClick} checked="${lang === 'eng'}" name="language" id="eng" autocomplete="off">
+          English
+        </input>
       </label>
     </div>`
 

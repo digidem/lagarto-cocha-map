@@ -74,8 +74,8 @@ module.exports = function popup (props, lang, t) {
     <div class='popup-inner'>
       <h1>${props['nombre sey']}</h1>
       ${nameLoc && yo`<h2>${nameLoc}</h2>`}
-      <p><b>${tipoSey}</b>${noteSey && `: ${noteSey}`}</p>
-      <p><b>${tipoLoc}</b>${noteLoc && `: ${noteLoc}`}</p>
+      <p><b>${tipoSey}</b>${noteSey && ': ' + noteSey}</p>
+      <p><b>${tipoLoc}</b>${noteLoc && ': ' + noteLoc}</p>
     </div>
   </div>`
 }
