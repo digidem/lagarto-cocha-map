@@ -1,15 +1,32 @@
-/* global mapboxgl, d3 */
+const d3 = require('d3-request')
+const css = require('sheetify')
+const renderPopup = require('./popup')
+const renderLanguageSelector = require('./language')
+const mapboxgl = require('mapbox-gl')
+const yo = require('yo-yo')
+
+css('mapbox-gl/dist/mapbox-gl.css')
+
+var langStyle = css`
+  :host {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+`
 
 mapboxgl.accessToken = 'pk.eyJ1IjoiZ21hY2xlbm5hbiIsImEiOiJSaWVtd2lRIn0.ASYMZE2HhwkAw4Vt7SavEg'
 
 var data
 var dataIndex = {}
 var pending = 2
+var lang = 'esp'
 
 var interactiveLayers = [
   'Caminos',
   'New communities',
   'Comunidad antigua grande',
+  'Comunidad antigua chica',
   'Casa Yage',
   'Campamento',
   'Old pots',
@@ -40,7 +57,10 @@ d3.json('airtable.json', function (err, _data) {
 
 function onLoad () {
   if (--pending > 0) return
-  var lastProps
+  var airtableRecord
+
+  var langSelector = yo`<div class='${langStyle}'>${renderLanguageSelector(updateLang, lang)}</div>`
+  document.body.appendChild(langSelector)
 
   var nav = new mapboxgl.NavigationControl()
   map.addControl(nav, 'top-left')
@@ -50,6 +70,8 @@ function onLoad () {
     closeButton: true,
     closeOnClick: false
   })
+  var popupNode = yo`<div />`
+  popup.setDOMContent(popupNode)
 
   map.on('mousemove', function (e) {
     var features = map.queryRenderedFeatures(e.point, { layers: interactiveLayers })
@@ -57,34 +79,29 @@ function onLoad () {
     var airtableRecord = features && features[0] && dataIndex[features[0].properties.id]
     if (!airtableRecord) {
       map.getCanvas().style.cursor = ''
+    } else {
+      map.getCanvas().style.cursor = 'pointer'
+    }
+  })
+
+  map.on('click', function (e) {
+    var features = map.queryRenderedFeatures(e.point, { layers: interactiveLayers })
+    var test = map.queryRenderedFeatures(e.point)
+    if (test && test.length) console.log(test)
+    airtableRecord = features && features[0] && dataIndex[features[0].properties.id]
+    if (!airtableRecord) {
       popup.remove()
       return
     }
 
-    map.getCanvas().style.cursor = 'pointer'
     popup.setLngLat(e.lngLat).addTo(map)
-
-    if (lastProps === airtableRecord.properties) return
-
-    var popupNode = renderPopup(airtableRecord.properties)
-    popup.setDOMContent(popupNode)
-    lastProps = airtableRecord.properties
+    yo.update(popupNode, renderPopup(airtableRecord.properties, lang))
   })
-}
 
-function renderPopup (props) {
-  var fotoUrl = props.Foto && props.Foto[0] && props.Foto[0].thumbnails.large.url
-  var html = `<div class='popup-wrapper'>
-    <img src=${fotoUrl || 'http://lorempixel.com/400/300/nature/'}>
-    <div class='popup-inner'>
-      <h1>${props['Nombre Siek'] || 'No Name'}</h1>
-      <p><b>${props.Type}:</b> ${props['Nota Siekopai'] || 'Nota Siekopai'}</p>
-      <p><b>${props.Type}:</b> ${props['Nota Español'] || 'Nota Español'}</p>
-      <p><b>${props.Type}:</b> ${props['Nota Ingles'] || 'Nota Ingles'}</p>
-    </div>
-  </div>`
-  var div = window.document.createElement('div')
-  div.innerHTML = html
-  return div
+  function updateLang (_) {
+    lang = _
+    if (airtableRecord) {
+      yo.update(popupNode, renderPopup(airtableRecord.properties, lang))
+    }
+  }
 }
-
