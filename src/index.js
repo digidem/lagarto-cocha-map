@@ -48,7 +48,7 @@ var interactiveLayers = [
   'Saladeros',
   'Canoes',
   'S - Lakes',
-  'S-River areas'
+  'S - River Areas'
 ]
 
 var pointLayers = [
