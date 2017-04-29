@@ -38,7 +38,7 @@ module.exports = function layoutMarkers (map, pointLayers) {
     var prevPosLinks = []
     var features = getFeatures(map, pointLayers)
     features.forEach(function (f, i) {
-      var featureId = f.properties.id
+      var prevOffset = prevOffsets[f.properties.id]
       var point = f.point = map.project(f.geometry.coordinates)
       var anchorIndex = nodes.push({
         fx: point.x,
@@ -48,17 +48,17 @@ module.exports = function layoutMarkers (map, pointLayers) {
       var iconIndex = nodes.push({
         fIndex: i,
         fLayer: f.layer.id,
-        x: point.x,
-        y: point.y
+        x: point.x + (prevOffset ? prevOffset[0] : 0),
+        y: point.y + (prevOffset ? prevOffset[1] : 0)
       }) - 1
       anchorLinks.push({
         source: anchorIndex,
         target: iconIndex
       })
-      if (prevOffsets[featureId]) {
+      if (prevOffset) {
         var prevPosIndex = nodes.push({
-          fx: point.x + prevOffsets[featureId][0],
-          fy: point.y + prevOffsets[featureId][1]
+          fx: point.x + prevOffset[0],
+          fy: point.y + prevOffset[1]
         }) - 1
         prevPosLinks.push({
           source: prevPosIndex,
