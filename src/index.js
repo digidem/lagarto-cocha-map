@@ -27,6 +27,15 @@ var popupOffsets = {
   'right': [-markerRadius, 0]
 }
 
+var yoOptions = {
+  onBeforeElUpdated: function (fromEl) {
+    if (fromEl.tagName.toUpperCase() === 'IMG') {
+      console.log('update src')
+      fromEl.src = ''
+    }
+  }
+}
+
 mapboxgl.accessToken = 'pk.eyJ1IjoiZ21hY2xlbm5hbiIsImEiOiJSaWVtd2lRIn0.ASYMZE2HhwkAw4Vt7SavEg'
 
 var data
@@ -177,7 +186,7 @@ function onLoad () {
     var loc = isPoint ? features[0].geometry.coordinates : e.lngLat
 
     popup.options.offset = isPoint ? popupOffsets : 0
-    yo.update(popupNode, renderPopup(airtableRecord.properties, lang, translations))
+    yo.update(popupNode, renderPopup(airtableRecord.properties, lang, translations), yoOptions)
     popup.setLngLat(loc).addTo(map)
   })
 
