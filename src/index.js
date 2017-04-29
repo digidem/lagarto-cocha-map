@@ -36,7 +36,6 @@ var pending = 2
 var lang = 'esp'
 
 var interactiveLayers = [
-  'Caminos',
   'Caminos hover',
   'New communities',
   'Comunidad antigua grande',
@@ -96,6 +95,31 @@ function onLoad () {
   var nav = new mapboxgl.NavigationControl()
   map.addControl(nav, 'top-left')
 
+  var lakes = map.getLayer('S - Lakes')
+  var lakeHighlight = {
+    id: 'lakeHighlight',
+    source: lakes.source,
+    filter: lakes.filter,
+    metadata: lakes.metadata,
+    'source-layer': lakes.sourceLayer,
+    type: 'line',
+    layout: {
+      'line-join': 'round'
+    },
+    paint: {
+      'line-color': {
+        stops: [
+          [12, 'hsl(196, 53%, 40%)'],
+          [22, 'hsl(196, 79%, 24%)']
+        ]
+      },
+      'line-opacity': 0,
+      'line-width': 3
+    }
+  }
+
+  map.addLayer(lakeHighlight, 'S - River Areas')
+
   // Create a popup, but don't add it to the map yet.
   var popup = new mapboxgl.Popup({
     closeButton: true,
@@ -108,10 +132,37 @@ function onLoad () {
     var features = map.queryRenderedFeatures(e.point, { layers: interactiveLayers })
 
     var airtableRecord = features && features[0] && dataIndex[features[0].properties.id]
-    if (!airtableRecord) {
-      map.getCanvas().style.cursor = ''
-    } else {
+    if (airtableRecord) {
       map.getCanvas().style.cursor = 'pointer'
+    } else {
+      map.getCanvas().style.cursor = ''
+    }
+
+    if (features[0] && features[0].layer.id === 'S - Lakes') {
+      var id = features[0].properties.id
+      map.setPaintProperty('Caminos hover', 'line-opacity', 0)
+      map.setPaintProperty('lakeHighlight', 'line-opacity', {
+        type: 'categorical',
+        property: 'id',
+        default: 0,
+        stops: [
+          [id, 0.4]
+        ]
+      })
+    } else if (features[0] && features[0].layer.id === 'Caminos hover') {
+      var id = features[0].properties.id
+      map.setPaintProperty('lakeHighlight', 'line-opacity', 0)
+      map.setPaintProperty('Caminos hover', 'line-opacity', {
+        type: 'categorical',
+        property: 'id',
+        default: 0,
+        stops: [
+          [id, 0.2]
+        ]
+      })
+    } else {
+      map.setPaintProperty('Caminos hover', 'line-opacity', 0)
+      map.setPaintProperty('lakeHighlight', 'line-opacity', 0)
     }
   })
 
