@@ -33,7 +33,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "mkdirp dist && npm run build:js && npm run build:static",
     "build:js": "browserify src/index.js -t sheetify/transform -t varify -t yo-yoify -g uglifyify > dist/bundle.js",
-    "build:static": "copyup static/* dist",
+    "build:static": "copyup 'static/**/*' dist",
     "deploy": "npm run build && gh-pages -d dist"
   },
   "repository": {

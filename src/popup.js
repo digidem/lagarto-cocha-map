@@ -42,6 +42,9 @@ var popupStyle = css`
     width: 300px;
     background-color: white;
   }
+  :host .embed-responsive-16by9:before {
+    padding-top: 66.67%;
+  }
   :host img {
     object-fit: cover;
   }
@@ -63,12 +66,14 @@ var popupStyle = css`
 `
 
 module.exports = function popup (props, lang, t) {
-  var fotoUrl = props.foto && props.foto[0] && props.foto[0].thumbnails.large.url || 'http://lorempixel.com/400/300/nature/'
+  var fotoUrl = (props.foto && props.foto[0] && props.foto[0].thumbnails.large.url) ||
+  (props.tipo === 'lake' && 'lake-images/' + props.id + '.png') ||
+  'http://lorempixel.com/400/300/nature/'
   var nameLoc = props['nombre ' + lang] || 'Name in ' + lang
   var noteSey = props['nombre ' + lang] || 'Description in Siekopai'
   var noteLoc = props['nota ' + lang] || 'Description in ' + lang
-  var tipoSey = t[props.tipo] && t[props.tipo].sey || props.tipo
-  var tipoLoc = t[props.tipo] && t[props.tipo][lang] || props.tipo
+  var tipoSey = (t[props.tipo] && t[props.tipo].sey) || props.tipo
+  var tipoLoc = (t[props.tipo] && t[props.tipo][lang]) || props.tipo
   return yo`<div class='${popupStyle}'>
     ${fotoUrl && image(fotoUrl)}
     <div class='popup-inner'>
