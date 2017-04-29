@@ -1,6 +1,7 @@
 const uniqWith = require('lodash/uniqWith')
 const d3 = require('d3-force')
 const assign = require('object-assign')
+const throttle = require('lodash/throttle')
 
 var epsilon = 0.1
 
@@ -28,7 +29,7 @@ module.exports = function layoutMarkers (map, pointLayers) {
     .force('collide', collideForce)
     .stop()
 
-  map.on('move', updateNodes)
+  map.on('move', throttle(updateNodes, 50, {leading: false}))
 
   updateNodes()
 
