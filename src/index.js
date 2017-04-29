@@ -2,6 +2,7 @@ const d3 = require('d3-request')
 const css = require('sheetify')
 const renderPopup = require('./popup')
 const renderLanguageSelector = require('./language')
+const layoutMarkers = require('./layout')
 const mapboxgl = require('mapbox-gl')
 const yo = require('yo-yo')
 
@@ -50,9 +51,21 @@ var interactiveLayers = [
   'S-River areas'
 ]
 
-var map = new mapboxgl.Map({
+var pointLayers = [
+  'New communities',
+  'Comunidad antigua grande',
+  'Comunidad antigua chica',
+  'Casa Yage',
+  'Campamento',
+  'Old pots',
+  'Nakomasira',
+  'Saladeros',
+  'Canoes'
+]
+
+var map = window.map = new mapboxgl.Map({
   container: 'map', // container id
-  style: 'mapbox://styles/gmaclennan/cj08hblae00102sn58nxqlx26', // stylesheet location
+  style: 'mapbox://styles/gmaclennan/cj08hblae00102sn58nxqlx26?fresh=true', // stylesheet location
   center: [-75.3506, -0.4848], // starting position
   zoom: 10, // starting zoom
   hash: true,
@@ -76,7 +89,7 @@ d3.json('airtable.json', function (err, _data) {
 function onLoad () {
   if (--pending > 0) return
   var airtableRecord
-
+  layoutMarkers(map, pointLayers)
   var langSelector = yo`<div class='${langStyle}'>${renderLanguageSelector(updateLang, lang)}</div>`
   document.body.appendChild(langSelector)
 
