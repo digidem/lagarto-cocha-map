@@ -101,7 +101,7 @@ function onLoad () {
     closeButton: true,
     closeOnClick: false
   })
-  var popupNode = yo`<div />`
+  var popupNode = yo`<div>Popup</div>`
   popup.setDOMContent(popupNode)
 
   map.on('mousemove', function (e) {
