@@ -5,22 +5,26 @@ const assign = require('object-assign')
 var epsilon = 0.1
 
 module.exports = function layoutMarkers (map, pointLayers) {
-  var offsets = {}
+  var prevOffsets = {}
 
-  var linkForce = d3.forceLink()
-    .distance(0.5)
-    .strength(0.4)
+  var anchorLinkForce = d3.forceLink()
+    .distance(0)
+    .strength(0.7)
+
+  var prevPosLinkForce = d3.forceLink()
+    .distance(0)
+    .strength(0.3)
 
   var collideForce = forceCollide()
-    .strength(0.7)
-    .iterations(2)
+    .strength(0.8)
     .radius(function (d) {
       return getRadius(map, d.fLayer)
     })
 
   var simulation = d3.forceSimulation()
     // .velocityDecay(0.2)
-    .force('link', linkForce)
+    .force('anchorLink', anchorLinkForce)
+    .force('prevPosLink', prevPosLinkForce)
     .force('collide', collideForce)
     .stop()
 
@@ -32,35 +36,48 @@ module.exports = function layoutMarkers (map, pointLayers) {
     var style = map.getStyle()
     var zoom = map.getZoom()
     var nodes = []
-    var links = []
+    var anchorLinks = []
+    var prevPosLinks = []
     var features = getFeatures(map, pointLayers)
-
     features.forEach(function (f, i) {
       var featureId = f.properties.id
       var point = f.point = map.project(f.geometry.coordinates)
-      var anchor = {
+      var anchorIndex = nodes.push({
         fx: point.x,
         fy: point.y
-      }
+      }) - 1
       // Initialize the icon with offsets from previous iteration if available
-      var icon = {
+      var iconIndex = nodes.push({
         fIndex: i,
         fLayer: f.layer.id,
-        x: point.x + offsets[featureId] ? offsets[featureId][0] : 0,
-        y: point.y + offsets[featureId] ? offsets[featureId][1] : 0,
-      }
-      links.push({
-        source: nodes.push(anchor) - 1,
-        target: nodes.push(icon) - 1
+        x: point.x,
+        y: point.y
+      }) - 1
+      anchorLinks.push({
+        source: anchorIndex,
+        target: iconIndex
       })
+      if (prevOffsets[featureId]) {
+        var prevPosIndex = nodes.push({
+          fx: point.x + prevOffsets[featureId][0],
+          fy: point.y + prevOffsets[featureId][1]
+        }) - 1
+        prevPosLinks.push({
+          source: prevPosIndex,
+          target: iconIndex
+        })
+      }
     })
 
     simulation
       .nodes(nodes)
       .alpha(1)
 
-    simulation.force('link')
-      .links(links)
+    simulation.force('anchorLink')
+      .links(anchorLinks)
+
+    simulation.force('prevPosLink')
+      .links(prevPosLinks)
 
     for (var i = 0; i < 300; i++) simulation.tick()
 
@@ -76,9 +93,18 @@ module.exports = function layoutMarkers (map, pointLayers) {
         var featureId = feature.properties.id
         var dx = node.x - feature.point.x
         var dy = node.y - feature.point.y
-        offsets[featureId] = [dx, dy]
 
-        if (Math.abs(dx) < epsilon && Math.abs(dy) < epsilon) return
+        if (Math.abs(dx) < epsilon && Math.abs(dy) < epsilon) {
+          prevOffsets[featureId] = null
+          return
+        }
+
+        // If the marker is moved, we set up a soft force to prefer keeping
+        // it where it was in the previous iteration
+        if (Math.abs(dx) > 1 || Math.abs(dy) > 1) {
+          prevOffsets[featureId] = [dx, dy]
+        }
+
         if (!offsets[layerId]) {
           offsets[layerId] = {
             type: 'categorical',
