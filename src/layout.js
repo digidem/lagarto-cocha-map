@@ -33,8 +33,6 @@ module.exports = function layoutMarkers (map, pointLayers) {
   updateNodes()
 
   function updateNodes () {
-    var style = map.getStyle()
-    var zoom = map.getZoom()
     var nodes = []
     var anchorLinks = []
     var prevPosLinks = []
@@ -79,7 +77,7 @@ module.exports = function layoutMarkers (map, pointLayers) {
     simulation.force('prevPosLink')
       .links(prevPosLinks)
 
-    for (var i = 0; i < 300; i++) simulation.tick()
+    for (var i = 0; i < 120; i++) simulation.tick()
 
     render()
 
