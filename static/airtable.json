@@ -21,7 +21,28 @@
           "Item": "Point",
           "id": "16316963937723214038",
           "tipo": "comunidad/campamento",
-          "nombre sey": "Wakara jiara kai daripë"
+          "nombre sey": "Wakara jaira kai daripë",
+          "foto": [
+            {
+              "id": "attIA2PLKXb3JdoVh",
+              "url": "https://dl.airtable.com/Z7W5yNUIRLmTVSFp3ctY_DSC01702.jpg",
+              "filename": "DSC01702.jpg",
+              "size": 369093,
+              "type": "image/jpeg",
+              "thumbnails": {
+                "small": {
+                  "url": "https://dl.airtable.com/TjDjuZyCRIm8K23aHATP_small_DSC01702.jpg",
+                  "width": 24,
+                  "height": 36
+                },
+                "large": {
+                  "url": "https://dl.airtable.com/YgDqUrn0Sq2WtmRfxOAH_large_DSC01702.jpg",
+                  "width": 512,
+                  "height": 768
+                }
+              }
+            }
+          ]
         },
         "geometry": null
       },
@@ -79,8 +100,6 @@
           "Item": "Laguna",
           "nota sey": "Airepa dua saipi paina dua jaira cayë jaje",
           "id": "4843469361727951631",
-          "tipo": "lake",
-          "nombre sey": "Dua Wa'ida!!",
           "foto": [
             {
               "id": "attNapQGtTflo8m3k",
@@ -101,7 +120,9 @@
                 }
               }
             }
-          ]
+          ],
+          "tipo": "lake",
+          "nombre sey": "Dua Wa'ida!!"
         },
         "geometry": null
       },
@@ -1139,7 +1160,30 @@
           "nota sey": "Tsiaya pa'iopa'isikopi wa'ke tëni saotëkapë de'osikoa",
           "id": "3834331760719211353",
           "tipo": "lake",
-          "nombre sey": "Ñakomasira"
+          "nombre sey": "Ñakomasira",
+          "foto": [
+            {
+              "id": "att6ueg3Y9X9f5imG",
+              "url": "https://dl.airtable.com/aNtv2eyPQMqK5xsVgDKU_Screen%20Shot%202017-03-29%20at%2017.37.05.png",
+              "filename": "Screen Shot 2017-03-29 at 17.37.05.png",
+              "size": 4814365,
+              "type": "image/png",
+              "thumbnails": {
+                "small": {
+                  "url": "https://dl.airtable.com/u5kA3mPXR5BjmNbDT5gh_small_Screen%20Shot%202017-03-29%20at%2017.37.05.png",
+                  "width": 39,
+                  "height": 36
+                },
+                "large": {
+                  "url": "https://dl.airtable.com/7GcDv9bSouJBe1pzvHMg_large_Screen%20Shot%202017-03-29%20at%2017.37.05.png",
+                  "width": 560,
+                  "height": 512
+                }
+              }
+            }
+          ],
+          "nombre eng": "Lake",
+          "nota eng": "Two shamans fought with a giant whale-like fish here\n"
         },
         "geometry": null
       },
