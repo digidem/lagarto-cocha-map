@@ -55,7 +55,8 @@
           "id": "3133084118495594748",
           "nota esp": "tsoe we'ña paipi karena akëpi we'yoko paa'a'koña wepi paai kato we'epi karena.",
           "tipo": "caminos/ai_maa",
-          "nombre sey": "Ma'a wepi kaa maa'a"
+          "nombre sey": "Ma'a wepi kaa maa'a",
+          "nombre esp": "Camino al Güepi"
         },
         "geometry": null
       },
@@ -320,8 +321,10 @@
           "Item": "Point",
           "id": "9999",
           "nota esp": "Aquí es el sitio de la comunidad Siekopai que fue establecido en el año 2003.  Durante la construcción de este pueblo habían varios artefctos arqueológicos  que corresponde a la cultura Siekopai, y que incluyo un cuchillo de piedra para la raspada de Yoco (una liana estimulatorio que utiliza los Siekopai) y otros cerámicas.  Lamentablemente, todos los techos de lamina de Zinc fue robado por los militares Peruanos que pertenece al destacamento Aguas Negras  en el año 2007 y luego abandonado por los Siekopai. ",
-          "nombre sey": "Po'okoya, Aguas Blancas",
-          "tipo": "River/Río"
+          "nombre sey": "Pookoya, Aguas Blancas",
+          "tipo": "River/Río",
+          "nombre esp": "Rio aguas blancas",
+          "nota sey": "Pookoya tsiaya, ikona yuremaka wë'ña neni paa'sikoa."
         },
         "geometry": null
       },
@@ -507,6 +510,12 @@
           "tipo": "comunidad/yaje",
           "nombre sey": "Aipë yaje ukujë pa'isito"
         },
+        "geometry": null
+      },
+      {
+        "type": "Feature",
+        "id": "recNLcQlTURo8VXw5",
+        "properties": {},
         "geometry": null
       },
       {
@@ -705,7 +714,8 @@
           "Item": "Point",
           "id": "8203844693492997336",
           "tipo": "fauna/tapir",
-          "nombre sey": "Wekë tu'aro"
+          "nombre sey": "Wekë tu'aro",
+          "nombre esp": "Saladero de danta"
         },
         "geometry": null
       },
@@ -883,9 +893,10 @@
         "properties": {
           "Item": "Point",
           "id": "11559871586223897930",
-          "nota esp": "Desde este sitio hubo caminos ancestrales que conectaban a las comunidades Siekopai en el región de Rio Putumayo.  Hoy día este sitio histórico se encuentra una destacamento militar Peruano 'Aguas Negras'.",
+          "nota esp": "Desde este sitio hubo caminos ancestrales que conectaban a las comunidades Siekopai en la región de Rio Putumayo.  Hoy día este sitio histórico se encuentra un destacamento militar Peruano 'Aguas Negras'.",
           "tipo": "comunidad/casa_temporal_pasado",
-          "nombre sey": "Puesto de Contro Aguas Negras"
+          "nombre sey": "Puesto de Control Aguas Negras",
+          "nombre esp": "Puesto de control Aguas Negras"
         },
         "geometry": null
       },
@@ -1108,7 +1119,8 @@
           "Item": "Point",
           "id": "14038398745685493712",
           "tipo": "Fauna-puerto",
-          "nombre sey": "Tua'ro tumasa'ro"
+          "nombre sey": "Tua'ro tumasa'ro",
+          "nombre esp": "Camino al saladero"
         },
         "geometry": null
       },
