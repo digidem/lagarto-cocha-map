@@ -720,6 +720,7 @@
           "Item": "Point",
           "nota sey": "Po okoya je'e sa'ro",
           "id": "15294134386001206266",
+          "tipo": "Camino",
           "nombre sey": "Je'e sa'ro"
         },
         "geometry": null
@@ -931,7 +932,8 @@
           "Item": "Point",
           "nota sey": "iyemaka tsiaya wekë paa'ikoa yure iti sonowë",
           "id": "15270807256290582399",
-          "nombre sey": "Wakara jaira maa'a emuña  jeni tomewe'ña"
+          "tipo": "Camino",
+          "nombre sey": "Wakara jaira ma'a emuña  jeni tomewe'ña"
         },
         "geometry": null
       },
@@ -1023,7 +1025,8 @@
           "Item": "Point",
           "id": "14135602598682239009",
           "tipo": "actividad/caza",
-          "nombre sey": "Tu'aro ma'a tuma sa'ro"
+          "nombre sey": "Tu'aro ma'a tuma sa'ro",
+          "nombre esp": "Camino al saladero."
         },
         "geometry": null
       },
@@ -1094,6 +1097,7 @@
         "properties": {
           "Item": "Point",
           "id": "14038398745685493712",
+          "tipo": "Fauna-puerto",
           "nombre sey": "Tua'ro tumasa'ro"
         },
         "geometry": null
@@ -1234,6 +1238,7 @@
           "Item": "Point",
           "id": "13636346042510859888",
           "nota esp": "Este es el punto donde uno de los caminos ancestral de los Siekopai y que conectaba la gente desde las comunidades alejado en el Rio Putumayo hacia el Rio Aguarico y con las comunidades Siekopai en la ribera del Rio Aguarico y el Rio Cuyabeno. ",
+          "tipo": "Actividad",
           "nombre sey": "Tumasa'ro manoka tsa'sa"
         },
         "geometry": null
