@@ -321,7 +321,7 @@
         "id": "recAhQ4tEnLbxw6zk",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Ya'i do'ro neñepi paikoa jaje pa'ina we'yojë pa'awë'ë paikoa poopo",
+          "nota sey": "Ya'i do'ro neñepi pa'ikoa jaje pa'ina we'yojë pa'awë'ë.",
           "id": "10877896803386417114",
           "nombre esp": "Achanga Cocha",
           "tipo": "lake",
@@ -450,11 +450,11 @@
         "id": "recJqlTn4Yyz2lyRa",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Osasapi jaira tëtëpaja paikoa",
+          "nota sey": "O'sasapi jaira të'tëpaja'a  paikoa",
           "id": "18305907333145251440",
           "nombre esp": "Daniel cocha",
           "tipo": "lake",
-          "nombre sey": "Osasa Jaira"
+          "nombre sey": "O'sasa Jaira"
         },
         "geometry": null
       },
@@ -520,7 +520,7 @@
         "id": "recPtw83bSJ6YjDTr",
         "properties": {
           "Item": "Camino Ancestral",
-          "nota sey": "Ñekuawa'i kuijé pai'ako ukwusiyapi aguaricona pëkeya kwuine pookoya jenitomeje paiko ",
+          "nota sey": "Ñekwëowa'i ku'ijë pai'ako, ukwusiyapi aguaricona pë'këya kwi'ne pookoya jenitomejë pa'isiko.",
           "id": "14",
           "tipo": "camino",
           "nombre sey": "Camino ancestral de Angusiya / Aguarico"
@@ -669,7 +669,7 @@
         "id": "recYjia7g3Ec6opLK",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Këyëpi airepa pa'ikoa'iaë",
+          "nota sey": "Këyëpi airepa pa'ikowa'ia'ë",
           "id": "16010414862262741386",
           "tipo": "lake",
           "nombre sey": "Këyë Jaira"
@@ -1026,7 +1026,7 @@
         "id": "recq84wlCg6lf8W6g",
         "properties": {
           "Item": "Camino Ancestral",
-          "nota sey": "Wakara jaira maa'a emuña  jeni tomewe'ña",
+          "nota sey": "Wakara jaira ma'a, emuña  jeni tomewe'ña",
           "id": "9",
           "tipo": "camino",
           "nombre sey": "Emuña ma'a"
@@ -1085,7 +1085,7 @@
         "id": "recrcf6x8crhFSDO3",
         "properties": {
           "Item": "Camino Ancestral",
-          "nota sey": "Emuñapi saotëkapëja'a jenitomejë ku'ijëpa'iakoa \n",
+          "nota sey": "Emuñapi saotëkapëja'a jenitomejë ku'ijë pa'iakoa. \n",
           "id": "10",
           "tipo": "camino",
           "nombre sey": "Emuña Sotoya"
@@ -1111,7 +1111,7 @@
           "Item": "Camino Ancestral",
           "id": "3",
           "tipo": "camino",
-          "nombre sey": "Camino ancestral Anguisilla / Aguas Negras"
+          "nombre sey": "Camino ancestral Angusilla / Aguas Negras"
         },
         "geometry": null
       },
@@ -1120,7 +1120,7 @@
         "id": "recuH1yNsPyGJPVDH",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Jato paiona we'yojë pawë",
+          "nota sey": "Jato pa'iona we'yojë paa'wë'ë.",
           "id": "668652092458876775",
           "nombre esp": "America Cocha",
           "tipo": "lake",
@@ -1201,7 +1201,7 @@
         "id": "recycSE3yujngBaph",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Tsiaya wëkEpi pa'ikoa",
+          "nota sey": "Tsiaya wëkëpi pa'ikoa",
           "id": "4765490255045918206",
           "tipo": "lake",
           "nombre sey": "Tsiaya Wëkë Jaira"
