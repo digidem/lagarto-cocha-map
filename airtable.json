@@ -98,7 +98,7 @@
         "id": "rec2C0Wqn4DKmKk3T",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Airepa dua saipi pa'ina dua jaira kayë jaje",
+          "nota sey": "Airepa dua saipi pa'ina dua jaira kayë jaje.",
           "id": "4843469361727951631",
           "foto": [
             {
@@ -153,7 +153,7 @@
         "id": "rec3QHJeSdZN7Lcva",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Tëte sewapi pa'iona ñani jaje we'yoawë",
+          "nota sey": "Tëtë sewapi pa'iona ñani jaje we'yoa'wë",
           "id": "1206160794007552664",
           "nombre esp": "Yarina Cocha",
           "tipo": "lake",
@@ -1062,11 +1062,11 @@
         "id": "recqqiZOOzBLTPz8c",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Okopetopi airepa paina ñani jaje cayë",
+          "nota sey": "Okopeetopi airepa pa'ina ñani jaje kayë",
           "id": "6328189700702001610",
           "nombre esp": "Clavo cocha!!",
           "tipo": "lake",
-          "nombre sey": "Oko Peto Wa'ira"
+          "nombre sey": "Oko Peeto Wa'ira"
         },
         "geometry": null
       },
