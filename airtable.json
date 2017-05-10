@@ -347,10 +347,10 @@
         "id": "recC4EWNtZZAPjmIU",
         "properties": {
           "Item": "Laguna",
+          "nota sey": "Iye jairase'e ai onoka paa'ikoa kooa aikoka këayë kooa nokare tateina ikere takë'ni kakë jaje yo'këna sewouña onkare tañe kakë kosouña jaje yo'ouna ti ñese'e onokarepase'e aire'isiokpi pa'iji iye jaira.",
           "id": "2095830693335069269",
           "tipo": "lake",
-          "nombre sey": "Onoka Jaira",
-          "nota sey": "Iye jairase'e ai onoka paa'ikoa kooa aikoka këayë kooa nokare tateina ikere takë'ni kakë jaje yo'këna sewouña onkare tañe kakë kosouña jaje yo'ouna ti ñese'e onokarepase'e aire'isiokpi pa'iji iye jaira."
+          "nombre sey": "Onoka Jaira"
         },
         "geometry": null
       },
@@ -1255,7 +1255,7 @@
         "properties": {
           "Name": 68,
           "tipo": "comunidad/jai_daripe",
-          "sey": "Jai daripe",
+          "sey": "Jai daripë",
           "esp": "Comunidad vieja",
           "eng": "Old village"
         },
@@ -1299,7 +1299,7 @@
         "properties": {
           "Name": 5,
           "tipo": "river",
-          "sey": "Río",
+          "sey": "Tsiaya",
           "esp": "Río",
           "eng": "River"
         },
@@ -1322,8 +1322,8 @@
         "id": "recfnFlb5T2OyL5rY",
         "properties": {
           "Name": 73,
-          "tipo": "comunidad/pai_pai_daripe",
-          "sey": "Pai pai daripe",
+          "tipo": "comunidad/pai_pai_daripë",
+          "sey": "Pai paa'i daripë pa'isiko",
           "esp": "Casas vieja",
           "eng": "Old hamlet"
         },
