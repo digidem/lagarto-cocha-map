@@ -87,7 +87,7 @@
         "properties": {
           "Item": "Laguna",
           "id": "15189700795514535636",
-          "nota esp": "Nombre didicado a la abundancia precencia de especies de hiervas de agua antiguamente.",
+          "nota esp": "Nombre dedicado a la abundancia presencia de especies de hiervas de agua antiguamente.",
           "tipo": "lake",
           "nombre sey": "Wi'ya Jaira"
         },
@@ -358,7 +358,7 @@
         "id": "recC6N3ME5aBhyw4R",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Iye maka kato pa'iji mëapi yowë neÑe  siekopaai  jaje pa'iro'ire  si'anë ku'ijë paa'aÑeÑa  itire kaje",
+          "nota sey": "Iye maka kato pa'iji mëapi yowë neñe  siekopaai  jaje pa'iro'ire  si'anë ku'ijë paa'aeÑa  itire kaje",
           "id": "13990912366586570676",
           "tipo": "lake",
           "nombre sey": "Mëa Jaira"
@@ -416,7 +416,7 @@
         "properties": {
           "Item": "Laguna",
           "id": "1111",
-          "nota esp": "Nombre originario que se da antiguamente por abundante precencia de muchas especies de garza.LL",
+          "nota esp": "Nombre originario que se da antiguamente por abundante presencia de muchas especies de garza.LL",
           "tipo": "lake",
           "nombre sey": "Wakara Jaira"
         },
@@ -822,7 +822,7 @@
           "nota sey": "Kosa pai dopë",
           "id": "3662321094468416827",
           "tipo": "lake",
-          "nombre sey": "Kosa Dopë"
+          "nombre sey": "Koosa Dopë"
         },
         "geometry": null
       },
@@ -961,7 +961,7 @@
           "Item": "Laguna",
           "id": "2646991696197452943",
           "tipo": "lake",
-          "nombre sey": "Osasa Dopë"
+          "nombre sey": "O'sasa Dopë"
         },
         "geometry": null
       },
