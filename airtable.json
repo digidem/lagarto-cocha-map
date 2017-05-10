@@ -229,7 +229,7 @@
           "Item": "Laguna",
           "id": "649959265187868029",
           "tipo": "lake",
-          "nombre sey": "Okotui Jaira"
+          "nombre sey": "Okotu'i Jaira"
         },
         "geometry": null
       },
@@ -474,7 +474,8 @@
           "Item": "Laguna",
           "id": "13345186247401873987",
           "tipo": "lake",
-          "nombre sey": "Jaira Dayawë"
+          "nombre sey": "Jaira Dayawë",
+          "nombre esp": "Laguna de pantano"
         },
         "geometry": null
       },
@@ -508,7 +509,8 @@
           "Item": "Laguna",
           "id": "1705200238010192066",
           "tipo": "lake",
-          "nombre sey": "Tupëwani Jaira"
+          "nombre sey": "Tupëwani Jaira",
+          "nombre esp": "Laguna caraguazu"
         },
         "geometry": null
       },
@@ -599,7 +601,8 @@
           "Item": "Laguna",
           "id": "9400699582440614514",
           "tipo": "lake",
-          "nombre sey": "Suara Dopë"
+          "nombre sey": "Suara Dopë",
+          "nombre esp": "Poza de bocachicos"
         },
         "geometry": null
       },
@@ -682,7 +685,8 @@
           "nota sey": "Këyëpi airepa pa'ikowa'ia'ë",
           "id": "16010414862262741386",
           "tipo": "lake",
-          "nombre sey": "Këyë Jaira"
+          "nombre sey": "Këyë Jaira",
+          "nombre esp": "Laguna de pericos."
         },
         "geometry": null
       },
@@ -728,7 +732,8 @@
           "id": "4640143000097491919",
           "nota esp": "Puede ser llamado Tsiaya wekë ka'wa ?",
           "tipo": "lake",
-          "nombre sey": "Tupë Wani Dopë"
+          "nombre sey": "Tupë Wani Dopë",
+          "nombre esp": "Poza de caraguazu"
         },
         "geometry": null
       },
@@ -971,7 +976,9 @@
           "Item": "Laguna",
           "id": "2646991696197452943",
           "tipo": "lake",
-          "nombre sey": "O'sasa Dopë"
+          "nombre sey": "O'sasa Dopë",
+          "nombre esp": "Laguna  Camu camu",
+          "nota sey": "En esta laguna existe bastante Camu camu."
         },
         "geometry": null
       },
@@ -982,7 +989,8 @@
           "Item": "Laguna",
           "id": "5343724908215276575",
           "tipo": "lake",
-          "nombre sey": "Paku Dopë"
+          "nombre sey": "Paku Dopë",
+          "nombre esp": "Poza de palometas"
         },
         "geometry": null
       },
@@ -1214,7 +1222,8 @@
           "nota sey": "Tsiaya wëkëpi pa'ikoa",
           "id": "4765490255045918206",
           "tipo": "lake",
-          "nombre sey": "Tsiaya Wëkë Jaira"
+          "nombre sey": "Tsiaya Wëkë Jaira",
+          "nombre esp": "Laguna de manatí (vaca marina)"
         },
         "geometry": null
       },
