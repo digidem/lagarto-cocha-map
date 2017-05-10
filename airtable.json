@@ -122,7 +122,8 @@
             }
           ],
           "tipo": "lake",
-          "nombre sey": "Dua Wa'ira"
+          "nombre sey": "Dua Wa'ira",
+          "nombre esp": "Laguna de manglar"
         },
         "geometry": null
       },
@@ -238,7 +239,8 @@
           "Item": "Laguna",
           "id": "13654139179669022758",
           "tipo": "lake",
-          "nombre sey": "Wëwë Jaira"
+          "nombre sey": "Wëwë Jaira",
+          "nombre esp": "Laguna de los defines"
         },
         "geometry": null
       },
@@ -298,10 +300,11 @@
         "id": "rec9GJ6MuKdZB5Mb5",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Emuyai ai pa'iopa'akoña iye jairare",
+          "nota sey": "Emuyai ai pa'iopa'akoña iye jairare.",
           "id": "9680732413168321223",
           "tipo": "lake",
-          "nombre sey": "Emuyai Jaira"
+          "nombre sey": "Emuyai Jaira",
+          "nombre esp": "Se conoce como Imuya"
         },
         "geometry": null
       },
@@ -311,7 +314,7 @@
         "properties": {
           "Item": "Point",
           "id": "9999",
-          "nota esp": "Aquí es el sitio de la comunidad Siekopai que fue establecido en el año 2003.  Durante la construcción de este pueblo habían encontraban varios artefactos antigua que corresponde a la cultura Siekopai, y que incluyo una cuchillo de piedra para la raspada de Yoco (una liana estimulatorio que utiliza los Siekopai) y otros cerámicas.  Lamentablemente, todos los techos de lamina de Zinc fue robado por los militares Peruanos que pertenece al destacamento Aguas Negras  en el año 2007 y luego abandonado por los Siekopai. ",
+          "nota esp": "Aquí es el sitio de la comunidad Siekopai que fue establecido en el año 2003.  Durante la construcción de este pueblo habían varios artefctos arqueológicos  que corresponde a la cultura Siekopai, y que incluyo un cuchillo de piedra para la raspada de Yoco (una liana estimulatorio que utiliza los Siekopai) y otros cerámicas.  Lamentablemente, todos los techos de lamina de Zinc fue robado por los militares Peruanos que pertenece al destacamento Aguas Negras  en el año 2007 y luego abandonado por los Siekopai. ",
           "nombre sey": "Po'okoya, Aguas Blancas"
         },
         "geometry": null
@@ -362,7 +365,8 @@
           "nota sey": "Iye maka kato pa'iji mëapi yowë neñe  siekopaai  jaje pa'iro'ire  si'anë ku'ijë paa'añeña  itire kajë.",
           "id": "13990912366586570676",
           "tipo": "lake",
-          "nombre sey": "Mëa Jaira"
+          "nombre sey": "Mëa Jaira",
+          "nombre esp": "Cedrococha"
         },
         "geometry": null
       },
@@ -628,7 +632,8 @@
           "Item": "Laguna",
           "id": "7701629305966502938",
           "tipo": "lake",
-          "nombre sey": "Ma'ñoko Dopë"
+          "nombre sey": "Ma'ñoko Dopë",
+          "nombre esp": "Laguna Puerto estrella."
         },
         "geometry": null
       },
