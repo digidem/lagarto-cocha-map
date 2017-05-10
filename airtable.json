@@ -52,7 +52,7 @@
         "properties": {
           "Item": "Point",
           "id": "3133084118495594748",
-          "nota esp": "tsoe we'Ã‘a paipi karena akëpi we'yoko paa'a'koÃ‘a wepi paai kato we'epi kareÃ‘a",
+          "nota esp": "tsoe we'ña paipi karena akëpi we'yoko paa'a'koña wepi paai kato we'epi karena.",
           "tipo": "caminos/ai_maa",
           "nombre sey": "maa'a wepi kaa maa'a"
         },
@@ -349,7 +349,8 @@
           "Item": "Laguna",
           "id": "2095830693335069269",
           "tipo": "lake",
-          "nombre sey": "Onoka Jaira"
+          "nombre sey": "Onoka Jaira",
+          "nota sey": "Iye jairase'e ai onoka paa'ikoa jaje yo'ojë aiowa'i jare iyemakana "
         },
         "geometry": null
       },
@@ -438,7 +439,7 @@
         "id": "recJYnVUZvIbvG2T7",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Suni ai pa'ikoa iye jaira",
+          "nota sey": "Suni ai pa'ikoa iye jaira.",
           "id": "662666943055204599",
           "tipo": "lake",
           "nombre sey": "Sunijaira"
@@ -602,7 +603,7 @@
           "id": "15094075449129541257",
           "nota esp": "Antiguo pueblo Siekopai y además se conoce como el lugar mas importate de concentración de ceremonías de los shamanes Siekopai, abandonado en el año 1941 por los conflictos belicos entre Ecuador y Perú.",
           "tipo": "comunidad/jai_daripe",
-          "nombre sey": "paai daripë paaa'isiko tsoewe'ña"
+          "nombre sey": "paai daripë paa'isiko tsoewe'ña"
         },
         "geometry": null
       },
@@ -638,7 +639,7 @@
           "Item": "Point",
           "id": "3727004784444134244",
           "tipo": "comunidad/campamento",
-          "nombre sey": "Po okoya kai daripë"
+          "nombre sey": "Pookoya kai daripë"
         },
         "geometry": null
       },
@@ -883,7 +884,7 @@
           "Item": "Point",
           "id": "13074131508457660530",
           "tipo": "fauna/tapir",
-          "nombre sey": "Tua´ro"
+          "nombre sey": "Tu'aro"
         },
         "geometry": null
       },
@@ -950,7 +951,7 @@
           "id": "9263350016677695422",
           "nota esp": "En el 1994 los Siekopai intentaron a re-establecer su presencia en este sitio histórico con un asentamiento y cultivos de yuca y plátano, pero otra vez los militares quitaron el puesto y establecieron el destacamento militar ‘Patria’.",
           "tipo": "comunidad/comunidad_nueva",
-          "nombre sey": "Wakara jaira Pai pa'i dariupë"
+          "nombre sey": "Wakara jaira Pai pa'i daripë"
         },
         "geometry": null
       },
@@ -1041,7 +1042,7 @@
           "id": "4949591082239758199",
           "nota esp": "Se sabe que aqui habia una comunidad antigua, que por muchas enfermedades las familias se adentraron y establecieron, de aquello como muestras hay un rastrojo donde se puede visualizar los pedasos de ceramica, yoko, yaje, especies de bambú especiales.",
           "tipo": "comunidad/jai_daripe",
-          "nombre sey": "Emuña pai pa'i daripë"
+          "nombre sey": "Emuña pai paa'i daripë"
         },
         "geometry": null
       },
@@ -1062,7 +1063,7 @@
         "id": "recqqiZOOzBLTPz8c",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Okopeetopi airepa pa'ina ñani jaje kayë",
+          "nota sey": "Okopeetopi airepa pa'ina ñani jaje kayë.",
           "id": "6328189700702001610",
           "nombre esp": "Clavo cocha!!",
           "tipo": "lake",
@@ -1157,7 +1158,7 @@
         "id": "recy2BZ83UimUiD4D",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Tsiaya pa'iopa'isikopi wa'ke tëni saotëkapë de'osikoa",
+          "nota sey": "Tsiaya pa'iopa'isikopi wa'ke tëni saotëkapë de'osikoa.",
           "id": "3834331760719211353",
           "nota eng": "Two shamans fought with a giant whale-like fish here\n",
           "foto": [
