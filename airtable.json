@@ -182,7 +182,8 @@
           "Item": "Laguna",
           "id": "2222",
           "tipo": "lake",
-          "nombre sey": "Nea Jaira"
+          "nombre sey": "Nea Jaira",
+          "nombre esp": "Laguna negra"
         },
         "geometry": null
       },
@@ -353,7 +354,8 @@
           "nota sey": "Iye jairase'e ai onoka paa'ikoa kooa aikoka këayë kooa nokare tateina ikere takë'ni kakë jaje yo'këna sewouña onkare tañe kakë kosouña jaje yo'ouna ti ñese'e onokarepase'e aire'isiokpi pa'iji iye jaira.",
           "id": "2095830693335069269",
           "tipo": "lake",
-          "nombre sey": "Onoka Jaira"
+          "nombre sey": "Onoka Jaira",
+          "nombre esp": "Laguna de platanillo "
         },
         "geometry": null
       },
@@ -377,7 +379,8 @@
           "Item": "Laguna",
           "id": "3647679523302977352",
           "tipo": "lake",
-          "nombre sey": "Mawëwë Jaira"
+          "nombre sey": "Mawëwë Jaira",
+          "nombre esp": "Laguna de los delfines rosado."
         },
         "geometry": null
       },
@@ -423,7 +426,8 @@
           "id": "1111",
           "nota esp": "Nombre originario que se da antiguamente por abundante presencia de muchas especies de garza.LL",
           "tipo": "lake",
-          "nombre sey": "Wakara Jaira"
+          "nombre sey": "Wakara Jaira",
+          "nombre esp": "Garza cocha"
         },
         "geometry": null
       },
