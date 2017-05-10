@@ -166,11 +166,11 @@
         "id": "rec3TIrYeELNh8Puu",
         "properties": {
           "Item": "Point",
-          "nota sey": "Añapë kë ai yëkona dawë yo'ojeorena te'o te'te ñakoa saiyo pa'isikoni ñakomasira we'yojë pa'isi jaira'ë",
+          "nota sey": "Añapëkë ai yëkona dawë yo'ojeorena te'o te'te ñakoa saiyo pa'isikoni ñakomasira we'yojë pa'isi jaira'ë.",
           "id": "6410969360746213045",
-          "nota esp": "En este sitio ocurrió uno de los eventos mas importantes y conocidos de todo la historia reciente Siekopai.  Cerca del año 1900 dos shamanes Siekopai  enfrentaron a dos meros (un tipo ballena Amazónica) cuales estaban atacando a gente la que iban de pesca. Con el poder de shamanismo lograron a matar a uno de estos meros y dejaron el otro vivo y ciega como un ejemplo del poder shamanico de los Siekopai.",
+          "nota esp": "En este sitio ocurrió uno de los eventos mas importantes y conocidos de todo la historia reciente Siekopai.  Cerca del año 1900, dos shamanes Siekopai  enfrentaron a dos meros (un tipo ballena Amazónica) cuales estaban atacando a gente la que iban de pesca. Con el poder de shamanismo lograron a matar a uno de estos meros y dejaron al otro vivo y ciega como un ejemplo del poder shamanico de los Siekopai.",
           "tipo": "fauna/boa",
-          "nombre sey": "Ñ‘akomasira"
+          "nombre sey": "Ñakomasira"
         },
         "geometry": null
       },
@@ -611,9 +611,9 @@
         "id": "recUzqVYV4pmSSbQD",
         "properties": {
           "Item": "Point",
-          "nota sey": "Pi'aguajë kwi'ne Payoguajeë Pa'ijë pa'isitoL",
+          "nota sey": "Pi'awajë kwi'ne Payowajeë pa'ijë pa'isito.",
           "id": "1473321167304750939",
-          "nota esp": "Habia una comunidad en la bocana de Lagarto Cocha, desde alli se caminaba hasta Sokora Jaira hasta cruzar al Napo, alli tenian contacto con otros grupos indigenas (Waorani). Al ver que vivian sin ropas se les denominaron Kapeotini, de ello le dieron Tiputi.Adicionalmente,  Sra. Joaquina Payaguaje relató que hay muchos huesos de sus ancestros Siekopai enterrados aquí, y lo cuales incluye los de sus propios padres. Hoy día este sitio se encuentra el destacamento Militar Peruano Clavero.  También se cuentan que en este época la bocana era unos cienes de metros mas abajo que lo que es actual, debido a un cambio de trayecto de los ríos. ",
+          "nota esp": "Habia una comunidad en la bocana de Lagarto Cocha, desde alli se caminaba hasta Sokora Jaira hasta cruzar al Napo, alli tenian contacto con otros grupos indigenas (Waorani). Al ver que vivian sin ropas se les denominaron Kapeotini, de ello le dieron Tiputi.Adicionalmente,  Sra. Joaquina Payaguaje relató que hay muchos huesos de sus ancestros Siekopai enterrados aquí, y lo cuales incluye los de sus propios padres. Hoy día este sitio se encuentra el destacamento Militar Peruano Clavero.  También se cuentan que en esta época la bocana era unos cienes de metros mas abajo que lo que es actual, debido a un cambio de trayecto de los ríos. ",
           "nota eng": "1473321167304750939",
           "tipo": "comunidad/jai_daripe",
           "nombre sey": "Pë'ëkëya sarawa "
