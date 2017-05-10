@@ -87,7 +87,7 @@
         "properties": {
           "Item": "Laguna",
           "id": "15189700795514535636",
-          "nota esp": "Nombre dedicado a la abundancia presencia de especies de hiervas de agua antiguamente.",
+          "nota esp": "Nombre dedicado a la abundancia presencia de especies de hiervas de agua",
           "tipo": "lake",
           "nombre sey": "Wi'ya Jaira"
         },
@@ -350,7 +350,7 @@
           "id": "2095830693335069269",
           "tipo": "lake",
           "nombre sey": "Onoka Jaira",
-          "nota sey": "Iye jairase'e ai onoka paa'ikoa jaje yo'ojë aiowa'i jare iyemakana "
+          "nota sey": "Iye jairase'e ai onoka paa'ikoa kooa aikoka këayë kooa nokare tateina ikere takë'ni kakë jaje yo'këna sewouña onkare tañe kakë kosouña jaje yo'ouna ti ñese'e onokarepase'e aire'isiokpi pa'iji iye jaira."
         },
         "geometry": null
       },
