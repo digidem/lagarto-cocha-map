@@ -298,7 +298,7 @@
         "id": "rec9GJ6MuKdZB5Mb5",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Emuyai ai pa'opa'koña iye jairare",
+          "nota sey": "Emuyai ai pa'iopa'akoña iye jairare",
           "id": "9680732413168321223",
           "tipo": "lake",
           "nombre sey": "Emuyai Jaira"
@@ -321,7 +321,7 @@
         "id": "recAhQ4tEnLbxw6zk",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Ya'i do'ro neñepi paikoa jaje paina we'yojë pa'awë paikoa poopo",
+          "nota sey": "Ya'i do'ro neñepi paikoa jaje pa'ina we'yojë pa'awë'ë paikoa poopo",
           "id": "10877896803386417114",
           "nombre esp": "Achanga Cocha",
           "tipo": "lake",
@@ -334,7 +334,7 @@
         "id": "recAjHIf2wbDzd8DE",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Tsiaya nunipi pa'ikoa airepa jaje pa'ina ñani we'yojë pa'awë",
+          "nota sey": "Tsiaya nunipi pa'ikoa airepa jaje pa'ina ñani we'yojë pa'awë ikore.",
           "id": "3888452576363317018",
           "nombre esp": "Cuatro Cocha",
           "tipo": "lake",
@@ -358,7 +358,7 @@
         "id": "recC6N3ME5aBhyw4R",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Iye maka kato pa'iji mëapi yowë neñe  siekopaai  jaje pa'iro'ire  si'anë ku'ijë paa'aeÑa  itire kaje",
+          "nota sey": "Iye maka kato pa'iji mëapi yowë neñe  siekopaai  jaje pa'iro'ire  si'anë ku'ijë paa'añeña  itire kajë.",
           "id": "13990912366586570676",
           "tipo": "lake",
           "nombre sey": "Mëa Jaira"
@@ -1050,10 +1050,10 @@
         "id": "recqix5rm3API111g",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Ya'oweapi airepa paiko",
+          "nota sey": "Ya'oweapi airepa paikoaña iye jaira.",
           "id": "9746085031189048142",
           "tipo": "lake",
-          "nombre sey": "Yo'o Wea Jaira"
+          "nombre sey": "Ya'o Wea Jaira"
         },
         "geometry": null
       },
