@@ -1243,7 +1243,7 @@
         "properties": {
           "Name": 74,
           "tipo": "fauna/tapir",
-          "sey": "saladero",
+          "sey": "Tu'aro",
           "esp": "Saladero",
           "eng": "Salt Lick"
         },
@@ -1322,8 +1322,8 @@
         "id": "recfnFlb5T2OyL5rY",
         "properties": {
           "Name": 73,
-          "tipo": "comunidad/pai_pai_daripë",
-          "sey": "Pai paa'i daripë pa'isiko",
+          "tipo": "comunidad/paai_paa'idaripë",
+          "sey": "Paai paa'i daripë pa'isiko",
           "esp": "Casas vieja",
           "eng": "Old hamlet"
         },
@@ -1347,7 +1347,7 @@
         "properties": {
           "Name": 71,
           "tipo": "actividad/caza",
-          "sey": "cacería",
+          "sey": "Airo ku'iwe'ña",
           "esp": "Caceria ",
           "eng": "Hunting"
         },
