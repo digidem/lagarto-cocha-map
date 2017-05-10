@@ -1311,7 +1311,7 @@
         "properties": {
           "Name": 96,
           "tipo": "caminos/ai_maa",
-          "sey": "Ai maa",
+          "sey": "Ai ma'a",
           "esp": "Camino",
           "eng": "Path"
         },
@@ -1322,8 +1322,8 @@
         "id": "recfnFlb5T2OyL5rY",
         "properties": {
           "Name": 73,
-          "tipo": "comunidad/paai_paa'idaripë",
-          "sey": "Paai paa'i daripë pa'isiko",
+          "tipo": "comunidad/paai pa'idaripë",
+          "sey": "Paai pa'i daripë pa'isiko",
           "esp": "Casas vieja",
           "eng": "Old hamlet"
         },
@@ -1335,7 +1335,7 @@
         "properties": {
           "Name": 84,
           "tipo": "comunidad/yaje",
-          "sey": "Casa Yaje",
+          "sey": "Yaje Wë'e",
           "esp": "Casa ceremonial",
           "eng": "Ceremonial House"
         },
