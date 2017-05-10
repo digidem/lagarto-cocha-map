@@ -42,7 +42,8 @@
             }
           ],
           "tipo": "comunidad/campamento",
-          "nombre sey": "Wakara jaira kai daripë"
+          "nombre sey": "Wakara jaira kai daripë",
+          "nombre esp": "Campamento en Garzacocha"
         },
         "geometry": null
       },
@@ -54,7 +55,7 @@
           "id": "3133084118495594748",
           "nota esp": "tsoe we'ña paipi karena akëpi we'yoko paa'a'koña wepi paai kato we'epi karena.",
           "tipo": "caminos/ai_maa",
-          "nombre sey": "maa'a wepi kaa maa'a"
+          "nombre sey": "Ma'a wepi kaa maa'a"
         },
         "geometry": null
       },
@@ -65,7 +66,8 @@
           "Item": "Point",
           "id": "13884321478433118916",
           "tipo": "natural/saladero_abierto",
-          "nombre sey": "Wekë tu'aro"
+          "nombre sey": "Wekë tu'aro",
+          "nombre esp": "Saladero de danta"
         },
         "geometry": null
       },
@@ -134,7 +136,8 @@
           "Item": "Point",
           "id": "2802796723362052602",
           "tipo": "fauna/tapir",
-          "nombre sey": "Wekë tua'aro"
+          "nombre sey": "Wekë tua'aro",
+          "nombre esp": "Saladero de danta"
         },
         "geometry": null
       },
@@ -206,7 +209,8 @@
           "id": "10529189292030859811",
           "nota esp": "Un pueblo actual de los Siekopai  en la frontera de Perú que fue re-establecido en el año 2003.  Hoy dÃ­a se encuentra con la presencia de 7 familias Siekopai y también este pueblo sirve como el punto principal de encuentros entre las familias.",
           "tipo": "comunidad/comunidad_nueva",
-          "nombre sey": "Ma'ñoko paai pa'idaripë"
+          "nombre sey": "Ma'ñoko paai pa'idaripë",
+          "nombre esp": "Comunidad Puerto Estrella"
         },
         "geometry": null
       },
@@ -316,7 +320,8 @@
           "Item": "Point",
           "id": "9999",
           "nota esp": "Aquí es el sitio de la comunidad Siekopai que fue establecido en el año 2003.  Durante la construcción de este pueblo habían varios artefctos arqueológicos  que corresponde a la cultura Siekopai, y que incluyo un cuchillo de piedra para la raspada de Yoco (una liana estimulatorio que utiliza los Siekopai) y otros cerámicas.  Lamentablemente, todos los techos de lamina de Zinc fue robado por los militares Peruanos que pertenece al destacamento Aguas Negras  en el año 2007 y luego abandonado por los Siekopai. ",
-          "nombre sey": "Po'okoya, Aguas Blancas"
+          "nombre sey": "Po'okoya, Aguas Blancas",
+          "tipo": "River/Río"
         },
         "geometry": null
       },
@@ -438,7 +443,8 @@
           "Item": "Point",
           "id": "8474526839330137577",
           "tipo": "comunidad/pai_pai_daripe",
-          "nombre sey": "paai paa'isi darip'ë"
+          "nombre sey": "Paai paa'isi darip'ë",
+          "nombre esp": "Rastrojo de la comunidad antigua."
         },
         "geometry": null
       },
@@ -486,7 +492,8 @@
           "Item": "Point",
           "id": "1123698577759621497",
           "tipo": "fauna/huangana",
-          "nombre sey": "Sese Tu'aro"
+          "nombre sey": "Sese Tu'aro",
+          "nombre esp": "Saladero de puercos del monte."
         },
         "geometry": null
       },
@@ -614,7 +621,8 @@
           "id": "15094075449129541257",
           "nota esp": "Antiguo pueblo Siekopai y además se conoce como el lugar mas importate de concentración de ceremonías de los shamanes Siekopai, abandonado en el año 1941 por los conflictos belicos entre Ecuador y Perú.",
           "tipo": "comunidad/jai_daripe",
-          "nombre sey": "paai daripë paa'isiko tsoewe'ña"
+          "nombre sey": "paai daripë pa'isiko tsoewe'ña",
+          "nombre esp": "Rastrojo /comunidad antigua"
         },
         "geometry": null
       },
@@ -851,7 +859,8 @@
           "id": "1988433969112786142",
           "nota esp": "Se sabe que aqui habia un pueblo antiguo, por razones de las resurreccion que hubo al otro lado algunas familias se cruzaron y establecieronuna comunidad. Aqui se encuentran artefactos de cerámica en los años reciéntes.",
           "tipo": "comunidad/pai_pai_daripe",
-          "nombre sey": "Yaje uku saorowë"
+          "nombre sey": "Yaje uku saorowë",
+          "nombre esp": "Isla para beber Yaje."
         },
         "geometry": null
       },
@@ -899,7 +908,8 @@
           "Item": "Point",
           "id": "13074131508457660530",
           "tipo": "fauna/tapir",
-          "nombre sey": "Tu'aro"
+          "nombre sey": "Tu'aro",
+          "nombre esp": "Saladero."
         },
         "geometry": null
       },
@@ -967,7 +977,7 @@
           "id": "9263350016677695422",
           "nota esp": "En el 1994 los Siekopai intentaron a re-establecer su presencia en este sitio histórico con un asentamiento y cultivos de yuca y plátano, pero otra vez los militares quitaron el puesto y establecieron el destacamento militar ‘Patria’.",
           "tipo": "comunidad/comunidad_nueva",
-          "nombre sey": "Wakara jaira Pai pa'i daripë"
+          "nombre sey": "Wakara jaira Paai pa'i daripë"
         },
         "geometry": null
       },
