@@ -10,7 +10,7 @@
           "id": "13",
           "nota esp": "Un camino ancestral que conectaba la gente desde las comunidades alejado en el Río Putumayo hacia el Río Aguarico con las comunidades Siekopai en la ribera del Río Aguarico y el Río Cuyubeno",
           "tipo": "camino",
-          "nombre sey": "Ma'ñoka sa'sa"
+          "nombre sey": "Manoka tsa'sa"
         },
         "geometry": null
       },
@@ -20,6 +20,7 @@
         "properties": {
           "Item": "Point",
           "id": "16316963937723214038",
+          "nombre esp": "Campamento en Garzacocha",
           "foto": [
             {
               "id": "attIA2PLKXb3JdoVh",
@@ -42,8 +43,7 @@
             }
           ],
           "tipo": "comunidad/campamento",
-          "nombre sey": "Wakara jaira kai daripë",
-          "nombre esp": "Campamento en Garzacocha"
+          "nombre sey": "Wakara jaira kai daripë"
         },
         "geometry": null
       },
@@ -53,10 +53,10 @@
         "properties": {
           "Item": "Point",
           "id": "3133084118495594748",
+          "nombre esp": "Camino al Güepi",
           "nota esp": "tsoe we'ña paipi karena akëpi we'yoko paa'a'koña wepi paai kato we'epi karena.",
           "tipo": "caminos/ai_maa",
-          "nombre sey": "Ma'a wepi kaa maa'a",
-          "nombre esp": "Camino al Güepi"
+          "nombre sey": "Ma'a wepi kaa maa'a"
         },
         "geometry": null
       },
@@ -66,9 +66,9 @@
         "properties": {
           "Item": "Point",
           "id": "13884321478433118916",
+          "nombre esp": "Saladero de danta",
           "tipo": "natural/saladero_abierto",
-          "nombre sey": "Wekë tu'aro",
-          "nombre esp": "Saladero de danta"
+          "nombre sey": "Wekë tu'aro"
         },
         "geometry": null
       },
@@ -103,6 +103,7 @@
           "Item": "Laguna",
           "nota sey": "Airepa dua saipi pa'ina dua jaira kayë jaje.",
           "id": "4843469361727951631",
+          "nombre esp": "Laguna de manglar",
           "foto": [
             {
               "id": "attNapQGtTflo8m3k",
@@ -125,8 +126,7 @@
             }
           ],
           "tipo": "lake",
-          "nombre sey": "Dua Wa'ira",
-          "nombre esp": "Laguna de manglar"
+          "nombre sey": "Dua Wa'ira"
         },
         "geometry": null
       },
@@ -136,9 +136,9 @@
         "properties": {
           "Item": "Point",
           "id": "2802796723362052602",
+          "nombre esp": "Saladero de danta",
           "tipo": "fauna/tapir",
-          "nombre sey": "Wekë tua'aro",
-          "nombre esp": "Saladero de danta"
+          "nombre sey": "Wekë tua'aro"
         },
         "geometry": null
       },
@@ -162,7 +162,7 @@
           "id": "1206160794007552664",
           "nombre esp": "Yarina Cocha",
           "tipo": "lake",
-          "nombre sey": "Sewa Jaira"
+          "nombre sey": "Muse Jaira"
         },
         "geometry": null
       },
@@ -185,9 +185,9 @@
         "properties": {
           "Item": "Laguna",
           "id": "2222",
+          "nombre esp": "Laguna negra",
           "tipo": "lake",
-          "nombre sey": "Nea Jaira",
-          "nombre esp": "Laguna negra"
+          "nombre sey": "Nea Jaira"
         },
         "geometry": null
       },
@@ -208,10 +208,10 @@
         "properties": {
           "Item": "Point",
           "id": "10529189292030859811",
+          "nombre esp": "Comunidad Puerto Estrella",
           "nota esp": "Un pueblo actual de los Siekopai  en la frontera de Perú que fue re-establecido en el año 2003.  Hoy dÃ­a se encuentra con la presencia de 7 familias Siekopai y también este pueblo sirve como el punto principal de encuentros entre las familias.",
           "tipo": "comunidad/comunidad_nueva",
-          "nombre sey": "Ma'ñoko paai pa'idaripë",
-          "nombre esp": "Comunidad Puerto Estrella"
+          "nombre sey": "Ma'ñoko paai pa'idaripë"
         },
         "geometry": null
       },
@@ -244,9 +244,9 @@
         "properties": {
           "Item": "Laguna",
           "id": "13654139179669022758",
+          "nombre esp": "Laguna de los defines",
           "tipo": "lake",
-          "nombre sey": "Wëwë Jaira",
-          "nombre esp": "Laguna de los defines"
+          "nombre sey": "Wëwë Jaira"
         },
         "geometry": null
       },
@@ -308,9 +308,9 @@
           "Item": "Laguna",
           "nota sey": "Emuyai ai pa'iopa'akoña iye jairare.",
           "id": "9680732413168321223",
+          "nombre esp": "Se conoce como Imuya",
           "tipo": "lake",
-          "nombre sey": "Emuyai Jaira",
-          "nombre esp": "Se conoce como Imuya"
+          "nombre sey": "Emuyai Jaira"
         },
         "geometry": null
       },
@@ -319,12 +319,12 @@
         "id": "rec9avUgK8UkZxy4a",
         "properties": {
           "Item": "Point",
+          "nota sey": "Pookoya tsiaya, ikona yuremaka wë'ña neni paa'sikoa.",
           "id": "9999",
-          "nota esp": "Aquí es el sitio de la comunidad Siekopai que fue establecido en el año 2003.  Durante la construcción de este pueblo habían varios artefctos arqueológicos  que corresponde a la cultura Siekopai, y que incluyo un cuchillo de piedra para la raspada de Yoco (una liana estimulatorio que utiliza los Siekopai) y otros cerámicas.  Lamentablemente, todos los techos de lamina de Zinc fue robado por los militares Peruanos que pertenece al destacamento Aguas Negras  en el año 2007 y luego abandonado por los Siekopai. ",
-          "nombre sey": "Pookoya, Aguas Blancas",
-          "tipo": "River/Río",
           "nombre esp": "Rio aguas blancas",
-          "nota sey": "Pookoya tsiaya, ikona yuremaka wë'ña neni paa'sikoa."
+          "nota esp": "Aquí es el sitio de la comunidad Siekopai que fue establecido en el año 2003.  Durante la construcción de este pueblo habían varios artefctos arqueológicos  que corresponde a la cultura Siekopai, y que incluyo un cuchillo de piedra para la raspada de Yoco (una liana estimulatorio que utiliza los Siekopai) y otros cerámicas.  Lamentablemente, todos los techos de lamina de Zinc fue robado por los militares Peruanos que pertenece al destacamento Aguas Negras  en el año 2007 y luego abandonado por los Siekopai. ",
+          "tipo": "River/Río",
+          "nombre sey": "Pookoya, Aguas Blancas"
         },
         "geometry": null
       },
@@ -361,9 +361,9 @@
           "Item": "Laguna",
           "nota sey": "Iye jairase'e ai onoka paa'ikoa kooa aikoka këayë kooa nokare tateina ikere takë'ni kakë jaje yo'këna sewouña onkare tañe kakë kosouña jaje yo'ouna ti ñese'e onokarepase'e aire'isiokpi pa'iji iye jaira.",
           "id": "2095830693335069269",
+          "nombre esp": "Laguna de platanillo ",
           "tipo": "lake",
-          "nombre sey": "Onoka Jaira",
-          "nombre esp": "Laguna de platanillo "
+          "nombre sey": "Onoka Jaira"
         },
         "geometry": null
       },
@@ -374,9 +374,9 @@
           "Item": "Laguna",
           "nota sey": "Iye maka kato pa'iji mëapi yowë neñe  siekopaai  jaje pa'iro'ire  si'anë ku'ijë paa'añeña  itire kajë.",
           "id": "13990912366586570676",
+          "nombre esp": "Cedrococha",
           "tipo": "lake",
-          "nombre sey": "Mëa Jaira",
-          "nombre esp": "Cedrococha"
+          "nombre sey": "Mëa Jaira"
         },
         "geometry": null
       },
@@ -386,9 +386,9 @@
         "properties": {
           "Item": "Laguna",
           "id": "3647679523302977352",
+          "nombre esp": "Laguna de los delfines rosado.",
           "tipo": "lake",
-          "nombre sey": "Mawëwë Jaira",
-          "nombre esp": "Laguna de los delfines rosado."
+          "nombre sey": "Mawëwë Jaira"
         },
         "geometry": null
       },
@@ -432,10 +432,10 @@
         "properties": {
           "Item": "Laguna",
           "id": "1111",
+          "nombre esp": "Garza cocha",
           "nota esp": "Nombre originario que se da antiguamente por abundante presencia de muchas especies de garza.LL",
           "tipo": "lake",
-          "nombre sey": "Wakara Jaira",
-          "nombre esp": "Garza cocha"
+          "nombre sey": "Wakara Jaira"
         },
         "geometry": null
       },
@@ -445,9 +445,9 @@
         "properties": {
           "Item": "Point",
           "id": "8474526839330137577",
+          "nombre esp": "Rastrojo de la comunidad antigua.",
           "tipo": "comunidad/pai_pai_daripe",
-          "nombre sey": "Paai paa'isi darip'ë",
-          "nombre esp": "Rastrojo de la comunidad antigua."
+          "nombre sey": "Paai paa'isi darip'ë"
         },
         "geometry": null
       },
@@ -482,9 +482,9 @@
         "properties": {
           "Item": "Laguna",
           "id": "13345186247401873987",
+          "nombre esp": "Laguna de pantano",
           "tipo": "lake",
-          "nombre sey": "Jaira Dayawë",
-          "nombre esp": "Laguna de pantano"
+          "nombre sey": "Jaira Dayawë"
         },
         "geometry": null
       },
@@ -494,9 +494,9 @@
         "properties": {
           "Item": "Point",
           "id": "1123698577759621497",
+          "nombre esp": "Saladero de puercos del monte.",
           "tipo": "fauna/huangana",
-          "nombre sey": "Sese Tu'aro",
-          "nombre esp": "Saladero de puercos del monte."
+          "nombre sey": "Sese Tu'aro"
         },
         "geometry": null
       },
@@ -524,9 +524,9 @@
         "properties": {
           "Item": "Laguna",
           "id": "1705200238010192066",
+          "nombre esp": "Laguna caraguazu",
           "tipo": "lake",
-          "nombre sey": "Tupëwani Jaira",
-          "nombre esp": "Laguna caraguazu"
+          "nombre sey": "Tupëwani Jaira"
         },
         "geometry": null
       },
@@ -616,9 +616,9 @@
         "properties": {
           "Item": "Laguna",
           "id": "9400699582440614514",
+          "nombre esp": "Poza de bocachicos",
           "tipo": "lake",
-          "nombre sey": "Suara Dopë",
-          "nombre esp": "Poza de bocachicos"
+          "nombre sey": "Suara Dopë"
         },
         "geometry": null
       },
@@ -628,10 +628,10 @@
         "properties": {
           "Item": "Point",
           "id": "15094075449129541257",
+          "nombre esp": "Rastrojo /comunidad antigua",
           "nota esp": "Antiguo pueblo Siekopai y además se conoce como el lugar mas importate de concentración de ceremonías de los shamanes Siekopai, abandonado en el año 1941 por los conflictos belicos entre Ecuador y Perú.",
           "tipo": "comunidad/jai_daripe",
-          "nombre sey": "paai daripë pa'isiko tsoewe'ña",
-          "nombre esp": "Rastrojo /comunidad antigua"
+          "nombre sey": "paai daripë pa'isiko tsoewe'ña"
         },
         "geometry": null
       },
@@ -655,9 +655,9 @@
         "properties": {
           "Item": "Laguna",
           "id": "7701629305966502938",
+          "nombre esp": "Laguna Puerto estrella.",
           "tipo": "lake",
-          "nombre sey": "Ma'ñoko Dopë",
-          "nombre esp": "Laguna Puerto estrella."
+          "nombre sey": "Ma'ñoko Dopë"
         },
         "geometry": null
       },
@@ -701,9 +701,9 @@
           "Item": "Laguna",
           "nota sey": "Këyëpi airepa pa'ikowa'ia'ë",
           "id": "16010414862262741386",
+          "nombre esp": "Laguna de pericos.",
           "tipo": "lake",
-          "nombre sey": "Këyë Jaira",
-          "nombre esp": "Laguna de pericos."
+          "nombre sey": "Këyë Jaira"
         },
         "geometry": null
       },
@@ -713,9 +713,9 @@
         "properties": {
           "Item": "Point",
           "id": "8203844693492997336",
+          "nombre esp": "Saladero de danta",
           "tipo": "fauna/tapir",
-          "nombre sey": "Wekë tu'aro",
-          "nombre esp": "Saladero de danta"
+          "nombre sey": "Wekë tu'aro"
         },
         "geometry": null
       },
@@ -749,10 +749,10 @@
         "properties": {
           "Item": "Laguna",
           "id": "4640143000097491919",
+          "nombre esp": "Poza de caraguazu",
           "nota esp": "Puede ser llamado Tsiaya wekë ka'wa ?",
           "tipo": "lake",
-          "nombre sey": "Tupë Wani Dopë",
-          "nombre esp": "Poza de caraguazu"
+          "nombre sey": "Tupë Wani Dopë"
         },
         "geometry": null
       },
@@ -797,9 +797,9 @@
           "Item": "Laguna",
           "nota sey": "Mawaso we'epi pa'iona ñani jaje we'yowë.",
           "id": "10387776548912010084",
+          "nombre esp": "Laguna de   huito",
           "tipo": "lake",
-          "nombre sey": "We'era",
-          "nombre esp": "Laguna de   huito"
+          "nombre sey": "We'era"
         },
         "geometry": null
       },
@@ -868,10 +868,10 @@
           "Item": "Point",
           "nota sey": "Juni wëi yo'okëna ka'rajë jeni pëani pa'ijë pa'isi daripë",
           "id": "1988433969112786142",
+          "nombre esp": "Isla para beber Yaje.",
           "nota esp": "Se sabe que aqui habia un pueblo antiguo, por razones de las resurreccion que hubo al otro lado algunas familias se cruzaron y establecieronuna comunidad. Aqui se encuentran artefactos de cerámica en los años reciéntes.",
           "tipo": "comunidad/pai_pai_daripe",
-          "nombre sey": "Yaje uku saorowë",
-          "nombre esp": "Isla para beber Yaje."
+          "nombre sey": "Yaje uku saorowë"
         },
         "geometry": null
       },
@@ -894,10 +894,10 @@
         "properties": {
           "Item": "Point",
           "id": "11559871586223897930",
+          "nombre esp": "Puesto de control Aguas Negras",
           "nota esp": "Desde este sitio hubo caminos ancestrales que conectaban a las comunidades Siekopai en la región de Rio Putumayo.  Hoy día este sitio histórico se encuentra un destacamento militar Peruano 'Aguas Negras'.",
           "tipo": "comunidad/casa_temporal_pasado",
-          "nombre sey": "Puesto de Control Aguas Negras",
-          "nombre esp": "Puesto de control Aguas Negras"
+          "nombre sey": "Puesto de Control Aguas Negras"
         },
         "geometry": null
       },
@@ -919,9 +919,9 @@
         "properties": {
           "Item": "Point",
           "id": "13074131508457660530",
+          "nombre esp": "Saladero.",
           "tipo": "fauna/tapir",
-          "nombre sey": "Tu'aro",
-          "nombre esp": "Saladero."
+          "nombre sey": "Tu'aro"
         },
         "geometry": null
       },
@@ -987,10 +987,10 @@
         "properties": {
           "Item": "Point",
           "id": "9263350016677695422",
+          "nombre esp": "Rastrojo de asentamiento siekopaai en la bocana de garzacocha",
           "nota esp": "En el 1994 los Siekopai intentaron a re-establecer su presencia en este sitio histórico con un asentamiento y cultivos de yuca y plátano, pero otra vez los militares quitaron el puesto y establecieron el destacamento militar ‘Patria’.",
           "tipo": "comunidad/comunidad_nueva",
-          "nombre sey": "Wakara jaira Paai pa'i daripë",
-          "nombre esp": "Rastrojo de asentamiento siekopaai en la bocana de garzacocha"
+          "nombre sey": "Wakara jaira Paai pa'i daripë"
         },
         "geometry": null
       },
@@ -999,11 +999,11 @@
         "id": "recnbkgmyeHsyd0qI",
         "properties": {
           "Item": "Laguna",
+          "nota sey": "En esta laguna existe bastante Camu camu.",
           "id": "2646991696197452943",
-          "tipo": "lake",
-          "nombre sey": "O'sasa Dopë",
           "nombre esp": "Laguna  Camu camu",
-          "nota sey": "En esta laguna existe bastante Camu camu."
+          "tipo": "lake",
+          "nombre sey": "O'sasa Dopë"
         },
         "geometry": null
       },
@@ -1013,9 +1013,9 @@
         "properties": {
           "Item": "Laguna",
           "id": "5343724908215276575",
+          "nombre esp": "Poza de palometas",
           "tipo": "lake",
-          "nombre sey": "Paku Dopë",
-          "nombre esp": "Poza de palometas"
+          "nombre sey": "Paku Dopë"
         },
         "geometry": null
       },
@@ -1047,9 +1047,9 @@
         "properties": {
           "Item": "Point",
           "id": "14135602598682239009",
+          "nombre esp": "Camino al saladero.",
           "tipo": "actividad/caza",
-          "nombre sey": "Tu'aro ma'a tuma sa'ro",
-          "nombre esp": "Camino al saladero."
+          "nombre sey": "Tu'aro ma'a tuma sa'ro"
         },
         "geometry": null
       },
@@ -1120,9 +1120,9 @@
         "properties": {
           "Item": "Point",
           "id": "14038398745685493712",
+          "nombre esp": "Camino al saladero",
           "tipo": "Fauna-puerto",
-          "nombre sey": "Tua'ro tumasa'ro",
-          "nombre esp": "Camino al saladero"
+          "nombre sey": "Tua'ro tumasa'ro"
         },
         "geometry": null
       },
@@ -1249,9 +1249,9 @@
           "Item": "Laguna",
           "nota sey": "Tsiaya wëkëpi pa'ikoa",
           "id": "4765490255045918206",
+          "nombre esp": "Laguna de manatí (vaca marina)",
           "tipo": "lake",
-          "nombre sey": "Tsiaya Wëkë Jaira",
-          "nombre esp": "Laguna de manatí (vaca marina)"
+          "nombre sey": "Tsiaya Wëkë Jaira"
         },
         "geometry": null
       },
