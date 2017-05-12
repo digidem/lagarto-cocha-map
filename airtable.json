@@ -256,7 +256,8 @@
         "properties": {
           "Item": "Laguna",
           "id": "2438293092334106259",
-          "tipo": "river"
+          "tipo": "river",
+          "nombre sey": "Tsiaya"
         },
         "geometry": null
       },
@@ -561,7 +562,8 @@
           "Item": "Laguna",
           "id": "1653445585850975472",
           "tipo": "lake",
-          "nombre sey": "Aikutiwa'ira"
+          "nombre sey": "Aikutiwa'ira",
+          "nombre esp": "Laguna"
         },
         "geometry": null
       },
