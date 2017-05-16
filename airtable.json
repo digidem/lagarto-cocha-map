@@ -574,8 +574,6 @@
           "Item": "Laguna",
           "nota sey": "Emuyaipi pa'ikoa ja jaira",
           "id": "12179178394459825957",
-          "tipo": "lake",
-          "nombre sey": "Emuyai Jaira",
           "foto": [
             {
               "id": "attXb9fYkemEn0T2e",
@@ -596,7 +594,9 @@
                 }
               }
             }
-          ]
+          ],
+          "tipo": "lake",
+          "nombre sey": "Emuyai Jaira"
         },
         "geometry": null
       },
@@ -1205,7 +1205,8 @@
           "id": "16983059423745428042",
           "nota esp": "Tambien nombre Tapepero Jaira",
           "tipo": "lake",
-          "nombre sey": "Doye Dopë"
+          "nombre sey": "Doye Dopë",
+          "nombre esp": "Posa de huanchinche"
         },
         "geometry": null
       },
@@ -1382,7 +1383,7 @@
           "Name": 96,
           "tipo": "caminos/ai_maa",
           "sey": "Ai ma'a",
-          "esp": "Camino",
+          "esp": "Camino antiguo",
           "eng": "Path"
         },
         "geometry": null
