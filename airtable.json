@@ -561,9 +561,9 @@
         "properties": {
           "Item": "Laguna",
           "id": "1653445585850975472",
+          "nombre esp": "Laguna",
           "tipo": "lake",
-          "nombre sey": "Aikutiwa'ira",
-          "nombre esp": "Laguna"
+          "nombre sey": "Aikutiwa'ira"
         },
         "geometry": null
       },
@@ -575,7 +575,28 @@
           "nota sey": "Emuyaipi pa'ikoa ja jaira",
           "id": "12179178394459825957",
           "tipo": "lake",
-          "nombre sey": "Emuyai Jaira"
+          "nombre sey": "Emuyai Jaira",
+          "foto": [
+            {
+              "id": "attXb9fYkemEn0T2e",
+              "url": "https://dl.airtable.com/UNZ4msEUT9WFbQWqGjcY_imgcache0.4807342.jpg",
+              "filename": "imgcache0.4807342.jpg",
+              "size": 55413,
+              "type": "image/jpeg",
+              "thumbnails": {
+                "small": {
+                  "url": "https://dl.airtable.com/IPlDPmKDQTerWLSK7X7u_small_imgcache0.4807342.jpg",
+                  "width": 64,
+                  "height": 36
+                },
+                "large": {
+                  "url": "https://dl.airtable.com/zCKuuNBcRlWnZC0j6mMi_large_imgcache0.4807342.jpg",
+                  "width": 640,
+                  "height": 360
+                }
+              }
+            }
+          ]
         },
         "geometry": null
       },
