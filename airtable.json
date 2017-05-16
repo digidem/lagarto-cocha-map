@@ -10,7 +10,8 @@
           "id": "13",
           "nota esp": "Un camino ancestral que conectaba la gente desde las comunidades alejado en el Río Putumayo hacia el Río Aguarico con las comunidades Siekopai en la ribera del Río Aguarico y el Río Cuyubeno",
           "tipo": "camino",
-          "nombre sey": "Manoka tsa'sa"
+          "nombre sey": "Manoka tsa'sa",
+          "nombre esp": "Platanillo rojo"
         },
         "geometry": null
       },
@@ -551,7 +552,8 @@
           "nota sey": "Ñekwëowa'i ku'ijë pai'ako, ukwusiyapi aguaricona pë'këya kwi'ne pookoya jenitomejë pa'isiko.",
           "id": "14",
           "tipo": "camino",
-          "nombre sey": "Camino ancestral de Angusiya / Aguarico"
+          "nombre sey": "Camino ancestral de Angusiya / Aguarico Ai ma'a aiowa'i ku'ijë paa'isiko ukwisiyapi aguaricona.",
+          "nombre esp": "Camino ancestral de Angusiya / Aguarico"
         },
         "geometry": null
       },
@@ -629,7 +631,8 @@
           "Item": "Laguna",
           "id": "6995869638763760881",
           "tipo": "lake",
-          "nombre sey": "Seo Jaira"
+          "nombre sey": "Seo Jaira",
+          "nombre esp": "Laguna casique"
         },
         "geometry": null
       },
@@ -1206,7 +1209,7 @@
           "nota esp": "Tambien nombre Tapepero Jaira",
           "tipo": "lake",
           "nombre sey": "Doye Dopë",
-          "nombre esp": "Posa de huanchinche"
+          "nombre esp": "Poza de huanchinche"
         },
         "geometry": null
       },
