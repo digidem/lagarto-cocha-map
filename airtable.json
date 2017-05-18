@@ -578,21 +578,21 @@
           "id": "12179178394459825957",
           "foto": [
             {
-              "id": "attXb9fYkemEn0T2e",
-              "url": "https://dl.airtable.com/UNZ4msEUT9WFbQWqGjcY_imgcache0.4807342.jpg",
-              "filename": "imgcache0.4807342.jpg",
-              "size": 55413,
+              "id": "attwSNt5Y51kDiebx",
+              "url": "https://dl.airtable.com/nBK6x6S5SOunffOwDISX_IMG_7359.JPG",
+              "filename": "IMG_7359.JPG",
+              "size": 3670929,
               "type": "image/jpeg",
               "thumbnails": {
                 "small": {
-                  "url": "https://dl.airtable.com/IPlDPmKDQTerWLSK7X7u_small_imgcache0.4807342.jpg",
-                  "width": 64,
+                  "url": "https://dl.airtable.com/LrDp6bcNQAaxLXPSouy9_small_IMG_7359.JPG",
+                  "width": 48,
                   "height": 36
                 },
                 "large": {
-                  "url": "https://dl.airtable.com/zCKuuNBcRlWnZC0j6mMi_large_imgcache0.4807342.jpg",
-                  "width": 640,
-                  "height": 360
+                  "url": "https://dl.airtable.com/8mOUMsgRSSyDywqPJq9N_large_IMG_7359.JPG",
+                  "width": 683,
+                  "height": 512
                 }
               }
             }
