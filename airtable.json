@@ -88,7 +88,16 @@
           "id": "9102455105363811224",
           "nota esp": "La historia cuenta que aqui fue un pueblo mas grande Siekopai. Dentro de esta comunidad nacio Cesario Piaguaje quien vive actualmente y da testimonio sobre la vida Siekopai antes de la guerra en 1941.",
           "tipo": "comunidad/jai_daripe",
-          "nombre sey": "Tupë sa'ro Paai pa'idaripë"
+          "nombre sey": "Tupë sa'ro Paai pa'idaripë",
+          "foto": [
+            {
+              "id": "attnZVAdln22A8la2",
+              "url": "https://dl.airtable.com/7sjrkw68TG6frdk2Nu0C_DSC_6874.NEF",
+              "filename": "DSC_6874.NEF",
+              "size": 29154580,
+              "type": "image/x-nikon-nef"
+            }
+          ]
         },
         "geometry": null
       },
