@@ -1099,7 +1099,15 @@
           "nota sey": "Wakara jaira ma'a, emuña  jeni tomewe'ña",
           "id": "9",
           "tipo": "camino",
-          "nombre sey": "Emuña ma'a"
+          "nombre sey": "Emuña ma'a",
+          "foto": [
+            {
+              "id": "attwx7V6aoyG3slWh",
+              "url": "https://www.filepicker.io/api/file/r4JP2dLTRyuHQgAYHxFu",
+              "filename": "DSC01679.jpg",
+              "type": "image/jpeg"
+            }
+          ]
         },
         "geometry": null
       },
