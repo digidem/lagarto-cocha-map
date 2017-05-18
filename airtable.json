@@ -483,7 +483,16 @@
           "nombre esp": "Garza cocha",
           "nota esp": "Nombre originario que se da antiguamente por abundante presencia de muchas especies de garza.LL",
           "tipo": "lake",
-          "nombre sey": "Wakara Jaira"
+          "nombre sey": "Wakara Jaira",
+          "foto": [
+            {
+              "id": "attTDmjCCdSHsXsmH",
+              "url": "https://dl.airtable.com/ZrHiPetzQgOdyNaoKO8w__MG_1071.CR2",
+              "filename": "_MG_1071.CR2",
+              "size": 23224120,
+              "type": "image/x-canon-cr2"
+            }
+          ]
         },
         "geometry": null
       },
