@@ -1111,7 +1111,66 @@
           "id": "4949591082239758199",
           "nota esp": "Se sabe que aqui habia una comunidad antigua, que por muchas enfermedades las familias se adentraron y establecieron, de aquello como muestras hay un rastrojo donde se puede visualizar los pedasos de ceramica, yoko, yaje, especies de bambú especiales.",
           "tipo": "comunidad/jai_daripe",
-          "nombre sey": "Emuña pai paa'i daripë"
+          "nombre sey": "Emuña pai paa'i daripë",
+          "foto": [
+            {
+              "id": "attA5Giu6qKeMbZZy",
+              "url": "https://dl.airtable.com/tqoy6ossRaqHyitiP3IL_IMG_7379.JPG",
+              "filename": "IMG_7379.JPG",
+              "size": 2942469,
+              "type": "image/jpeg",
+              "thumbnails": {
+                "small": {
+                  "url": "https://dl.airtable.com/M4JdqwbTBOnLlCPSDDkB_small_IMG_7379.JPG",
+                  "width": 48,
+                  "height": 36
+                },
+                "large": {
+                  "url": "https://dl.airtable.com/eNCWPo3gSaq5Q3SaKh1Z_large_IMG_7379.JPG",
+                  "width": 683,
+                  "height": 512
+                }
+              }
+            },
+            {
+              "id": "attMdvYY2med6PJNP",
+              "url": "https://dl.airtable.com/LszovQPQ3W5vcZMgvnKw_IMG_7390.JPG",
+              "filename": "IMG_7390.JPG",
+              "size": 2304621,
+              "type": "image/jpeg",
+              "thumbnails": {
+                "small": {
+                  "url": "https://dl.airtable.com/doTzaC28SBOgYgkwxRBD_small_IMG_7390.JPG",
+                  "width": 48,
+                  "height": 36
+                },
+                "large": {
+                  "url": "https://dl.airtable.com/AUatnoW6SYalrN6tK7tS_large_IMG_7390.JPG",
+                  "width": 683,
+                  "height": 512
+                }
+              }
+            },
+            {
+              "id": "attu1FbArhyst5Xjv",
+              "url": "https://dl.airtable.com/emp7HC70QnWq3EMscF2t_IMG_7394.JPG",
+              "filename": "IMG_7394.JPG",
+              "size": 2459247,
+              "type": "image/jpeg",
+              "thumbnails": {
+                "small": {
+                  "url": "https://dl.airtable.com/NLWQgAuR1y3cCfYcJxxA_small_IMG_7394.JPG",
+                  "width": 48,
+                  "height": 36
+                },
+                "large": {
+                  "url": "https://dl.airtable.com/KlHdcJTNREIzbMWVSm9G_large_IMG_7394.JPG",
+                  "width": 683,
+                  "height": 512
+                }
+              }
+            }
+          ]
         },
         "geometry": null
       },
@@ -1232,6 +1291,7 @@
           "Item": "Laguna",
           "nota sey": "Kaya añapë kë ai yëkona dawë yo'ojeorena te'o te'te ñakoa saiyo pa'isikoni ñakomasira we'yojë pa'isikoa. ",
           "id": "3834331760719211353",
+          "nombre esp": "Laguna Siega",
           "nota eng": "Two shamans fought with a giant whale-like fish here\n",
           "foto": [
             {
@@ -1256,8 +1316,7 @@
           ],
           "tipo": "lake",
           "nombre sey": "Ñakomasira",
-          "nombre eng": "Made up name lake",
-          "nombre esp": "Laguna Siega"
+          "nombre eng": "Made up name lake"
         },
         "geometry": null
       },
