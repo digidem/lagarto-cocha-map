@@ -87,8 +87,6 @@
           "Item": "Point",
           "id": "9102455105363811224",
           "nota esp": "La historia cuenta que aqui fue un pueblo mas grande Siekopai. Dentro de esta comunidad nacio Cesario Piaguaje quien vive actualmente y da testimonio sobre la vida Siekopai antes de la guerra en 1941.",
-          "tipo": "comunidad/jai_daripe",
-          "nombre sey": "Tupë sa'ro Paai pa'idaripë",
           "foto": [
             {
               "id": "attnZVAdln22A8la2",
@@ -97,7 +95,9 @@
               "size": 29154580,
               "type": "image/x-nikon-nef"
             }
-          ]
+          ],
+          "tipo": "comunidad/jai_daripe",
+          "nombre sey": "Tupë sa'ro Paai pa'idaripë"
         },
         "geometry": null
       },
@@ -227,8 +227,6 @@
           "id": "10529189292030859811",
           "nombre esp": "Comunidad Puerto Estrella",
           "nota esp": "Un pueblo actual de los Siekopai  en la frontera de Perú que fue re-establecido en el año 2003.  Hoy dÃ­a se encuentra con la presencia de 7 familias Siekopai y también este pueblo sirve como el punto principal de encuentros entre las familias.",
-          "tipo": "comunidad/comunidad_nueva",
-          "nombre sey": "Ma'ñoko paai pa'idaripë",
           "foto": [
             {
               "id": "attG0dKdEpZBjfKN3",
@@ -237,7 +235,9 @@
               "size": 33167318,
               "type": "image/x-nikon-nef"
             }
-          ]
+          ],
+          "tipo": "comunidad/comunidad_nueva",
+          "nombre sey": "Ma'ñoko paai pa'idaripë"
         },
         "geometry": null
       },
@@ -363,8 +363,6 @@
           "nota sey": "Ya'i do'ro neñepi pa'ikoa jaje pa'ina we'yojë pa'awë'ë.",
           "id": "10877896803386417114",
           "nombre esp": "Achanga Cocha",
-          "tipo": "lake",
-          "nombre sey": "Do'ro Jaira",
           "foto": [
             {
               "id": "atteLHDsMWXXOeyEH",
@@ -385,7 +383,9 @@
                 }
               }
             }
-          ]
+          ],
+          "tipo": "lake",
+          "nombre sey": "Do'ro Jaira"
         },
         "geometry": null
       },
@@ -411,7 +411,16 @@
           "id": "2095830693335069269",
           "nombre esp": "Laguna de platanillo ",
           "tipo": "lake",
-          "nombre sey": "Onoka Jaira"
+          "nombre sey": "Onoka Jaira",
+          "foto": [
+            {
+              "id": "att6LkIZ8f38rWP4n",
+              "url": "https://dl.airtable.com/MtUNnGnFR2qDg4va7uqG_Ononka.png",
+              "filename": "Ononka.png",
+              "size": 6371557,
+              "type": "image/png"
+            }
+          ]
         },
         "geometry": null
       },
@@ -482,8 +491,6 @@
           "id": "1111",
           "nombre esp": "Garza cocha",
           "nota esp": "Nombre originario que se da antiguamente por abundante presencia de muchas especies de garza.LL",
-          "tipo": "lake",
-          "nombre sey": "Wakara Jaira",
           "foto": [
             {
               "id": "attTDmjCCdSHsXsmH",
@@ -492,7 +499,9 @@
               "size": 23224120,
               "type": "image/x-canon-cr2"
             }
-          ]
+          ],
+          "tipo": "lake",
+          "nombre sey": "Wakara Jaira"
         },
         "geometry": null
       },
@@ -594,8 +603,6 @@
           "Item": "Point",
           "id": "8013122578254606165",
           "nota esp": "Actual campamento o punto de llegada principal de los visitantes y propios Siekopai para hacer diferentes actividades, como la recoleccion de materia prima para la elaboracion de diferentes herramientas, pesca y caceria artesanal y ecoturismo.",
-          "tipo": "comunidad/campamento",
-          "nombre sey": "Kwiña jaira kaidaripë",
           "foto": [
             {
               "id": "attuV77My77KeZx1o",
@@ -611,7 +618,9 @@
               "size": 33383588,
               "type": "image/x-nikon-nef"
             }
-          ]
+          ],
+          "tipo": "comunidad/campamento",
+          "nombre sey": "Kwiña jaira kaidaripë"
         },
         "geometry": null
       },
@@ -1086,8 +1095,6 @@
           "id": "9263350016677695422",
           "nombre esp": "Rastrojo de asentamiento siekopaai en la bocana de garzacocha",
           "nota esp": "En el 1994 los Siekopai intentaron a re-establecer su presencia en este sitio histórico con un asentamiento y cultivos de yuca y plátano, pero otra vez los militares quitaron el puesto y establecieron el destacamento militar ‘Patria’.",
-          "tipo": "comunidad/comunidad_nueva",
-          "nombre sey": "Wakara jaira Paai pa'i daripë",
           "foto": [
             {
               "id": "attLdyFgei9J5n4wz",
@@ -1108,7 +1115,9 @@
                 }
               }
             }
-          ]
+          ],
+          "tipo": "comunidad/comunidad_nueva",
+          "nombre sey": "Wakara jaira Paai pa'i daripë"
         },
         "geometry": null
       },
@@ -1190,8 +1199,6 @@
           "Item": "Camino Ancestral",
           "nota sey": "Wakara jaira ma'a, emuña  jeni tomewe'ña",
           "id": "9",
-          "tipo": "camino",
-          "nombre sey": "Emuña ma'a",
           "foto": [
             {
               "id": "attwx7V6aoyG3slWh",
@@ -1212,7 +1219,9 @@
                 }
               }
             }
-          ]
+          ],
+          "tipo": "camino",
+          "nombre sey": "Emuña ma'a"
         },
         "geometry": null
       },
@@ -1223,8 +1232,6 @@
           "Item": "Point",
           "id": "4949591082239758199",
           "nota esp": "Se sabe que aqui habia una comunidad antigua, que por muchas enfermedades las familias se adentraron y establecieron, de aquello como muestras hay un rastrojo donde se puede visualizar los pedasos de ceramica, yoko, yaje, especies de bambú especiales.",
-          "tipo": "comunidad/jai_daripe",
-          "nombre sey": "Emuña pai paa'i daripë",
           "foto": [
             {
               "id": "attA5Giu6qKeMbZZy",
@@ -1283,7 +1290,9 @@
                 }
               }
             }
-          ]
+          ],
+          "tipo": "comunidad/jai_daripe",
+          "nombre sey": "Emuña pai paa'i daripë"
         },
         "geometry": null
       },
