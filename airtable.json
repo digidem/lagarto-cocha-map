@@ -8,10 +8,10 @@
         "properties": {
           "Item": "Camino Ancestral",
           "id": "13",
+          "nombre esp": "Platanillo rojo",
           "nota esp": "Un camino ancestral que conectaba la gente desde las comunidades alejado en el Río Putumayo hacia el Río Aguarico con las comunidades Siekopai en la ribera del Río Aguarico y el Río Cuyubeno",
           "tipo": "camino",
-          "nombre sey": "Manoka tsa'sa",
-          "nombre esp": "Platanillo rojo"
+          "nombre sey": "Manoka tsa'sa"
         },
         "geometry": null
       },
@@ -102,7 +102,7 @@
         "id": "rec2C0Wqn4DKmKk3T",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Airepa dua saipi pa'ina dua jaira kayë jaje.",
+          "nota sey": "Jaiye duasai se'epi timësi jairare jaje we'yojë pa'isikoa.",
           "id": "4843469361727951631",
           "nombre esp": "Laguna de manglar",
           "foto": [
@@ -551,9 +551,9 @@
           "Item": "Camino Ancestral",
           "nota sey": "Ñekwëowa'i ku'ijë pai'ako, ukwusiyapi aguaricona pë'këya kwi'ne pookoya jenitomejë pa'isiko.",
           "id": "14",
+          "nombre esp": "Camino ancestral de Angusiya / Aguarico",
           "tipo": "camino",
-          "nombre sey": "Camino ancestral de Angusiya / Aguarico Ai ma'a aiowa'i ku'ijë paa'isiko ukwisiyapi aguaricona.",
-          "nombre esp": "Camino ancestral de Angusiya / Aguarico"
+          "nombre sey": "Camino ancestral de Angusiya / Aguarico Ai ma'a aiowa'i ku'ijë paa'isiko ukwisiyapi aguaricona."
         },
         "geometry": null
       },
@@ -630,9 +630,9 @@
         "properties": {
           "Item": "Laguna",
           "id": "6995869638763760881",
+          "nombre esp": "Laguna casique",
           "tipo": "lake",
-          "nombre sey": "Seo Jaira",
-          "nombre esp": "Laguna casique"
+          "nombre sey": "Seo Jaira"
         },
         "geometry": null
       },
@@ -1206,10 +1206,10 @@
         "properties": {
           "Item": "Laguna",
           "id": "16983059423745428042",
+          "nombre esp": "Poza de huanchinche",
           "nota esp": "Tambien nombre Tapepero Jaira",
           "tipo": "lake",
-          "nombre sey": "Doye Dopë",
-          "nombre esp": "Poza de huanchinche"
+          "nombre sey": "Doye Dopë"
         },
         "geometry": null
       },
