@@ -540,7 +540,23 @@
           "id": "8013122578254606165",
           "nota esp": "Actual campamento o punto de llegada principal de los visitantes y propios Siekopai para hacer diferentes actividades, como la recoleccion de materia prima para la elaboracion de diferentes herramientas, pesca y caceria artesanal y ecoturismo.",
           "tipo": "comunidad/campamento",
-          "nombre sey": "Kwiña jaira kaidaripë"
+          "nombre sey": "Kwiña jaira kaidaripë",
+          "foto": [
+            {
+              "id": "attuV77My77KeZx1o",
+              "url": "https://dl.airtable.com/W11mbfAQNeIBeZOWSEoZ_DSC_7048.NEF",
+              "filename": "DSC_7048.NEF",
+              "size": 31499485,
+              "type": "image/x-nikon-nef"
+            },
+            {
+              "id": "attGpIHk4yAxRlSd7",
+              "url": "https://dl.airtable.com/SKSOqLHHQpKRnuQViDrR_DSC_7040.NEF",
+              "filename": "DSC_7040.NEF",
+              "size": 33383588,
+              "type": "image/x-nikon-nef"
+            }
+          ]
         },
         "geometry": null
       },
