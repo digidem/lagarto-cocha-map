@@ -1103,9 +1103,22 @@
           "foto": [
             {
               "id": "attwx7V6aoyG3slWh",
-              "url": "https://www.filepicker.io/api/file/r4JP2dLTRyuHQgAYHxFu",
+              "url": "https://dl.airtable.com/HPlzMlESQnOSNWGOKXzh_DSC01679.jpg",
               "filename": "DSC01679.jpg",
-              "type": "image/jpeg"
+              "size": 439213,
+              "type": "image/jpeg",
+              "thumbnails": {
+                "small": {
+                  "url": "https://dl.airtable.com/AXvCUpKBSWmouQlELZO2_small_DSC01679.jpg",
+                  "width": 54,
+                  "height": 36
+                },
+                "large": {
+                  "url": "https://dl.airtable.com/z0NbeEzkQ8Og6JPrqO6M_large_DSC01679.jpg",
+                  "width": 768,
+                  "height": 512
+                }
+              }
             }
           ]
         },
@@ -1320,6 +1333,13 @@
                   "height": 512
                 }
               }
+            },
+            {
+              "id": "attweMr8MGeY1DoG6",
+              "url": "https://dl.airtable.com/KVtsq2sS6atozFczjF2C_DSC_5911.NEF",
+              "filename": "DSC_5911.NEF",
+              "size": 26776312,
+              "type": "image/x-nikon-nef"
             }
           ],
           "tipo": "lake",
