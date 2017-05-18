@@ -364,7 +364,28 @@
           "id": "10877896803386417114",
           "nombre esp": "Achanga Cocha",
           "tipo": "lake",
-          "nombre sey": "Do'ro Jaira"
+          "nombre sey": "Do'ro Jaira",
+          "foto": [
+            {
+              "id": "atteLHDsMWXXOeyEH",
+              "url": "https://dl.airtable.com/m7KNvHKuQxuqYABidPyz__MG_1011.JPG",
+              "filename": "_MG_1011.JPG",
+              "size": 5322976,
+              "type": "image/jpeg",
+              "thumbnails": {
+                "small": {
+                  "url": "https://dl.airtable.com/3uyfKFROT4G9O0zny14X_small__MG_1011.JPG",
+                  "width": 54,
+                  "height": 36
+                },
+                "large": {
+                  "url": "https://dl.airtable.com/vkfefLRmSuwF9DivyxCC_large__MG_1011.JPG",
+                  "width": 768,
+                  "height": 512
+                }
+              }
+            }
+          ]
         },
         "geometry": null
       },
@@ -1057,7 +1078,28 @@
           "nombre esp": "Rastrojo de asentamiento siekopaai en la bocana de garzacocha",
           "nota esp": "En el 1994 los Siekopai intentaron a re-establecer su presencia en este sitio histórico con un asentamiento y cultivos de yuca y plátano, pero otra vez los militares quitaron el puesto y establecieron el destacamento militar ‘Patria’.",
           "tipo": "comunidad/comunidad_nueva",
-          "nombre sey": "Wakara jaira Paai pa'i daripë"
+          "nombre sey": "Wakara jaira Paai pa'i daripë",
+          "foto": [
+            {
+              "id": "attLdyFgei9J5n4wz",
+              "url": "https://dl.airtable.com/2fEWjVbfROxO3gChPKcM__MG_1070.JPG",
+              "filename": "_MG_1070.JPG",
+              "size": 4136256,
+              "type": "image/jpeg",
+              "thumbnails": {
+                "small": {
+                  "url": "https://dl.airtable.com/VFDxBmcgS2qh4QmnAe6E_small__MG_1070.JPG",
+                  "width": 54,
+                  "height": 36
+                },
+                "large": {
+                  "url": "https://dl.airtable.com/O2AR8zffTNSzx2lCfotP_large__MG_1070.JPG",
+                  "width": 768,
+                  "height": 512
+                }
+              }
+            }
+          ]
         },
         "geometry": null
       },
