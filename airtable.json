@@ -1230,7 +1230,7 @@
         "id": "recy2BZ83UimUiD4D",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Tsiaya pa'iopa'isikopi wa'ke tëni saotëkapë de'osikoa.",
+          "nota sey": "Kaya añapë kë ai yëkona dawë yo'ojeorena te'o te'te ñakoa saiyo pa'isikoni ñakomasira we'yojë pa'isikoa. ",
           "id": "3834331760719211353",
           "nota eng": "Two shamans fought with a giant whale-like fish here\n",
           "foto": [
@@ -1256,7 +1256,8 @@
           ],
           "tipo": "lake",
           "nombre sey": "Ñakomasira",
-          "nombre eng": "Made up name lake"
+          "nombre eng": "Made up name lake",
+          "nombre esp": "Laguna Siega"
         },
         "geometry": null
       },
