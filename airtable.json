@@ -41,6 +41,13 @@
                   "height": 768
                 }
               }
+            },
+            {
+              "id": "attXL6chYLxp9yRwp",
+              "url": "https://dl.airtable.com/S7HyOA2TsOo0CYVRKltD_DSC_6653.NEF",
+              "filename": "DSC_6653.NEF",
+              "size": 32743028,
+              "type": "image/x-nikon-nef"
             }
           ],
           "tipo": "comunidad/campamento",
@@ -212,7 +219,16 @@
           "nombre esp": "Comunidad Puerto Estrella",
           "nota esp": "Un pueblo actual de los Siekopai  en la frontera de Perú que fue re-establecido en el año 2003.  Hoy dÃ­a se encuentra con la presencia de 7 familias Siekopai y también este pueblo sirve como el punto principal de encuentros entre las familias.",
           "tipo": "comunidad/comunidad_nueva",
-          "nombre sey": "Ma'ñoko paai pa'idaripë"
+          "nombre sey": "Ma'ñoko paai pa'idaripë",
+          "foto": [
+            {
+              "id": "attG0dKdEpZBjfKN3",
+              "url": "https://dl.airtable.com/XuT8rUMQTeJe0VOubkc9_DSC_6887.NEF",
+              "filename": "DSC_6887.NEF",
+              "size": 33167318,
+              "type": "image/x-nikon-nef"
+            }
+          ]
         },
         "geometry": null
       },
