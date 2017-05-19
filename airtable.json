@@ -410,17 +410,29 @@
           "nota sey": "Iye jairase'e ai onoka paa'ikoa kooa aikoka këayë kooa nokare tateina ikere takë'ni kakë jaje yo'këna sewouña onkare tañe kakë kosouña jaje yo'ouna ti ñese'e onokarepase'e aire'isiokpi pa'iji iye jaira.",
           "id": "2095830693335069269",
           "nombre esp": "Laguna de platanillo ",
-          "tipo": "lake",
-          "nombre sey": "Onoka Jaira",
           "foto": [
             {
               "id": "att6LkIZ8f38rWP4n",
               "url": "https://dl.airtable.com/MtUNnGnFR2qDg4va7uqG_Ononka.png",
               "filename": "Ononka.png",
               "size": 6371557,
-              "type": "image/png"
+              "type": "image/png",
+              "thumbnails": {
+                "small": {
+                  "url": "https://dl.airtable.com/TH0KB57GQtGaNQlfZ69a_small_Ononka.png",
+                  "width": 64,
+                  "height": 36
+                },
+                "large": {
+                  "url": "https://dl.airtable.com/6WmxsAtWRKaDIZxYRPlF_large_Ononka.png",
+                  "width": 915,
+                  "height": 512
+                }
+              }
             }
-          ]
+          ],
+          "tipo": "lake",
+          "nombre sey": "Onoka Jaira"
         },
         "geometry": null
       },
