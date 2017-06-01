@@ -1425,7 +1425,6 @@
           "Item": "Laguna",
           "nota sey": "Kaya añapë kë ai yëkona dawë yo'ojeorena te'o te'te ñakoa saiyo pa'isikoni ñakomasira we'yojë pa'isikoa. ",
           "id": "3834331760719211353",
-          "nombre esp": "Laguna Siega",
           "nota eng": "Two shamans fought with a giant whale-like fish here\n",
           "foto": [
             {
@@ -1456,8 +1455,7 @@
             }
           ],
           "tipo": "lake",
-          "nombre sey": "Ñakomasira",
-          "nombre eng": "Made up name lake"
+          "nombre sey": "Ñakomasira"
         },
         "geometry": null
       },
