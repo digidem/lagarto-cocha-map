@@ -121,27 +121,6 @@
           "nota sey": "Jaiye duasai se'epi timësi jairare jaje we'yojë pa'isikoa.",
           "id": "4843469361727951631",
           "nombre esp": "Laguna de manglar",
-          "foto": [
-            {
-              "id": "attNapQGtTflo8m3k",
-              "url": "https://dl.airtable.com/YrmhW40JT728XgtVoVJ4_IMG_4869.JPG",
-              "filename": "IMG_4869.JPG",
-              "size": 2746076,
-              "type": "image/jpeg",
-              "thumbnails": {
-                "small": {
-                  "url": "https://dl.airtable.com/vjKlzDMUQQW9dXkHG7NQ_small_IMG_4869.JPG",
-                  "width": 48,
-                  "height": 36
-                },
-                "large": {
-                  "url": "https://dl.airtable.com/UxxB5u7GShWD3JPwmlPY_large_IMG_4869.JPG",
-                  "width": 683,
-                  "height": 512
-                }
-              }
-            }
-          ],
           "tipo": "lake",
           "nombre sey": "Dua Wa'ira"
         },
