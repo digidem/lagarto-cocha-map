@@ -145,7 +145,8 @@
           "Item": "Laguna",
           "id": "16607546306117930864",
           "tipo": "lake",
-          "nombre sey": "Soto Jaira"
+          "nombre sey": "Soto Jaira",
+          "nombre esp": "Lago de arcilla"
         },
         "geometry": null
       },
