@@ -144,9 +144,9 @@
         "properties": {
           "Item": "Laguna",
           "id": "16607546306117930864",
+          "nombre esp": "Lago de arcilla",
           "tipo": "lake",
-          "nombre sey": "Soto Jaira",
-          "nombre esp": "Lago de arcilla"
+          "nombre sey": "Soto Jaira"
         },
         "geometry": null
       },
@@ -277,12 +277,6 @@
           "tipo": "lake",
           "nombre sey": "Kwiña Jaira"
         },
-        "geometry": null
-      },
-      {
-        "type": "Feature",
-        "id": "rec71N5QW2Cr8dWzm",
-        "properties": {},
         "geometry": null
       },
       {
@@ -568,12 +562,6 @@
           "tipo": "comunidad/yaje",
           "nombre sey": "Aipë yaje ukujë pa'isito"
         },
-        "geometry": null
-      },
-      {
-        "type": "Feature",
-        "id": "recNLcQlTURo8VXw5",
-        "properties": {},
         "geometry": null
       },
       {
