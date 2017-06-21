@@ -8,10 +8,9 @@
         "properties": {
           "Item": "Camino Ancestral",
           "id": "13",
-          "nombre esp": "Platanillo rojo",
           "nota esp": "Un camino ancestral que conectaba la gente desde las comunidades alejado en el Río Putumayo hacia el Río Aguarico con las comunidades Siekopai en la ribera del Río Aguarico y el Río Cuyubeno",
           "tipo": "camino",
-          "nombre sey": "Manoka tsa'sa"
+          "nombre sey": "Ma'ñoka sa'sa"
         },
         "geometry": null
       },
@@ -21,7 +20,8 @@
         "properties": {
           "Item": "Point",
           "id": "16316963937723214038",
-          "nombre esp": "Campamento en Garzacocha",
+          "tipo": "comunidad/campamento",
+          "nombre sey": "Wakara jaira kai daripë",
           "foto": [
             {
               "id": "attIA2PLKXb3JdoVh",
@@ -41,17 +41,8 @@
                   "height": 768
                 }
               }
-            },
-            {
-              "id": "attXL6chYLxp9yRwp",
-              "url": "https://dl.airtable.com/S7HyOA2TsOo0CYVRKltD_DSC_6653.NEF",
-              "filename": "DSC_6653.NEF",
-              "size": 32743028,
-              "type": "image/x-nikon-nef"
             }
-          ],
-          "tipo": "comunidad/campamento",
-          "nombre sey": "Wakara jaira kai daripë"
+          ]
         },
         "geometry": null
       },
@@ -61,10 +52,9 @@
         "properties": {
           "Item": "Point",
           "id": "3133084118495594748",
-          "nombre esp": "Camino al Güepi",
-          "nota esp": "tsoe we'ña paipi karena akëpi we'yoko paa'a'koña wepi paai kato we'epi karena.",
+          "nota esp": "tsoe we'Ã‘a paipi karena akëpi we'yoko paa'a'koÃ‘a wepi paai kato we'epi kareÃ‘a",
           "tipo": "caminos/ai_maa",
-          "nombre sey": "Ma'a wepi kaa maa'a"
+          "nombre sey": "maa'a wepi kaa maa'a"
         },
         "geometry": null
       },
@@ -74,7 +64,6 @@
         "properties": {
           "Item": "Point",
           "id": "13884321478433118916",
-          "nombre esp": "Saladero de danta",
           "tipo": "natural/saladero_abierto",
           "nombre sey": "Wekë tu'aro"
         },
@@ -87,15 +76,6 @@
           "Item": "Point",
           "id": "9102455105363811224",
           "nota esp": "La historia cuenta que aqui fue un pueblo mas grande Siekopai. Dentro de esta comunidad nacio Cesario Piaguaje quien vive actualmente y da testimonio sobre la vida Siekopai antes de la guerra en 1941.",
-          "foto": [
-            {
-              "id": "attnZVAdln22A8la2",
-              "url": "https://dl.airtable.com/7sjrkw68TG6frdk2Nu0C_DSC_6874.NEF",
-              "filename": "DSC_6874.NEF",
-              "size": 29154580,
-              "type": "image/x-nikon-nef"
-            }
-          ],
           "tipo": "comunidad/jai_daripe",
           "nombre sey": "Tupë sa'ro Paai pa'idaripë"
         },
@@ -107,7 +87,7 @@
         "properties": {
           "Item": "Laguna",
           "id": "15189700795514535636",
-          "nota esp": "Nombre dedicado a la abundancia presencia de especies de hiervas de agua",
+          "nota esp": "Nombre didicado a la abundancia precencia de especies de hiervas de agua antiguamente.",
           "tipo": "lake",
           "nombre sey": "Wi'ya Jaira"
         },
@@ -118,11 +98,31 @@
         "id": "rec2C0Wqn4DKmKk3T",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Jaiye duasai se'epi timësi jairare jaje we'yojë pa'isikoa.",
+          "nota sey": "Airepa dua saipi paina dua jaira cayë jaje",
           "id": "4843469361727951631",
-          "nombre esp": "Laguna de manglar",
+          "foto": [
+            {
+              "id": "attNapQGtTflo8m3k",
+              "url": "https://dl.airtable.com/YrmhW40JT728XgtVoVJ4_IMG_4869.JPG",
+              "filename": "IMG_4869.JPG",
+              "size": 2746076,
+              "type": "image/jpeg",
+              "thumbnails": {
+                "small": {
+                  "url": "https://dl.airtable.com/vjKlzDMUQQW9dXkHG7NQ_small_IMG_4869.JPG",
+                  "width": 48,
+                  "height": 36
+                },
+                "large": {
+                  "url": "https://dl.airtable.com/UxxB5u7GShWD3JPwmlPY_large_IMG_4869.JPG",
+                  "width": 683,
+                  "height": 512
+                }
+              }
+            }
+          ],
           "tipo": "lake",
-          "nombre sey": "Dua Wa'ira"
+          "nombre sey": "Dua Wa'ida!!"
         },
         "geometry": null
       },
@@ -132,7 +132,6 @@
         "properties": {
           "Item": "Point",
           "id": "2802796723362052602",
-          "nombre esp": "Saladero de danta",
           "tipo": "fauna/tapir",
           "nombre sey": "Wekë tua'aro"
         },
@@ -144,7 +143,6 @@
         "properties": {
           "Item": "Laguna",
           "id": "16607546306117930864",
-          "nombre esp": "Lago de arcilla",
           "tipo": "lake",
           "nombre sey": "Soto Jaira"
         },
@@ -155,11 +153,11 @@
         "id": "rec3QHJeSdZN7Lcva",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Tëtë sewapi pa'iona ñani jaje we'yoa'wë",
+          "nota sey": "Tëte sewapi pa'iona ñani jaje we'yoawë",
           "id": "1206160794007552664",
           "nombre esp": "Yarina Cocha",
           "tipo": "lake",
-          "nombre sey": "Muse Jaira"
+          "nombre sey": "Sewa Jaira"
         },
         "geometry": null
       },
@@ -168,11 +166,11 @@
         "id": "rec3TIrYeELNh8Puu",
         "properties": {
           "Item": "Point",
-          "nota sey": "Añapëkë ai yëkona dawë yo'ojeorena te'o te'te ñakoa saiyo pa'isikoni ñakomasira we'yojë pa'isi jaira'ë.",
+          "nota sey": "Añapë kë ai yëkona dawë yo'ojeorena te'o te'te ñakoa saiyo pa'isikoni ñakomasira we'yojë pa'isi jaira'ë",
           "id": "6410969360746213045",
-          "nota esp": "En este sitio ocurrió uno de los eventos mas importantes y conocidos de todo la historia reciente Siekopai.  Cerca del año 1900, dos shamanes Siekopai  enfrentaron a dos meros (un tipo ballena Amazónica) cuales estaban atacando a gente la que iban de pesca. Con el poder de shamanismo lograron a matar a uno de estos meros y dejaron al otro vivo y ciega como un ejemplo del poder shamanico de los Siekopai.",
+          "nota esp": "En este sitio ocurrió uno de los eventos mas importantes y conocidos de todo la historia reciente Siekopai.  Cerca del año 1900 dos shamanes Siekopai  enfrentaron a dos meros (un tipo ballena Amazónica) cuales estaban atacando a gente la que iban de pesca. Con el poder de shamanismo lograron a matar a uno de estos meros y dejaron el otro vivo y ciega como un ejemplo del poder shamanico de los Siekopai.",
           "tipo": "fauna/boa",
-          "nombre sey": "Ñakomasira"
+          "nombre sey": "Ñ‘akomasira"
         },
         "geometry": null
       },
@@ -182,7 +180,6 @@
         "properties": {
           "Item": "Laguna",
           "id": "2222",
-          "nombre esp": "Laguna negra",
           "tipo": "lake",
           "nombre sey": "Nea Jaira"
         },
@@ -205,17 +202,7 @@
         "properties": {
           "Item": "Point",
           "id": "10529189292030859811",
-          "nombre esp": "Comunidad Puerto Estrella",
           "nota esp": "Un pueblo actual de los Siekopai  en la frontera de Perú que fue re-establecido en el año 2003.  Hoy dÃ­a se encuentra con la presencia de 7 familias Siekopai y también este pueblo sirve como el punto principal de encuentros entre las familias.",
-          "foto": [
-            {
-              "id": "attG0dKdEpZBjfKN3",
-              "url": "https://dl.airtable.com/XuT8rUMQTeJe0VOubkc9_DSC_6887.NEF",
-              "filename": "DSC_6887.NEF",
-              "size": 33167318,
-              "type": "image/x-nikon-nef"
-            }
-          ],
           "tipo": "comunidad/comunidad_nueva",
           "nombre sey": "Ma'ñoko paai pa'idaripë"
         },
@@ -240,7 +227,7 @@
           "Item": "Laguna",
           "id": "649959265187868029",
           "tipo": "lake",
-          "nombre sey": "Okotu'i Jaira"
+          "nombre sey": "Okotui Jaira"
         },
         "geometry": null
       },
@@ -250,7 +237,6 @@
         "properties": {
           "Item": "Laguna",
           "id": "13654139179669022758",
-          "nombre esp": "Laguna de los defines",
           "tipo": "lake",
           "nombre sey": "Wëwë Jaira"
         },
@@ -262,8 +248,7 @@
         "properties": {
           "Item": "Laguna",
           "id": "2438293092334106259",
-          "tipo": "river",
-          "nombre sey": "Tsiaya"
+          "tipo": "river"
         },
         "geometry": null
       },
@@ -277,6 +262,12 @@
           "tipo": "lake",
           "nombre sey": "Kwiña Jaira"
         },
+        "geometry": null
+      },
+      {
+        "type": "Feature",
+        "id": "rec71N5QW2Cr8dWzm",
+        "properties": {},
         "geometry": null
       },
       {
@@ -307,9 +298,8 @@
         "id": "rec9GJ6MuKdZB5Mb5",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Emuyai ai pa'iopa'akoña iye jairare.",
+          "nota sey": "Emuyai ai pa'opa'koña iye jairare",
           "id": "9680732413168321223",
-          "nombre esp": "Se conoce como Imuya",
           "tipo": "lake",
           "nombre sey": "Emuyai Jaira"
         },
@@ -320,12 +310,9 @@
         "id": "rec9avUgK8UkZxy4a",
         "properties": {
           "Item": "Point",
-          "nota sey": "Pookoya tsiaya, ikona yuremaka wë'ña neni paa'sikoa.",
           "id": "9999",
-          "nombre esp": "Rio aguas blancas",
-          "nota esp": "Aquí es el sitio de la comunidad Siekopai que fue establecido en el año 2003.  Durante la construcción de este pueblo habían varios artefctos arqueológicos  que corresponde a la cultura Siekopai, y que incluyo un cuchillo de piedra para la raspada de Yoco (una liana estimulatorio que utiliza los Siekopai) y otros cerámicas.  Lamentablemente, todos los techos de lamina de Zinc fue robado por los militares Peruanos que pertenece al destacamento Aguas Negras  en el año 2007 y luego abandonado por los Siekopai. ",
-          "tipo": "River/Río",
-          "nombre sey": "Pookoya, Aguas Blancas"
+          "nota esp": "Aquí es el sitio de la comunidad Siekopai que fue establecido en el año 2003.  Durante la construcción de este pueblo habían encontraban varios artefactos antigua que corresponde a la cultura Siekopai, y que incluyo una cuchillo de piedra para la raspada de Yoco (una liana estimulatorio que utiliza los Siekopai) y otros cerámicas.  Lamentablemente, todos los techos de lamina de Zinc fue robado por los militares Peruanos que pertenece al destacamento Aguas Negras  en el año 2007 y luego abandonado por los Siekopai. ",
+          "nombre sey": "Po'okoya, Aguas Blancas"
         },
         "geometry": null
       },
@@ -334,30 +321,9 @@
         "id": "recAhQ4tEnLbxw6zk",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Ya'i do'ro neñepi pa'ikoa jaje pa'ina we'yojë pa'awë'ë.",
+          "nota sey": "Ya'i do'ro neñepi paikoa jaje paina we'yojë pa'awë paikoa poopo",
           "id": "10877896803386417114",
           "nombre esp": "Achanga Cocha",
-          "foto": [
-            {
-              "id": "atteLHDsMWXXOeyEH",
-              "url": "https://dl.airtable.com/m7KNvHKuQxuqYABidPyz__MG_1011.JPG",
-              "filename": "_MG_1011.JPG",
-              "size": 5322976,
-              "type": "image/jpeg",
-              "thumbnails": {
-                "small": {
-                  "url": "https://dl.airtable.com/3uyfKFROT4G9O0zny14X_small__MG_1011.JPG",
-                  "width": 54,
-                  "height": 36
-                },
-                "large": {
-                  "url": "https://dl.airtable.com/vkfefLRmSuwF9DivyxCC_large__MG_1011.JPG",
-                  "width": 768,
-                  "height": 512
-                }
-              }
-            }
-          ],
           "tipo": "lake",
           "nombre sey": "Do'ro Jaira"
         },
@@ -368,7 +334,7 @@
         "id": "recAjHIf2wbDzd8DE",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Tsiaya nunipi pa'ikoa airepa jaje pa'ina ñani we'yojë pa'awë ikore.",
+          "nota sey": "Tsiaya nunipi pa'ikoa airepa jaje pa'ina ñani we'yojë pa'awë",
           "id": "3888452576363317018",
           "nombre esp": "Cuatro Cocha",
           "tipo": "lake",
@@ -381,30 +347,7 @@
         "id": "recC4EWNtZZAPjmIU",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Iye jairase'e ai onoka paa'ikoa kooa aikoka këayë kooa nokare tateina ikere takë'ni kakë jaje yo'këna sewouña onkare tañe kakë kosouña jaje yo'ouna ti ñese'e onokarepase'e aire'isiokpi pa'iji iye jaira.",
           "id": "2095830693335069269",
-          "nombre esp": "Laguna de platanillo ",
-          "foto": [
-            {
-              "id": "att6LkIZ8f38rWP4n",
-              "url": "https://dl.airtable.com/MtUNnGnFR2qDg4va7uqG_Ononka.png",
-              "filename": "Ononka.png",
-              "size": 6371557,
-              "type": "image/png",
-              "thumbnails": {
-                "small": {
-                  "url": "https://dl.airtable.com/TH0KB57GQtGaNQlfZ69a_small_Ononka.png",
-                  "width": 64,
-                  "height": 36
-                },
-                "large": {
-                  "url": "https://dl.airtable.com/6WmxsAtWRKaDIZxYRPlF_large_Ononka.png",
-                  "width": 915,
-                  "height": 512
-                }
-              }
-            }
-          ],
           "tipo": "lake",
           "nombre sey": "Onoka Jaira"
         },
@@ -415,9 +358,8 @@
         "id": "recC6N3ME5aBhyw4R",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Iye maka kato pa'iji mëapi yowë neñe  siekopaai  jaje pa'iro'ire  si'anë ku'ijë paa'añeña  itire kajë.",
+          "nota sey": "Iye maka kato pa'iji mëapi yowë neÑe  siekopaai  jaje pa'iro'ire  si'anë ku'ijë paa'aÑeÑa  itire kaje",
           "id": "13990912366586570676",
-          "nombre esp": "Cedrococha",
           "tipo": "lake",
           "nombre sey": "Mëa Jaira"
         },
@@ -429,7 +371,6 @@
         "properties": {
           "Item": "Laguna",
           "id": "3647679523302977352",
-          "nombre esp": "Laguna de los delfines rosado.",
           "tipo": "lake",
           "nombre sey": "Mawëwë Jaira"
         },
@@ -475,17 +416,7 @@
         "properties": {
           "Item": "Laguna",
           "id": "1111",
-          "nombre esp": "Garza cocha",
-          "nota esp": "Nombre originario que se da antiguamente por abundante presencia de muchas especies de garza.LL",
-          "foto": [
-            {
-              "id": "attTDmjCCdSHsXsmH",
-              "url": "https://dl.airtable.com/ZrHiPetzQgOdyNaoKO8w__MG_1071.CR2",
-              "filename": "_MG_1071.CR2",
-              "size": 23224120,
-              "type": "image/x-canon-cr2"
-            }
-          ],
+          "nota esp": "Nombre originario que se da antiguamente por abundante precencia de muchas especies de garza.LL",
           "tipo": "lake",
           "nombre sey": "Wakara Jaira"
         },
@@ -497,9 +428,8 @@
         "properties": {
           "Item": "Point",
           "id": "8474526839330137577",
-          "nombre esp": "Rastrojo de la comunidad antigua.",
           "tipo": "comunidad/pai_pai_daripe",
-          "nombre sey": "Paai paa'isi darip'ë"
+          "nombre sey": "paai paa'isi darip'ë"
         },
         "geometry": null
       },
@@ -508,7 +438,7 @@
         "id": "recJYnVUZvIbvG2T7",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Suni ai pa'ikoa iye jaira.",
+          "nota sey": "Suni ai pa'ikoa iye jaira",
           "id": "662666943055204599",
           "tipo": "lake",
           "nombre sey": "Sunijaira"
@@ -520,11 +450,11 @@
         "id": "recJqlTn4Yyz2lyRa",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "O'sasapi jaira të'tëpaja'a  paikoa",
+          "nota sey": "Osasapi jaira tëtëpaja paikoa",
           "id": "18305907333145251440",
           "nombre esp": "Daniel cocha",
           "tipo": "lake",
-          "nombre sey": "O'sasa Jaira"
+          "nombre sey": "Osasa Jaira"
         },
         "geometry": null
       },
@@ -534,7 +464,6 @@
         "properties": {
           "Item": "Laguna",
           "id": "13345186247401873987",
-          "nombre esp": "Laguna de pantano",
           "tipo": "lake",
           "nombre sey": "Jaira Dayawë"
         },
@@ -546,7 +475,6 @@
         "properties": {
           "Item": "Point",
           "id": "1123698577759621497",
-          "nombre esp": "Saladero de puercos del monte.",
           "tipo": "fauna/huangana",
           "nombre sey": "Sese Tu'aro"
         },
@@ -570,7 +498,6 @@
         "properties": {
           "Item": "Laguna",
           "id": "1705200238010192066",
-          "nombre esp": "Laguna caraguazu",
           "tipo": "lake",
           "nombre sey": "Tupëwani Jaira"
         },
@@ -583,22 +510,6 @@
           "Item": "Point",
           "id": "8013122578254606165",
           "nota esp": "Actual campamento o punto de llegada principal de los visitantes y propios Siekopai para hacer diferentes actividades, como la recoleccion de materia prima para la elaboracion de diferentes herramientas, pesca y caceria artesanal y ecoturismo.",
-          "foto": [
-            {
-              "id": "attuV77My77KeZx1o",
-              "url": "https://dl.airtable.com/W11mbfAQNeIBeZOWSEoZ_DSC_7048.NEF",
-              "filename": "DSC_7048.NEF",
-              "size": 31499485,
-              "type": "image/x-nikon-nef"
-            },
-            {
-              "id": "attGpIHk4yAxRlSd7",
-              "url": "https://dl.airtable.com/SKSOqLHHQpKRnuQViDrR_DSC_7040.NEF",
-              "filename": "DSC_7040.NEF",
-              "size": 33383588,
-              "type": "image/x-nikon-nef"
-            }
-          ],
           "tipo": "comunidad/campamento",
           "nombre sey": "Kwiña jaira kaidaripë"
         },
@@ -609,11 +520,10 @@
         "id": "recPtw83bSJ6YjDTr",
         "properties": {
           "Item": "Camino Ancestral",
-          "nota sey": "Ñekwëowa'i ku'ijë pai'ako, ukwusiyapi aguaricona pë'këya kwi'ne pookoya jenitomejë pa'isiko.",
+          "nota sey": "Ñekuawa'i kuijé pai'ako ukwusiyapi aguaricona pëkeya kwuine pookoya jenitomeje paiko ",
           "id": "14",
-          "nombre esp": "Camino ancestral de Angusiya / Aguarico",
           "tipo": "camino",
-          "nombre sey": "Camino ancestral de Angusiya / Aguarico Ai ma'a aiowa'i ku'ijë paa'isiko ukwisiyapi aguaricona."
+          "nombre sey": "Camino ancestral de Angusiya / Aguarico"
         },
         "geometry": null
       },
@@ -623,7 +533,6 @@
         "properties": {
           "Item": "Laguna",
           "id": "1653445585850975472",
-          "nombre esp": "Laguna",
           "tipo": "lake",
           "nombre sey": "Aikutiwa'ira"
         },
@@ -636,27 +545,6 @@
           "Item": "Laguna",
           "nota sey": "Emuyaipi pa'ikoa ja jaira",
           "id": "12179178394459825957",
-          "foto": [
-            {
-              "id": "attwSNt5Y51kDiebx",
-              "url": "https://dl.airtable.com/nBK6x6S5SOunffOwDISX_IMG_7359.JPG",
-              "filename": "IMG_7359.JPG",
-              "size": 3670929,
-              "type": "image/jpeg",
-              "thumbnails": {
-                "small": {
-                  "url": "https://dl.airtable.com/LrDp6bcNQAaxLXPSouy9_small_IMG_7359.JPG",
-                  "width": 48,
-                  "height": 36
-                },
-                "large": {
-                  "url": "https://dl.airtable.com/8mOUMsgRSSyDywqPJq9N_large_IMG_7359.JPG",
-                  "width": 683,
-                  "height": 512
-                }
-              }
-            }
-          ],
           "tipo": "lake",
           "nombre sey": "Emuyai Jaira"
         },
@@ -690,7 +578,6 @@
         "properties": {
           "Item": "Laguna",
           "id": "6995869638763760881",
-          "nombre esp": "Laguna casique",
           "tipo": "lake",
           "nombre sey": "Seo Jaira"
         },
@@ -702,7 +589,6 @@
         "properties": {
           "Item": "Laguna",
           "id": "9400699582440614514",
-          "nombre esp": "Poza de bocachicos",
           "tipo": "lake",
           "nombre sey": "Suara Dopë"
         },
@@ -714,10 +600,9 @@
         "properties": {
           "Item": "Point",
           "id": "15094075449129541257",
-          "nombre esp": "Rastrojo /comunidad antigua",
           "nota esp": "Antiguo pueblo Siekopai y además se conoce como el lugar mas importate de concentración de ceremonías de los shamanes Siekopai, abandonado en el año 1941 por los conflictos belicos entre Ecuador y Perú.",
           "tipo": "comunidad/jai_daripe",
-          "nombre sey": "paai daripë pa'isiko tsoewe'ña"
+          "nombre sey": "paai daripë paaa'isiko tsoewe'ña"
         },
         "geometry": null
       },
@@ -726,9 +611,9 @@
         "id": "recUzqVYV4pmSSbQD",
         "properties": {
           "Item": "Point",
-          "nota sey": "Pi'awajë kwi'ne Payowajeë pa'ijë pa'isito.",
+          "nota sey": "Pi'aguajë kwi'ne Payoguajeë Pa'ijë pa'isitoL",
           "id": "1473321167304750939",
-          "nota esp": "Habia una comunidad en la bocana de Lagarto Cocha, desde alli se caminaba hasta Sokora Jaira hasta cruzar al Napo, alli tenian contacto con otros grupos indigenas (Waorani). Al ver que vivian sin ropas se les denominaron Kapeotini, de ello le dieron Tiputi.Adicionalmente,  Sra. Joaquina Payaguaje relató que hay muchos huesos de sus ancestros Siekopai enterrados aquí, y lo cuales incluye los de sus propios padres. Hoy día este sitio se encuentra el destacamento Militar Peruano Clavero.  También se cuentan que en esta época la bocana era unos cienes de metros mas abajo que lo que es actual, debido a un cambio de trayecto de los ríos. ",
+          "nota esp": "Habia una comunidad en la bocana de Lagarto Cocha, desde alli se caminaba hasta Sokora Jaira hasta cruzar al Napo, alli tenian contacto con otros grupos indigenas (Waorani). Al ver que vivian sin ropas se les denominaron Kapeotini, de ello le dieron Tiputi.Adicionalmente,  Sra. Joaquina Payaguaje relató que hay muchos huesos de sus ancestros Siekopai enterrados aquí, y lo cuales incluye los de sus propios padres. Hoy día este sitio se encuentra el destacamento Militar Peruano Clavero.  También se cuentan que en este época la bocana era unos cienes de metros mas abajo que lo que es actual, debido a un cambio de trayecto de los ríos. ",
           "nota eng": "1473321167304750939",
           "tipo": "comunidad/jai_daripe",
           "nombre sey": "Pë'ëkëya sarawa "
@@ -741,7 +626,6 @@
         "properties": {
           "Item": "Laguna",
           "id": "7701629305966502938",
-          "nombre esp": "Laguna Puerto estrella.",
           "tipo": "lake",
           "nombre sey": "Ma'ñoko Dopë"
         },
@@ -754,7 +638,7 @@
           "Item": "Point",
           "id": "3727004784444134244",
           "tipo": "comunidad/campamento",
-          "nombre sey": "Pookoya kai daripë"
+          "nombre sey": "Po okoya kai daripë"
         },
         "geometry": null
       },
@@ -785,9 +669,8 @@
         "id": "recYjia7g3Ec6opLK",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Këyëpi airepa pa'ikowa'ia'ë",
+          "nota sey": "Këyëpi airepa pa'ikoa'iaë",
           "id": "16010414862262741386",
-          "nombre esp": "Laguna de pericos.",
           "tipo": "lake",
           "nombre sey": "Këyë Jaira"
         },
@@ -799,7 +682,6 @@
         "properties": {
           "Item": "Point",
           "id": "8203844693492997336",
-          "nombre esp": "Saladero de danta",
           "tipo": "fauna/tapir",
           "nombre sey": "Wekë tu'aro"
         },
@@ -824,7 +706,6 @@
           "Item": "Point",
           "nota sey": "Po okoya je'e sa'ro",
           "id": "15294134386001206266",
-          "tipo": "Camino",
           "nombre sey": "Je'e sa'ro"
         },
         "geometry": null
@@ -835,7 +716,6 @@
         "properties": {
           "Item": "Laguna",
           "id": "4640143000097491919",
-          "nombre esp": "Poza de caraguazu",
           "nota esp": "Puede ser llamado Tsiaya wekë ka'wa ?",
           "tipo": "lake",
           "nombre sey": "Tupë Wani Dopë"
@@ -881,9 +761,8 @@
         "id": "recdE1ucZJfu6kNrL",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Mawaso we'epi pa'iona ñani jaje we'yowë.",
+          "nota sey": "Mawaso we'epi pa'iona ñani jaje we'yowe",
           "id": "10387776548912010084",
-          "nombre esp": "Laguna de   huito",
           "tipo": "lake",
           "nombre sey": "We'era"
         },
@@ -896,7 +775,7 @@
           "Item": "Point",
           "id": "18348623763743778288",
           "tipo": "fauna/tapir",
-          "nombre sey": "Muse tu'aro"
+          "nombre sey": "Musa tu'aro"
         },
         "geometry": null
       },
@@ -943,7 +822,7 @@
           "nota sey": "Kosa pai dopë",
           "id": "3662321094468416827",
           "tipo": "lake",
-          "nombre sey": "Koosa Dopë"
+          "nombre sey": "Kosa Dopë"
         },
         "geometry": null
       },
@@ -954,10 +833,9 @@
           "Item": "Point",
           "nota sey": "Juni wëi yo'okëna ka'rajë jeni pëani pa'ijë pa'isi daripë",
           "id": "1988433969112786142",
-          "nombre esp": "Isla para beber Yaje.",
           "nota esp": "Se sabe que aqui habia un pueblo antiguo, por razones de las resurreccion que hubo al otro lado algunas familias se cruzaron y establecieronuna comunidad. Aqui se encuentran artefactos de cerámica en los años reciéntes.",
           "tipo": "comunidad/pai_pai_daripe",
-          "nombre sey": "Yaje uku saorowë"
+          "nombre sey": "Yaje uku saodowë"
         },
         "geometry": null
       },
@@ -980,10 +858,9 @@
         "properties": {
           "Item": "Point",
           "id": "11559871586223897930",
-          "nombre esp": "Puesto de control Aguas Negras",
-          "nota esp": "Desde este sitio hubo caminos ancestrales que conectaban a las comunidades Siekopai en la región de Rio Putumayo.  Hoy día este sitio histórico se encuentra un destacamento militar Peruano 'Aguas Negras'.",
+          "nota esp": "Desde este sitio hubo caminos ancestrales que conectaban a las comunidades Siekopai en el región de Rio Putumayo.  Hoy día este sitio histórico se encuentra una destacamento militar Peruano 'Aguas Negras'.",
           "tipo": "comunidad/casa_temporal_pasado",
-          "nombre sey": "Puesto de Control Aguas Negras"
+          "nombre sey": "Puesto de Contro Aguas Negras"
         },
         "geometry": null
       },
@@ -1005,9 +882,8 @@
         "properties": {
           "Item": "Point",
           "id": "13074131508457660530",
-          "nombre esp": "Saladero.",
           "tipo": "fauna/tapir",
-          "nombre sey": "Tu'aro"
+          "nombre sey": "Tua´ro"
         },
         "geometry": null
       },
@@ -1040,8 +916,7 @@
           "Item": "Point",
           "nota sey": "iyemaka tsiaya wekë paa'ikoa yure iti sonowë",
           "id": "15270807256290582399",
-          "tipo": "Camino",
-          "nombre sey": "Wakara jaira ma'a emuña  jeni tomewe'ña"
+          "nombre sey": "Wakara jaira maa'a emuña  jeni tomewe'ña"
         },
         "geometry": null
       },
@@ -1073,31 +948,9 @@
         "properties": {
           "Item": "Point",
           "id": "9263350016677695422",
-          "nombre esp": "Rastrojo de asentamiento siekopaai en la bocana de garzacocha",
           "nota esp": "En el 1994 los Siekopai intentaron a re-establecer su presencia en este sitio histórico con un asentamiento y cultivos de yuca y plátano, pero otra vez los militares quitaron el puesto y establecieron el destacamento militar ‘Patria’.",
-          "foto": [
-            {
-              "id": "attLdyFgei9J5n4wz",
-              "url": "https://dl.airtable.com/2fEWjVbfROxO3gChPKcM__MG_1070.JPG",
-              "filename": "_MG_1070.JPG",
-              "size": 4136256,
-              "type": "image/jpeg",
-              "thumbnails": {
-                "small": {
-                  "url": "https://dl.airtable.com/VFDxBmcgS2qh4QmnAe6E_small__MG_1070.JPG",
-                  "width": 54,
-                  "height": 36
-                },
-                "large": {
-                  "url": "https://dl.airtable.com/O2AR8zffTNSzx2lCfotP_large__MG_1070.JPG",
-                  "width": 768,
-                  "height": 512
-                }
-              }
-            }
-          ],
           "tipo": "comunidad/comunidad_nueva",
-          "nombre sey": "Wakara jaira Paai pa'i daripë"
+          "nombre sey": "Wakara jaira Pai pa'i dariupë"
         },
         "geometry": null
       },
@@ -1106,11 +959,9 @@
         "id": "recnbkgmyeHsyd0qI",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "En esta laguna existe bastante Camu camu.",
           "id": "2646991696197452943",
-          "nombre esp": "Laguna  Camu camu",
           "tipo": "lake",
-          "nombre sey": "O'sasa Dopë"
+          "nombre sey": "Osasa Dopë"
         },
         "geometry": null
       },
@@ -1120,7 +971,6 @@
         "properties": {
           "Item": "Laguna",
           "id": "5343724908215276575",
-          "nombre esp": "Poza de palometas",
           "tipo": "lake",
           "nombre sey": "Paku Dopë"
         },
@@ -1154,7 +1004,6 @@
         "properties": {
           "Item": "Point",
           "id": "14135602598682239009",
-          "nombre esp": "Camino al saladero.",
           "tipo": "actividad/caza",
           "nombre sey": "Tu'aro ma'a tuma sa'ro"
         },
@@ -1165,7 +1014,7 @@
         "id": "recq51flFcA6U3aOx",
         "properties": {
           "Item": "Point",
-          "nota sey": "Pai juni wëi pa'isidaripëaë iyemaka.",
+          "nota sey": "Pai juni wëi pa'isidaripë",
           "id": "5136382023604700547",
           "tipo": "comunidad/pai_pai_daripe",
           "nombre sey": "Pai juni wëi pa'isidaripë"
@@ -1177,29 +1026,8 @@
         "id": "recq84wlCg6lf8W6g",
         "properties": {
           "Item": "Camino Ancestral",
-          "nota sey": "Wakara jaira ma'a, emuña  jeni tomewe'ña",
+          "nota sey": "Wakara jaira maa'a emuña  jeni tomewe'ña",
           "id": "9",
-          "foto": [
-            {
-              "id": "attwx7V6aoyG3slWh",
-              "url": "https://dl.airtable.com/HPlzMlESQnOSNWGOKXzh_DSC01679.jpg",
-              "filename": "DSC01679.jpg",
-              "size": 439213,
-              "type": "image/jpeg",
-              "thumbnails": {
-                "small": {
-                  "url": "https://dl.airtable.com/AXvCUpKBSWmouQlELZO2_small_DSC01679.jpg",
-                  "width": 54,
-                  "height": 36
-                },
-                "large": {
-                  "url": "https://dl.airtable.com/z0NbeEzkQ8Og6JPrqO6M_large_DSC01679.jpg",
-                  "width": 768,
-                  "height": 512
-                }
-              }
-            }
-          ],
           "tipo": "camino",
           "nombre sey": "Emuña ma'a"
         },
@@ -1212,67 +1040,8 @@
           "Item": "Point",
           "id": "4949591082239758199",
           "nota esp": "Se sabe que aqui habia una comunidad antigua, que por muchas enfermedades las familias se adentraron y establecieron, de aquello como muestras hay un rastrojo donde se puede visualizar los pedasos de ceramica, yoko, yaje, especies de bambú especiales.",
-          "foto": [
-            {
-              "id": "attA5Giu6qKeMbZZy",
-              "url": "https://dl.airtable.com/tqoy6ossRaqHyitiP3IL_IMG_7379.JPG",
-              "filename": "IMG_7379.JPG",
-              "size": 2942469,
-              "type": "image/jpeg",
-              "thumbnails": {
-                "small": {
-                  "url": "https://dl.airtable.com/M4JdqwbTBOnLlCPSDDkB_small_IMG_7379.JPG",
-                  "width": 48,
-                  "height": 36
-                },
-                "large": {
-                  "url": "https://dl.airtable.com/eNCWPo3gSaq5Q3SaKh1Z_large_IMG_7379.JPG",
-                  "width": 683,
-                  "height": 512
-                }
-              }
-            },
-            {
-              "id": "attMdvYY2med6PJNP",
-              "url": "https://dl.airtable.com/LszovQPQ3W5vcZMgvnKw_IMG_7390.JPG",
-              "filename": "IMG_7390.JPG",
-              "size": 2304621,
-              "type": "image/jpeg",
-              "thumbnails": {
-                "small": {
-                  "url": "https://dl.airtable.com/doTzaC28SBOgYgkwxRBD_small_IMG_7390.JPG",
-                  "width": 48,
-                  "height": 36
-                },
-                "large": {
-                  "url": "https://dl.airtable.com/AUatnoW6SYalrN6tK7tS_large_IMG_7390.JPG",
-                  "width": 683,
-                  "height": 512
-                }
-              }
-            },
-            {
-              "id": "attu1FbArhyst5Xjv",
-              "url": "https://dl.airtable.com/emp7HC70QnWq3EMscF2t_IMG_7394.JPG",
-              "filename": "IMG_7394.JPG",
-              "size": 2459247,
-              "type": "image/jpeg",
-              "thumbnails": {
-                "small": {
-                  "url": "https://dl.airtable.com/NLWQgAuR1y3cCfYcJxxA_small_IMG_7394.JPG",
-                  "width": 48,
-                  "height": 36
-                },
-                "large": {
-                  "url": "https://dl.airtable.com/KlHdcJTNREIzbMWVSm9G_large_IMG_7394.JPG",
-                  "width": 683,
-                  "height": 512
-                }
-              }
-            }
-          ],
           "tipo": "comunidad/jai_daripe",
-          "nombre sey": "Emuña pai paa'i daripë"
+          "nombre sey": "Emuña pai pa'i daripë"
         },
         "geometry": null
       },
@@ -1281,10 +1050,10 @@
         "id": "recqix5rm3API111g",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Ya'oweapi airepa paikoaña iye jaira.",
+          "nota sey": "Ya'oweapi airepa paiko",
           "id": "9746085031189048142",
           "tipo": "lake",
-          "nombre sey": "Ya'o Wea Jaira"
+          "nombre sey": "Yo'o Wea Jaira"
         },
         "geometry": null
       },
@@ -1293,11 +1062,11 @@
         "id": "recqqiZOOzBLTPz8c",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Okopeetopi airepa pa'ina ñani jaje kayë.",
+          "nota sey": "Okopetopi airepa paina ñani jaje cayë",
           "id": "6328189700702001610",
           "nombre esp": "Clavo cocha!!",
           "tipo": "lake",
-          "nombre sey": "Oko Peeto Wa'ira"
+          "nombre sey": "Oko Peto Wa'ira"
         },
         "geometry": null
       },
@@ -1307,8 +1076,6 @@
         "properties": {
           "Item": "Point",
           "id": "14038398745685493712",
-          "nombre esp": "Camino al saladero",
-          "tipo": "Fauna-puerto",
           "nombre sey": "Tua'ro tumasa'ro"
         },
         "geometry": null
@@ -1318,7 +1085,7 @@
         "id": "recrcf6x8crhFSDO3",
         "properties": {
           "Item": "Camino Ancestral",
-          "nota sey": "Emuñapi saotëkapëja'a jenitomejë ku'ijë pa'iakoa. \n",
+          "nota sey": "Emuñapi saotëkapëja'a jenitomejë ku'ijëpa'iakoa \n",
           "id": "10",
           "tipo": "camino",
           "nombre sey": "Emuña Sotoya"
@@ -1344,7 +1111,7 @@
           "Item": "Camino Ancestral",
           "id": "3",
           "tipo": "camino",
-          "nombre sey": "Camino ancestral Angusilla / Aguas Negras"
+          "nombre sey": "Camino ancestral Anguisilla / Aguas Negras"
         },
         "geometry": null
       },
@@ -1353,7 +1120,7 @@
         "id": "recuH1yNsPyGJPVDH",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Jato pa'iona we'yojë paa'wë'ë.",
+          "nota sey": "Jato paiona we'yojë pawë",
           "id": "668652092458876775",
           "nombre esp": "America Cocha",
           "tipo": "lake",
@@ -1367,7 +1134,6 @@
         "properties": {
           "Item": "Laguna",
           "id": "16983059423745428042",
-          "nombre esp": "Poza de huanchinche",
           "nota esp": "Tambien nombre Tapepero Jaira",
           "tipo": "lake",
           "nombre sey": "Doye Dopë"
@@ -1391,9 +1157,10 @@
         "id": "recy2BZ83UimUiD4D",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Kaya añapë kë ai yëkona dawë yo'ojeorena te'o te'te ñakoa saiyo pa'isikoni ñakomasira we'yojë pa'isikoa. ",
+          "nota sey": "Tsiaya pa'iopa'isikopi wa'ke tëni saotëkapë de'osikoa",
           "id": "3834331760719211353",
-          "nota eng": "Two shamans fought with a giant whale-like fish here\n",
+          "tipo": "lake",
+          "nombre sey": "Ñakomasira",
           "foto": [
             {
               "id": "att6ueg3Y9X9f5imG",
@@ -1413,17 +1180,10 @@
                   "height": 512
                 }
               }
-            },
-            {
-              "id": "attweMr8MGeY1DoG6",
-              "url": "https://dl.airtable.com/KVtsq2sS6atozFczjF2C_DSC_5911.NEF",
-              "filename": "DSC_5911.NEF",
-              "size": 26776312,
-              "type": "image/x-nikon-nef"
             }
           ],
-          "tipo": "lake",
-          "nombre sey": "Ñakomasira"
+          "nombre eng": "Made up name lake",
+          "nota eng": "Two shamans fought with a giant whale-like fish here\n"
         },
         "geometry": null
       },
@@ -1441,9 +1201,8 @@
         "id": "recycSE3yujngBaph",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Tsiaya wëkëpi pa'ikoa",
+          "nota sey": "Tsiaya wëkEpi pa'ikoa",
           "id": "4765490255045918206",
-          "nombre esp": "Laguna de manatí (vaca marina)",
           "tipo": "lake",
           "nombre sey": "Tsiaya Wëkë Jaira"
         },
@@ -1456,7 +1215,6 @@
           "Item": "Point",
           "id": "13636346042510859888",
           "nota esp": "Este es el punto donde uno de los caminos ancestral de los Siekopai y que conectaba la gente desde las comunidades alejado en el Rio Putumayo hacia el Rio Aguarico y con las comunidades Siekopai en la ribera del Rio Aguarico y el Rio Cuyabeno. ",
-          "tipo": "Actividad",
           "nombre sey": "Tumasa'ro manoka tsa'sa"
         },
         "geometry": null
@@ -1484,7 +1242,7 @@
         "properties": {
           "Name": 74,
           "tipo": "fauna/tapir",
-          "sey": "Tu'aro",
+          "sey": "saladero",
           "esp": "Saladero",
           "eng": "Salt Lick"
         },
@@ -1496,7 +1254,7 @@
         "properties": {
           "Name": 68,
           "tipo": "comunidad/jai_daripe",
-          "sey": "Jai daripë",
+          "sey": "Jai daripe",
           "esp": "Comunidad vieja",
           "eng": "Old village"
         },
@@ -1540,7 +1298,7 @@
         "properties": {
           "Name": 5,
           "tipo": "river",
-          "sey": "Tsiaya",
+          "sey": "Río",
           "esp": "Río",
           "eng": "River"
         },
@@ -1552,8 +1310,8 @@
         "properties": {
           "Name": 96,
           "tipo": "caminos/ai_maa",
-          "sey": "Ai ma'a",
-          "esp": "Camino antiguo",
+          "sey": "Ai maa",
+          "esp": "Camino",
           "eng": "Path"
         },
         "geometry": null
@@ -1563,8 +1321,8 @@
         "id": "recfnFlb5T2OyL5rY",
         "properties": {
           "Name": 73,
-          "tipo": "comunidad/paai pa'idaripë",
-          "sey": "Paai pa'i daripë pa'isiko",
+          "tipo": "comunidad/pai_pai_daripe",
+          "sey": "Pai pai daripe",
           "esp": "Casas vieja",
           "eng": "Old hamlet"
         },
@@ -1576,7 +1334,7 @@
         "properties": {
           "Name": 84,
           "tipo": "comunidad/yaje",
-          "sey": "Yaje Wë'e",
+          "sey": "Casa Yaje",
           "esp": "Casa ceremonial",
           "eng": "Ceremonial House"
         },
@@ -1588,7 +1346,7 @@
         "properties": {
           "Name": 71,
           "tipo": "actividad/caza",
-          "sey": "Airo ku'iwe'ña",
+          "sey": "cacería",
           "esp": "Caceria ",
           "eng": "Hunting"
         },
