@@ -1465,6 +1465,147 @@
   },
   "Tipo Translations": {
     "type": "FeatureCollection",
-    "features": []
+    "features": [
+      {
+        "type": "Feature",
+        "id": "rec7v7Ip6FMv9ubxF",
+        "properties": {
+          "Name": 1,
+          "tipo": "lake",
+          "sey": "Jaira",
+          "esp": "Laguna",
+          "eng": "Lake"
+        },
+        "geometry": null
+      },
+      {
+        "type": "Feature",
+        "id": "recBPlWCNfPlfg8dX",
+        "properties": {
+          "Name": 74,
+          "tipo": "fauna/tapir",
+          "sey": "Tu'aro",
+          "esp": "Saladero",
+          "eng": "Salt Lick"
+        },
+        "geometry": null
+      },
+      {
+        "type": "Feature",
+        "id": "recCMZRZv41qVcmPD",
+        "properties": {
+          "Name": 68,
+          "tipo": "comunidad/jai_daripe",
+          "sey": "Jai daripë",
+          "esp": "Comunidad vieja",
+          "eng": "Old village"
+        },
+        "geometry": null
+      },
+      {
+        "type": "Feature",
+        "id": "recIzI1b5BRaDZWui",
+        "properties": {
+          "Name": 79,
+          "tipo": "comunidad/campamento",
+          "sey": "campamento",
+          "esp": "Campamento",
+          "eng": "Camp"
+        },
+        "geometry": null
+      },
+      {
+        "type": "Feature",
+        "id": "recJPgYVlVfShekTI",
+        "properties": {
+          "Name": 82,
+          "tipo": "comunidad/comunidad_nueva",
+          "sey": "comunidad nueva",
+          "esp": "Comunidad nueva",
+          "eng": "New Community"
+        },
+        "geometry": null
+      },
+      {
+        "type": "Feature",
+        "id": "recYVh2gEtG6uOFVK",
+        "properties": {
+          "Name": 99
+        },
+        "geometry": null
+      },
+      {
+        "type": "Feature",
+        "id": "recZh1wlFYheX2pUX",
+        "properties": {
+          "Name": 5,
+          "tipo": "river",
+          "sey": "Tsiaya",
+          "esp": "Río",
+          "eng": "River"
+        },
+        "geometry": null
+      },
+      {
+        "type": "Feature",
+        "id": "reccUO8ND6GhXTJep",
+        "properties": {
+          "Name": 96,
+          "tipo": "caminos/ai_maa",
+          "sey": "Ai ma'a",
+          "esp": "Camino antiguo",
+          "eng": "Path"
+        },
+        "geometry": null
+      },
+      {
+        "type": "Feature",
+        "id": "recfnFlb5T2OyL5rY",
+        "properties": {
+          "Name": 73,
+          "tipo": "comunidad/paai pa'idaripë",
+          "sey": "Paai pa'i daripë pa'isiko",
+          "esp": "Casas vieja",
+          "eng": "Old hamlet"
+        },
+        "geometry": null
+      },
+      {
+        "type": "Feature",
+        "id": "reclDcLSFEoSUFxwB",
+        "properties": {
+          "Name": 84,
+          "tipo": "comunidad/yaje",
+          "sey": "Yaje Wë'e",
+          "esp": "Casa ceremonial",
+          "eng": "Ceremonial House"
+        },
+        "geometry": null
+      },
+      {
+        "type": "Feature",
+        "id": "recmePNFb1B4F0n8u",
+        "properties": {
+          "Name": 71,
+          "tipo": "actividad/caza",
+          "sey": "Airo ku'iwe'ña",
+          "esp": "Caceria ",
+          "eng": "Hunting"
+        },
+        "geometry": null
+      },
+      {
+        "type": "Feature",
+        "id": "recySqglsTgQHtvzv",
+        "properties": {
+          "Name": 69,
+          "tipo": "fauna/boa",
+          "sey": "Mero",
+          "esp": "Mero",
+          "eng": "Mero"
+        },
+        "geometry": null
+      }
+    ]
   }
 }
