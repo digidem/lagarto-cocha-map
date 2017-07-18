@@ -298,7 +298,8 @@
           "Item": "Camino Ancestral",
           "id": "2",
           "tipo": "camino",
-          "nombre sey": "Camino ancestral Anguisilla / Pekeya / Cañon Negro"
+          "nombre sey": "Ukwisiyapi Pë'këyana etani Cañon negrona etako/ Cañon Negro",
+          "nombre esp": "Camino ancestral Anguisilla / Pekeya / Cañon Negro"
         },
         "geometry": null
       },
@@ -442,7 +443,8 @@
           "Item": "Camino Ancestral",
           "id": "12",
           "tipo": "camino",
-          "nombre sey": "Camino Ancestral: Wajoya / Mañoko Sasa"
+          "nombre sey": " Wajoyapi / Mañokona daima'a, ma'a sarawa.",
+          "nombre esp": "Camino Ancestral: Wajoya "
         },
         "geometry": null
       },
@@ -453,7 +455,8 @@
           "Item": "Camino Ancestral",
           "id": "4",
           "tipo": "camino",
-          "nombre sey": "Camino Wiririma / Mañoko"
+          "nombre sey": "Mañokopi Wiririmana saima'a",
+          "nombre esp": "Camino Wiririma / Mañoko"
         },
         "geometry": null
       },
@@ -522,7 +525,7 @@
           "Item": "Laguna",
           "nota sey": "O'sasapi jaira të'tëpaja'a  paikoa",
           "id": "18305907333145251440",
-          "nombre esp": "Daniel cocha",
+          "nombre esp": "Daniel cocha (camu, camu)",
           "tipo": "lake",
           "nombre sey": "O'sasa Jaira"
         },
@@ -613,7 +616,7 @@
           "id": "14",
           "nombre esp": "Camino ancestral de Angusiya / Aguarico",
           "tipo": "camino",
-          "nombre sey": "Camino ancestral de Angusiya / Aguarico Ai ma'a aiowa'i ku'ijë paa'isiko ukwisiyapi aguaricona."
+          "nombre sey": " Ai ma'a aiowa'i ku'ijë paa'isiko ukwisiyapi aguaricona."
         },
         "geometry": null
       },
