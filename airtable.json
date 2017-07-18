@@ -109,7 +109,8 @@
           "id": "15189700795514535636",
           "nota esp": "Nombre dedicado a la abundancia presencia de especies de hiervas de agua",
           "tipo": "lake",
-          "nombre sey": "Wi'ya Jaira"
+          "nombre sey": "Wi'ya Jaira",
+          "nombre esp": "laguna de hierva"
         },
         "geometry": null
       },
@@ -671,7 +672,7 @@
         "properties": {
           "Item": "Laguna",
           "id": "1653445585850975472",
-          "nombre esp": "cocha de lona",
+          "nombre esp": "laguna de mantaña",
           "tipo": "lake",
           "nombre sey": "Aikutiwa'ira"
         },
