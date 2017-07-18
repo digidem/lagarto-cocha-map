@@ -297,9 +297,9 @@
         "properties": {
           "Item": "Camino Ancestral",
           "id": "2",
+          "nombre esp": "Camino ancestral Anguisilla / Pekeya / Cañon Negro",
           "tipo": "camino",
-          "nombre sey": "Ukwisiyapi Pë'këyana etani Cañon negrona etako/ Cañon Negro",
-          "nombre esp": "Camino ancestral Anguisilla / Pekeya / Cañon Negro"
+          "nombre sey": "Ukwisiyapi Pë'këyana etani Cañon negrona etako/ Cañon Negro"
         },
         "geometry": null
       },
@@ -442,9 +442,9 @@
         "properties": {
           "Item": "Camino Ancestral",
           "id": "12",
+          "nombre esp": "Camino Ancestral: Wajoya ",
           "tipo": "camino",
-          "nombre sey": " Wajoyapi / Mañokona daima'a, ma'a sarawa.",
-          "nombre esp": "Camino Ancestral: Wajoya "
+          "nombre sey": " Wajoyapi / Mañokona daima'a, ma'a sarawa."
         },
         "geometry": null
       },
@@ -454,9 +454,9 @@
         "properties": {
           "Item": "Camino Ancestral",
           "id": "4",
+          "nombre esp": "Camino Wiririma / Mañoko",
           "tipo": "camino",
-          "nombre sey": "Mañokopi Wiririmana saima'a",
-          "nombre esp": "Camino Wiririma / Mañoko"
+          "nombre sey": "Mañokopi Wiririmana saima'a"
         },
         "geometry": null
       },
@@ -874,9 +874,9 @@
         "properties": {
           "Item": "Camino Ancestral",
           "id": "1",
+          "nombre esp": "Camino ancestral Gueppi",
           "tipo": "camino",
-          "nombre sey": "Wepi saima´a",
-          "nombre esp": "Camino ancestral Gueppi"
+          "nombre sey": "Wepi saima´a"
         },
         "geometry": null
       },
@@ -1031,9 +1031,9 @@
         "properties": {
           "Item": "Laguna",
           "id": "9974675424014883186",
+          "nombre esp": "Laguna Tucunari",
           "tipo": "lake",
-          "nombre sey": "Wa'ira / Yaupa Jaira",
-          "nombre esp": "Laguna Tucunari"
+          "nombre sey": "Wa'ira / Yaupa Jaira"
         },
         "geometry": null
       },
@@ -1301,7 +1301,7 @@
           "id": "6328189700702001610",
           "nombre esp": "Clavo cocha!!",
           "tipo": "lake",
-          "nombre sey": "Oko Peeto(jaira)"
+          "nombre sey": "Oko Peeto jaira"
         },
         "geometry": null
       },
@@ -1347,9 +1347,9 @@
         "properties": {
           "Item": "Camino Ancestral",
           "id": "3",
+          "nombre esp": "Camino ancestral Angusilla / Aguas Negras",
           "tipo": "camino",
-          "nombre sey": "Aima'a Ukwisiyapi Neañana etasi ma'a.",
-          "nombre esp": "Camino ancestral Angusilla / Aguas Negras"
+          "nombre sey": "Aima'a Ukwisiyapi Neañana etasi ma'a."
         },
         "geometry": null
       },
