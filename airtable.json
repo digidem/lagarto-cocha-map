@@ -965,6 +965,12 @@
       },
       {
         "type": "Feature",
+        "id": "recdKMDJ6r06HjU6v",
+        "properties": {},
+        "geometry": null
+      },
+      {
+        "type": "Feature",
         "id": "recdThMvueBRIKiH7",
         "properties": {
           "Item": "Point",
@@ -1098,7 +1104,10 @@
         "type": "Feature",
         "id": "recjStKOs5F1f0Xxw",
         "properties": {
-          "nombre esp": "Camino a Emuya Tsiaya"
+          "nombre esp": "Camino a Emuya Tsiaya",
+          "nombre sey": " Emuña Tsiaya saima´a",
+          "Item": "Camino",
+          "tipo": "camino"
         },
         "geometry": null
       },
