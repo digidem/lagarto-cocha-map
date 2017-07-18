@@ -701,7 +701,8 @@
           "Item": "Laguna",
           "id": "14430556174583174353",
           "tipo": "lake",
-          "nombre sey": "Airo Jaira"
+          "nombre sey": "Airo Jaira",
+          "nombre esp": "laguna de fungla "
         },
         "geometry": null
       },
@@ -798,7 +799,8 @@
           "Item": "Laguna",
           "id": "954463703472333939",
           "tipo": "lake",
-          "nombre sey": "Doye Dopë(jaira)"
+          "nombre sey": "Doye Dopë(jaira)",
+          "nombre esp": "laguna de guanchinche"
         },
         "geometry": null
       },
@@ -1029,7 +1031,8 @@
           "nota sey": "Añapëkë pa'ira",
           "id": "6015610521828036113",
           "tipo": "lake",
-          "nombre sey": "Añapëkë Koje(jaira)"
+          "nombre sey": "Añapëkë Koje(jaira)",
+          "nombre esp": "mero de hueco"
         },
         "geometry": null
       },
@@ -1052,7 +1055,8 @@
           "Item": "Laguna",
           "id": "309756920534618974",
           "tipo": "lake",
-          "nombre sey": "Wa'i dopë (jaira)"
+          "nombre sey": "Wa'i dopë (jaira)",
+          "nombre esp": "laguna de pez"
         },
         "geometry": null
       },
