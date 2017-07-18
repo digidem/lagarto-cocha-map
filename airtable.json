@@ -875,7 +875,8 @@
           "Item": "Camino Ancestral",
           "id": "1",
           "tipo": "camino",
-          "nombre sey": "Camino ancestral Gueppi"
+          "nombre sey": "Wepi saima´a",
+          "nombre esp": "Camino ancestral Gueppi"
         },
         "geometry": null
       },
@@ -1347,7 +1348,8 @@
           "Item": "Camino Ancestral",
           "id": "3",
           "tipo": "camino",
-          "nombre sey": "Camino ancestral Angusilla / Aguas Negras"
+          "nombre sey": "Aima'a Ukwisiyapi Neañana etasi ma'a.",
+          "nombre esp": "Camino ancestral Angusilla / Aguas Negras"
         },
         "geometry": null
       },
