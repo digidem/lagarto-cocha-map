@@ -1044,7 +1044,16 @@
           "id": "13298961010765552998",
           "nombre esp": "Lagarto Cocha",
           "tipo": "lake",
-          "nombre sey": "Pë'ë Jaira"
+          "nombre sey": "Pë'ë Jaira",
+          "foto": [
+            {
+              "id": "att112LUBr15Q607M",
+              "url": "https://dl.airtable.com/5d4xiTdbS1GTWLNOHJxt_P%C3%AB'%C3%AB%20Jaira.mp4",
+              "filename": "Pë'ë Jaira.mp4",
+              "size": 217689983,
+              "type": "video/mp4"
+            }
+          ]
         },
         "geometry": null
       },
@@ -1082,6 +1091,14 @@
           "nombre esp": "Saladero.",
           "tipo": "fauna/tapir",
           "nombre sey": "Tu'aro"
+        },
+        "geometry": null
+      },
+      {
+        "type": "Feature",
+        "id": "recjStKOs5F1f0Xxw",
+        "properties": {
+          "nombre esp": "Camino a Emuya Tsiaya"
         },
         "geometry": null
       },
