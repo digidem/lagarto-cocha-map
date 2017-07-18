@@ -1307,7 +1307,8 @@
             }
           ],
           "tipo": "camino",
-          "nombre sey": "Emuña ma'a"
+          "nombre sey": "Emuña ma'a",
+          "nombre esp": "Camino a emuña"
         },
         "geometry": null
       },
@@ -1378,7 +1379,8 @@
             }
           ],
           "tipo": "comunidad/jai_daripe",
-          "nombre sey": "Emuña paai pa'ia daripë"
+          "nombre sey": "Emuña paai pa'ia daripë",
+          "nombre esp": "Rio emuya donde habitaban los antepasados "
         },
         "geometry": null
       },
