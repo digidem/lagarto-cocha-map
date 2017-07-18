@@ -172,7 +172,16 @@
           "id": "6410969360746213045",
           "nota esp": "En este sitio ocurrió uno de los eventos mas importantes y conocidos de todo la historia reciente Siekopai.  Cerca del año 1900, dos shamanes Siekopai  enfrentaron a dos meros (un tipo ballena Amazónica) cuales estaban atacando a gente la que iban de pesca. Con el poder de shamanismo lograron a matar a uno de estos meros y dejaron al otro vivo y ciega como un ejemplo del poder shamanico de los Siekopai.",
           "tipo": "fauna/boa",
-          "nombre sey": "Ñakomasira"
+          "nombre sey": "Ñakomasira",
+          "foto": [
+            {
+              "id": "attbbCOfRv0Gm4Dpg",
+              "url": "https://dl.airtable.com/SgqhSom3TSue8WDJmeXS_%C3%91akomasira.mp4",
+              "filename": "Ñakomasira.mp4",
+              "size": 320000225,
+              "type": "video/mp4"
+            }
+          ]
         },
         "geometry": null
       },
@@ -694,6 +703,13 @@
                   "height": 512
                 }
               }
+            },
+            {
+              "id": "attMF0fTVit2FwxLG",
+              "url": "https://dl.airtable.com/7uhlxJ6fTPSalpBTOuZJ_Emu%C3%B1a.mp4",
+              "filename": "Emuña.mp4",
+              "size": 174714894,
+              "type": "video/mp4"
             }
           ],
           "tipo": "lake",
