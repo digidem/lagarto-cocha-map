@@ -287,7 +287,7 @@
           "nota sey": "Wani pai dopë",
           "id": "5779581844608925335",
           "tipo": "lake",
-          "nombre sey": "Wani Dopë"
+          "nombre sey": "Wani Dopë (jaira)"
         },
         "geometry": null
       },
@@ -929,7 +929,6 @@
         "properties": {
           "Item": "Laguna",
           "id": "8994461966658285812",
-          "nombre esp": "Maicuri Cocha",
           "tipo": "lake",
           "nombre sey": "Te´to Dayawë"
         },
@@ -943,7 +942,7 @@
           "nota sey": "Kosa pai dopë",
           "id": "3662321094468416827",
           "tipo": "lake",
-          "nombre sey": "Koosa Dopë"
+          "nombre sey": "Koosa Dopë(jaira)"
         },
         "geometry": null
       },
@@ -1018,7 +1017,7 @@
           "Item": "Laguna",
           "id": "309756920534618974",
           "tipo": "lake",
-          "nombre sey": "Wa'i dopë"
+          "nombre sey": "Wa'i dopë (jaira)"
         },
         "geometry": null
       },
@@ -1110,7 +1109,7 @@
           "id": "2646991696197452943",
           "nombre esp": "Laguna  Camu camu",
           "tipo": "lake",
-          "nombre sey": "O'sasa Dopë"
+          "nombre sey": "O'sasa Dopë (jaira)"
         },
         "geometry": null
       },
@@ -1144,7 +1143,7 @@
           "Item": "Laguna",
           "id": "7845271947901051509",
           "tipo": "lake",
-          "nombre sey": "Yaji Wani Dopë"
+          "nombre sey": "Yaji Wani Dopë("
         },
         "geometry": null
       },
@@ -1391,7 +1390,7 @@
         "id": "recy2BZ83UimUiD4D",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Kaya añapë kë ai yëkona dawë yo'ojeorena te'o te'te ñakoa saiyo pa'isikoni ñakomasira we'yojë pa'isikoa. ",
+          "nota sey": "Kaya añapëkë ai yëkona dawë yo'ojeorena te'o te'te ñakoa saiyo pa'isikoni ñakomasira we'yojë pa'isikoa. ",
           "id": "3834331760719211353",
           "nota eng": "Two shamans fought with a giant whale-like fish here\n",
           "foto": [
