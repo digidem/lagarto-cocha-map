@@ -778,7 +778,8 @@
           "Item": "Point",
           "id": "3727004784444134244",
           "tipo": "comunidad/campamento",
-          "nombre sey": "Pookoya kai daripë"
+          "nombre sey": "Pookoya paai daripë pa'isiko",
+          "nombre esp": "Campamento del río aguas blancas "
         },
         "geometry": null
       },
@@ -800,8 +801,8 @@
           "Item": "Laguna",
           "id": "954463703472333939",
           "tipo": "lake",
-          "nombre sey": "Doye Dopë(jaira)",
-          "nombre esp": "laguna de guanchinche"
+          "nombre sey": "Doye Dopë",
+          "nombre esp": "poza de guanchinche"
         },
         "geometry": null
       },
@@ -899,7 +900,8 @@
           "Item": "Point",
           "id": "5245448524235532062",
           "tipo": "comunidad/campamento",
-          "nombre sey": "Kai daripë pë'kë'ya"
+          "nombre sey": "Kai daripë pë'kë'ya",
+          "nombre esp": "Campamento lagarto cocha "
         },
         "geometry": null
       },
@@ -1034,8 +1036,7 @@
           "nota sey": "Añapëkë pa'ira",
           "id": "6015610521828036113",
           "tipo": "lake",
-          "nombre sey": "Añapëkë Koje(jaira)",
-          "nombre esp": "mero de hueco"
+          "nombre sey": "Añapëkë Kooje"
         },
         "geometry": null
       },
