@@ -263,7 +263,8 @@
           "Item": "Laguna",
           "id": "2438293092334106259",
           "tipo": "river",
-          "nombre sey": "Tsiaya"
+          "nombre sey": "Tsiaya",
+          "nombre esp": "rio"
         },
         "geometry": null
       },
@@ -644,7 +645,7 @@
         "properties": {
           "Item": "Laguna",
           "id": "1653445585850975472",
-          "nombre esp": "Laguna",
+          "nombre esp": "cocha de lona",
           "tipo": "lake",
           "nombre sey": "Aikutiwa'ira"
         },
@@ -849,7 +850,8 @@
           "nota sey": "Po okoya je'e sa'ro",
           "id": "15294134386001206266",
           "tipo": "Camino",
-          "nombre sey": "Je'e sa'ro"
+          "nombre sey": "Je'e sa'ro",
+          "nombre esp": "Puente del río aguas blancas "
         },
         "geometry": null
       },
@@ -874,7 +876,8 @@
           "id": "9837593016172901626",
           "nota esp": "Nombre nuevo",
           "tipo": "lake",
-          "nombre sey": "Sa'sa Jaira"
+          "nombre sey": "Sa'sa Jaira",
+          "nombre esp": "laguna de martin"
         },
         "geometry": null
       },
@@ -1080,7 +1083,8 @@
           "nota sey": "iyemaka tsiaya wekë paa'ikoa yure iti sonowë",
           "id": "15270807256290582399",
           "tipo": "Camino",
-          "nombre sey": "Wakara jaira ma'a emuña  jeni tomewe'ña"
+          "nombre sey": "Wakara jaira ma'a emuña  jeni tomewe'ña",
+          "nombre esp": "Camino ancestral de cruce de garza cocha a Emuña."
         },
         "geometry": null
       },
