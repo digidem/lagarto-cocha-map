@@ -466,7 +466,7 @@
         "properties": {
           "Item": "Point",
           "id": "17463864706799181072",
-          "nota esp": "En la orilla de este laguna hubo un asentamiento Siekopai en los años previa a 1941 y incluyo una casa ceremonial de Yagé.   Aquí también se relato de un historio muy importante de los Siekopai  que trata del resurrección de un shaman quien fue enterrado y levanto después de unas días y cruzo al otro lado (hacia el lado Ecuador) para ver sus parientes quien vivían en la orilla  de la Laguna Pë’ë Jaira o ‘Lagarto Cocha’.  ",
+          "nota esp": "En la orilla de este laguna hubo un asentamiento Siekopai en los años previa a 1941 y incluyo una casa ceremonial de Yajé.   Aquí también se relato de un historia muy importante de los Siekopai  que trata del resurrección de un shaman quien fue enterrado y levanto después de unas días y cruzo al otro lado (hacia el lado Ecuador) para ver sus parientes quien vivían en la orilla  de la Laguna Pë’ë Jaira o ‘Lagarto Cocha’.  ",
           "tipo": "comunidad/pai_pai_daripe",
           "nombre sey": "Onoka të'tëpa paai pa'idaripë"
         },
@@ -1462,7 +1462,8 @@
           "id": "13636346042510859888",
           "nota esp": "Este es el punto donde uno de los caminos ancestral de los Siekopai y que conectaba la gente desde las comunidades alejado en el Rio Putumayo hacia el Rio Aguarico y con las comunidades Siekopai en la ribera del Rio Aguarico y el Rio Cuyabeno. ",
           "tipo": "Actividad",
-          "nombre sey": "Tumasa'ro manoka tsa'sa"
+          "nombre sey": "Tumasa'ro manoka tsa'sa",
+          "nombre esp": "Puerto de platanillo rojo "
         },
         "geometry": null
       }
