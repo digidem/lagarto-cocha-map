@@ -107,10 +107,10 @@
         "properties": {
           "Item": "Laguna",
           "id": "15189700795514535636",
+          "nombre esp": "laguna de hierva",
           "nota esp": "Nombre dedicado a la abundancia presencia de especies de hiervas de agua",
           "tipo": "lake",
-          "nombre sey": "Wi'ya Jaira",
-          "nombre esp": "laguna de hierva"
+          "nombre sey": "Wi'ya Jaira"
         },
         "geometry": null
       },
@@ -172,8 +172,6 @@
           "nota sey": "Añapëkë ai yëkona dawë yo'ojeorena te'o te'te ñakoa saiyo pa'isikoni ñakomasira we'yojë pa'isi jaira'ë.",
           "id": "6410969360746213045",
           "nota esp": "En este sitio ocurrió uno de los eventos mas importantes y conocidos de todo la historia reciente Siekopai.  Cerca del año 1900, dos shamanes Siekopai  enfrentaron a dos meros (un tipo ballena Amazónica) cuales estaban atacando a gente la que iban de pesca. Con el poder de shamanismo lograron a matar a uno de estos meros y dejaron al otro vivo y ciega como un ejemplo del poder shamanico de los Siekopai.",
-          "tipo": "fauna/boa",
-          "nombre sey": "Ñakomasira",
           "foto": [
             {
               "id": "attbbCOfRv0Gm4Dpg",
@@ -182,7 +180,10 @@
               "size": 320000225,
               "type": "video/mp4"
             }
-          ]
+          ],
+          "tipo": "fauna/boa",
+          "nombre sey": "Ñakomasira",
+          "nombre esp": "Laguna ciega "
         },
         "geometry": null
       },
@@ -272,9 +273,9 @@
         "properties": {
           "Item": "Laguna",
           "id": "2438293092334106259",
+          "nombre esp": "rio",
           "tipo": "river",
-          "nombre sey": "Tsiaya",
-          "nombre esp": "rio"
+          "nombre sey": "Tsiaya"
         },
         "geometry": null
       },
@@ -285,8 +286,6 @@
           "Item": "Laguna",
           "id": "8220800042945209331",
           "nota esp": "Nombre especial de la laguna  por la abundante presencia de una especie de Paujil (Kwiña) que actualmente es una especie extinguida en Ecuador. En la actualidad es un sitio de llegada de los visitantes para hacer diferentes actividades como pesca o ecot",
-          "tipo": "lake",
-          "nombre sey": "Kwiña Jaira",
           "foto": [
             {
               "id": "atttYVVkw8ynEEEHX",
@@ -295,7 +294,9 @@
               "size": 204990612,
               "type": "video/mp4"
             }
-          ]
+          ],
+          "tipo": "lake",
+          "nombre sey": "Kwiña Jaira"
         },
         "geometry": null
       },
@@ -312,9 +313,9 @@
           "Item": "Laguna",
           "nota sey": "Wani pai dopë",
           "id": "5779581844608925335",
+          "nombre esp": "laguna  de vieja",
           "tipo": "lake",
-          "nombre sey": "Wani Dopë (jaira)",
-          "nombre esp": "laguna  de vieja"
+          "nombre sey": "Wani Dopë (jaira)"
         },
         "geometry": null
       },
@@ -606,10 +607,10 @@
         "properties": {
           "Item": "Point",
           "id": "14396950168013937593",
+          "nombre esp": "Rastrojo de la casa de yaje.",
           "nota esp": "Historicamente este es un lugar de encuentros ceremoniales de yagé de los chamanes de diferentes comunidades Siekopai que lamentablemente abandonaron cuando comenzó el conflicito belico  en el año 1941 entre Ecuador y Perú.",
           "tipo": "comunidad/yaje",
-          "nombre sey": "Aipë, yaje ukujë pa'isito",
-          "nombre esp": "Rastrojo de la casa de yaje."
+          "nombre sey": "Aipë, yaje ukujë pa'isito"
         },
         "geometry": null
       },
@@ -735,9 +736,9 @@
         "properties": {
           "Item": "Laguna",
           "id": "14430556174583174353",
+          "nombre esp": "laguna de fungla ",
           "tipo": "lake",
-          "nombre sey": "Airo Jaira",
-          "nombre esp": "laguna de fungla "
+          "nombre sey": "Airo Jaira"
         },
         "geometry": null
       },
@@ -811,9 +812,9 @@
         "properties": {
           "Item": "Point",
           "id": "3727004784444134244",
+          "nombre esp": "Campamento del río aguas blancas ",
           "tipo": "comunidad/campamento",
-          "nombre sey": "Pookoya paai daripë pa'isiko",
-          "nombre esp": "Campamento del río aguas blancas "
+          "nombre sey": "Pookoya paai daripë pa'isiko"
         },
         "geometry": null
       },
@@ -834,9 +835,9 @@
         "properties": {
           "Item": "Laguna",
           "id": "954463703472333939",
+          "nombre esp": "poza de guanchinche",
           "tipo": "lake",
-          "nombre sey": "Doye Dopë",
-          "nombre esp": "poza de guanchinche"
+          "nombre sey": "Doye Dopë"
         },
         "geometry": null
       },
@@ -884,9 +885,9 @@
           "Item": "Point",
           "nota sey": "Po okoya je'e sa'ro",
           "id": "15294134386001206266",
+          "nombre esp": "Puente del río aguas blancas ",
           "tipo": "Camino",
-          "nombre sey": "Je'e sa'ro",
-          "nombre esp": "Puente del río aguas blancas "
+          "nombre sey": "Je'e sa'ro"
         },
         "geometry": null
       },
@@ -909,10 +910,10 @@
         "properties": {
           "Item": "Laguna",
           "id": "9837593016172901626",
+          "nombre esp": "laguna de martin",
           "nota esp": "Nombre nuevo",
           "tipo": "lake",
-          "nombre sey": "Sa'sa Jaira",
-          "nombre esp": "laguna de martin"
+          "nombre sey": "Sa'sa Jaira"
         },
         "geometry": null
       },
@@ -933,9 +934,9 @@
         "properties": {
           "Item": "Point",
           "id": "5245448524235532062",
+          "nombre esp": "Campamento lagarto cocha ",
           "tipo": "comunidad/campamento",
-          "nombre sey": "Kai daripë pë'kë'ya",
-          "nombre esp": "Campamento lagarto cocha "
+          "nombre sey": "Kai daripë pë'kë'ya"
         },
         "geometry": null
       },
@@ -1022,9 +1023,9 @@
           "Item": "Laguna",
           "nota sey": "Kosa pai dopë",
           "id": "3662321094468416827",
+          "nombre esp": "laguna de  unguragua ",
           "tipo": "lake",
-          "nombre sey": "Koosa Dopë(jaira)",
-          "nombre esp": "laguna de  unguragua "
+          "nombre sey": "Koosa Dopë(jaira)"
         },
         "geometry": null
       },
@@ -1050,8 +1051,6 @@
           "nota sey": "Paai pë'ë ai pa'iona jaje weýojë pa'isikoaña",
           "id": "13298961010765552998",
           "nombre esp": "Lagarto Cocha",
-          "tipo": "lake",
-          "nombre sey": "Pë'ë Jaira",
           "foto": [
             {
               "id": "att112LUBr15Q607M",
@@ -1060,7 +1059,9 @@
               "size": 217689983,
               "type": "video/mp4"
             }
-          ]
+          ],
+          "tipo": "lake",
+          "nombre sey": "Pë'ë Jaira"
         },
         "geometry": null
       },
@@ -1105,10 +1106,10 @@
         "type": "Feature",
         "id": "recjStKOs5F1f0Xxw",
         "properties": {
-          "nombre esp": "Camino a rio emuya ",
-          "nombre sey": " Emuña Tsiaya saima´a",
           "Item": "Camino",
-          "tipo": "camino"
+          "nombre esp": "Camino a rio emuya ",
+          "tipo": "camino",
+          "nombre sey": " Emuña Tsiaya saima´a"
         },
         "geometry": null
       },
@@ -1118,9 +1119,9 @@
         "properties": {
           "Item": "Laguna",
           "id": "309756920534618974",
+          "nombre esp": "laguna de pez",
           "tipo": "lake",
-          "nombre sey": "Wa'i dopë (jaira)",
-          "nombre esp": "laguna de pez"
+          "nombre sey": "Wa'i dopë (jaira)"
         },
         "geometry": null
       },
@@ -1143,9 +1144,9 @@
           "Item": "Point",
           "nota sey": "iyemaka tsiaya wekë paa'ikoa yure iti sonowë",
           "id": "15270807256290582399",
+          "nombre esp": "Camino ancestral de cruce de garza cocha a Emuña.",
           "tipo": "Camino",
-          "nombre sey": "Wakara jaira ma'a emuña  jeni tomewe'ña",
-          "nombre esp": "Camino ancestral de cruce de garza cocha a Emuña."
+          "nombre sey": "Wakara jaira ma'a emuña  jeni tomewe'ña"
         },
         "geometry": null
       },
@@ -1236,9 +1237,9 @@
         "properties": {
           "Item": "Point",
           "id": "8955157112587091531",
+          "nombre esp": "Puerto para caminar al saladero ",
           "tipo": "actividad/caza",
-          "nombre sey": "Tuma sa'ro tu'aro",
-          "nombre esp": "Puerto para caminar al saladero "
+          "nombre sey": "Tuma sa'ro tu'aro"
         },
         "geometry": null
       },
@@ -1272,9 +1273,9 @@
           "Item": "Point",
           "nota sey": "Pai juni wëi pa'isidaripëaë iyemaka.",
           "id": "5136382023604700547",
+          "nombre esp": "Rastrojo donde resucito una persona muerta ",
           "tipo": "comunidad/pai_pai_daripe",
-          "nombre sey": "Pai juni wëi pa'isidaripë",
-          "nombre esp": "Rastrojo donde resucito una persona muerta "
+          "nombre sey": "Pai juni wëi pa'isidaripë"
         },
         "geometry": null
       },
@@ -1285,6 +1286,7 @@
           "Item": "Camino Ancestral",
           "nota sey": "Wakara jaira ma'a, emuña  jeni tomewe'ña",
           "id": "9",
+          "nombre esp": "Camino a emuña",
           "foto": [
             {
               "id": "attwx7V6aoyG3slWh",
@@ -1307,8 +1309,7 @@
             }
           ],
           "tipo": "camino",
-          "nombre sey": "Emuña ma'a",
-          "nombre esp": "Camino a emuña"
+          "nombre sey": "Emuña ma'a"
         },
         "geometry": null
       },
@@ -1318,6 +1319,7 @@
         "properties": {
           "Item": "Point",
           "id": "4949591082239758199",
+          "nombre esp": "Rio emuya donde habitaban los antepasados ",
           "nota esp": "Se sabe que aqui habia una comunidad antigua, que por muchas enfermedades las familias se adentraron y establecieron, de aquello como muestras hay un rastrojo donde se puede visualizar los pedasos de ceramica, yoko, yaje, especies de bambú especiales.",
           "foto": [
             {
@@ -1379,8 +1381,7 @@
             }
           ],
           "tipo": "comunidad/jai_daripe",
-          "nombre sey": "Emuña paai pa'ia daripë",
-          "nombre esp": "Rio emuya donde habitaban los antepasados "
+          "nombre sey": "Emuña paai pa'ia daripë"
         },
         "geometry": null
       },
@@ -1490,9 +1491,9 @@
           "Item": "Laguna",
           "nota sey": "Paaipi kakani yo'oto ko'jekoa iye jaira",
           "id": "16609894561463362825",
+          "nombre esp": "laguna de mero",
           "tipo": "lake",
-          "nombre sey": "Añapëkë Jaira",
-          "nombre esp": "laguna de mero"
+          "nombre sey": "Añapëkë Jaira"
         },
         "geometry": null
       },
