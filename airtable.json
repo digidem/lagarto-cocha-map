@@ -1105,7 +1105,7 @@
         "type": "Feature",
         "id": "recjStKOs5F1f0Xxw",
         "properties": {
-          "nombre esp": "Camino a Emuya Tsiaya",
+          "nombre esp": "Camino a rio emuya ",
           "nombre sey": " Emuña Tsiaya saima´a",
           "Item": "Camino",
           "tipo": "camino"
@@ -1237,7 +1237,8 @@
           "Item": "Point",
           "id": "8955157112587091531",
           "tipo": "actividad/caza",
-          "nombre sey": "Tuma sa'ro tu'aro"
+          "nombre sey": "Tuma sa'ro tu'aro",
+          "nombre esp": "Puerto para caminar al saladero "
         },
         "geometry": null
       },
