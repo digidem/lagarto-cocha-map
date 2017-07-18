@@ -281,6 +281,12 @@
       },
       {
         "type": "Feature",
+        "id": "rec7sxAGUCGCLeuTT",
+        "properties": {},
+        "geometry": null
+      },
+      {
+        "type": "Feature",
         "id": "rec841iJXsBgqCzDH",
         "properties": {
           "Item": "Laguna",
@@ -374,6 +380,17 @@
           "nombre esp": "Cuatro Cocha",
           "tipo": "lake",
           "nombre sey": "Nuni Jaira"
+        },
+        "geometry": null
+      },
+      {
+        "type": "Feature",
+        "id": "recBxK3xbuNHbhbnz",
+        "properties": {
+          "Item": "Camino Ancestral",
+          "tipo": "camino",
+          "nombre sey": "Camino a Emuya Tsiaya",
+          "id": "16"
         },
         "geometry": null
       },
@@ -731,11 +748,11 @@
           "Item": "Point",
           "nota sey": "Pi'awajë kwi'ne Payowajeë pa'ijë pa'isito.",
           "id": "1473321167304750939",
+          "nombre esp": "Bocana del lagarto cocha ",
           "nota esp": "Habia una comunidad en la bocana de Lagarto Cocha, desde alli se caminaba hasta Sokora Jaira hasta cruzar al Napo, alli tenian contacto con otros grupos indigenas (Waorani). Al ver que vivian sin ropas se les denominaron Kapeotini, de ello le dieron Tiputi.Adicionalmente,  Sra. Joaquina Payaguaje relató que hay muchos huesos de sus ancestros Siekopai enterrados aquí, y lo cuales incluye los de sus propios padres. Hoy día este sitio se encuentra el destacamento Militar Peruano Clavero.  También se cuentan que en esta época la bocana era unos cienes de metros mas abajo que lo que es actual, debido a un cambio de trayecto de los ríos. ",
           "nota eng": "1473321167304750939",
           "tipo": "comunidad/jai_daripe",
-          "nombre sey": "Pë'ëkëya sarawa ",
-          "nombre esp": "Bocana del lagarto cocha "
+          "nombre sey": "Pë'ëkëya sarawa "
         },
         "geometry": null
       },
@@ -855,6 +872,17 @@
           "nota esp": "Nombre nuevo",
           "tipo": "lake",
           "nombre sey": "Sa'sa Jaira"
+        },
+        "geometry": null
+      },
+      {
+        "type": "Feature",
+        "id": "reccBkzwfClQzTDuQ",
+        "properties": {
+          "Item": "Camino Ancestral",
+          "tipo": "camino",
+          "nombre sey": "Cañon de negra",
+          "id": "15"
         },
         "geometry": null
       },
