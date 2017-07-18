@@ -276,7 +276,16 @@
           "id": "8220800042945209331",
           "nota esp": "Nombre especial de la laguna  por la abundante presencia de una especie de Paujil (Kwiña) que actualmente es una especie extinguida en Ecuador. En la actualidad es un sitio de llegada de los visitantes para hacer diferentes actividades como pesca o ecot",
           "tipo": "lake",
-          "nombre sey": "Kwiña Jaira"
+          "nombre sey": "Kwiña Jaira",
+          "foto": [
+            {
+              "id": "atttYVVkw8ynEEEHX",
+              "url": "https://dl.airtable.com/vNLLyJM8TZUAk5MXjdn5_Kwi%C3%B1a%20Jaira.mp4",
+              "filename": "Kwiña Jaira.mp4",
+              "size": 204990612,
+              "type": "video/mp4"
+            }
+          ]
         },
         "geometry": null
       },
@@ -506,6 +515,13 @@
               "filename": "_MG_1071.CR2",
               "size": 23224120,
               "type": "image/x-canon-cr2"
+            },
+            {
+              "id": "attNOAekz1ghaPQPx",
+              "url": "https://dl.airtable.com/d52afodSR0MuCwSuYM9A_Wakara%20Jaira.mp4",
+              "filename": "Wakara Jaira.mp4",
+              "size": 238229954,
+              "type": "video/mp4"
             }
           ],
           "tipo": "lake",
