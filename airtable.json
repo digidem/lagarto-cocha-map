@@ -293,7 +293,8 @@
           "nota sey": "Wani pai dopë",
           "id": "5779581844608925335",
           "tipo": "lake",
-          "nombre sey": "Wani Dopë (jaira)"
+          "nombre sey": "Wani Dopë (jaira)",
+          "nombre esp": "laguna  de vieja"
         },
         "geometry": null
       },
@@ -388,9 +389,9 @@
         "id": "recBxK3xbuNHbhbnz",
         "properties": {
           "Item": "Camino Ancestral",
+          "id": "16",
           "tipo": "camino",
-          "nombre sey": "Camino a Emuya Tsiaya",
-          "id": "16"
+          "nombre sey": "Camino a Emuya Tsiaya"
         },
         "geometry": null
       },
@@ -880,9 +881,9 @@
         "id": "reccBkzwfClQzTDuQ",
         "properties": {
           "Item": "Camino Ancestral",
+          "id": "15",
           "tipo": "camino",
-          "nombre sey": "Cañon de negra",
-          "id": "15"
+          "nombre sey": "Cañon de negra"
         },
         "geometry": null
       },
@@ -975,7 +976,8 @@
           "nota sey": "Kosa pai dopë",
           "id": "3662321094468416827",
           "tipo": "lake",
-          "nombre sey": "Koosa Dopë(jaira)"
+          "nombre sey": "Koosa Dopë(jaira)",
+          "nombre esp": "laguna de  unguragua "
         },
         "geometry": null
       },
@@ -1416,7 +1418,8 @@
           "nota sey": "Paaipi kakani yo'oto ko'jekoa iye jaira",
           "id": "16609894561463362825",
           "tipo": "lake",
-          "nombre sey": "Añapëkë Jaira"
+          "nombre sey": "Añapëkë Jaira",
+          "nombre esp": "mero cocha"
         },
         "geometry": null
       },
