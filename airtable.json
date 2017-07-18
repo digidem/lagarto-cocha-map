@@ -514,7 +514,7 @@
           "nota sey": "Suni ai pa'ikoa iye jaira.",
           "id": "662666943055204599",
           "tipo": "lake",
-          "nombre sey": "Sunijaira"
+          "nombre sey": "Suni jaira"
         },
         "geometry": null
       },
@@ -1460,10 +1460,10 @@
         "properties": {
           "Item": "Point",
           "id": "13636346042510859888",
+          "nombre esp": "Puerto de platanillo rojo ",
           "nota esp": "Este es el punto donde uno de los caminos ancestral de los Siekopai y que conectaba la gente desde las comunidades alejado en el Rio Putumayo hacia el Rio Aguarico y con las comunidades Siekopai en la ribera del Rio Aguarico y el Rio Cuyabeno. ",
           "tipo": "Actividad",
-          "nombre sey": "Tumasa'ro manoka tsa'sa",
-          "nombre esp": "Puerto de platanillo rojo "
+          "nombre sey": "Tumasa'ro manoka tsa'sa"
         },
         "geometry": null
       }
