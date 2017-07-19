@@ -612,7 +612,7 @@
         "id": "recNElU1dUXxdlKWO",
         "properties": {
           "Item": "Point",
-          "nota sey": "yaje wë'e paaio p",
+          "nota sey": "yaje wë'e pa'io paiamaka",
           "id": "14396950168013937593",
           "nombre esp": "Rastrojo de la casa de yaje.",
           "nota esp": "Historicamente este es un lugar de encuentros ceremoniales de yagé de los chamanes de diferentes comunidades Siekopai que lamentablemente abandonaron cuando comenzó el conflicito belico  en el año 1941 entre Ecuador y Perú.",
@@ -639,6 +639,7 @@
         "id": "recPlLhpAbTnuMUsL",
         "properties": {
           "Item": "Point",
+          "nota sey": "kwiña jaira tëtëpare paaijii airo kai ",
           "id": "8013122578254606165",
           "nota esp": "Actual campamento o punto de llegada principal de los visitantes y propios Siekopai para hacer diferentes actividades, como la recoleccion de materia prima para la elaboracion de diferentes herramientas, pesca y caceria artesanal y ecoturismo.",
           "foto": [
@@ -825,6 +826,7 @@
           "nota sey": "pookoya tsiaya pai daripë paimaka",
           "id": "3727004784444134244",
           "nombre esp": "Campamento del río aguas blancas ",
+          "nota esp": "Lugar donde habitaban nuestro antepasados, en las orilla del rio aguas blancas.",
           "tipo": "comunidad/campamento",
           "nombre sey": "Pookoya paai daripë pa'isiko"
         },
@@ -955,6 +957,7 @@
           "nota sey": "pë'këya saniwë saijë pëani kaimaka ",
           "id": "5245448524235532062",
           "nombre esp": "Campamento lagarto cocha ",
+          "nota esp": "Campamento donde se puede descansar el viaje ",
           "tipo": "comunidad/campamento",
           "nombre sey": "Kai daripë pë'kë'ya"
         },
