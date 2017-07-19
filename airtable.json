@@ -68,7 +68,7 @@
           "nota esp": "tsoe we'ña paipi karena akëpi we'yoko paa'a'koña wepi paai kato we'epi karena.",
           "tipo": "caminos/ai_maa",
           "nombre sey": "Ma'a wepi kaa maa'a",
-          "nota sey": "tsoe we'ña paipi peru sorao katare we'yokaijë paiakoni wepi kayë (pai we'ekë saia ma'are)"
+          "nota sey": "tsoe we'ña paipi peru sorao katare we'yokaijë paiakoni wepi kayë (pai we'ekë sai a ma'are )"
         },
         "geometry": null
       },
@@ -102,7 +102,8 @@
             }
           ],
           "tipo": "comunidad/jai_daripe",
-          "nombre sey": "Tupë sa'ro Paai pa'idaripë"
+          "nombre sey": "Tupë sa'ro Paai pa'idaripë",
+          "nota sey": "iye maka paajii jai daripë siekoapai paijë paiamaka  "
         },
         "geometry": null
       },
@@ -420,7 +421,8 @@
           "Item": "Camino Ancestral",
           "id": "16",
           "tipo": "camino",
-          "nombre sey": "Camino a Emuya Tsiaya"
+          "nombre sey": "Camino a Emuya Tsiaya",
+          "nota sey": "jenitome ma'a emuya tsiayana jaye"
         },
         "geometry": null
       },
@@ -609,7 +611,7 @@
           "Item": "Point",
           "id": "1123698577759621497",
           "nombre esp": "Saladero de puercos del monte(Guanguana)",
-          "nota esp": "Es un saladero de guanguanas, siemp",
+          "nota esp": "Es un saladero de guanguanas, siempre suelen venir a ese lugar.",
           "tipo": "fauna/huangana",
           "nombre sey": "Sese Tu'aro",
           "nota sey": "sese tu'aro"
