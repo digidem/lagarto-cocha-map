@@ -110,7 +110,8 @@
           "nombre esp": "laguna de hierva",
           "nota esp": "Nombre dedicado a la abundancia presencia de especies de hiervas de agua",
           "tipo": "lake",
-          "nombre sey": "Wi'ya Jaira"
+          "nombre sey": "Wi'ya Jaira",
+          "nota sey": "iye jairakato wiyapi tsiaya të"
         },
         "geometry": null
       },
@@ -195,7 +196,8 @@
           "id": "2222",
           "nombre esp": "Laguna negra",
           "tipo": "lake",
-          "nombre sey": "Nea Jaira"
+          "nombre sey": "Nea Jaira",
+          "nota sey": "iti jairapi neako paaina jaje weyosikoa."
         },
         "geometry": null
       },
@@ -486,7 +488,8 @@
           "id": "12",
           "nombre esp": "Camino Ancestral: Wajoya ",
           "tipo": "camino",
-          "nombre sey": " Wajoyapi / Mañokona daima'a, ma'a sarawa."
+          "nombre sey": " Wajoyapi / Mañokona daima'a, ma'a sarawa.",
+          "nota esp": "Camino ancestral de wajoya a la comunidad ma"
         },
         "geometry": null
       },
@@ -681,7 +684,7 @@
           "nombre esp": "laguna de montaña",
           "tipo": "lake",
           "nombre sey": "Aikutiwa'ira",
-          "nota sey": "\n",
+          "nota sey": "Iye jaira kato pa'ikoa airo maisitore, iti jairare paa'iyë kooasi'a wa'i.\n\n",
           "nota esp": "Es una laguna del monte aqui existen bastante peces.\n"
         },
         "geometry": null
