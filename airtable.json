@@ -111,7 +111,7 @@
           "nota esp": "Nombre dedicado a la abundancia presencia de especies de hiervas de agua",
           "tipo": "lake",
           "nombre sey": "Wi'ya Jaira",
-          "nota sey": "iye jairakato wiyapi tsiaya të"
+          "nota sey": "iye jairakato wi'yapi tsiaya tëwoyëkona jaje weyoakoa."
         },
         "geometry": null
       },
@@ -291,15 +291,6 @@
           "Item": "Laguna",
           "id": "8220800042945209331",
           "nota esp": "Nombre especial de la laguna  por la abundante presencia de una especie de Paujil (Kwiña) que actualmente es una especie extinguida en Ecuador. En la actualidad es un sitio de llegada de los visitantes para hacer diferentes actividades como pesca o ecot",
-          "foto": [
-            {
-              "id": "atttYVVkw8ynEEEHX",
-              "url": "https://dl.airtable.com/vNLLyJM8TZUAk5MXjdn5_Kwi%C3%B1a%20Jaira.mp4",
-              "filename": "Kwiña Jaira.mp4",
-              "size": 204990612,
-              "type": "video/mp4"
-            }
-          ],
           "tipo": "lake",
           "nombre sey": "Kwiña Jaira"
         },
@@ -476,7 +467,8 @@
           "id": "3647679523302977352",
           "nombre esp": "Laguna de los delfines rosado.",
           "tipo": "lake",
-          "nombre sey": "Mawëwë Jaira"
+          "nombre sey": "Mawëwë Jaira",
+          "nota sey": "iye maka majaii wëwëpi paijëna kayë."
         },
         "geometry": null
       },
@@ -489,7 +481,7 @@
           "nombre esp": "Camino Ancestral: Wajoya ",
           "tipo": "camino",
           "nombre sey": " Wajoyapi / Mañokona daima'a, ma'a sarawa.",
-          "nota esp": "Camino ancestral de wajoya a la comunidad ma"
+          "nota esp": "Camino ancestral de wajoya a la comunidad ma'ñoko"
         },
         "geometry": null
       },
@@ -532,17 +524,11 @@
               "filename": "_MG_1071.CR2",
               "size": 23224120,
               "type": "image/x-canon-cr2"
-            },
-            {
-              "id": "attNOAekz1ghaPQPx",
-              "url": "https://dl.airtable.com/d52afodSR0MuCwSuYM9A_Wakara%20Jaira.mp4",
-              "filename": "Wakara Jaira.mp4",
-              "size": 238229954,
-              "type": "video/mp4"
             }
           ],
           "tipo": "lake",
-          "nombre sey": "Wakara Jaira"
+          "nombre sey": "Wakara Jaira",
+          "nota sey": "iye jaira kato wakarapi paaijëna jaje kayë"
         },
         "geometry": null
       },
@@ -715,13 +701,6 @@
                   "height": 512
                 }
               }
-            },
-            {
-              "id": "attMF0fTVit2FwxLG",
-              "url": "https://dl.airtable.com/7uhlxJ6fTPSalpBTOuZJ_Emu%C3%B1a.mp4",
-              "filename": "Emuña.mp4",
-              "size": 174714894,
-              "type": "video/mp4"
             }
           ],
           "tipo": "lake",
@@ -1061,15 +1040,6 @@
           "nota sey": "Paai pë'ë ai pa'iona jaje weýojë pa'isikoaña",
           "id": "13298961010765552998",
           "nombre esp": "Lagarto Cocha",
-          "foto": [
-            {
-              "id": "att112LUBr15Q607M",
-              "url": "https://dl.airtable.com/5d4xiTdbS1GTWLNOHJxt_P%C3%AB'%C3%AB%20Jaira.mp4",
-              "filename": "Pë'ë Jaira.mp4",
-              "size": 217689983,
-              "type": "video/mp4"
-            }
-          ],
           "tipo": "lake",
           "nombre sey": "Pë'ë Jaira"
         },
