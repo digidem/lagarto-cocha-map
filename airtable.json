@@ -207,7 +207,8 @@
           "id": "8731023371289088177",
           "tipo": "lake",
           "nombre sey": "Infante Jaira",
-          "nota sey": "infanteria peru soraopi airo sakëna anijeona jaje weyoakoë. "
+          "nota sey": "infanteria peru soraopi airo sakëna anijeona jaje weyoakoë. ",
+          "nota esp": "En esta laguna había comido la boa o mero al soldado peruano de la infanteria por eso los siekopaai han llamado laguna de infante.\n"
         },
         "geometry": null
       },
@@ -562,7 +563,9 @@
           "nota sey": "Suni ai pa'ikoa iye jaira.",
           "id": "662666943055204599",
           "tipo": "lake",
-          "nombre sey": "Suni jaira"
+          "nombre sey": "Suni jaira",
+          "nombre esp": "Laguna de maní del monte.",
+          "nota esp": "En esta laguna existe bastante maní del monte y son frutas comestibles."
         },
         "geometry": null
       },
@@ -675,9 +678,11 @@
         "properties": {
           "Item": "Laguna",
           "id": "1653445585850975472",
-          "nombre esp": "laguna de mantaña",
+          "nombre esp": "laguna de montaña",
           "tipo": "lake",
-          "nombre sey": "Aikutiwa'ira"
+          "nombre sey": "Aikutiwa'ira",
+          "nota sey": "\n",
+          "nota esp": "Es una laguna del monte aqui existen bastante peces.\n"
         },
         "geometry": null
       },
