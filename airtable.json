@@ -23,7 +23,7 @@
           "Item": "Point",
           "nota sey": "wakara jaira të'tëpare airo kaisani kai daripë paijii ",
           "id": "16316963937723214038",
-          "nombre esp": "Campamento en Garzacocha",
+          "nombre esp": "Campamento  Garza cocha.",
           "foto": [
             {
               "id": "attIA2PLKXb3JdoVh",
@@ -237,7 +237,8 @@
             }
           ],
           "tipo": "comunidad/comunidad_nueva",
-          "nombre sey": "Ma'ñoko paai pa'idaripë"
+          "nombre sey": "Ma'ñoko paai pa'idaripë",
+          "nota sey": "Año 2003 pai maka pai daijë paawë ti iona pëani payu'u kajë yo'oni io mami daripë weyoawë'ë mañoko."
         },
         "geometry": null
       },
@@ -1261,7 +1262,8 @@
           "id": "5343724908215276575",
           "nombre esp": "Poza de palometas",
           "tipo": "lake",
-          "nombre sey": "Paku Dopë"
+          "nombre sey": "Paku Dopë",
+          "nota esp": "En esta laguna abundan las palometas por eso se conoce como paza de palometas.\n"
         },
         "geometry": null
       },
