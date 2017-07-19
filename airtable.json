@@ -612,6 +612,7 @@
         "id": "recNElU1dUXxdlKWO",
         "properties": {
           "Item": "Point",
+          "nota sey": "yaje wë'e paaio p",
           "id": "14396950168013937593",
           "nombre esp": "Rastrojo de la casa de yaje.",
           "nota esp": "Historicamente este es un lugar de encuentros ceremoniales de yagé de los chamanes de diferentes comunidades Siekopai que lamentablemente abandonaron cuando comenzó el conflicito belico  en el año 1941 entre Ecuador y Perú.",
@@ -1165,11 +1166,12 @@
         "id": "reckxZDqqiQWCFe0r",
         "properties": {
           "Item": "Point",
+          "nota sey": "iye ma'aja ai jaye jenitojë yaje ukujëpaawë emuya tsiayana",
           "id": "15270807256290582399",
           "nombre esp": "Camino ancestral de cruce de garza cocha a Emuña.",
           "tipo": "Camino",
           "nombre sey": "Wakara jaira ma'a emuña  jeni tomewe'ña",
-          "nota esp": "Camino ancestral que cruza al rio emuña del la laguna garza cocha "
+          "nota esp": "Camino ancestral que cruza al rio emuña desde la laguna garza cocha, para realizar su ceremonia de yaje "
         },
         "geometry": null
       },
