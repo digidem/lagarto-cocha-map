@@ -479,11 +479,12 @@
         "id": "recDfKIwI1sI6UidG",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "iye maka majaii wëwëpi paijëna kayë.",
+          "nota sey": "Iye maka mawëwëpi paijëna kayë.",
           "id": "3647679523302977352",
           "nombre esp": "Laguna de los delfines rosado.",
           "tipo": "lake",
-          "nombre sey": "Mawëwë Jaira"
+          "nombre sey": "Mawëwë Jaira",
+          "nota esp": "Esta laguna existes muchos delfines rosados "
         },
         "geometry": null
       },
