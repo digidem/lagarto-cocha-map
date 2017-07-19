@@ -11,7 +11,8 @@
           "nombre esp": "Platanillo rojo",
           "nota esp": "Un camino ancestral que conectaba la gente desde las comunidades alejado en el Río Putumayo hacia el Río Aguarico con las comunidades Siekopai en la ribera del Río Aguarico y el Río Cuyubeno",
           "tipo": "camino",
-          "nombre sey": "Manoka tsa'sa"
+          "nombre sey": "Manoka tsa'sa",
+          "nota sey": "iye makare manoka tsasa paaikoa"
         },
         "geometry": null
       },
@@ -484,7 +485,8 @@
           "nombre esp": "Camino Ancestral: Wajoya ",
           "nota esp": "Camino ancestral de wajoya a la comunidad ma'ñoko",
           "tipo": "camino",
-          "nombre sey": " Wajoyapi / Mañokona daima'a, ma'a sarawa."
+          "nombre sey": " Wajoyapi / Mañokona daima'a, ma'a sarawa.",
+          "nota sey": "tsoeweña daijë paiama'a"
         },
         "geometry": null
       },
@@ -496,7 +498,9 @@
           "id": "4",
           "nombre esp": "Camino Wiririma / Mañoko",
           "tipo": "camino",
-          "nombre sey": "Mañokopi Wiririmana saima'a"
+          "nombre sey": "Mañokopi Wiririmana saima'a",
+          "nota esp": "Camino que llega de wirima a la comunidad ma'ñoko.",
+          "nota sey": "mañokona "
         },
         "geometry": null
       },
