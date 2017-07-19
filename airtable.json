@@ -739,7 +739,7 @@
           "Item": "Laguna",
           "nota sey": "iye jaira kato airo soo saisitore paikoa. ",
           "id": "14430556174583174353",
-          "nombre esp": "laguna de fungla ",
+          "nombre esp": "laguna de jungla ",
           "nota esp": "Esta laguna esta ubicado muy adentro del bosque.",
           "tipo": "lake",
           "nombre sey": "Airo Jaira"
@@ -819,6 +819,7 @@
         "id": "recWThh6RZReqyNGV",
         "properties": {
           "Item": "Point",
+          "nota sey": "pookoya tsiaya pai daripë paimaka",
           "id": "3727004784444134244",
           "nombre esp": "Campamento del río aguas blancas ",
           "tipo": "comunidad/campamento",
@@ -948,6 +949,7 @@
         "id": "reccrXKa88quSTMFj",
         "properties": {
           "Item": "Point",
+          "nota sey": "pë'këya saniwë saijë pëani kaimaka ",
           "id": "5245448524235532062",
           "nombre esp": "Campamento lagarto cocha ",
           "tipo": "comunidad/campamento",
@@ -991,9 +993,10 @@
         "type": "Feature",
         "id": "recdThMvueBRIKiH7",
         "properties": {
-          "Item": "Point",
-          "nota sey": "muse tu'aro jaira paaimaka",
+          "Item": "PointEn ",
+          "nota sey": "muse jaira airore wekë tu'aro paaijii ",
           "id": "18348623763743778288",
+          "nota esp": "En la laguna de chuncho existe un saladero de dantas. ",
           "tipo": "fauna/tapir",
           "nombre sey": "Muse tu'aro"
         },
@@ -1019,7 +1022,9 @@
           "nota sey": "Añapëkë etamëiko",
           "id": "11558844345601045169",
           "tipo": "lake",
-          "nombre sey": "Añapëkë Kooje"
+          "nombre sey": "Añapëkë Kooje",
+          "nombre esp": "Cueva de mero",
+          "nota esp": "Por este cueva había salido el mero, ballena de agua dulce.\n"
         },
         "geometry": null
       },
@@ -1252,6 +1257,7 @@
           "nota sey": "tu'aro saima'a",
           "id": "8955157112587091531",
           "nombre esp": "Puerto para caminar al saladero ",
+          "nota esp": "Puerto para ",
           "tipo": "actividad/caza",
           "nombre sey": "Tuma sa'ro tu'aro"
         },
