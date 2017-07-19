@@ -171,6 +171,7 @@
           "Item": "Point",
           "nota sey": "Añapëkë ai yëkona dawë yo'ojeorena te'o te'te ñakoa saiyo pa'isikoni ñakomasira we'yojë pa'isi jaira'ë.",
           "id": "6410969360746213045",
+          "nombre esp": "Laguna ciega ",
           "nota esp": "En este sitio ocurrió uno de los eventos mas importantes y conocidos de todo la historia reciente Siekopai.  Cerca del año 1900, dos shamanes Siekopai  enfrentaron a dos meros (un tipo ballena Amazónica) cuales estaban atacando a gente la que iban de pesca. Con el poder de shamanismo lograron a matar a uno de estos meros y dejaron al otro vivo y ciega como un ejemplo del poder shamanico de los Siekopai.",
           "foto": [
             {
@@ -182,8 +183,7 @@
             }
           ],
           "tipo": "fauna/boa",
-          "nombre sey": "Ñakomasira",
-          "nombre esp": "Laguna ciega "
+          "nombre sey": "Ñakomasira"
         },
         "geometry": null
       },
@@ -263,7 +263,8 @@
           "id": "13654139179669022758",
           "nombre esp": "Laguna de los defines",
           "tipo": "lake",
-          "nombre sey": "Wëwë Jaira"
+          "nombre sey": "Wëwë Jaira",
+          "nota sey": "w"
         },
         "geometry": null
       },
