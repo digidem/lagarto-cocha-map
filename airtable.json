@@ -735,7 +735,7 @@
           "tipo": "lake",
           "nombre sey": "Airo Jaira",
           "nota sey": "iye jaira kato airo soo saisitore paikoa. ",
-          "nota esp": "Esta laguna esta ubicado muy lejos del bosque "
+          "nota esp": "Esta laguna esta ubicado muy adentro del bosque."
         },
         "geometry": null
       },
@@ -748,7 +748,8 @@
           "nombre esp": "Laguna casique",
           "tipo": "lake",
           "nombre sey": "Seo Jaira",
-          "nota sey": "iye jaira kato seo repase'e paikoa."
+          "nota sey": "iye jaira kato seo repase'e paikoa.",
+          "nota esp": "En esta laguna "
         },
         "geometry": null
       },
@@ -1446,7 +1447,8 @@
           "id": "4652925738033100594",
           "nombre esp": "Centrillo cocha",
           "tipo": "lake",
-          "nombre sey": "Jopo Jaira"
+          "nombre sey": "Jopo Jaira",
+          "nota sey": "iye jaira kwinajai jopore paaiona"
         },
         "geometry": null
       },
@@ -1484,7 +1486,8 @@
           "nombre esp": "Poza de huanchinche",
           "nota esp": "Tambien nombre Tapepero Jaira",
           "tipo": "lake",
-          "nombre sey": "Doye Dopë"
+          "nombre sey": "Doye Dopë",
+          "nota sey": "doye wa'i paiko"
         },
         "geometry": null
       },
