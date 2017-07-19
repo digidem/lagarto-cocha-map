@@ -106,12 +106,12 @@
         "id": "rec2AVjxzBrVprEJ8",
         "properties": {
           "Item": "Laguna",
+          "nota sey": "iye jairakato wi'yapi tsiaya tëwoyëkona jaje weyoakoa.",
           "id": "15189700795514535636",
           "nombre esp": "laguna de hierva",
           "nota esp": "Nombre dedicado a la abundancia presencia de especies de hiervas de agua",
           "tipo": "lake",
-          "nombre sey": "Wi'ya Jaira",
-          "nota sey": "iye jairakato wi'yapi tsiaya tëwoyëkona jaje weyoakoa."
+          "nombre sey": "Wi'ya Jaira"
         },
         "geometry": null
       },
@@ -145,11 +145,11 @@
         "id": "rec32UaeL9bikJ0aq",
         "properties": {
           "Item": "Laguna",
+          "nota sey": "Soto ya'opi ja jaira paaikoa.",
           "id": "16607546306117930864",
           "nombre esp": "Lago de arcilla",
           "tipo": "lake",
-          "nombre sey": "Soto Jaira",
-          "nota sey": "Soto ya'opi ja jaira paaikoa."
+          "nombre sey": "Soto Jaira"
         },
         "geometry": null
       },
@@ -194,11 +194,11 @@
         "id": "rec4Fio58BQeB6Bfx",
         "properties": {
           "Item": "Laguna",
+          "nota sey": "iti jairapi neako paaina jaje weyosikoa.",
           "id": "2222",
           "nombre esp": "Laguna negra",
           "tipo": "lake",
-          "nombre sey": "Nea Jaira",
-          "nota sey": "iti jairapi neako paaina jaje weyosikoa."
+          "nombre sey": "Nea Jaira"
         },
         "geometry": null
       },
@@ -207,11 +207,11 @@
         "id": "rec4JvYQSOUj2AznO",
         "properties": {
           "Item": "Laguna",
-          "id": "8731023371289088177",
-          "tipo": "lake",
-          "nombre sey": "Infante Jaira",
           "nota sey": "infanteria peru soraopi airo sakëna anijeona jaje weyoakoë. ",
-          "nota esp": "En esta laguna había comido la boa o mero al soldado peruano de la infanteria por eso los siekopaai han llamado laguna de infante.\n"
+          "id": "8731023371289088177",
+          "nota esp": "En esta laguna había comido la boa o mero al soldado peruano de la infanteria por eso los siekopaai han llamado laguna de infante.\n",
+          "tipo": "lake",
+          "nombre sey": "Infante Jaira"
         },
         "geometry": null
       },
@@ -254,10 +254,10 @@
         "id": "rec5CurVxtt5NVd0E",
         "properties": {
           "Item": "Laguna",
+          "nota sey": "okotu'ipi paaikoaña ja jaira.",
           "id": "649959265187868029",
           "tipo": "lake",
-          "nombre sey": "Okotu'i Jaira",
-          "nota sey": "okotu'ipi paaikoaña ja jaira."
+          "nombre sey": "Okotu'i Jaira"
         },
         "geometry": null
       },
@@ -266,11 +266,11 @@
         "id": "rec6TrZJisp71AOTF",
         "properties": {
           "Item": "Laguna",
+          "nota sey": "Wëwëpi airepa paiona jaje weyoakoa.",
           "id": "13654139179669022758",
           "nombre esp": "Laguna de los defines",
           "tipo": "lake",
-          "nombre sey": "Wëwë Jaira",
-          "nota sey": "Wëwëpi airepa paiona jaje weyoakoa."
+          "nombre sey": "Wëwë Jaira"
         },
         "geometry": null
       },
@@ -291,11 +291,11 @@
         "id": "rec6qOYJS3G7rQQHi",
         "properties": {
           "Item": "Laguna",
+          "nota sey": "kwiñapi ja jaira paaikoaña",
           "id": "8220800042945209331",
           "nota esp": "Nombre especial de la laguna  por la abundante presencia de una especie de Paujil (Kwiña) que actualmente es una especie extinguida en Ecuador. En la actualidad es un sitio de llegada de los visitantes para hacer diferentes actividades como pesca o ecot",
           "tipo": "lake",
-          "nombre sey": "Kwiña Jaira",
-          "nota sey": "kwiñapi ja jaira paaikoaña"
+          "nombre sey": "Kwiña Jaira"
         },
         "geometry": null
       },
@@ -467,11 +467,11 @@
         "id": "recDfKIwI1sI6UidG",
         "properties": {
           "Item": "Laguna",
+          "nota sey": "iye maka majaii wëwëpi paijëna kayë.",
           "id": "3647679523302977352",
           "nombre esp": "Laguna de los delfines rosado.",
           "tipo": "lake",
-          "nombre sey": "Mawëwë Jaira",
-          "nota sey": "iye maka majaii wëwëpi paijëna kayë."
+          "nombre sey": "Mawëwë Jaira"
         },
         "geometry": null
       },
@@ -482,9 +482,9 @@
           "Item": "Camino Ancestral",
           "id": "12",
           "nombre esp": "Camino Ancestral: Wajoya ",
+          "nota esp": "Camino ancestral de wajoya a la comunidad ma'ñoko",
           "tipo": "camino",
-          "nombre sey": " Wajoyapi / Mañokona daima'a, ma'a sarawa.",
-          "nota esp": "Camino ancestral de wajoya a la comunidad ma'ñoko"
+          "nombre sey": " Wajoyapi / Mañokona daima'a, ma'a sarawa."
         },
         "geometry": null
       },
@@ -517,6 +517,7 @@
         "id": "recIueqyDy0lzAOSq",
         "properties": {
           "Item": "Laguna",
+          "nota sey": "iye jaira kato wakarapi paaijëna jaje kayë",
           "id": "1111",
           "nombre esp": "Garza cocha",
           "nota esp": "Nombre originario que se da antiguamente por abundante presencia de muchas especies de garza.LL",
@@ -530,8 +531,7 @@
             }
           ],
           "tipo": "lake",
-          "nombre sey": "Wakara Jaira",
-          "nota sey": "iye jaira kato wakarapi paaijëna jaje kayë"
+          "nombre sey": "Wakara Jaira"
         },
         "geometry": null
       },
@@ -554,10 +554,10 @@
           "Item": "Laguna",
           "nota sey": "Suni ai pa'ikoa iye jaira.",
           "id": "662666943055204599",
-          "tipo": "lake",
-          "nombre sey": "Suni jaira",
           "nombre esp": "Laguna de maní del monte.",
-          "nota esp": "En esta laguna existe bastante maní del monte y son frutas comestibles."
+          "nota esp": "En esta laguna existe bastante maní del monte y son frutas comestibles.",
+          "tipo": "lake",
+          "nombre sey": "Suni jaira"
         },
         "geometry": null
       },
@@ -579,11 +579,11 @@
         "id": "recMnldpd8auqobjk",
         "properties": {
           "Item": "Laguna",
+          "nota sey": " Jairata'a iopi dayawë këioni jaje kayë.",
           "id": "13345186247401873987",
           "nombre esp": "Laguna de pantano",
           "tipo": "lake",
-          "nombre sey": "Jaira Dayawë",
-          "nota sey": " Jairata'a iopi dayawë këioni jaje kayë."
+          "nombre sey": "Jaira Dayawë"
         },
         "geometry": null
       },
@@ -617,11 +617,11 @@
         "id": "recNoSjUCGfgc8J0M",
         "properties": {
           "Item": "Laguna",
+          "nota sey": "iye jaira paikoa tupëwani.",
           "id": "1705200238010192066",
           "nombre esp": "Laguna caraguazu",
           "tipo": "lake",
-          "nombre sey": "Tupëwani Jaira",
-          "nota sey": "iye jaira paikoa tupëwani."
+          "nombre sey": "Tupëwani Jaira"
         },
         "geometry": null
       },
@@ -661,9 +661,9 @@
           "nota sey": "Ñekwëowa'i ku'ijë pai'ako, ukwusiyapi aguaricona pë'këya kwi'ne pookoya jenitomejë pa'isiko.",
           "id": "14",
           "nombre esp": "Camino ancestral de Angusiya / Aguarico",
+          "nota esp": "Este el camino ancestral que nuestros antepasados  caminaban para llegar al rio aguarico antes de llegar  al rio aguarico tenian que cruzar el rio lagarto cocha y tambien el rio aguas blancas.",
           "tipo": "camino",
-          "nombre sey": " Ai ma'a aiowa'i ku'ijë paa'isiko ukwisiyapi aguaricona.",
-          "nota esp": "Este el camino ancestral que nuestros antepasados  caminaban para llegar al rio aguarico antes de llegar  al rio aguarico tenian que cruzar el rio lagarto cocha y tambien el rio aguas blancas."
+          "nombre sey": " Ai ma'a aiowa'i ku'ijë paa'isiko ukwisiyapi aguaricona."
         },
         "geometry": null
       },
@@ -672,12 +672,12 @@
         "id": "recPwxNprmZCmMDaS",
         "properties": {
           "Item": "Laguna",
+          "nota sey": "Iye jaira kato pa'ikoa airo maisitore, iti jairare paa'iyë kooasi'a wa'i.\n\n",
           "id": "1653445585850975472",
           "nombre esp": "laguna de montaña",
+          "nota esp": "Es una laguna del monte aqui existen bastante peces.\n",
           "tipo": "lake",
-          "nombre sey": "Aikutiwa'ira",
-          "nota sey": "Iye jaira kato pa'ikoa airo maisitore, iti jairare paa'iyë kooasi'a wa'i.\n\n",
-          "nota esp": "Es una laguna del monte aqui existen bastante peces.\n"
+          "nombre sey": "Aikutiwa'ira"
         },
         "geometry": null
       },
@@ -730,12 +730,12 @@
         "id": "recT09lWRySODKwHs",
         "properties": {
           "Item": "Laguna",
+          "nota sey": "iye jaira kato airo soo saisitore paikoa. ",
           "id": "14430556174583174353",
           "nombre esp": "laguna de fungla ",
+          "nota esp": "Esta laguna esta ubicado muy adentro del bosque.",
           "tipo": "lake",
-          "nombre sey": "Airo Jaira",
-          "nota sey": "iye jaira kato airo soo saisitore paikoa. ",
-          "nota esp": "Esta laguna esta ubicado muy adentro del bosque."
+          "nombre sey": "Airo Jaira"
         },
         "geometry": null
       },
@@ -744,12 +744,12 @@
         "id": "recTOxl8xtbKRja0B",
         "properties": {
           "Item": "Laguna",
+          "nota sey": "iye jaira kato seo repase'e paikoa.",
           "id": "6995869638763760881",
           "nombre esp": "Laguna casique",
+          "nota esp": "En esta laguna existen muchas aves casiques en las orillas de la laguna.",
           "tipo": "lake",
-          "nombre sey": "Seo Jaira",
-          "nota sey": "iye jaira kato seo repase'e paikoa.",
-          "nota esp": "En esta laguna "
+          "nombre sey": "Seo Jaira"
         },
         "geometry": null
       },
@@ -758,11 +758,11 @@
         "id": "recTugsva3phTaaJL",
         "properties": {
           "Item": "Laguna",
+          "nota sey": "suarawa'ise'e paikoa ja dopë.",
           "id": "9400699582440614514",
           "nombre esp": "Poza de bocachicos",
           "tipo": "lake",
-          "nombre sey": "Suara Dopë",
-          "nota sey": "suarawa'ise'e paikoa ja dopë."
+          "nombre sey": "Suara Dopë"
         },
         "geometry": null
       },
@@ -799,11 +799,11 @@
         "id": "recVx9IJ0U0tuZi2Y",
         "properties": {
           "Item": "Laguna",
+          "nota sey": "Ëta mañokopi ja dopë paijëna jaje weyoakoa.",
           "id": "7701629305966502938",
           "nombre esp": "Laguna Puerto estrella.",
           "tipo": "lake",
-          "nombre sey": "Ma'ñoko Dopë(jaira)",
-          "nota sey": "Ëta mañokopi ja dopë paijëna jaje weyoakoa."
+          "nombre sey": "Ma'ñoko Dopë(jaira)"
         },
         "geometry": null
       },
@@ -835,11 +835,11 @@
         "id": "recYbhmGPMket5vPr",
         "properties": {
           "Item": "Laguna",
+          "nota sey": "Iye dopë doyerepase'e paikoa.",
           "id": "954463703472333939",
           "nombre esp": "poza de guanchinche",
           "tipo": "lake",
-          "nombre sey": "Doye Dopë",
-          "nota sey": "Iye dopë doyerepase'e paikoa."
+          "nombre sey": "Doye Dopë"
         },
         "geometry": null
       },
@@ -873,11 +873,11 @@
         "id": "recZqtcNhJJ9tjbPr",
         "properties": {
           "Item": "Laguna",
+          "nota sey": "U'upi aipaikoa.",
           "id": "10625766026938738256",
           "nombre esp": "Soraida Cocha",
           "tipo": "lake",
-          "nombre sey": "U'u Jaira",
-          "nota sey": "U'upi aipaikoa."
+          "nombre sey": "U'u Jaira"
         },
         "geometry": null
       },
@@ -889,9 +889,9 @@
           "nota sey": "Po okoya je'e sa'ro",
           "id": "15294134386001206266",
           "nombre esp": "Puente del río aguas blancas ",
+          "nota esp": "Puente y camino de cruce del rio aguas blancas.\n",
           "tipo": "Camino",
-          "nombre sey": "Je'e sa'ro",
-          "nota esp": "Puente y camino de cruce del rio aguas blancas.\n"
+          "nombre sey": "Je'e sa'ro"
         },
         "geometry": null
       },
@@ -900,12 +900,12 @@
         "id": "recafcsf1XjXLAzHf",
         "properties": {
           "Item": "Laguna",
+          "nota sey": "Tupë wanipi pai ikoa ja maka.",
           "id": "4640143000097491919",
           "nombre esp": "Poza de caraguazu",
           "nota esp": "Puede ser llamado Tsiaya wekë ka'wa ?",
           "tipo": "lake",
-          "nombre sey": "Tupë Wani Dopë",
-          "nota sey": "Tupë wanipi pai ikoa ja maka."
+          "nombre sey": "Tupë Wani Dopë"
         },
         "geometry": null
       },
@@ -914,12 +914,12 @@
         "id": "reccBPiHgsf2MFqXC",
         "properties": {
           "Item": "Laguna",
+          "nota sey": "sa'sa piapi paijëna.",
           "id": "9837593016172901626",
           "nombre esp": "laguna de martin",
           "nota esp": "Nombre nuevo",
           "tipo": "lake",
-          "nombre sey": "Sa'sa Jaira",
-          "nota sey": "sa'sa piapi paijëna."
+          "nombre sey": "Sa'sa Jaira"
         },
         "geometry": null
       },
@@ -1005,10 +1005,10 @@
         "id": "rece6wPDKAc0gGv1L",
         "properties": {
           "Item": "Laguna",
+          "nota sey": "Añapëkë etamëiko",
           "id": "11558844345601045169",
           "tipo": "lake",
-          "nombre sey": "Añapëkë Kooje",
-          "nota sey": "Añapëkë etamëiko"
+          "nombre sey": "Añapëkë Kooje"
         },
         "geometry": null
       },
@@ -1116,11 +1116,11 @@
         "id": "reckMSHbsS3Cr5ijO",
         "properties": {
           "Item": "Laguna",
+          "nota sey": "kooasia wa'i  paijëna.",
           "id": "309756920534618974",
           "nombre esp": "laguna de pez",
           "tipo": "lake",
-          "nombre sey": "Wa'i dopë (jaira)",
-          "nota sey": "kooasia wa'i  paijëna."
+          "nombre sey": "Wa'i dopë (jaira)"
         },
         "geometry": null
       },
@@ -1129,11 +1129,11 @@
         "id": "reckSM8fbS37rYjc4",
         "properties": {
           "Item": "Laguna",
+          "nota sey": "Iye jaira yaupapi paaiona.",
           "id": "9974675424014883186",
           "nombre esp": "Laguna Tucunari",
           "tipo": "lake",
-          "nombre sey": "Wa'ira / Yaupa Jaira",
-          "nota sey": "Iye jaira yaupapi paaiona."
+          "nombre sey": "Wa'ira / Yaupa Jaira"
         },
         "geometry": null
       },
@@ -1155,11 +1155,11 @@
         "id": "reckyWBz3TYF4iFuX",
         "properties": {
           "Item": "Laguna",
+          "nota sey": "iopi tsoa wa'ira paaiona kayë.\n",
           "id": "13872127350040722137",
           "nombre esp": "Guacha Cocha",
           "tipo": "lake",
-          "nombre sey": "Tsoa Wa'ira",
-          "nota sey": "iopi tsoa wa'ira paaiona"
+          "nombre sey": "Tsoa Wa'ira"
         },
         "geometry": null
       },
@@ -1225,11 +1225,11 @@
         "id": "recoMRUNo85SkEJIT",
         "properties": {
           "Item": "Laguna",
+          "nota sey": "Paku wa'ipi paaijëna",
           "id": "5343724908215276575",
           "nombre esp": "Poza de palometas",
           "tipo": "lake",
-          "nombre sey": "Paku Dopë",
-          "nota sey": "Paku wa'ipi paaijëna"
+          "nombre sey": "Paku Dopë"
         },
         "geometry": null
       },
@@ -1250,10 +1250,10 @@
         "id": "recpxcGpkPw28JEqM",
         "properties": {
           "Item": "Laguna",
+          "nota sey": "yaji wanirepase ai  paa'ikowa'ia'ë iye jaira.\n",
           "id": "7845271947901051509",
           "tipo": "lake",
-          "nombre sey": "Yaji Wani Dopë(jaira)",
-          "nota sey": "yaji wanirepase ai  paa'ikowa'ia'ë iye jaira.\n"
+          "nombre sey": "Yaji Wani Dopë(jaira)"
         },
         "geometry": null
       },
@@ -1277,9 +1277,9 @@
           "nota sey": "Pai juni wëi pa'isidaripëaë iyemaka.",
           "id": "5136382023604700547",
           "nombre esp": "Rastrojo donde resucito una persona muerta ",
+          "nota esp": "Aquí es el rastrojo donde resucito una persona muerta ",
           "tipo": "comunidad/pai_pai_daripe",
-          "nombre sey": "Pai juni wëi pa'isidaripë",
-          "nota esp": "Aquí es el rastrojo donde resucito una persona muerta "
+          "nombre sey": "Pai juni wëi pa'isidaripë"
         },
         "geometry": null
       },
@@ -1291,6 +1291,7 @@
           "nota sey": "Wakara jaira ma'a, emuña  jeni tomewe'ña",
           "id": "9",
           "nombre esp": "Camino a emuña",
+          "nota esp": "Camino de garza cocha que cruza al río emuña ",
           "foto": [
             {
               "id": "attwx7V6aoyG3slWh",
@@ -1313,8 +1314,7 @@
             }
           ],
           "tipo": "camino",
-          "nombre sey": "Emuña ma'a",
-          "nota esp": "Camino de garza cocha que cruza al río emuña "
+          "nombre sey": "Emuña ma'a"
         },
         "geometry": null
       },
@@ -1444,11 +1444,11 @@
         "id": "recsQBbFIbT6RPiXE",
         "properties": {
           "Item": "Laguna",
+          "nota sey": "iye jaira kwinajai jopore paaiona",
           "id": "4652925738033100594",
           "nombre esp": "Centrillo cocha",
           "tipo": "lake",
-          "nombre sey": "Jopo Jaira",
-          "nota sey": "iye jaira kwinajai jopore paaiona"
+          "nombre sey": "Jopo Jaira"
         },
         "geometry": null
       },
@@ -1482,12 +1482,12 @@
         "id": "recuuDJs3EF2FiMiW",
         "properties": {
           "Item": "Laguna",
+          "nota sey": "doye wa'i paiko",
           "id": "16983059423745428042",
           "nombre esp": "Poza de huanchinche",
           "nota esp": "Tambien nombre Tapepero Jaira",
           "tipo": "lake",
-          "nombre sey": "Doye Dopë",
-          "nota sey": "doye wa'i paiko"
+          "nombre sey": "Doye Dopë"
         },
         "geometry": null
       },
@@ -1521,9 +1521,9 @@
           "nota sey": "Tsiaya wëkëpi pa'ikoa",
           "id": "4765490255045918206",
           "nombre esp": "Laguna de manatí (vaca marina)",
+          "nota esp": "En esta laguna existen bastantes manatis o vaca marinas)\n",
           "tipo": "lake",
-          "nombre sey": "Tsiaya Wëkë Jaira",
-          "nota esp": "En esta laguna existen bastantes manatis o vaca marinas)\n"
+          "nombre sey": "Tsiaya Wëkë Jaira"
         },
         "geometry": null
       },
