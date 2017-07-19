@@ -470,7 +470,8 @@
           "id": "13990912366586570676",
           "nombre esp": "Cedrococha",
           "tipo": "lake",
-          "nombre sey": "Mëa Jaira"
+          "nombre sey": "Mëa Jaira",
+          "nota esp": "Le nombraron cedro cocha por en el bosque de la laguna existían muchos arboles de cedro que eran arboles para fabricar canoas."
         },
         "geometry": null
       },
@@ -484,7 +485,7 @@
           "nombre esp": "Laguna de los delfines rosado.",
           "tipo": "lake",
           "nombre sey": "Mawëwë Jaira",
-          "nota esp": "Esta laguna existes muchos delfines rosados "
+          "nota esp": "En esta laguna existes muchos delfines rosados, por eso le nombraron la laguna de los delfines rosados esta."
         },
         "geometry": null
       },
