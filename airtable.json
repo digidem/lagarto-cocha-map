@@ -659,7 +659,8 @@
           "id": "14",
           "nombre esp": "Camino ancestral de Angusiya / Aguarico",
           "tipo": "camino",
-          "nombre sey": " Ai ma'a aiowa'i ku'ijë paa'isiko ukwisiyapi aguaricona."
+          "nombre sey": " Ai ma'a aiowa'i ku'ijë paa'isiko ukwisiyapi aguaricona.",
+          "nota esp": "Este el camino ancestral que nuestros antepasados  caminaban para llegar al rio aguarico tambien cruzaban el rio lagarto cocha y rio aguas blancas "
         },
         "geometry": null
       },
@@ -755,7 +756,8 @@
           "id": "9400699582440614514",
           "nombre esp": "Poza de bocachicos",
           "tipo": "lake",
-          "nombre sey": "Suara Dopë"
+          "nombre sey": "Suara Dopë",
+          "nota sey": "suarawa'ise'e paikoa ja dopë."
         },
         "geometry": null
       },
@@ -795,7 +797,8 @@
           "id": "7701629305966502938",
           "nombre esp": "Laguna Puerto estrella.",
           "tipo": "lake",
-          "nombre sey": "Ma'ñoko Dopë(jaira)"
+          "nombre sey": "Ma'ñoko Dopë(jaira)",
+          "nota sey": "Ëta mañokopi ja dopë paijëna jaje weyoakoa."
         },
         "geometry": null
       },
@@ -830,7 +833,8 @@
           "id": "954463703472333939",
           "nombre esp": "poza de guanchinche",
           "tipo": "lake",
-          "nombre sey": "Doye Dopë"
+          "nombre sey": "Doye Dopë",
+          "nota sey": "Iye dopë doyerepase'e paikoa."
         },
         "geometry": null
       },
@@ -867,7 +871,8 @@
           "id": "10625766026938738256",
           "nombre esp": "Soraida Cocha",
           "tipo": "lake",
-          "nombre sey": "U'u Jaira"
+          "nombre sey": "U'u Jaira",
+          "nota sey": "U'upi aipaikoa."
         },
         "geometry": null
       },
@@ -893,7 +898,8 @@
           "nombre esp": "Poza de caraguazu",
           "nota esp": "Puede ser llamado Tsiaya wekë ka'wa ?",
           "tipo": "lake",
-          "nombre sey": "Tupë Wani Dopë"
+          "nombre sey": "Tupë Wani Dopë",
+          "nota sey": "Tupë wanipi pai"
         },
         "geometry": null
       },
