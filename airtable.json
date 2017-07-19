@@ -328,7 +328,8 @@
           "nombre esp": "Camino ancestral Anguisilla / Pekëya / Cañon Negro",
           "tipo": "camino",
           "nombre sey": "Ukwisiyapi Pë'këyana jetani Cañon negrona etako/ Cañon Negro",
-          "nota sey": "anguisiyapi pëkëyana dai ma'a."
+          "nota sey": "anguisiyapi pëkëyana dai ma'a.",
+          "nota esp": "Camino de angusilla a lagarto cocha de hay que cruza al cañon negro."
         },
         "geometry": null
       },
@@ -829,6 +830,7 @@
         "id": "recXc7q1277pmpLag",
         "properties": {
           "Item": "Point",
+          "nota sey": "ja makare onoka tu'aro paiji.",
           "id": "6901346359610995613",
           "tipo": "fauna/tapir",
           "nombre sey": "Onoka Tu'aro"
@@ -959,7 +961,9 @@
           "id": "1",
           "nombre esp": "Camino ancestral Gueppi",
           "tipo": "camino",
-          "nombre sey": "Wepi saima´a"
+          "nombre sey": "Wepi saima´a",
+          "nota sey": "kata we'ejë paaiakoni jaje kayë ja ma'a",
+          "nota esp": "Este es el camino ancestral wepi, tiene una historia que cuenta que en este camino cargaban municiones para ejercito peruanos, por que en esa epoca estaban en conflicto con Colombia,"
         },
         "geometry": null
       },
@@ -1267,6 +1271,7 @@
         "id": "recq1fdzN02YXho5g",
         "properties": {
           "Item": "Point",
+          "nota sey": "tu'aro saima'a",
           "id": "14135602598682239009",
           "nombre esp": "Camino al saladero.",
           "tipo": "actividad/caza",
@@ -1466,7 +1471,8 @@
           "nombre esp": "Camino ancestral Angusilla / Aguas Negras",
           "tipo": "camino",
           "nombre sey": "Aima'a Ukwisiyapi Neañana etasi ma'a.",
-          "nota sey": "anguisiyapi nea tsiaya dai ma'a "
+          "nota sey": "anguisiyapi nea tsiaya dai ma'a ",
+          "nota esp": "Camino ancestral Angusilla que llega a salir al rio aguas negras.\n "
         },
         "geometry": null
       },
@@ -1538,6 +1544,7 @@
         "id": "recz1RLN4LmJ86ABL",
         "properties": {
           "Item": "Point",
+          "nota sey": "ma'a noka yo sa'ro ja maka",
           "id": "13636346042510859888",
           "nombre esp": "Puerto de platanillo rojo ",
           "nota esp": "Este es el punto donde uno de los caminos ancestral de los Siekopai y que conectaba la gente desde las comunidades alejado en el Rio Putumayo hacia el Rio Aguarico y con las comunidades Siekopai en la ribera del Rio Aguarico y el Rio Cuyabeno. ",
