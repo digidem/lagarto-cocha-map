@@ -243,7 +243,7 @@
         "properties": {
           "Item": "Laguna",
           "id": "9797048935111035845",
-          "nombre esp": "Laguna ",
+          "nombre esp": "Laguna de acha",
           "tipo": "lake",
           "nombre sey": "Tsu'u Jaira"
         },
@@ -256,7 +256,8 @@
           "Item": "Laguna",
           "id": "649959265187868029",
           "tipo": "lake",
-          "nombre sey": "Okotu'i Jaira"
+          "nombre sey": "Okotu'i Jaira",
+          "nota sey": "okotu'ipi paaikoaña ja jaira."
         },
         "geometry": null
       },
@@ -279,7 +280,7 @@
         "properties": {
           "Item": "Laguna",
           "id": "2438293092334106259",
-          "nombre esp": "rio",
+          "nombre esp": "Rio",
           "tipo": "river",
           "nombre sey": "Tsiaya"
         },
@@ -293,7 +294,8 @@
           "id": "8220800042945209331",
           "nota esp": "Nombre especial de la laguna  por la abundante presencia de una especie de Paujil (Kwiña) que actualmente es una especie extinguida en Ecuador. En la actualidad es un sitio de llegada de los visitantes para hacer diferentes actividades como pesca o ecot",
           "tipo": "lake",
-          "nombre sey": "Kwiña Jaira"
+          "nombre sey": "Kwiña Jaira",
+          "nota sey": "kwiñapi ja jaira paaikoaña"
         },
         "geometry": null
       },
@@ -1003,7 +1005,7 @@
           "id": "11558844345601045169",
           "tipo": "lake",
           "nombre sey": "Añapëkë Kooje",
-          "nota sey": "Añapëkë etamëko"
+          "nota sey": "Añapëkë etamëiko"
         },
         "geometry": null
       },
@@ -1248,7 +1250,7 @@
           "id": "7845271947901051509",
           "tipo": "lake",
           "nombre sey": "Yaji Wani Dopë(jaira)",
-          "nota sey": "yaji wani paaimaka"
+          "nota sey": "yaji wanirepase ai  paa'ikowa'ia'ë iye jaira.\n"
         },
         "geometry": null
       },
