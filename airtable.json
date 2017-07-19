@@ -660,7 +660,7 @@
           "nombre esp": "Camino ancestral de Angusiya / Aguarico",
           "tipo": "camino",
           "nombre sey": " Ai ma'a aiowa'i ku'ijë paa'isiko ukwisiyapi aguaricona.",
-          "nota esp": "Este el camino ancestral que nuestros antepasados  caminaban para llegar al rio aguarico tambien cruzaban el rio lagarto cocha y rio aguas blancas "
+          "nota esp": "Este el camino ancestral que nuestros antepasados  caminaban para llegar al rio aguarico antes de llegar  al rio aguarico tenian que cruzar el rio lagarto cocha y tambien el rio aguas blancas."
         },
         "geometry": null
       },
@@ -899,7 +899,7 @@
           "nota esp": "Puede ser llamado Tsiaya wekë ka'wa ?",
           "tipo": "lake",
           "nombre sey": "Tupë Wani Dopë",
-          "nota sey": "Tupë wanipi pai"
+          "nota sey": "Tupë wanipi pai ikoa ja maka."
         },
         "geometry": null
       },
@@ -912,7 +912,8 @@
           "nombre esp": "laguna de martin",
           "nota esp": "Nombre nuevo",
           "tipo": "lake",
-          "nombre sey": "Sa'sa Jaira"
+          "nombre sey": "Sa'sa Jaira",
+          "nota sey": "sa'sa piapi paijëna."
         },
         "geometry": null
       },
@@ -1000,7 +1001,8 @@
           "Item": "Laguna",
           "id": "11558844345601045169",
           "tipo": "lake",
-          "nombre sey": "Añapëkë Kooje"
+          "nombre sey": "Añapëkë Kooje",
+          "nota sey": "Añapëkë etamëko"
         },
         "geometry": null
       },
@@ -1111,7 +1113,8 @@
           "id": "309756920534618974",
           "nombre esp": "laguna de pez",
           "tipo": "lake",
-          "nombre sey": "Wa'i dopë (jaira)"
+          "nombre sey": "Wa'i dopë (jaira)",
+          "nota sey": "kooasia wa'i  paijëna."
         },
         "geometry": null
       },
@@ -1123,7 +1126,8 @@
           "id": "9974675424014883186",
           "nombre esp": "Laguna Tucunari",
           "tipo": "lake",
-          "nombre sey": "Wa'ira / Yaupa Jaira"
+          "nombre sey": "Wa'ira / Yaupa Jaira",
+          "nota sey": "Iye jaira yaupapi paaiona."
         },
         "geometry": null
       },
@@ -1148,7 +1152,8 @@
           "id": "13872127350040722137",
           "nombre esp": "Guacha Cocha",
           "tipo": "lake",
-          "nombre sey": "Tsoa Wa'ira"
+          "nombre sey": "Tsoa Wa'ira",
+          "nota sey": "iopi tsoa wa'ira paiona"
         },
         "geometry": null
       },
