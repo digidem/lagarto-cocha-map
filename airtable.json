@@ -957,7 +957,8 @@
           "Item": "Camino Ancestral",
           "id": "15",
           "tipo": "camino",
-          "nombre sey": "Cañon de negra"
+          "nombre sey": "Cañon de negra",
+          "nota sey": " aguarico tsiyana jenitome ma'a caño de negro"
         },
         "geometry": null
       },
@@ -1147,7 +1148,8 @@
           "Item": "Camino",
           "nombre esp": "Camino a rio emuya ",
           "tipo": "camino",
-          "nombre sey": " Emuña Tsiaya saima´a"
+          "nombre sey": " Emuña Tsiaya saima´a",
+          "nota sey": "emuya tsiayana sai ma'a"
         },
         "geometry": null
       },
@@ -1472,6 +1474,7 @@
           "Item": "Point",
           "id": "14038398745685493712",
           "nombre esp": "Camino al saladero",
+          "nota esp": "Puerto al camino de un saladero. ",
           "tipo": "Fauna-puerto",
           "nombre sey": "Tua'ro tumasa'ro",
           "nota sey": "tu'aro sai ma'a"
