@@ -148,7 +148,8 @@
           "id": "16607546306117930864",
           "nombre esp": "Lago de arcilla",
           "tipo": "lake",
-          "nombre sey": "Soto Jaira"
+          "nombre sey": "Soto Jaira",
+          "nota sey": "Soto ya'opi ja jaira paaikoa."
         },
         "geometry": null
       },
@@ -242,7 +243,7 @@
         "properties": {
           "Item": "Laguna",
           "id": "9797048935111035845",
-          "nombre esp": "Camucamu Cocha",
+          "nombre esp": "Laguna ",
           "tipo": "lake",
           "nombre sey": "Tsu'u Jaira"
         },
@@ -1153,7 +1154,7 @@
           "nombre esp": "Guacha Cocha",
           "tipo": "lake",
           "nombre sey": "Tsoa Wa'ira",
-          "nota sey": "iopi tsoa wa'ira paiona"
+          "nota sey": "iopi tsoa wa'ira paaiona"
         },
         "geometry": null
       },
@@ -1206,7 +1207,7 @@
         "id": "recnbkgmyeHsyd0qI",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "En esta laguna existe bastante Camu camu.",
+          "nota sey": "o'sasa ukweyepi paaiona we'yoyë iye jaira dopë.\n",
           "id": "2646991696197452943",
           "nombre esp": "Laguna  Camu camu",
           "tipo": "lake",
@@ -1222,7 +1223,8 @@
           "id": "5343724908215276575",
           "nombre esp": "Poza de palometas",
           "tipo": "lake",
-          "nombre sey": "Paku Dopë"
+          "nombre sey": "Paku Dopë",
+          "nota sey": "Paku wa'ipi paaijëna"
         },
         "geometry": null
       },
@@ -1245,7 +1247,8 @@
           "Item": "Laguna",
           "id": "7845271947901051509",
           "tipo": "lake",
-          "nombre sey": "Yaji Wani Dopë(jaira)"
+          "nombre sey": "Yaji Wani Dopë(jaira)",
+          "nota sey": "yaji wani paaimaka"
         },
         "geometry": null
       },
@@ -1270,7 +1273,8 @@
           "id": "5136382023604700547",
           "nombre esp": "Rastrojo donde resucito una persona muerta ",
           "tipo": "comunidad/pai_pai_daripe",
-          "nombre sey": "Pai juni wëi pa'isidaripë"
+          "nombre sey": "Pai juni wëi pa'isidaripë",
+          "nota esp": "Aquí es el rastrojo donde resucito una persona muerta "
         },
         "geometry": null
       },
@@ -1304,7 +1308,8 @@
             }
           ],
           "tipo": "camino",
-          "nombre sey": "Emuña ma'a"
+          "nombre sey": "Emuña ma'a",
+          "nota esp": "Camino de garza cocha que cruza al río emuña "
         },
         "geometry": null
       },
