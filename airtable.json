@@ -779,7 +779,7 @@
         "id": "recTvxkWMjHK3Rkps",
         "properties": {
           "Item": "Point",
-          "nota sey": "tsoeweña paai dairpë mai",
+          "nota sey": "tsoeweña paai dairpë paiakoa iye maka",
           "id": "15094075449129541257",
           "nombre esp": "Rastrojo /comunidad antigua",
           "nota esp": "Antiguo pueblo Siekopai y además se conoce como el lugar mas importate de concentración de ceremonías de los shamanes Siekopai, abandonado en el año 1941 por los conflictos belicos entre Ecuador y Perú.",
@@ -963,12 +963,13 @@
         "type": "Feature",
         "id": "reccwEp0zcnJKQbi6",
         "properties": {
-          "Item": "Camino Ancestral",
+          "Item": "Camino Ancestra",
           "id": "1",
           "nombre esp": "Camino ancestral Gueppi",
           "tipo": "camino",
           "nombre sey": "Wepi saima´a",
-          "nota esp": "Este es el camino ancestral wepi, y tiene una historia que cuenta que en este camino cargaban municiones para ejercito peruanos, por que en esa época estaban en conflicto con Colombia."
+          "nota esp": "Este es el camino ancestral wepi, y tiene una historia que cuenta que en este camino cargaban municiones para ejercito peruanos, por que en esa época estaban en conflicto con Colombia.",
+          "nota sey": "iye ma'aja tsoeweña peru soraore kata weyokaijë paaikaoni  jaje sëowë'ë iye ma'a weepi."
         },
         "geometry": null
       },
@@ -1053,7 +1054,7 @@
           "nombre esp": "laguna de  unguragua ",
           "tipo": "lake",
           "nombre sey": "Koosa Dopë(jaira)",
-          "nota esp": "En la orilla de esta laguna existe bastante"
+          "nota esp": "En la orilla de esta laguna existe bastante ungurahua es como sembrado por eso lo llamamos con este nombre.\n"
         },
         "geometry": null
       },
@@ -1105,7 +1106,8 @@
           "nota sey": "Añapëkë pa'ira",
           "id": "6015610521828036113",
           "tipo": "lake",
-          "nombre sey": "Añapëkë Kooje"
+          "nombre sey": "Añapëkë Kooje",
+          "nombre esp": "Cueva de mero"
         },
         "geometry": null
       },
@@ -1163,11 +1165,11 @@
         "id": "reckxZDqqiQWCFe0r",
         "properties": {
           "Item": "Point",
-          "nota sey": "iyemaka tsiaya wekë paa'ikoa yure iti sonowë",
           "id": "15270807256290582399",
           "nombre esp": "Camino ancestral de cruce de garza cocha a Emuña.",
           "tipo": "Camino",
-          "nombre sey": "Wakara jaira ma'a emuña  jeni tomewe'ña"
+          "nombre sey": "Wakara jaira ma'a emuña  jeni tomewe'ña",
+          "nota esp": "Camino ancestral que cruza al rio emuña del la laguna garza cocha "
         },
         "geometry": null
       },
@@ -1233,11 +1235,12 @@
         "id": "recnbkgmyeHsyd0qI",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "o'sasa ukweyepi paaiona we'yoyë iye jaira dopë.\n",
+          "nota sey": "o'sasa okweyepi paaiona we'yoyë iye jaira dopë.\n",
           "id": "2646991696197452943",
           "nombre esp": "Laguna  Camu camu",
           "tipo": "lake",
-          "nombre sey": "O'sasa Dopë (jaira)"
+          "nombre sey": "O'sasa Dopë (jaira)",
+          "nota esp": "El camu camu  son frutas agrias pero comestible.\n"
         },
         "geometry": null
       },
