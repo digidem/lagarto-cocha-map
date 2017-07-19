@@ -422,7 +422,8 @@
           "id": "16",
           "tipo": "camino",
           "nombre sey": "Camino a Emuya Tsiaya",
-          "nota sey": "jenitome ma'a emuya tsiayana jaye"
+          "nota sey": "jenitome ma'a emuya tsiayana jaye",
+          "nota esp": "Camino de cruce al rio emuña."
         },
         "geometry": null
       },
@@ -889,6 +890,7 @@
           "Item": "Point",
           "id": "8203844693492997336",
           "nombre esp": "Saladero de danta",
+          "nota esp": "Saladero de dantas.",
           "tipo": "fauna/tapir",
           "nombre sey": "Wekë tu'aro",
           "nota sey": "wekë tu'aro"
@@ -958,7 +960,8 @@
           "id": "15",
           "tipo": "camino",
           "nombre sey": "Cañon de negra",
-          "nota sey": " aguarico tsiyana jenitome ma'a caño de negro"
+          "nota sey": " aguarico tsiyana jenitome ma'a caño de negro",
+          "nota esp": "Cruce al rio a"
         },
         "geometry": null
       },
@@ -1450,7 +1453,7 @@
           "nota sey": "Ya'oweapi airepa paikoaña iye jaira.",
           "id": "9746085031189048142",
           "tipo": "lake",
-          "nombre sey": "Ya'o Wea Jaira"
+          "nombre sey": "Ya'o Wea taya Jaira"
         },
         "geometry": null
       },
