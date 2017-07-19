@@ -734,7 +734,8 @@
           "nombre esp": "laguna de fungla ",
           "tipo": "lake",
           "nombre sey": "Airo Jaira",
-          "nota sey": "iye jaira kato airo soo saisitore paikoa. "
+          "nota sey": "iye jaira kato airo soo saisitore paikoa. ",
+          "nota esp": "Esta laguna esta ubicado muy lejos del bosque "
         },
         "geometry": null
       },
@@ -888,7 +889,8 @@
           "id": "15294134386001206266",
           "nombre esp": "Puente del río aguas blancas ",
           "tipo": "Camino",
-          "nombre sey": "Je'e sa'ro"
+          "nombre sey": "Je'e sa'ro",
+          "nota esp": "Puente y camino de cruce del rio aguas blancas.\n"
         },
         "geometry": null
       },
