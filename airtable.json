@@ -206,7 +206,8 @@
           "Item": "Laguna",
           "id": "8731023371289088177",
           "tipo": "lake",
-          "nombre sey": "Infante Jaira"
+          "nombre sey": "Infante Jaira",
+          "nota sey": "infanteria peru soraopi airo sakëna anijeona jaje weyoakoë. "
         },
         "geometry": null
       },
@@ -264,7 +265,7 @@
           "nombre esp": "Laguna de los defines",
           "tipo": "lake",
           "nombre sey": "Wëwë Jaira",
-          "nota sey": "Wëwëpi airepa paiona jaje"
+          "nota sey": "Wëwëpi airepa paiona jaje weyoakoa."
         },
         "geometry": null
       },
@@ -1403,7 +1404,7 @@
         "id": "recqqiZOOzBLTPz8c",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Okopeetopi airepa pa'ina ñani jaje kayë.",
+          "nota sey": "Okopeetopi airepa pa'ina ñani jaje kayë ikore kato.\n",
           "id": "6328189700702001610",
           "nombre esp": "Clavo cocha!!",
           "tipo": "lake",
