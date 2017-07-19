@@ -579,7 +579,8 @@
           "id": "13345186247401873987",
           "nombre esp": "Laguna de pantano",
           "tipo": "lake",
-          "nombre sey": "Jaira Dayawë"
+          "nombre sey": "Jaira Dayawë",
+          "nota sey": " Jairata'a iopi dayawë këioni jaje kayë."
         },
         "geometry": null
       },
@@ -616,7 +617,8 @@
           "id": "1705200238010192066",
           "nombre esp": "Laguna caraguazu",
           "tipo": "lake",
-          "nombre sey": "Tupëwani Jaira"
+          "nombre sey": "Tupëwani Jaira",
+          "nota sey": "iye jaira paikoa tupëwani."
         },
         "geometry": null
       },
@@ -727,7 +729,8 @@
           "id": "14430556174583174353",
           "nombre esp": "laguna de fungla ",
           "tipo": "lake",
-          "nombre sey": "Airo Jaira"
+          "nombre sey": "Airo Jaira",
+          "nota sey": "iye jaira kato airo soo saisitore paikoa. "
         },
         "geometry": null
       },
@@ -739,7 +742,8 @@
           "id": "6995869638763760881",
           "nombre esp": "Laguna casique",
           "tipo": "lake",
-          "nombre sey": "Seo Jaira"
+          "nombre sey": "Seo Jaira",
+          "nota sey": "iye jaira kato seo repase'e paikoa."
         },
         "geometry": null
       },
@@ -1495,7 +1499,8 @@
           "id": "4765490255045918206",
           "nombre esp": "Laguna de manatí (vaca marina)",
           "tipo": "lake",
-          "nombre sey": "Tsiaya Wëkë Jaira"
+          "nombre sey": "Tsiaya Wëkë Jaira",
+          "nota esp": "En esta laguna existen bastantes manatis o vaca marinas)\n"
         },
         "geometry": null
       },
