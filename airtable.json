@@ -327,7 +327,8 @@
           "id": "2",
           "nombre esp": "Camino ancestral Anguisilla / Pekëya / Cañon Negro",
           "tipo": "camino",
-          "nombre sey": "Ukwisiyapi Pë'këyana etani Cañon negrona etako/ Cañon Negro"
+          "nombre sey": "Ukwisiyapi Pë'këyana jetani Cañon negrona etako/ Cañon Negro",
+          "nota sey": "anguisiyapi pëkëyana dai ma'a."
         },
         "geometry": null
       },
@@ -500,7 +501,7 @@
           "tipo": "camino",
           "nombre sey": "Mañokopi Wiririmana saima'a",
           "nota esp": "Camino que llega de wirima a la comunidad ma'ñoko.",
-          "nota sey": "mañokona "
+          "nota sey": " wiririna mañokona daripëna dai ma'a"
         },
         "geometry": null
       },
@@ -1464,7 +1465,8 @@
           "id": "3",
           "nombre esp": "Camino ancestral Angusilla / Aguas Negras",
           "tipo": "camino",
-          "nombre sey": "Aima'a Ukwisiyapi Neañana etasi ma'a."
+          "nombre sey": "Aima'a Ukwisiyapi Neañana etasi ma'a.",
+          "nota sey": "anguisiyapi nea tsiaya dai ma'a "
         },
         "geometry": null
       },
