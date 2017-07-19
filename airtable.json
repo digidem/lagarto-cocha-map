@@ -75,6 +75,7 @@
         "id": "rec1JrLziVB1DngbO",
         "properties": {
           "Item": "Point",
+          "nota sey": "ja makare wekë tu'aro pajii",
           "id": "13884321478433118916",
           "nombre esp": "Saladero de danta",
           "tipo": "natural/saladero_abierto",
@@ -135,6 +136,7 @@
         "id": "rec2cXAIfiDXcOIbW",
         "properties": {
           "Item": "Point",
+          "nota sey": "ja makare wekë tu'aro paijii",
           "id": "2802796723362052602",
           "nombre esp": "Saladero de danta",
           "tipo": "fauna/tapir",
@@ -639,7 +641,7 @@
         "id": "recPlLhpAbTnuMUsL",
         "properties": {
           "Item": "Point",
-          "nota sey": "kwiña jaira tëtëpare paaijii airo kai ",
+          "nota sey": "kwiña jaira tëtëpare paaijii airo kai saisiko wai kaiko",
           "id": "8013122578254606165",
           "nota esp": "Actual campamento o punto de llegada principal de los visitantes y propios Siekopai para hacer diferentes actividades, como la recoleccion de materia prima para la elaboracion de diferentes herramientas, pesca y caceria artesanal y ecoturismo.",
           "foto": [
@@ -957,7 +959,7 @@
           "nota sey": "pë'këya saniwë saijë pëani kaimaka ",
           "id": "5245448524235532062",
           "nombre esp": "Campamento lagarto cocha ",
-          "nota esp": "Campamento donde se puede descansar el viaje ",
+          "nota esp": "Campamento donde se puede descansar en el viaje por el rio lagarto y se puede quedar a hospetar la noche.",
           "tipo": "comunidad/campamento",
           "nombre sey": "Kai daripë pë'kë'ya"
         },
@@ -1120,6 +1122,7 @@
         "id": "reciWFLb3QbFZgNAn",
         "properties": {
           "Item": "Point",
+          "nota sey": "ja makare wekë,sese tu'aro paijii  ",
           "id": "13074131508457660530",
           "nombre esp": "Saladero.",
           "tipo": "fauna/tapir",
@@ -1356,6 +1359,7 @@
         "id": "recqGSVRk6ubCFpsl",
         "properties": {
           "Item": "Point",
+          "nota sey": "tsoe weña paai paijë pa'ia daripë ",
           "id": "4949591082239758199",
           "nombre esp": "Rio emuya donde habitaban los antepasados ",
           "nota esp": "Se sabe que aqui habia una comunidad antigua, que por muchas enfermedades las familias se adentraron y establecieron, de aquello como muestras hay un rastrojo donde se puede visualizar los pedasos de ceramica, yoko, yaje, especies de bambú especiales.",
