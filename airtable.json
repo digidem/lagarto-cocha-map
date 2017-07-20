@@ -880,7 +880,8 @@
           "id": "954463703472333939",
           "nombre esp": "poza de guanchinche",
           "tipo": "lake",
-          "nombre sey": "Doye Dopë"
+          "nombre sey": "Doye Dopë",
+          "nota esp": "En esta poza abundan muchos peces de guanchinche."
         },
         "geometry": null
       },
@@ -1059,7 +1060,7 @@
           "nota sey": "Añapëkë etamëiko",
           "id": "11558844345601045169",
           "nombre esp": "Cueva de mero",
-          "nota esp": "Por este cueva había salido el mero, ballena de agua dulce.\n",
+          "nota esp": "Por esta cueva había salido el mero, ballena de agua dulce.\n",
           "tipo": "lake",
           "nombre sey": "Añapëkë Kooje"
         },
@@ -1519,7 +1520,7 @@
           "Item": "Laguna",
           "nota sey": "iye jaira kwinajai jopore paaiona",
           "id": "4652925738033100594",
-          "nombre esp": "Centrillo cocha",
+          "nombre esp": "Cendrillo cocha",
           "tipo": "lake",
           "nombre sey": "Jopo Jaira"
         },
@@ -1559,7 +1560,7 @@
           "Item": "Laguna",
           "nota sey": "doye wa'i paiko",
           "id": "16983059423745428042",
-          "nombre esp": "Poza de huanchinche",
+          "nombre esp": "Poza de guanchinche",
           "nota esp": "Tambien nombre Tapepero Jaira",
           "tipo": "lake",
           "nombre sey": "Doye Dopë"
