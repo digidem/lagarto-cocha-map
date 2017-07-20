@@ -735,7 +735,8 @@
             }
           ],
           "tipo": "lake",
-          "nombre sey": "Emuyai Jaira"
+          "nombre sey": "Emuyai Jaira",
+          "video": "https://youtu.be/-kTpvlsBJB4"
         },
         "geometry": null
       },
@@ -1110,7 +1111,8 @@
           "id": "13298961010765552998",
           "nombre esp": "Lagarto Cocha",
           "tipo": "lake",
-          "nombre sey": "Pë'ë Jaira"
+          "nombre sey": "Pë'ë Jaira",
+          "nota esp": "Esta laguna antes era muy peligroso por que en esa laguna existen muchos caimanes negros ."
         },
         "geometry": null
       },
