@@ -201,11 +201,12 @@
         "id": "rec4Fio58BQeB6Bfx",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "iti jairapi neako paaina jaje weyosikoa.",
+          "nota sey": "Iti jairapi neako paaina jaje weyosikoa.",
           "id": "2222",
           "nombre esp": "Laguna negra",
           "tipo": "lake",
-          "nombre sey": "Nea Jaira"
+          "nombre sey": "Nea Jaira",
+          "nota esp": "Laguna legra, le han nombrado así por que el agua de la laguna es negra."
         },
         "geometry": null
       },
@@ -280,7 +281,8 @@
           "id": "13654139179669022758",
           "nombre esp": "Laguna de los defines",
           "tipo": "lake",
-          "nombre sey": "Wëwë Jaira"
+          "nombre sey": "Wëwë Jaira",
+          "nota esp": "Existen muchos delfines en esa por eso le nombraron asi "
         },
         "geometry": null
       },
