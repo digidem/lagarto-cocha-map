@@ -130,7 +130,8 @@
           "id": "4843469361727951631",
           "nombre esp": "Laguna de manglar",
           "tipo": "lake",
-          "nombre sey": "Dua jaira"
+          "nombre sey": "Dua jaira",
+          "nota esp": "En esa laguna existen muchas manglares por tal razón le han nombrado (La laguna de manglares)."
         },
         "geometry": null
       },
@@ -1231,6 +1232,7 @@
         "id": "reclMYhKMkD8hoOeo",
         "properties": {
           "Item": "Point",
+          "nota sey": "tsoeweña  wakara jaira sarawana paai pëni paijë paawë yo'oni sani sarena ecuador soraopi pëani paakoë ",
           "id": "9263350016677695422",
           "nombre esp": "Rastrojo de asentamiento siekopaai en la bocana de garzacocha",
           "nota esp": "En el 1994 los Siekopai intentaron a re-establecer su presencia en este sitio histórico con un asentamiento y cultivos de yuca y plátano, pero otra vez los militares quitaron el puesto y establecieron el destacamento militar ‘Patria’.",
