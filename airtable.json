@@ -254,7 +254,8 @@
           "nombre esp": "Laguna de acha",
           "tipo": "lake",
           "nombre sey": "Tsu'u Jaira",
-          "nota sey": "Tsu'upi pa'ikoa aiyowa'i kwejë pa'iañe ja jaira "
+          "nota sey": "Tsu'upi pa'ikoa aiyowa'i kwejë pa'iañe ja jaira ",
+          "nota esp": "En esta laguna existen hachas antiguas que nuestros antepasados trabajaban como para cortar arboles para realizar sus  casas.\n"
         },
         "geometry": null
       },
@@ -537,7 +538,7 @@
         "id": "recIueqyDy0lzAOSq",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "iye jaira kato wakarapi paaijëna jaje kayë",
+          "nota sey": "iye jaira kato jai wakarapi paaijëna jaje kayë",
           "id": "1111",
           "nombre esp": "Garza cocha",
           "nota esp": "Nombre originario que se da antiguamente por abundante presencia de muchas especies de garza.LL",
