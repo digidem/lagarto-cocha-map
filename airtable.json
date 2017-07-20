@@ -12,7 +12,8 @@
           "nombre esp": "Platanillo rojo",
           "nota esp": "Un camino ancestral que conectaba la gente desde las comunidades alejado en el Río Putumayo hacia el Río Aguarico con las comunidades Siekopai en la ribera del Río Aguarico y el Río Cuyubeno",
           "tipo": "camino",
-          "nombre sey": "Manoka tsa'sa"
+          "nombre sey": "Manoka tsa'sa",
+          "video": "https://youtu.be/BG1BUkdPq6A"
         },
         "geometry": null
       },
@@ -129,9 +130,9 @@
           "nota sey": "Jaiye duasai se'epi timësi jairare jaje we'yojë pa'isikoa.",
           "id": "4843469361727951631",
           "nombre esp": "Laguna de manglar",
+          "nota esp": "En esa laguna existen muchas manglares por tal razón le han nombrado (La laguna de manglares).",
           "tipo": "lake",
-          "nombre sey": "Dua jaira",
-          "nota esp": "En esa laguna existen muchas manglares por tal razón le han nombrado (La laguna de manglares)."
+          "nombre sey": "Dua jaira"
         },
         "geometry": null
       },
@@ -156,9 +157,9 @@
           "nota sey": "Soto ya'opi ja jaira pa'ina jaje we'yoyë.",
           "id": "16607546306117930864",
           "nombre esp": "Lago de arcilla",
+          "nota esp": "En esta laguna existen una gran abundancia de arcillas para realizar las ceramicas. ",
           "tipo": "lake",
-          "nombre sey": "Soto Jaira",
-          "nota esp": "En esta laguna existen una gran abundancia de arcillas para realizar las ceramicas. "
+          "nombre sey": "Soto Jaira"
         },
         "geometry": null
       },
@@ -170,9 +171,9 @@
           "nota sey": "iye jaira muse tsokë yowë neñepi pa'iona jaje kayë",
           "id": "1206160794007552664",
           "nombre esp": "Yarina (chuncho) Cocha",
+          "nota esp": "Existen gran variedad de arboles de chuncho, que son buenos para fabricar canoas.",
           "tipo": "lake",
-          "nombre sey": "Muse Jaira",
-          "nota esp": "Existen gran variedad de arboles de chuncho, que son buenos para fabricar canoas."
+          "nombre sey": "Muse Jaira"
         },
         "geometry": null
       },
@@ -198,9 +199,9 @@
           "nota sey": "Iti jairapi neako paaina jaje weyosikoa.",
           "id": "2222",
           "nombre esp": "Laguna negra",
+          "nota esp": "Laguna negra, le han nombrado así por que el agua de la laguna es negra.",
           "tipo": "lake",
-          "nombre sey": "Nea Jaira",
-          "nota esp": "Laguna negra, le han nombrado así por que el agua de la laguna es negra."
+          "nombre sey": "Nea Jaira"
         },
         "geometry": null
       },
@@ -245,12 +246,12 @@
         "id": "rec53xAJFS4u1fc5j",
         "properties": {
           "Item": "Laguna",
+          "nota sey": "Tsu'upi pa'ikoa aiyowa'i kwejë pa'iañe ja jaira ",
           "id": "9797048935111035845",
           "nombre esp": "Laguna  hacha",
+          "nota esp": "En esta laguna existen hachas antiguas que nuestros antepasados trabajaban como para cortar arboles para realizar sus  casas.\n",
           "tipo": "lake",
-          "nombre sey": "Tsu'u Jaira",
-          "nota sey": "Tsu'upi pa'ikoa aiyowa'i kwejë pa'iañe ja jaira ",
-          "nota esp": "En esta laguna existen hachas antiguas que nuestros antepasados trabajaban como para cortar arboles para realizar sus  casas.\n"
+          "nombre sey": "Tsu'u Jaira"
         },
         "geometry": null
       },
@@ -274,9 +275,9 @@
           "nota sey": "Wëwëpi airepa pa'iyë",
           "id": "13654139179669022758",
           "nombre esp": "Laguna de los defines",
+          "nota esp": "Existen muchos delfines en esa laguna por eso le nombraron así, laguna de los delfines. ",
           "tipo": "lake",
-          "nombre sey": "Wëwë Jaira",
-          "nota esp": "Existen muchos delfines en esa laguna por eso le nombraron así, laguna de los delfines. "
+          "nombre sey": "Wëwë Jaira"
         },
         "geometry": null
       },
@@ -589,9 +590,9 @@
           "nota sey": "O'sasapi jaira të'tëpaja'a  paikoa",
           "id": "18305907333145251440",
           "nombre esp": "Daniel cocha (camu, camu)",
+          "nota esp": "En toda la orilla de la laguna existen muchas frutas de camu camu, que son frutas comestibles. ",
           "tipo": "lake",
-          "nombre sey": "O'sasa Jaira",
-          "nota esp": "En toda la orilla de la laguna existen muchas frutas de camu camu, que son frutas comestibles. "
+          "nombre sey": "O'sasa Jaira"
         },
         "geometry": null
       },
@@ -603,9 +604,9 @@
           "nota sey": " Jairata'a iopi dayawë këioni jaje kayë.",
           "id": "13345186247401873987",
           "nombre esp": "Laguna de pantano",
+          "nota esp": "Laguna de pantano le dominan asi, por que la laguna tiene muchos pontano en toda la orilla  y  en el alrededor.",
           "tipo": "lake",
-          "nombre sey": "Jaira Dayawë",
-          "nota esp": "Laguna de pantano le dominan asi, por que la laguna tiene muchos pontano en toda la orilla  y  en el alrededor."
+          "nombre sey": "Jaira Dayawë"
         },
         "geometry": null
       },
@@ -788,9 +789,9 @@
           "nota sey": "suarawa'ise'e paikoa ja dopë.",
           "id": "9400699582440614514",
           "nombre esp": "Poza de bocachicos",
+          "nota esp": "En esta laguna abundan los\n bocachicos.",
           "tipo": "lake",
-          "nombre sey": "Suara Dopë",
-          "nota esp": "En esta laguna abundan los\n bocachicos."
+          "nombre sey": "Suara Dopë"
         },
         "geometry": null
       },
@@ -831,9 +832,9 @@
           "nota sey": "Ëta mañokopi ja dopë paijëna jaje we'yosikoa/sëosikoa.\n",
           "id": "7701629305966502938",
           "nombre esp": "Laguna Puerto estrella.",
+          "nota eng": " \n",
           "tipo": "lake",
-          "nombre sey": "Ma'ñoko Dopë(jaira)",
-          "nota eng": " \n"
+          "nombre sey": "Ma'ñoko Dopë(jaira)"
         },
         "geometry": null
       },
@@ -858,10 +859,10 @@
           "Item": "Point",
           "nota sey": "ja makare onoka tu'aro paiji.",
           "id": "6901346359610995613",
+          "nombre esp": "Saladero de danta en el sector de platanillo.",
           "nota esp": "En el sector de los platanillos hay un saladero de dantas muy grande. ",
           "tipo": "fauna/tapir",
-          "nombre sey": "Onoka Tu'aro",
-          "nombre esp": "Saladero de danta en el sector de platanillo."
+          "nombre sey": "Onoka Tu'aro"
         },
         "geometry": null
       },
@@ -873,9 +874,9 @@
           "nota sey": "Iye dopë doye we'ipi pa'ijëna ñani jaje kayë",
           "id": "954463703472333939",
           "nombre esp": "poza de guanchinche",
+          "nota esp": "En esta poza abundan muchos peces de guanchinche.",
           "tipo": "lake",
-          "nombre sey": "Doye Dopë",
-          "nota esp": "En esta poza abundan muchos peces de guanchinche."
+          "nombre sey": "Doye Dopë"
         },
         "geometry": null
       },
@@ -914,9 +915,9 @@
           "nota sey": "U'upi ai pa'ikoa   ",
           "id": "10625766026938738256",
           "nombre esp": "Soraida Cocha",
+          "nota esp": "Se nombran asi a esa laguna, por  que en esa laguna habitan los osos perezosos.",
           "tipo": "lake",
-          "nombre sey": "U'u Jaira",
-          "nota esp": "Se nombran asi a esa laguna, por  que en esa laguna habitan los osos perezosos."
+          "nombre sey": "U'u Jaira"
         },
         "geometry": null
       },
@@ -1011,9 +1012,9 @@
           "nota sey": "Mawaso we'epi pa'iona ñani jaje we'yowë.",
           "id": "10387776548912010084",
           "nombre esp": "Laguna de   huito",
+          "nota esp": "Por su  variedad se llama, huito sabalo.\n\n",
           "tipo": "lake",
-          "nombre sey": "We'era(jaira)",
-          "nota esp": "Por su  variedad se llama, huito sabalo.\n\n"
+          "nombre sey": "We'era(jaira)"
         },
         "geometry": null
       },
@@ -1111,9 +1112,9 @@
           "nota sey": "Paai pë'ë ai pa'iona jaje weýojë pa'isikoaña",
           "id": "13298961010765552998",
           "nombre esp": "Lagarto Cocha",
+          "nota esp": "Esta laguna antes era muy peligroso por que en esa laguna existen muchos caimanes negros .",
           "tipo": "lake",
-          "nombre sey": "Pë'ë Jaira",
-          "nota esp": "Esta laguna antes era muy peligroso por que en esa laguna existen muchos caimanes negros ."
+          "nombre sey": "Pë'ë Jaira"
         },
         "geometry": null
       },
@@ -1122,12 +1123,12 @@
         "id": "reciEe0E2PGbVmjyK",
         "properties": {
           "Item": "Point",
+          "nota sey": "iye ma'aja ku'ijë pa'awë'ë putumayo paai pa'iko wa'i  yure iye museña kato i ti ma'ana peru saraopi pëani pa'iyë",
           "id": "11559871586223897930",
           "nombre esp": "Puesto de control Aguas Negras",
           "nota esp": "Desde este sitio hubo caminos ancestrales que conectaban a las comunidades Siekopai en la región de Rio Putumayo.  Hoy día este sitio histórico se encuentra un destacamento militar Peruano 'Aguas Negras'.",
           "tipo": "comunidad/casa_temporal_pasado",
-          "nombre sey": "Puesto de Control Aguas Negras",
-          "nota sey": "iye ma'aja ku'ijë pa'awë'ë putumayo paai pa'iko wa'i  yure iye museña kato i ti ma'ana peru saraopi pëani pa'iyë"
+          "nombre sey": "Puesto de Control Aguas Negras"
         },
         "geometry": null
       },
