@@ -796,7 +796,8 @@
           "id": "9400699582440614514",
           "nombre esp": "Poza de bocachicos",
           "tipo": "lake",
-          "nombre sey": "Suara Dopë"
+          "nombre sey": "Suara Dopë",
+          "nota esp": "En esta laguna abundan los\n bocachicos."
         },
         "geometry": null
       },
@@ -834,11 +835,12 @@
         "id": "recVx9IJ0U0tuZi2Y",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Ëta mañokopi ja dopë paijëna jaje weyoakoa.",
+          "nota sey": "Ëta mañokopi ja dopë paijëna jaje we'yosikoa/sëosikoa.\n",
           "id": "7701629305966502938",
           "nombre esp": "Laguna Puerto estrella.",
           "tipo": "lake",
-          "nombre sey": "Ma'ñoko Dopë(jaira)"
+          "nombre sey": "Ma'ñoko Dopë(jaira)",
+          "nota eng": " \n"
         },
         "geometry": null
       },
