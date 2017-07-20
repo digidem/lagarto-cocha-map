@@ -711,7 +711,7 @@
         "id": "recR14wNWVQmop3as",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Emuyaipi tsoeweña sieko paaire anijeakoni pa'iakoni j ja jaira",
+          "nota sey": "Emuyaipi tsoeweña sieko paaire anijeakoni pa'iakoni jaje we'yoakoa ja jaira",
           "id": "12179178394459825957",
           "foto": [
             {
@@ -755,7 +755,7 @@
         "id": "recT09lWRySODKwHs",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "iye jaira kato airo soo saisitore paikoa. ",
+          "nota sey": "iye jaira kato airo soo saisitore pa'ikoa. ",
           "id": "14430556174583174353",
           "nombre esp": "laguna de jungla ",
           "nota esp": "Esta laguna esta ubicado muy adentro del bosque.",
@@ -769,7 +769,7 @@
         "id": "recTOxl8xtbKRja0B",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "iye jaira kato seo repase'e paikoa.",
+          "nota sey": "iye jaira kato seo repase'e paikoa",
           "id": "6995869638763760881",
           "nombre esp": "Laguna casique",
           "nota esp": "En esta laguna existen muchas aves casiques en las orillas de la laguna.",
@@ -865,7 +865,7 @@
         "id": "recYbhmGPMket5vPr",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Iye dopë doyerepase'e paikoa.",
+          "nota sey": "Iye dopë doye we'ipi pa'ijëna ñani jaje kayë",
           "id": "954463703472333939",
           "nombre esp": "poza de guanchinche",
           "tipo": "lake",
@@ -905,7 +905,7 @@
         "id": "recZqtcNhJJ9tjbPr",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "U'upi aipaikoa.",
+          "nota sey": "U'upi ai pa'ikoa   ",
           "id": "10625766026938738256",
           "nombre esp": "Soraida Cocha",
           "tipo": "lake",
@@ -932,7 +932,7 @@
         "id": "recafcsf1XjXLAzHf",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Tupë wanipi pai ikoa ja maka.",
+          "nota sey": "Tupë wanipi pa'i koa ja dopë",
           "id": "4640143000097491919",
           "nombre esp": "Poza de caraguazu",
           "nota esp": "Puede ser llamado Tsiaya wekë ka'wa ?",
@@ -946,7 +946,7 @@
         "id": "reccBPiHgsf2MFqXC",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "sa'sa piapi paijëna.",
+          "nota sey": "sa'sa pi'api pa'ijëna.",
           "id": "9837593016172901626",
           "nombre esp": "laguna de martin",
           "nota esp": "Nombre nuevo",
