@@ -7,12 +7,12 @@
         "id": "rec0dKXQgr2NBWIsp",
         "properties": {
           "Item": "Camino Ancestral",
+          "nota sey": "iye makare manoka tsasa paaikoa",
           "id": "13",
           "nombre esp": "Platanillo rojo",
           "nota esp": "Un camino ancestral que conectaba la gente desde las comunidades alejado en el Río Putumayo hacia el Río Aguarico con las comunidades Siekopai en la ribera del Río Aguarico y el Río Cuyubeno",
           "tipo": "camino",
-          "nombre sey": "Manoka tsa'sa",
-          "nota sey": "iye makare manoka tsasa paaikoa"
+          "nombre sey": "Manoka tsa'sa"
         },
         "geometry": null
       },
@@ -63,12 +63,12 @@
         "id": "rec13SBAedBM1ozCZ",
         "properties": {
           "Item": "Point",
+          "nota sey": "tsoe we'ña paipi peru sorao katare we'yokaijë paiakoni wepi kayë (pai we'ekë sai a ma'are )",
           "id": "3133084118495594748",
           "nombre esp": "Camino al Güepi",
           "nota esp": "tsoe we'ña paipi karena akëpi we'yoko paa'a'koña wepi paai kato we'epi karena.",
           "tipo": "caminos/ai_maa",
-          "nombre sey": "Ma'a wepi kaa maa'a",
-          "nota sey": "tsoe we'ña paipi peru sorao katare we'yokaijë paiakoni wepi kayë (pai we'ekë sai a ma'are )"
+          "nombre sey": "Ma'a wepi kaa maa'a"
         },
         "geometry": null
       },
@@ -90,6 +90,7 @@
         "id": "rec27IM4JulTuJqHn",
         "properties": {
           "Item": "Point",
+          "nota sey": "iye maka paajii jai daripë siekoapai paijë paiamaka  ",
           "id": "9102455105363811224",
           "nota esp": "La historia cuenta que aqui fue un pueblo mas grande Siekopai. Dentro de esta comunidad nacio Cesario Piaguaje quien vive actualmente y da testimonio sobre la vida Siekopai antes de la guerra en 1941.",
           "foto": [
@@ -102,8 +103,7 @@
             }
           ],
           "tipo": "comunidad/jai_daripe",
-          "nombre sey": "Tupë sa'ro Paai pa'idaripë",
-          "nota sey": "iye maka paajii jai daripë siekoapai paijë paiamaka  "
+          "nombre sey": "Tupë sa'ro Paai pa'idaripë"
         },
         "geometry": null
       },
@@ -152,7 +152,7 @@
         "id": "rec32UaeL9bikJ0aq",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Soto ya'opi ja jaira paaikoa.",
+          "nota sey": "Soto ya'opi ja jaira pa'ina",
           "id": "16607546306117930864",
           "nombre esp": "Lago de arcilla",
           "tipo": "lake",
@@ -227,6 +227,7 @@
         "id": "rec4SRN1IGn4OFkCW",
         "properties": {
           "Item": "Point",
+          "nota sey": "Año 2003 pai maka pai daijë paawë ti iona pëani payu'u kajë yo'oni io mami daripë weyoawë'ë mañoko.",
           "id": "10529189292030859811",
           "nombre esp": "Comunidad Puerto Estrella",
           "nota esp": "Un pueblo actual de los Siekopai  en la frontera de Perú que fue re-establecido en el año 2003.  Hoy dÃ­a se encuentra con la presencia de 7 familias Siekopai y también este pueblo sirve como el punto principal de encuentros entre las familias.",
@@ -240,8 +241,7 @@
             }
           ],
           "tipo": "comunidad/comunidad_nueva",
-          "nombre sey": "Ma'ñoko paai pa'idaripë",
-          "nota sey": "Año 2003 pai maka pai daijë paawë ti iona pëani payu'u kajë yo'oni io mami daripë weyoawë'ë mañoko."
+          "nombre sey": "Ma'ñoko paai pa'idaripë"
         },
         "geometry": null
       },
@@ -331,12 +331,12 @@
         "id": "rec8LfahJMz3cOQY7",
         "properties": {
           "Item": "Camino Ancestral",
+          "nota sey": "anguisiyapi pëkëyana dai ma'a.",
           "id": "2",
           "nombre esp": "Camino ancestral Anguisilla / Pekëya / Cañon Negro",
+          "nota esp": "Camino de angusilla a lagarto cocha de hay que cruza al cañon negro.",
           "tipo": "camino",
-          "nombre sey": "Ukwisiyapi Pë'këyana jetani Cañon negrona etako/ Cañon Negro",
-          "nota sey": "anguisiyapi pëkëyana dai ma'a.",
-          "nota esp": "Camino de angusilla a lagarto cocha de hay que cruza al cañon negro."
+          "nombre sey": "Ukwisiyapi Pë'këyana jetani Cañon negrona etako/ Cañon Negro"
         },
         "geometry": null
       },
@@ -419,11 +419,11 @@
         "id": "recBxK3xbuNHbhbnz",
         "properties": {
           "Item": "Camino Ancestral",
-          "id": "16",
-          "tipo": "camino",
-          "nombre sey": "Camino a Emuya Tsiaya",
           "nota sey": "jenitome ma'a emuya tsiayana jaye",
-          "nota esp": "Camino de cruce al rio emuña."
+          "id": "16",
+          "nota esp": "Camino de cruce al rio emuña.",
+          "tipo": "camino",
+          "nombre sey": "Camino a Emuya Tsiaya"
         },
         "geometry": null
       },
@@ -469,9 +469,9 @@
           "nota sey": "Iye maka kato pa'iji mëapi yowë neñe  siekopaai  jaje pa'iro'ire  si'anë ku'ijë paa'añeña  itire kajë.",
           "id": "13990912366586570676",
           "nombre esp": "Cedrococha",
+          "nota esp": "Le nombraron cedro cocha por en el bosque de la laguna existían muchos arboles de cedro que eran arboles para fabricar canoas.",
           "tipo": "lake",
-          "nombre sey": "Mëa Jaira",
-          "nota esp": "Le nombraron cedro cocha por en el bosque de la laguna existían muchos arboles de cedro que eran arboles para fabricar canoas."
+          "nombre sey": "Mëa Jaira"
         },
         "geometry": null
       },
@@ -483,9 +483,9 @@
           "nota sey": "Iye maka mawëwëpi paijëna kayë.",
           "id": "3647679523302977352",
           "nombre esp": "Laguna de los delfines rosado.",
+          "nota esp": "En esta laguna existes muchos delfines rosados, por eso le nombraron la laguna de los delfines rosados esta.",
           "tipo": "lake",
-          "nombre sey": "Mawëwë Jaira",
-          "nota esp": "En esta laguna existes muchos delfines rosados, por eso le nombraron la laguna de los delfines rosados esta."
+          "nombre sey": "Mawëwë Jaira"
         },
         "geometry": null
       },
@@ -494,12 +494,12 @@
         "id": "recF4pfRmDQC0ZltD",
         "properties": {
           "Item": "Camino Ancestral",
+          "nota sey": "tsoeweña daijë paiama'a",
           "id": "12",
           "nombre esp": "Camino Ancestral: Wajoya ",
           "nota esp": "Camino ancestral de wajoya a la comunidad ma'ñoko",
           "tipo": "camino",
-          "nombre sey": " Wajoyapi / Mañokona daima'a, ma'a sarawa.",
-          "nota sey": "tsoeweña daijë paiama'a"
+          "nombre sey": " Wajoyapi / Mañokona daima'a, ma'a sarawa."
         },
         "geometry": null
       },
@@ -508,12 +508,12 @@
         "id": "recFHlS1nTZkkh5qN",
         "properties": {
           "Item": "Camino Ancestral",
+          "nota sey": " wiririna mañokona daripëna dai ma'a",
           "id": "4",
           "nombre esp": "Camino Wiririma / Mañoko",
-          "tipo": "camino",
-          "nombre sey": "Mañokopi Wiririmana saima'a",
           "nota esp": "Camino que llega de wirima a la comunidad ma'ñoko.",
-          "nota sey": " wiririna mañokona daripëna dai ma'a"
+          "tipo": "camino",
+          "nombre sey": "Mañokopi Wiririmana saima'a"
         },
         "geometry": null
       },
@@ -524,10 +524,10 @@
           "Item": "Point",
           "nota sey": "tsoe weña paai onoka jaira të'të paai daripë paiako",
           "id": "17463864706799181072",
+          "nombre esp": "Orilla de platanillo.",
           "nota esp": "En la orilla de este laguna hubo un asentamiento Siekopai en los años previa a 1941 y incluyo una casa ceremonial de Yajé.   Aquí también se relato de un historia muy importante de los Siekopai  que trata del resurrección de un shaman quien fue enterrado y levanto después de unas días y cruzo al otro lado (hacia el lado Ecuador) para ver sus parientes quien vivían en la orilla  de la Laguna Pë’ë Jaira o ‘Lagarto Cocha’.  ",
           "tipo": "comunidad/pai_pai_daripe",
-          "nombre sey": "Onoka të'tëpa paai pa'idaripë",
-          "nombre esp": "Orilla de platanillo."
+          "nombre sey": "Onoka të'tëpa paai pa'idaripë"
         },
         "geometry": null
       },
@@ -559,12 +559,12 @@
         "id": "recJSeDJHvJamV0zJ",
         "properties": {
           "Item": "Point",
+          "nota sey": "tsoe weña paai daripë",
           "id": "8474526839330137577",
           "nombre esp": "Rastrojo de la comunidad antigua.",
           "nota esp": "Rastrojo de una comunidad antigua que existía en ese lugar.",
           "tipo": "comunidad/pai_pai_daripe",
-          "nombre sey": "Paai paa'isi darip'ë",
-          "nota sey": "tsoe weña paai daripë"
+          "nombre sey": "Paai paa'isi darip'ë"
         },
         "geometry": null
       },
@@ -613,12 +613,12 @@
         "id": "recMtyu0SHXXhl8bF",
         "properties": {
           "Item": "Point",
+          "nota sey": "sese tu'aro",
           "id": "1123698577759621497",
           "nombre esp": "Saladero de puercos del monte(Guanguana)",
           "nota esp": "Es un saladero de guanguanas, siempre suelen venir a ese lugar.",
           "tipo": "fauna/huangana",
-          "nombre sey": "Sese Tu'aro",
-          "nota sey": "sese tu'aro"
+          "nombre sey": "Sese Tu'aro"
         },
         "geometry": null
       },
@@ -891,12 +891,12 @@
         "id": "recZT4CwLot1Mkct5",
         "properties": {
           "Item": "Point",
+          "nota sey": "wekë tu'aro",
           "id": "8203844693492997336",
           "nombre esp": "Saladero de danta",
           "nota esp": "Saladero de dantas.",
           "tipo": "fauna/tapir",
-          "nombre sey": "Wekë tu'aro",
-          "nota sey": "wekë tu'aro"
+          "nombre sey": "Wekë tu'aro"
         },
         "geometry": null
       },
@@ -960,11 +960,11 @@
         "id": "reccBkzwfClQzTDuQ",
         "properties": {
           "Item": "Camino Ancestral",
-          "id": "15",
-          "tipo": "camino",
-          "nombre sey": "Cañon de negra",
           "nota sey": " aguarico tsiyana jenitome ma'a caño de negro",
-          "nota esp": "Cruce al rio aguarico y cañon negro."
+          "id": "15",
+          "nota esp": "Cruce al rio aguarico y cañon negro.",
+          "tipo": "camino",
+          "nombre sey": "Cañon de negra"
         },
         "geometry": null
       },
@@ -987,12 +987,12 @@
         "id": "reccwEp0zcnJKQbi6",
         "properties": {
           "Item": "Camino Ancestra",
+          "nota sey": "iye ma'aja tsoeweña peru soraore kata weyokaijë paaikaoni  jaje sëowë'ë iye ma'a weepi.",
           "id": "1",
           "nombre esp": "Camino ancestral Gueppi",
-          "tipo": "camino",
-          "nombre sey": "Wepi saima´a",
           "nota esp": "Este es el camino ancestral wepi, y tiene una historia que cuenta que en este camino cargaban municiones para ejercito peruanos, por que en esa época estaban en conflicto con Colombia.",
-          "nota sey": "iye ma'aja tsoeweña peru soraore kata weyokaijë paaikaoni  jaje sëowë'ë iye ma'a weepi."
+          "tipo": "camino",
+          "nombre sey": "Wepi saima´a"
         },
         "geometry": null
       },
@@ -1047,10 +1047,10 @@
           "Item": "Laguna",
           "nota sey": "Añapëkë etamëiko",
           "id": "11558844345601045169",
-          "tipo": "lake",
-          "nombre sey": "Añapëkë Kooje",
           "nombre esp": "Cueva de mero",
-          "nota esp": "Por este cueva había salido el mero, ballena de agua dulce.\n"
+          "nota esp": "Por este cueva había salido el mero, ballena de agua dulce.\n",
+          "tipo": "lake",
+          "nombre sey": "Añapëkë Kooje"
         },
         "geometry": null
       },
@@ -1059,11 +1059,11 @@
         "id": "recfeWo9vuOFs497N",
         "properties": {
           "Item": "Laguna",
+          "nota sey": "Iye dayawëna te'tosikopi we'eji te'todayawë.\n",
           "id": "8994461966658285812",
-          "tipo": "lake",
-          "nombre sey": "Te´to Dayawë",
           "nombre esp": "Pantano.",
-          "nota sey": "Iye dayawëna te'tosikopi we'eji te'todayawë.\n"
+          "tipo": "lake",
+          "nombre sey": "Te´to Dayawë"
         },
         "geometry": null
       },
@@ -1075,9 +1075,9 @@
           "nota sey": "Kosa pa'i dopë, ai koosarepase'e pa'ikoa iye jaira të'tëpa.\n",
           "id": "3662321094468416827",
           "nombre esp": "laguna de  unguragua ",
+          "nota esp": "En la orilla de esta laguna existe bastante ungurahua es como sembrado por eso lo llamamos con este nombre.\n",
           "tipo": "lake",
-          "nombre sey": "Koosa Dopë(jaira)",
-          "nota esp": "En la orilla de esta laguna existe bastante ungurahua es como sembrado por eso lo llamamos con este nombre.\n"
+          "nombre sey": "Koosa Dopë(jaira)"
         },
         "geometry": null
       },
@@ -1128,9 +1128,9 @@
           "Item": "Laguna",
           "nota sey": "Añapëkë pa'ira",
           "id": "6015610521828036113",
+          "nombre esp": "Cueva de mero",
           "tipo": "lake",
-          "nombre sey": "Añapëkë Kooje",
-          "nombre esp": "Cueva de mero"
+          "nombre sey": "Añapëkë Kooje"
         },
         "geometry": null
       },
@@ -1152,10 +1152,10 @@
         "id": "recjStKOs5F1f0Xxw",
         "properties": {
           "Item": "Camino",
+          "nota sey": "emuya tsiayana sai ma'a",
           "nombre esp": "Camino a rio emuya ",
           "tipo": "camino",
-          "nombre sey": " Emuña Tsiaya saima´a",
-          "nota sey": "emuya tsiayana sai ma'a"
+          "nombre sey": " Emuña Tsiaya saima´a"
         },
         "geometry": null
       },
@@ -1193,9 +1193,9 @@
           "nota sey": "iye ma'aja ai jaye jenitojë yaje ukujëpaawë emuya tsiayana",
           "id": "15270807256290582399",
           "nombre esp": "Camino ancestral de cruce de garza cocha a Emuña.",
+          "nota esp": "Camino ancestral que cruza al rio emuña desde la laguna garza cocha, para realizar su ceremonia de yaje ",
           "tipo": "Camino",
-          "nombre sey": "Wakara jaira ma'a emuña  jeni tomewe'ña",
-          "nota esp": "Camino ancestral que cruza al rio emuña desde la laguna garza cocha, para realizar su ceremonia de yaje "
+          "nombre sey": "Wakara jaira ma'a emuña  jeni tomewe'ña"
         },
         "geometry": null
       },
@@ -1264,9 +1264,9 @@
           "nota sey": "o'sasa okweyepi paaiona we'yoyë iye jaira dopë.\n",
           "id": "2646991696197452943",
           "nombre esp": "Laguna  Camu camu",
+          "nota esp": "El camu camu  son frutas agrias pero comestible.\n",
           "tipo": "lake",
-          "nombre sey": "O'sasa Dopë (jaira)",
-          "nota esp": "El camu camu  son frutas agrias pero comestible.\n"
+          "nombre sey": "O'sasa Dopë (jaira)"
         },
         "geometry": null
       },
@@ -1278,9 +1278,9 @@
           "nota sey": "Paku wa'ipi paaijëna",
           "id": "5343724908215276575",
           "nombre esp": "Poza de palometas",
+          "nota esp": "En esta laguna abundan las palometas por eso se conoce como paza de palometas.\n",
           "tipo": "lake",
-          "nombre sey": "Paku Dopë",
-          "nota esp": "En esta laguna abundan las palometas por eso se conoce como paza de palometas.\n"
+          "nombre sey": "Paku Dopë"
         },
         "geometry": null
       },
@@ -1305,10 +1305,10 @@
           "Item": "Laguna",
           "nota sey": "yaji wanirepase ai  paa'ikowa'ia'ë iye jaira.\n",
           "id": "7845271947901051509",
-          "tipo": "lake",
-          "nombre sey": "Yaji Wani Dopë(jaira)",
           "nombre esp": "Poza/laguna de mojarras",
-          "nota esp": "Abundan las mojarras en esta poza/laguna."
+          "nota esp": "Abundan las mojarras en esta poza/laguna.",
+          "tipo": "lake",
+          "nombre sey": "Yaji Wani Dopë(jaira)"
         },
         "geometry": null
       },
@@ -1478,12 +1478,12 @@
         "id": "recr1fN0Uay6e8cRj",
         "properties": {
           "Item": "Point",
+          "nota sey": "tu'aro sai ma'a",
           "id": "14038398745685493712",
           "nombre esp": "Camino al saladero",
           "nota esp": "Puerto al camino de un saladero. ",
           "tipo": "Fauna-puerto",
-          "nombre sey": "Tua'ro tumasa'ro",
-          "nota sey": "tu'aro sai ma'a"
+          "nombre sey": "Tua'ro tumasa'ro"
         },
         "geometry": null
       },
@@ -1517,12 +1517,12 @@
         "id": "recszPRrbJTXoJQKM",
         "properties": {
           "Item": "Camino Ancestral",
+          "nota sey": "anguisiyapi nea tsiaya dai ma'a ",
           "id": "3",
           "nombre esp": "Camino ancestral Angusilla / Aguas Negras",
+          "nota esp": "Camino ancestral Angusilla que llega a salir al rio aguas negras.\n ",
           "tipo": "camino",
-          "nombre sey": "Aima'a Ukwisiyapi Neañana etasi ma'a.",
-          "nota sey": "anguisiyapi nea tsiaya dai ma'a ",
-          "nota esp": "Camino ancestral Angusilla que llega a salir al rio aguas negras.\n "
+          "nombre sey": "Aima'a Ukwisiyapi Neañana etasi ma'a."
         },
         "geometry": null
       },
