@@ -63,7 +63,7 @@
         "id": "rec13SBAedBM1ozCZ",
         "properties": {
           "Item": "Point",
-          "nota sey": "tsoe we'ña paipi peru sorao katare we'yokaijë paiakoni wepi kayë (pai we'ekë sai a ma'are )",
+          "nota sey": "tsoe we'ña sieko paaipi peru sorao katare we'yokaijë paiakoni weepi kayë (paai we'ekë sai a ma'are )",
           "id": "3133084118495594748",
           "nombre esp": "Camino al Güepi",
           "nota esp": "tsoe we'ña paipi karena akëpi we'yoko paa'a'koña wepi paai kato we'epi karena.",
@@ -165,7 +165,7 @@
         "id": "rec3QHJeSdZN7Lcva",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Tëtë sewapi pa'iona ñani jaje we'yoa'wë",
+          "nota sey": "iye jaira muse tsokë yowë neñepi pa'iona jaje kayë",
           "id": "1206160794007552664",
           "nombre esp": "Yarina Cocha",
           "tipo": "lake",
@@ -282,7 +282,7 @@
           "nombre esp": "Laguna de los defines",
           "tipo": "lake",
           "nombre sey": "Wëwë Jaira",
-          "nota esp": "Existen muchos delfines en esa por eso le nombraron asi "
+          "nota esp": "Existen muchos delfines en esa laguna por eso le nombraron así, laguna de los delfines. "
         },
         "geometry": null
       },
