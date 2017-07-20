@@ -153,11 +153,12 @@
         "id": "rec32UaeL9bikJ0aq",
         "properties": {
           "Item": "Laguna",
-          "nota sey": "Soto ya'opi ja jaira pa'ina",
+          "nota sey": "Soto ya'opi ja jaira pa'ina jaje we'yoyë.",
           "id": "16607546306117930864",
           "nombre esp": "Lago de arcilla",
           "tipo": "lake",
-          "nombre sey": "Soto Jaira"
+          "nombre sey": "Soto Jaira",
+          "nota esp": "En esta laguna existen una gran abundancia de arcillas para realizar las ceramicas. "
         },
         "geometry": null
       },
@@ -1122,7 +1123,8 @@
           "nombre esp": "Puesto de control Aguas Negras",
           "nota esp": "Desde este sitio hubo caminos ancestrales que conectaban a las comunidades Siekopai en la región de Rio Putumayo.  Hoy día este sitio histórico se encuentra un destacamento militar Peruano 'Aguas Negras'.",
           "tipo": "comunidad/casa_temporal_pasado",
-          "nombre sey": "Puesto de Control Aguas Negras"
+          "nombre sey": "Puesto de Control Aguas Negras",
+          "nota sey": "iye ma'aja ku'ijë pa'awë'ë putumayo paai pa'iko wa'i  yure iye museña kato i ti ma'ana peru saraopi pëani pa'iyë"
         },
         "geometry": null
       },
@@ -1232,7 +1234,7 @@
         "id": "reclMYhKMkD8hoOeo",
         "properties": {
           "Item": "Point",
-          "nota sey": "tsoeweña  wakara jaira sarawana paai pëni paijë paawë yo'oni sani sarena ecuador soraopi pëani paakoë ",
+          "nota sey": "tsoeweña  wakara jaira sarawana paai pëani paijë paawë yo'oni sani sarena ecuador soraopi pëani paakoë ",
           "id": "9263350016677695422",
           "nombre esp": "Rastrojo de asentamiento siekopaai en la bocana de garzacocha",
           "nota esp": "En el 1994 los Siekopai intentaron a re-establecer su presencia en este sitio histórico con un asentamiento y cultivos de yuca y plátano, pero otra vez los militares quitaron el puesto y establecieron el destacamento militar ‘Patria’.",
