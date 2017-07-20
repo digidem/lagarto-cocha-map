@@ -922,7 +922,8 @@
           "id": "10625766026938738256",
           "nombre esp": "Soraida Cocha",
           "tipo": "lake",
-          "nombre sey": "U'u Jaira"
+          "nombre sey": "U'u Jaira",
+          "nota esp": "Se nombran asi a esa laguna, por  que en esa laguna habitan los osos perezosos."
         },
         "geometry": null
       },
@@ -977,7 +978,7 @@
           "id": "15",
           "nota esp": "Cruce al rio aguarico y cañon negro.",
           "tipo": "camino",
-          "nombre sey": "Cañon de negra"
+          "nombre sey": "Cañon  negro"
         },
         "geometry": null
       },
