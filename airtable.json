@@ -169,7 +169,7 @@
           "Item": "Laguna",
           "nota sey": "iye jaira muse tsokë yowë neñepi pa'iona jaje kayë",
           "id": "1206160794007552664",
-          "nombre esp": "Yarina Cocha",
+          "nombre esp": "Yarina (chuncho) Cocha",
           "tipo": "lake",
           "nombre sey": "Muse Jaira",
           "nota esp": "Existen gran variedad de arboles de chuncho, que son buenos para fabricar canoas."
@@ -209,7 +209,7 @@
           "nombre esp": "Laguna negra",
           "tipo": "lake",
           "nombre sey": "Nea Jaira",
-          "nota esp": "Laguna legra, le han nombrado así por que el agua de la laguna es negra."
+          "nota esp": "Laguna negra, le han nombrado así por que el agua de la laguna es negra."
         },
         "geometry": null
       },
@@ -255,7 +255,7 @@
         "properties": {
           "Item": "Laguna",
           "id": "9797048935111035845",
-          "nombre esp": "Laguna de acha",
+          "nombre esp": "Laguna  hacha",
           "tipo": "lake",
           "nombre sey": "Tsu'u Jaira",
           "nota sey": "Tsu'upi pa'ikoa aiyowa'i kwejë pa'iañe ja jaira ",
@@ -612,7 +612,8 @@
           "id": "13345186247401873987",
           "nombre esp": "Laguna de pantano",
           "tipo": "lake",
-          "nombre sey": "Jaira Dayawë"
+          "nombre sey": "Jaira Dayawë",
+          "nota esp": "Laguna de pantano le dominan asi, por que la laguna tiene muchos pontano en toda la orilla  y  en el alrededor."
         },
         "geometry": null
       },
