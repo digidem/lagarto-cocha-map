@@ -177,7 +177,12 @@ function onLoad () {
 
   map.on('click', function (e) {
     var features = map.queryRenderedFeatures(e.point, { layers: interactiveLayers })
+    var areaClicked = map.queryRenderedFeatures(e.point, {layers: ['centr-point-77z6mi copy']})
+    if (areaClicked) {
+      if (map.getZoom() < 10.75) map.easeTo({center: [-75.3106, -0.4793], zoom: 11.92})
+    }
     airtableRecord = features && features[0] && dataIndex[features[0].properties.id]
+
     if (!airtableRecord) {
       popup.remove()
       return
