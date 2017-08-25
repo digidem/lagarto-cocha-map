@@ -4,7 +4,7 @@
   "description": "Interactive map of Siekopai ancestral territory in Lagarto Cocha",
   "main": "index.js",
   "dependencies": {
-    "alianza-elements": "^1.0.1",
+    "alianza-elements": "^1.1.0",
     "bootstrap": "^4.0.0-alpha.6",
     "budo": "^9.4.7",
     "d3-force": "^1.0.6",
