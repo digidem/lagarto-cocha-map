@@ -1,6 +1,8 @@
 const d3 = require('d3-request')
 const css = require('sheetify')
+const ToggleControl = require('mapbox-gl-toggle-control')
 const renderPopup = require('./popup')
+const Infobox = require('./info')
 const renderLanguageSelector = require('./language')
 const layoutMarkers = require('./layout')
 const mapboxgl = require('mapbox-gl')
@@ -103,6 +105,12 @@ function onLoad () {
 
   var nav = new mapboxgl.NavigationControl()
   map.addControl(nav, 'top-left')
+
+  var infoBox = Infobox()
+  document.body.appendChild(infoBox)
+  var infoCtrl = new ToggleControl(infoBox)
+  map.addControl(infoCtrl, 'top-left')
+  infoCtrl._toggleButton.setAttribute('aria-label', 'Toggle Information')
 
   var lakes = map.getLayer('S - Lakes')
   var lakeHighlight = {

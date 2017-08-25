@@ -13,6 +13,7 @@
     "mapbox-gl": "^0.36.0",
     "object-assign": "^4.1.1",
     "sheetify": "^6.0.1",
+    "sheetify-nested": "^1.0.2",
     "tachyons": "^4.6.2",
     "yo-yo": "^1.4.0"
   },
@@ -29,7 +30,7 @@
     "yo-yoify": "^3.7.0"
   },
   "scripts": {
-    "start": "budo src/index.js:bundle.js --live -d static -- -t sheetify/transform",
+    "start": "budo src/index.js:bundle.js --live -d static -- -t [ sheetify/transform -u sheetify-nested]",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "mkdirp dist && npm run build:js && npm run build:static",
     "build:js": "browserify src/index.js -t sheetify/transform -t varify -t yo-yoify -g uglifyify > dist/bundle.js",
