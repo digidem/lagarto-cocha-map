@@ -1,20 +1,14 @@
 const d3 = require('d3-request')
+const elements = require('alianza-elements')
 const css = require('sheetify')
-const renderPopup = require('./popup')
-const renderLanguageSelector = require('./language')
-const layoutMarkers = require('./layout')
 const mapboxgl = require('mapbox-gl')
-const yo = require('yo-yo')
+
+var renderPopup = require('./popup')
+var layoutMarkers = require('./layout')
 
 css('mapbox-gl/dist/mapbox-gl.css')
+css('alianza-elements/style.css')
 
-var langStyle = css`
-  :host {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-  }
-`
 var markerRadius = 20
 var popupOffsets = {
   'top': [0, markerRadius],
@@ -27,22 +21,13 @@ var popupOffsets = {
   'right': [-markerRadius, 0]
 }
 
-var yoOptions = {
-  onBeforeElUpdated: function (fromEl) {
-    if (fromEl.tagName.toUpperCase() === 'IMG') {
-      console.log('update src')
-      fromEl.src = ''
-    }
-  }
-}
-
 mapboxgl.accessToken = 'pk.eyJ1IjoiZ21hY2xlbm5hbiIsImEiOiJSaWVtd2lRIn0.ASYMZE2HhwkAw4Vt7SavEg'
 
 var data
 var translations = {}
 var dataIndex = {}
 var pending = 2
-var lang = 'esp'
+var lang = 'es'
 
 var interactiveLayers = [
   'Caminos hover',
@@ -98,7 +83,7 @@ function onLoad () {
   if (--pending > 0) return
   var airtableRecord
   layoutMarkers(map, pointLayers)
-  var langSelector = yo`<div class='${langStyle}'>${renderLanguageSelector(updateLang, lang)}</div>`
+  var langSelector = elements.language(updateLang, lang)
   document.body.appendChild(langSelector)
 
   var nav = new mapboxgl.NavigationControl()
@@ -130,12 +115,7 @@ function onLoad () {
   map.addLayer(lakeHighlight, 'S - River Areas')
 
   // Create a popup, but don't add it to the map yet.
-  var popup = new mapboxgl.Popup({
-    closeButton: true,
-    closeOnClick: false
-  })
-  var popupNode = yo`<div>Popup</div>`
-  popup.setDOMContent(popupNode)
+  var popup = elements.popup(map)
 
   map.on('mousemove', function (e) {
     var features = map.queryRenderedFeatures(e.point, { layers: interactiveLayers })
@@ -190,15 +170,16 @@ function onLoad () {
     var isPoint = features[0].geometry.type === 'Point'
     var loc = isPoint ? features[0].geometry.coordinates : e.lngLat
 
-    popup.options.offset = isPoint ? popupOffsets : 0
-    yo.update(popupNode, renderPopup(airtableRecord.properties, lang, translations), yoOptions)
-    popup.setLngLat(loc).addTo(map)
+    var popupDOM = renderPopup(airtableRecord.properties, lang, translations)
+    popup.popup.options.offset = isPoint ? popupOffsets : 0
+    popup.update(popupDOM)
+    popup.setLngLat(loc)
   })
 
   function updateLang (_) {
     lang = _
     if (airtableRecord) {
-      yo.update(popupNode, renderPopup(airtableRecord.properties, lang, translations))
+      popup.update(renderPopup(airtableRecord.properties, lang, translations))
     }
   }
 }

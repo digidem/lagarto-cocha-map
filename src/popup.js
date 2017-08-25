@@ -1,43 +1,7 @@
 const yo = require('yo-yo')
 const css = require('sheetify')
 
-css('bootstrap/dist/css/bootstrap.min.css')
-
 var popupStyle = css`
-  html .mapboxgl-popup-content {
-    padding: 0;
-  }
-
-  html .mapboxgl-popup-close-button {
-    color: white;
-    z-index: 99;
-    right: -8.5px;
-    top: -13.5px;
-    width: 20px;
-    height: 20px;
-    margin-left: 0px;
-    font-size: 18px;
-  }
-  html .mapboxgl-popup-close-button:hover {
-    background-color: transparent;
-    color: #eee;
-    border-color: #eee;
-  }
-  html .mapboxgl-popup-close-button:hover:before {
-    background-color: rgba(0,0,0,0.9);
-  }
-  html .mapboxgl-popup-close-button:before {
-    content: '';
-    position: absolute;
-    background-color: rgba(0,0,0,0.8);
-    border-radius: 10px;
-    border: 2px solid white;
-    width: 100%;
-    height: 100%;
-    left: 1.5px;
-    top: 3px;
-    z-index: -1;
-  }
   :host {
     width: 300px;
     background-color: white;
