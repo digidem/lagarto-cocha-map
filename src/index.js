@@ -131,16 +131,9 @@ function onLoad () {
     map.easeTo({center: [-75.3106, -0.4793], zoom: 11.92})
   }
 
-  var backButton = elements.backButton(lang, function () {
+  var backButton = elements.backButton(map, {lang: lang, stop: 11.92}, function () {
     if (map.getZoom() > 10.75) defaultZoom()
   })
-  document.body.appendChild(backButton)
-  map.on('zoom', redrawBackButton)
-  redrawBackButton()
-  function redrawBackButton () {
-    if (map.getZoom() > 11.92) backButton.style.display = ''
-    else backButton.style.display = 'none'
-  }
 
   map.on('mousemove', function (e) {
     var features = map.queryRenderedFeatures(e.point, { layers: interactiveLayers })
@@ -205,5 +198,6 @@ function onLoad () {
       popup.update(renderPopup(airtableRecord.properties, lang, translations))
     }
     infoBox.updateLang(lang)
+    backButton.updateLang(lang)
   }
 }
