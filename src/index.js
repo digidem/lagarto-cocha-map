@@ -1,6 +1,8 @@
 const d3 = require('d3-request')
 const elements = require('alianza-elements')
 const css = require('sheetify')
+const ToggleControl = require('mapbox-gl-toggle-control')
+const Infobox = require('./info')
 const mapboxgl = require('mapbox-gl')
 
 var renderPopup = require('./popup')
@@ -88,6 +90,12 @@ function onLoad () {
 
   var nav = new mapboxgl.NavigationControl()
   map.addControl(nav, 'top-left')
+
+  var infoBox = Infobox(lang)
+  document.body.appendChild(infoBox.el)
+  var infoCtrl = new ToggleControl(infoBox.el)
+  map.addControl(infoCtrl, 'top-left')
+  infoCtrl._toggleButton.setAttribute('aria-label', 'Toggle Information')
 
   var lakes = map.getLayer('S - Lakes')
   var lakeHighlight = {
@@ -191,5 +199,6 @@ function onLoad () {
     if (airtableRecord) {
       popup.update(renderPopup(airtableRecord.properties, lang, translations))
     }
+    infoBox.updateLang(lang)
   }
 }
