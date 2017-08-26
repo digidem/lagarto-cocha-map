@@ -1,4 +1,5 @@
 const d3 = require('d3-request')
+const qs = require('querystring')
 const elements = require('alianza-elements')
 const css = require('sheetify')
 const ToggleControl = require('mapbox-gl-toggle-control')
@@ -10,6 +11,7 @@ var layoutMarkers = require('./layout')
 
 css('mapbox-gl/dist/mapbox-gl.css')
 css('alianza-elements/style.css')
+
 
 var markerRadius = 20
 var popupOffsets = {
@@ -29,7 +31,7 @@ var data
 var translations = {}
 var dataIndex = {}
 var pending = 2
-var lang = 'es'
+var lang = qs.parse(window.location.search.replace('?', '')).lang || 'es'
 
 var interactiveLayers = [
   'Caminos hover',
