@@ -126,17 +126,21 @@ function onLoad () {
   // Create a popup, but don't add it to the map yet.
   var popup = elements.popup(map)
 
+  // magic zoom numbers
   function defaultZoom () {
-    if (map.getZoom() < 10.75) map.easeTo({center: [-75.3106, -0.4793], zoom: 11.92})
+    map.easeTo({center: [-75.3106, -0.4793], zoom: 11.92})
   }
 
-  var backButton = elements.backButton(lang, defaultZoom)
-  document.body.appendChild(backButton)
-
-  map.on('zoom', function () {
-    if (map.getZoom() > 11.75) backButton.style.display = ''
-    else backButton.style.display = 'none'
+  var backButton = elements.backButton(lang, function () {
+    if (map.getZoom() > 10.75) defaultZoom()
   })
+  document.body.appendChild(backButton)
+  map.on('zoom', redrawBackButton)
+  redrawBackButton()
+  function redrawBackButton () {
+    if (map.getZoom() > 11.92) backButton.style.display = ''
+    else backButton.style.display = 'none'
+  }
 
   map.on('mousemove', function (e) {
     var features = map.queryRenderedFeatures(e.point, { layers: interactiveLayers })
@@ -179,7 +183,7 @@ function onLoad () {
   map.on('click', function (e) {
     var features = map.queryRenderedFeatures(e.point, { layers: interactiveLayers })
     var areaClicked = map.queryRenderedFeatures(e.point, {layers: ['centr-point-77z6mi copy']})
-    if (areaClicked) defaultZoom()
+    if (areaClicked && map.getZoom() < 10.75) defaultZoom()
     airtableRecord = features && features[0] && dataIndex[features[0].properties.id]
 
     if (!airtableRecord) {
