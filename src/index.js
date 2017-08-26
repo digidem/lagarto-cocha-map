@@ -91,9 +91,9 @@ function onLoad () {
   var nav = new mapboxgl.NavigationControl()
   map.addControl(nav, 'top-left')
 
-  var infoBox = Infobox()
-  document.body.appendChild(infoBox)
-  var infoCtrl = new ToggleControl(infoBox)
+  var infoBox = Infobox(lang)
+  document.body.appendChild(infoBox.el)
+  var infoCtrl = new ToggleControl(infoBox.el)
   map.addControl(infoCtrl, 'top-left')
   infoCtrl._toggleButton.setAttribute('aria-label', 'Toggle Information')
 
@@ -189,5 +189,6 @@ function onLoad () {
     if (airtableRecord) {
       popup.update(renderPopup(airtableRecord.properties, lang, translations))
     }
+    infoBox.updateLang(lang)
   }
 }

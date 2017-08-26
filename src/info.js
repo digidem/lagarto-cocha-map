@@ -1,8 +1,16 @@
 const yo = require('yo-yo')
 const css = require('sheetify')
 
-module.exports = function info (lang) {
-  if (!lang) lang = 'es'
+module.exports = Infobox
+
+function Infobox (lang) {
+  if (!(this instanceof Infobox)) return new Infobox(lang)
+  this.el = yo`<div></div>`
+  this.updateLang(lang || 'es', this._getElement())
+}
+
+Infobox.prototype._getElement = function () {
+  var self = this
   var content = {
     es: yo`<div>
       <p>Este mapa muestra el territorio ancestral de los Siekopai en la zona de Lagarto Cocha, en Ecuador y Perú. Los Siekopai fueron traslados de su territorio en los años 1940 durante el conflicto entre Perú y Ecuador. Han recibido título legal a áreas en ambos países, pero a una distancia larga de esta zona importante que ahora queda dentro de parques nacionales por ambos lados de la frontera. La zona de Lagarto Cocha es importante para los Siekopai tanto por razones históricos y espirituales y por la recolección de recursos que usan en sus vidas diarias y ceremoniales.</p>
@@ -40,15 +48,22 @@ module.exports = function info (lang) {
       }
     }
   `
+
   var el = yo`<div class=${style}>
     <div class="info-box">
-      ${content[lang]}
-      <button class="btn" onclick=${close}>${lang === 'es' ? 'EXPLORAR' : 'EXPLORE'}</button>
+      ${content[self.lang]}
+      <button class="btn" onclick=${hide}>${self.lang === 'es' ? 'EXPLORAR' : 'EXPLORE'}</button>
     </div>
   </div>`
 
-  function close () {
-    el.style.display = 'none'
+  function hide () {
+    self.el.style.display = 'none'
   }
+
   return el
+}
+
+Infobox.prototype.updateLang = function (lang) {
+  this.lang = lang
+  yo.update(this.el, this._getElement())
 }
