@@ -5,8 +5,8 @@ module.exports = Infobox
 
 function Infobox (lang) {
   if (!(this instanceof Infobox)) return new Infobox(lang)
-  this.el = yo`<div></div>`
-  this.updateLang(lang || 'es', this._getElement())
+  this.el = yo`<div style="display: none;"></div>`
+  this.updateLang(lang || 'es')
 }
 
 Infobox.prototype._getElement = function () {
@@ -49,10 +49,12 @@ Infobox.prototype._getElement = function () {
     }
   `
 
-  var el = yo`<div class=${style}>
-    <div class="info-box">
-      ${content[self.lang]}
-      <button class="btn" onclick=${hide}>${self.lang === 'es' ? 'EXPLORAR' : 'EXPLORE'}</button>
+  var el = yo`<div style="display: none;">
+    <div class="map-overlay ${style}">
+      <div class="info-box">
+        ${content[self.lang]}
+        <button class="btn" onclick=${hide}>${self.lang === 'es' ? 'EXPLORAR' : 'EXPLORE'}</button>
+      </div>
     </div>
   </div>`
 

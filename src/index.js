@@ -96,6 +96,7 @@ function onLoad () {
   var infoCtrl = new ToggleControl(infoBox.el)
   map.addControl(infoCtrl, 'top-left')
   infoCtrl._toggleButton.setAttribute('aria-label', 'Toggle Information')
+  infoCtrl.show()
 
   var lakes = map.getLayer('S - Lakes')
   var lakeHighlight = {
