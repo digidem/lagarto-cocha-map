@@ -12,6 +12,7 @@
     "lodash": "^4.17.4",
     "mapbox-gl": "^0.36.0",
     "object-assign": "^4.1.1",
+    "querystring": "^0.2.0",
     "sheetify": "^6.0.1",
     "sheetify-nested": "^1.0.2",
     "tachyons": "^4.6.2",

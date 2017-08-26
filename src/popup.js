@@ -1,3 +1,5 @@
+const qs = require('querystring')
+const url = require('url')
 const yo = require('yo-yo')
 const css = require('sheetify')
 
@@ -30,16 +32,18 @@ var popupStyle = css`
 `
 
 module.exports = function popup (props, lang, t) {
-  var fotoUrl = (props.foto && props.foto[0] && props.foto[0].thumbnails.large.url) ||
-  (props.tipo === 'lake' && 'lake-images/' + props.id + '.png') ||
-  'http://lorempixel.com/400/300/nature/'
+  var fotoUrl = getFotoURL(props)
   var nameLoc = props['nombre ' + lang] || 'Name in ' + lang
   var noteSey = props['nombre ' + lang] || 'Description in Siekopai'
   var noteLoc = props['nota ' + lang] || 'Description in ' + lang
   var tipoSey = (t[props.tipo] && t[props.tipo].sey) || props.tipo
   var tipoLoc = (t[props.tipo] && t[props.tipo][lang]) || props.tipo
+  var video = props.video && props.video.indexOf('embed') > -1 ? props.video : toEmbed(props.video)
   return yo`<div class='${popupStyle}'>
-    ${fotoUrl && image(fotoUrl)}
+      ${video ? yo`
+        <iframe width="100%" allowfullscreen="allowfullscreen" frameBorder="0" src="${video}"></iframe>
+        ` : (fotoUrl && image(fotoUrl))
+      }
     <div class='popup-inner'>
       <h1>${props['nombre sey']}</h1>
       ${nameLoc && yo`<h2>${nameLoc}</h2>`}
@@ -50,7 +54,23 @@ module.exports = function popup (props, lang, t) {
 }
 
 function image (url) {
+  if (!url) return ''
   return yo`<div class='embed-responsive embed-responsive-16by9'>
     <img class='embed-responsive-item' src=${url} />
   </div>`
+}
+
+function toEmbed (videoURL) {
+  if (!videoURL) return
+  var u = url.parse(videoURL)
+  var query = qs.parse(u.query)
+  if (query.v) return `https://youtube.com/embed/${query.v}`
+  if (u.path.replace('/', '').length === 11) return `https://youtube.com/embed${u.path}`
+  return null
+}
+
+function getFotoURL (props) {
+  var foto = props.foto && props.foto[0]
+  return (foto && foto.thumbnails && foto.thumbnails.large && foto.thumbnails.large.url) ||
+    (props.tipo === 'lake' && 'lake-images/' + props.id + '.png')
 }
