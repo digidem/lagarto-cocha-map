@@ -12,7 +12,6 @@ var layoutMarkers = require('./layout')
 css('mapbox-gl/dist/mapbox-gl.css')
 css('alianza-elements/style.css')
 
-
 var markerRadius = 20
 var popupOffsets = {
   'top': [0, markerRadius],

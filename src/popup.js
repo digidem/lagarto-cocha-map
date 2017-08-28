@@ -72,5 +72,5 @@ function toEmbed (videoURL) {
 function getFotoURL (props) {
   var foto = props.foto && props.foto[0]
   return (foto && foto.thumbnails && foto.thumbnails.large && foto.thumbnails.large.url) ||
-    (props.tipo === 'lake' && 'lake-images/' + props.id + '.png')
+    (props.tipo === 'lake' && 'lake-images/' + props.id + '.png') || ''
 }
