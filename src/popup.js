@@ -39,9 +39,9 @@ var popupStyle = css`
 
 module.exports = function popup (props, lang, t) {
   var fotoUrl = getFotoURL(props)
-  var nameLoc = props['nombre ' + lang] || 'Name in ' + lang
-  var noteSey = props['nota sey'] || 'Description in Siekopai'
-  var noteLoc = props['nota ' + lang] || 'Description in ' + lang
+  var nameLoc = props['nombre ' + lang]
+  var noteSey = props['nota sey']
+  var noteLoc = props['nota ' + lang]
   var tipoSey = (t[props.tipo] && t[props.tipo].sey) || props.tipo
   var tipoLoc = (t[props.tipo] && t[props.tipo][lang]) || props.tipo
   var video = props.video && props.video.indexOf('embed') > -1 ? props.video : toEmbed(props.video)
