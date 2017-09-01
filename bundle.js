@@ -6,7 +6,7 @@ module.exports = {
   button: require('./src/button')
 }
 
-},{"./src/back_button":3,"./src/button":4,"./src/language":5,"./src/yo-popup":6}],2:[function(require,module,exports){
+},{"./src/back_button":6,"./src/button":7,"./src/language":8,"./src/yo-popup":9}],2:[function(require,module,exports){
 (function (global){
 'use strict';(function (f) {
     if (typeof exports === 'object' && typeof module !== 'undefined') {
@@ -20173,6 +20173,91 @@ module.exports = {
 }));
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 },{}],3:[function(require,module,exports){
+module.exports = require('insert-css')
+
+},{"insert-css":23}],4:[function(require,module,exports){
+var bel = require('bel') // turns template tag into DOM elements
+var morphdom = require('morphdom') // efficiently diffs + morphs two DOM elements
+var defaultEvents = require('./update-events.js') // default events to be copied when dom elements update
+
+module.exports = bel
+
+// TODO move this + defaultEvents to a new module once we receive more feedback
+module.exports.update = function (fromNode, toNode, opts) {
+  if (!opts) opts = {}
+  if (opts.events !== false) {
+    if (!opts.onBeforeElUpdated) opts.onBeforeElUpdated = copier
+  }
+
+  return morphdom(fromNode, toNode, opts)
+
+  // morphdom only copies attributes. we decided we also wanted to copy events
+  // that can be set via attributes
+  function copier (f, t) {
+    // copy events:
+    var events = opts.events || defaultEvents
+    for (var i = 0; i < events.length; i++) {
+      var ev = events[i]
+      if (t[ev]) { // if new element has a whitelisted attribute
+        f[ev] = t[ev] // update existing element
+      } else if (f[ev]) { // if existing element has it and new one doesnt
+        f[ev] = undefined // remove it from existing element
+      }
+    }
+    var oldValue = f.value
+    var newValue = t.value
+    // copy values for form elements
+    if ((f.nodeName === 'INPUT' && f.type !== 'file') || f.nodeName === 'SELECT') {
+      if (!newValue && !t.hasAttribute('value')) {
+        t.value = f.value
+      } else if (newValue !== oldValue) {
+        f.value = newValue
+      }
+    } else if (f.nodeName === 'TEXTAREA') {
+      if (t.getAttribute('value') === null) f.value = t.value
+    }
+  }
+}
+
+},{"./update-events.js":5,"bel":10,"morphdom":86}],5:[function(require,module,exports){
+module.exports = [
+  // attribute events (can be set with attributes)
+  'onclick',
+  'ondblclick',
+  'onmousedown',
+  'onmouseup',
+  'onmouseover',
+  'onmousemove',
+  'onmouseout',
+  'ondragstart',
+  'ondrag',
+  'ondragenter',
+  'ondragleave',
+  'ondragover',
+  'ondrop',
+  'ondragend',
+  'onkeydown',
+  'onkeypress',
+  'onkeyup',
+  'onunload',
+  'onabort',
+  'onerror',
+  'onresize',
+  'onscroll',
+  'onselect',
+  'onchange',
+  'onsubmit',
+  'onreset',
+  'onfocus',
+  'onblur',
+  'oninput',
+  // other common events
+  'oncontextmenu',
+  'onfocusin',
+  'onfocusout'
+]
+
+},{}],6:[function(require,module,exports){
 const yo = require('yo-yo')
 var button = require('./button')
 
@@ -20224,7 +20309,7 @@ backButton.prototype.updateLang = function (lang) {
   this.redraw()
 }
 
-},{"./button":4,"yo-yo":94}],4:[function(require,module,exports){
+},{"./button":7,"yo-yo":4}],7:[function(require,module,exports){
 const yo = require('yo-yo')
 
 module.exports = function (props) {
@@ -20233,7 +20318,7 @@ module.exports = function (props) {
   `
 }
 
-},{"yo-yo":94}],5:[function(require,module,exports){
+},{"yo-yo":4}],8:[function(require,module,exports){
 const yo = require('yo-yo')
 const qs = require('querystring')
 const css = 0
@@ -20270,7 +20355,7 @@ module.exports = function (updateLang, lang) {
   return el
 }
 
-},{"querystring":89,"sheetify/insert":90,"yo-yo":94}],6:[function(require,module,exports){
+},{"querystring":92,"sheetify/insert":3,"yo-yo":4}],9:[function(require,module,exports){
 const xtend = require('xtend')
 const yo = require('yo-yo')
 const css = 0
@@ -20314,7 +20399,7 @@ Popup.prototype.setLngLat = function (lngLat) {
   this.popup.setLngLat(lngLat).addTo(this.map)
 }
 
-},{"mapbox-gl":2,"sheetify/insert":90,"xtend":93,"yo-yo":94}],7:[function(require,module,exports){
+},{"mapbox-gl":2,"sheetify/insert":3,"xtend":96,"yo-yo":4}],10:[function(require,module,exports){
 var document = require('global/document')
 var hyperx = require('hyperx')
 var onload = require('on-load')
@@ -20469,10 +20554,10 @@ module.exports = hyperx(belCreateElement, {comments: true})
 module.exports.default = module.exports
 module.exports.createElement = belCreateElement
 
-},{"global/document":16,"hyperx":19,"on-load":85}],8:[function(require,module,exports){
+},{"global/document":19,"hyperx":22,"on-load":88}],11:[function(require,module,exports){
 
-},{}],9:[function(require,module,exports){
-// https://d3js.org/d3-collection/ Version 1.0.4. Copyright 2017 Mike Bostock.
+},{}],12:[function(require,module,exports){
+// https://d3js.org/d3-collection/ Version 1.0.3. Copyright 2017 Mike Bostock.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -20561,10 +20646,10 @@ var nest = function() {
       nest;
 
   function apply(array, depth, createResult, setResult) {
-    if (depth >= keys.length) {
-      if (sortValues != null) array.sort(sortValues);
-      return rollup != null ? rollup(array) : array;
-    }
+    if (depth >= keys.length) return rollup != null
+        ? rollup(array) : (sortValues != null
+        ? array.sort(sortValues)
+        : array);
 
     var i = -1,
         n = array.length,
@@ -20690,7 +20775,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
-},{}],10:[function(require,module,exports){
+},{}],13:[function(require,module,exports){
 // https://d3js.org/d3-dispatch/ Version 1.0.3. Copyright 2017 Mike Bostock.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
@@ -20787,7 +20872,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
-},{}],11:[function(require,module,exports){
+},{}],14:[function(require,module,exports){
 // https://d3js.org/d3-dsv/ Version 1.0.5. Copyright 2017 Mike Bostock.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
@@ -20958,7 +21043,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
-},{}],12:[function(require,module,exports){
+},{}],15:[function(require,module,exports){
 // https://d3js.org/d3-force/ Version 1.0.6. Copyright 2017 Mike Bostock.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('d3-quadtree'), require('d3-collection'), require('d3-dispatch'), require('d3-timer')) :
@@ -21563,7 +21648,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
-},{"d3-collection":9,"d3-dispatch":10,"d3-quadtree":13,"d3-timer":15}],13:[function(require,module,exports){
+},{"d3-collection":12,"d3-dispatch":13,"d3-quadtree":16,"d3-timer":18}],16:[function(require,module,exports){
 // https://d3js.org/d3-quadtree/ Version 1.0.3. Copyright 2017 Mike Bostock.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
@@ -22000,7 +22085,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
-},{}],14:[function(require,module,exports){
+},{}],17:[function(require,module,exports){
 // https://d3js.org/d3-request/ Version 1.0.5. Copyright 2017 Mike Bostock.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('d3-collection'), require('d3-dispatch'), require('d3-dsv')) :
@@ -22218,8 +22303,8 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
-},{"d3-collection":9,"d3-dispatch":10,"d3-dsv":11}],15:[function(require,module,exports){
-// https://d3js.org/d3-timer/ Version 1.0.6. Copyright 2017 Mike Bostock.
+},{"d3-collection":12,"d3-dispatch":13,"d3-dsv":14}],18:[function(require,module,exports){
+// https://d3js.org/d3-timer/ Version 1.0.5. Copyright 2017 Mike Bostock.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -22236,7 +22321,7 @@ var clockLast = 0;
 var clockNow = 0;
 var clockSkew = 0;
 var clock = typeof performance === "object" && performance.now ? performance : Date;
-var setFrame = typeof window === "object" && window.requestAnimationFrame ? window.requestAnimationFrame.bind(window) : function(f) { setTimeout(f, 17); };
+var setFrame = typeof requestAnimationFrame === "function" ? requestAnimationFrame : function(f) { setTimeout(f, 17); };
 
 function now() {
   return clockNow || (setFrame(clearNow), clockNow = clock.now() + clockSkew);
@@ -22369,7 +22454,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
-},{}],16:[function(require,module,exports){
+},{}],19:[function(require,module,exports){
 (function (global){
 var topLevel = typeof global !== 'undefined' ? global :
     typeof window !== 'undefined' ? window : {}
@@ -22390,7 +22475,7 @@ if (typeof document !== 'undefined') {
 module.exports = doccy;
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"min-document":8}],17:[function(require,module,exports){
+},{"min-document":11}],20:[function(require,module,exports){
 (function (global){
 var win;
 
@@ -22407,7 +22492,7 @@ if (typeof window !== "undefined") {
 module.exports = win;
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],18:[function(require,module,exports){
+},{}],21:[function(require,module,exports){
 module.exports = attributeToProperty
 
 var transform = {
@@ -22428,7 +22513,7 @@ function attributeToProperty (h) {
   }
 }
 
-},{}],19:[function(require,module,exports){
+},{}],22:[function(require,module,exports){
 var attrToProp = require('hyperscript-attribute-to-property')
 
 var VAR = 0, TEXT = 1, OPEN = 2, CLOSE = 3, ATTR = 4
@@ -22708,7 +22793,7 @@ var closeRE = RegExp('^(' + [
 ].join('|') + ')(?:[\.#][a-zA-Z0-9\u007F-\uFFFF_:-]+)*$')
 function selfClosing (tag) { return closeRE.test(tag) }
 
-},{"hyperscript-attribute-to-property":18}],20:[function(require,module,exports){
+},{"hyperscript-attribute-to-property":21}],23:[function(require,module,exports){
 var containers = []; // will store container HTMLElement references
 var styleElements = []; // will store {prepend: HTMLElement, append: HTMLElement}
 
@@ -22768,7 +22853,7 @@ function createStyleElement() {
 module.exports = insertCss;
 module.exports.insertCss = insertCss;
 
-},{}],21:[function(require,module,exports){
+},{}],24:[function(require,module,exports){
 var hashClear = require('./_hashClear'),
     hashDelete = require('./_hashDelete'),
     hashGet = require('./_hashGet'),
@@ -22802,7 +22887,7 @@ Hash.prototype.set = hashSet;
 
 module.exports = Hash;
 
-},{"./_hashClear":45,"./_hashDelete":46,"./_hashGet":47,"./_hashHas":48,"./_hashSet":49}],22:[function(require,module,exports){
+},{"./_hashClear":48,"./_hashDelete":49,"./_hashGet":50,"./_hashHas":51,"./_hashSet":52}],25:[function(require,module,exports){
 var listCacheClear = require('./_listCacheClear'),
     listCacheDelete = require('./_listCacheDelete'),
     listCacheGet = require('./_listCacheGet'),
@@ -22836,7 +22921,7 @@ ListCache.prototype.set = listCacheSet;
 
 module.exports = ListCache;
 
-},{"./_listCacheClear":52,"./_listCacheDelete":53,"./_listCacheGet":54,"./_listCacheHas":55,"./_listCacheSet":56}],23:[function(require,module,exports){
+},{"./_listCacheClear":55,"./_listCacheDelete":56,"./_listCacheGet":57,"./_listCacheHas":58,"./_listCacheSet":59}],26:[function(require,module,exports){
 var getNative = require('./_getNative'),
     root = require('./_root');
 
@@ -22845,7 +22930,7 @@ var Map = getNative(root, 'Map');
 
 module.exports = Map;
 
-},{"./_getNative":42,"./_root":64}],24:[function(require,module,exports){
+},{"./_getNative":45,"./_root":67}],27:[function(require,module,exports){
 var mapCacheClear = require('./_mapCacheClear'),
     mapCacheDelete = require('./_mapCacheDelete'),
     mapCacheGet = require('./_mapCacheGet'),
@@ -22879,7 +22964,7 @@ MapCache.prototype.set = mapCacheSet;
 
 module.exports = MapCache;
 
-},{"./_mapCacheClear":57,"./_mapCacheDelete":58,"./_mapCacheGet":59,"./_mapCacheHas":60,"./_mapCacheSet":61}],25:[function(require,module,exports){
+},{"./_mapCacheClear":60,"./_mapCacheDelete":61,"./_mapCacheGet":62,"./_mapCacheHas":63,"./_mapCacheSet":64}],28:[function(require,module,exports){
 var getNative = require('./_getNative'),
     root = require('./_root');
 
@@ -22888,7 +22973,7 @@ var Set = getNative(root, 'Set');
 
 module.exports = Set;
 
-},{"./_getNative":42,"./_root":64}],26:[function(require,module,exports){
+},{"./_getNative":45,"./_root":67}],29:[function(require,module,exports){
 var MapCache = require('./_MapCache'),
     setCacheAdd = require('./_setCacheAdd'),
     setCacheHas = require('./_setCacheHas');
@@ -22917,7 +23002,7 @@ SetCache.prototype.has = setCacheHas;
 
 module.exports = SetCache;
 
-},{"./_MapCache":24,"./_setCacheAdd":65,"./_setCacheHas":66}],27:[function(require,module,exports){
+},{"./_MapCache":27,"./_setCacheAdd":68,"./_setCacheHas":69}],30:[function(require,module,exports){
 var root = require('./_root');
 
 /** Built-in value references. */
@@ -22925,7 +23010,7 @@ var Symbol = root.Symbol;
 
 module.exports = Symbol;
 
-},{"./_root":64}],28:[function(require,module,exports){
+},{"./_root":67}],31:[function(require,module,exports){
 var baseIndexOf = require('./_baseIndexOf');
 
 /**
@@ -22944,7 +23029,7 @@ function arrayIncludes(array, value) {
 
 module.exports = arrayIncludes;
 
-},{"./_baseIndexOf":33}],29:[function(require,module,exports){
+},{"./_baseIndexOf":36}],32:[function(require,module,exports){
 /**
  * This function is like `arrayIncludes` except that it accepts a comparator.
  *
@@ -22968,7 +23053,7 @@ function arrayIncludesWith(array, value, comparator) {
 
 module.exports = arrayIncludesWith;
 
-},{}],30:[function(require,module,exports){
+},{}],33:[function(require,module,exports){
 var eq = require('./eq');
 
 /**
@@ -22991,7 +23076,7 @@ function assocIndexOf(array, key) {
 
 module.exports = assocIndexOf;
 
-},{"./eq":71}],31:[function(require,module,exports){
+},{"./eq":74}],34:[function(require,module,exports){
 /**
  * The base implementation of `_.findIndex` and `_.findLastIndex` without
  * support for iteratee shorthands.
@@ -23017,7 +23102,7 @@ function baseFindIndex(array, predicate, fromIndex, fromRight) {
 
 module.exports = baseFindIndex;
 
-},{}],32:[function(require,module,exports){
+},{}],35:[function(require,module,exports){
 var Symbol = require('./_Symbol'),
     getRawTag = require('./_getRawTag'),
     objectToString = require('./_objectToString');
@@ -23047,7 +23132,7 @@ function baseGetTag(value) {
 
 module.exports = baseGetTag;
 
-},{"./_Symbol":27,"./_getRawTag":43,"./_objectToString":63}],33:[function(require,module,exports){
+},{"./_Symbol":30,"./_getRawTag":46,"./_objectToString":66}],36:[function(require,module,exports){
 var baseFindIndex = require('./_baseFindIndex'),
     baseIsNaN = require('./_baseIsNaN'),
     strictIndexOf = require('./_strictIndexOf');
@@ -23069,7 +23154,7 @@ function baseIndexOf(array, value, fromIndex) {
 
 module.exports = baseIndexOf;
 
-},{"./_baseFindIndex":31,"./_baseIsNaN":34,"./_strictIndexOf":68}],34:[function(require,module,exports){
+},{"./_baseFindIndex":34,"./_baseIsNaN":37,"./_strictIndexOf":71}],37:[function(require,module,exports){
 /**
  * The base implementation of `_.isNaN` without support for number objects.
  *
@@ -23083,7 +23168,7 @@ function baseIsNaN(value) {
 
 module.exports = baseIsNaN;
 
-},{}],35:[function(require,module,exports){
+},{}],38:[function(require,module,exports){
 var isFunction = require('./isFunction'),
     isMasked = require('./_isMasked'),
     isObject = require('./isObject'),
@@ -23132,7 +23217,7 @@ function baseIsNative(value) {
 
 module.exports = baseIsNative;
 
-},{"./_isMasked":51,"./_toSource":69,"./isFunction":72,"./isObject":73}],36:[function(require,module,exports){
+},{"./_isMasked":54,"./_toSource":72,"./isFunction":75,"./isObject":76}],39:[function(require,module,exports){
 var SetCache = require('./_SetCache'),
     arrayIncludes = require('./_arrayIncludes'),
     arrayIncludesWith = require('./_arrayIncludesWith'),
@@ -23206,7 +23291,7 @@ function baseUniq(array, iteratee, comparator) {
 
 module.exports = baseUniq;
 
-},{"./_SetCache":26,"./_arrayIncludes":28,"./_arrayIncludesWith":29,"./_cacheHas":37,"./_createSet":39,"./_setToArray":67}],37:[function(require,module,exports){
+},{"./_SetCache":29,"./_arrayIncludes":31,"./_arrayIncludesWith":32,"./_cacheHas":40,"./_createSet":42,"./_setToArray":70}],40:[function(require,module,exports){
 /**
  * Checks if a `cache` value for `key` exists.
  *
@@ -23221,7 +23306,7 @@ function cacheHas(cache, key) {
 
 module.exports = cacheHas;
 
-},{}],38:[function(require,module,exports){
+},{}],41:[function(require,module,exports){
 var root = require('./_root');
 
 /** Used to detect overreaching core-js shims. */
@@ -23229,7 +23314,7 @@ var coreJsData = root['__core-js_shared__'];
 
 module.exports = coreJsData;
 
-},{"./_root":64}],39:[function(require,module,exports){
+},{"./_root":67}],42:[function(require,module,exports){
 var Set = require('./_Set'),
     noop = require('./noop'),
     setToArray = require('./_setToArray');
@@ -23250,7 +23335,7 @@ var createSet = !(Set && (1 / setToArray(new Set([,-0]))[1]) == INFINITY) ? noop
 
 module.exports = createSet;
 
-},{"./_Set":25,"./_setToArray":67,"./noop":76}],40:[function(require,module,exports){
+},{"./_Set":28,"./_setToArray":70,"./noop":79}],43:[function(require,module,exports){
 (function (global){
 /** Detect free variable `global` from Node.js. */
 var freeGlobal = typeof global == 'object' && global && global.Object === Object && global;
@@ -23258,7 +23343,7 @@ var freeGlobal = typeof global == 'object' && global && global.Object === Object
 module.exports = freeGlobal;
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],41:[function(require,module,exports){
+},{}],44:[function(require,module,exports){
 var isKeyable = require('./_isKeyable');
 
 /**
@@ -23278,7 +23363,7 @@ function getMapData(map, key) {
 
 module.exports = getMapData;
 
-},{"./_isKeyable":50}],42:[function(require,module,exports){
+},{"./_isKeyable":53}],45:[function(require,module,exports){
 var baseIsNative = require('./_baseIsNative'),
     getValue = require('./_getValue');
 
@@ -23297,7 +23382,7 @@ function getNative(object, key) {
 
 module.exports = getNative;
 
-},{"./_baseIsNative":35,"./_getValue":44}],43:[function(require,module,exports){
+},{"./_baseIsNative":38,"./_getValue":47}],46:[function(require,module,exports){
 var Symbol = require('./_Symbol');
 
 /** Used for built-in method references. */
@@ -23345,7 +23430,7 @@ function getRawTag(value) {
 
 module.exports = getRawTag;
 
-},{"./_Symbol":27}],44:[function(require,module,exports){
+},{"./_Symbol":30}],47:[function(require,module,exports){
 /**
  * Gets the value at `key` of `object`.
  *
@@ -23360,7 +23445,7 @@ function getValue(object, key) {
 
 module.exports = getValue;
 
-},{}],45:[function(require,module,exports){
+},{}],48:[function(require,module,exports){
 var nativeCreate = require('./_nativeCreate');
 
 /**
@@ -23377,7 +23462,7 @@ function hashClear() {
 
 module.exports = hashClear;
 
-},{"./_nativeCreate":62}],46:[function(require,module,exports){
+},{"./_nativeCreate":65}],49:[function(require,module,exports){
 /**
  * Removes `key` and its value from the hash.
  *
@@ -23396,7 +23481,7 @@ function hashDelete(key) {
 
 module.exports = hashDelete;
 
-},{}],47:[function(require,module,exports){
+},{}],50:[function(require,module,exports){
 var nativeCreate = require('./_nativeCreate');
 
 /** Used to stand-in for `undefined` hash values. */
@@ -23428,7 +23513,7 @@ function hashGet(key) {
 
 module.exports = hashGet;
 
-},{"./_nativeCreate":62}],48:[function(require,module,exports){
+},{"./_nativeCreate":65}],51:[function(require,module,exports){
 var nativeCreate = require('./_nativeCreate');
 
 /** Used for built-in method references. */
@@ -23453,7 +23538,7 @@ function hashHas(key) {
 
 module.exports = hashHas;
 
-},{"./_nativeCreate":62}],49:[function(require,module,exports){
+},{"./_nativeCreate":65}],52:[function(require,module,exports){
 var nativeCreate = require('./_nativeCreate');
 
 /** Used to stand-in for `undefined` hash values. */
@@ -23478,7 +23563,7 @@ function hashSet(key, value) {
 
 module.exports = hashSet;
 
-},{"./_nativeCreate":62}],50:[function(require,module,exports){
+},{"./_nativeCreate":65}],53:[function(require,module,exports){
 /**
  * Checks if `value` is suitable for use as unique object key.
  *
@@ -23495,7 +23580,7 @@ function isKeyable(value) {
 
 module.exports = isKeyable;
 
-},{}],51:[function(require,module,exports){
+},{}],54:[function(require,module,exports){
 var coreJsData = require('./_coreJsData');
 
 /** Used to detect methods masquerading as native. */
@@ -23517,7 +23602,7 @@ function isMasked(func) {
 
 module.exports = isMasked;
 
-},{"./_coreJsData":38}],52:[function(require,module,exports){
+},{"./_coreJsData":41}],55:[function(require,module,exports){
 /**
  * Removes all key-value entries from the list cache.
  *
@@ -23532,7 +23617,7 @@ function listCacheClear() {
 
 module.exports = listCacheClear;
 
-},{}],53:[function(require,module,exports){
+},{}],56:[function(require,module,exports){
 var assocIndexOf = require('./_assocIndexOf');
 
 /** Used for built-in method references. */
@@ -23569,7 +23654,7 @@ function listCacheDelete(key) {
 
 module.exports = listCacheDelete;
 
-},{"./_assocIndexOf":30}],54:[function(require,module,exports){
+},{"./_assocIndexOf":33}],57:[function(require,module,exports){
 var assocIndexOf = require('./_assocIndexOf');
 
 /**
@@ -23590,7 +23675,7 @@ function listCacheGet(key) {
 
 module.exports = listCacheGet;
 
-},{"./_assocIndexOf":30}],55:[function(require,module,exports){
+},{"./_assocIndexOf":33}],58:[function(require,module,exports){
 var assocIndexOf = require('./_assocIndexOf');
 
 /**
@@ -23608,7 +23693,7 @@ function listCacheHas(key) {
 
 module.exports = listCacheHas;
 
-},{"./_assocIndexOf":30}],56:[function(require,module,exports){
+},{"./_assocIndexOf":33}],59:[function(require,module,exports){
 var assocIndexOf = require('./_assocIndexOf');
 
 /**
@@ -23636,7 +23721,7 @@ function listCacheSet(key, value) {
 
 module.exports = listCacheSet;
 
-},{"./_assocIndexOf":30}],57:[function(require,module,exports){
+},{"./_assocIndexOf":33}],60:[function(require,module,exports){
 var Hash = require('./_Hash'),
     ListCache = require('./_ListCache'),
     Map = require('./_Map');
@@ -23659,7 +23744,7 @@ function mapCacheClear() {
 
 module.exports = mapCacheClear;
 
-},{"./_Hash":21,"./_ListCache":22,"./_Map":23}],58:[function(require,module,exports){
+},{"./_Hash":24,"./_ListCache":25,"./_Map":26}],61:[function(require,module,exports){
 var getMapData = require('./_getMapData');
 
 /**
@@ -23679,7 +23764,7 @@ function mapCacheDelete(key) {
 
 module.exports = mapCacheDelete;
 
-},{"./_getMapData":41}],59:[function(require,module,exports){
+},{"./_getMapData":44}],62:[function(require,module,exports){
 var getMapData = require('./_getMapData');
 
 /**
@@ -23697,7 +23782,7 @@ function mapCacheGet(key) {
 
 module.exports = mapCacheGet;
 
-},{"./_getMapData":41}],60:[function(require,module,exports){
+},{"./_getMapData":44}],63:[function(require,module,exports){
 var getMapData = require('./_getMapData');
 
 /**
@@ -23715,7 +23800,7 @@ function mapCacheHas(key) {
 
 module.exports = mapCacheHas;
 
-},{"./_getMapData":41}],61:[function(require,module,exports){
+},{"./_getMapData":44}],64:[function(require,module,exports){
 var getMapData = require('./_getMapData');
 
 /**
@@ -23739,7 +23824,7 @@ function mapCacheSet(key, value) {
 
 module.exports = mapCacheSet;
 
-},{"./_getMapData":41}],62:[function(require,module,exports){
+},{"./_getMapData":44}],65:[function(require,module,exports){
 var getNative = require('./_getNative');
 
 /* Built-in method references that are verified to be native. */
@@ -23747,7 +23832,7 @@ var nativeCreate = getNative(Object, 'create');
 
 module.exports = nativeCreate;
 
-},{"./_getNative":42}],63:[function(require,module,exports){
+},{"./_getNative":45}],66:[function(require,module,exports){
 /** Used for built-in method references. */
 var objectProto = Object.prototype;
 
@@ -23771,7 +23856,7 @@ function objectToString(value) {
 
 module.exports = objectToString;
 
-},{}],64:[function(require,module,exports){
+},{}],67:[function(require,module,exports){
 var freeGlobal = require('./_freeGlobal');
 
 /** Detect free variable `self`. */
@@ -23782,7 +23867,7 @@ var root = freeGlobal || freeSelf || Function('return this')();
 
 module.exports = root;
 
-},{"./_freeGlobal":40}],65:[function(require,module,exports){
+},{"./_freeGlobal":43}],68:[function(require,module,exports){
 /** Used to stand-in for `undefined` hash values. */
 var HASH_UNDEFINED = '__lodash_hash_undefined__';
 
@@ -23803,7 +23888,7 @@ function setCacheAdd(value) {
 
 module.exports = setCacheAdd;
 
-},{}],66:[function(require,module,exports){
+},{}],69:[function(require,module,exports){
 /**
  * Checks if `value` is in the array cache.
  *
@@ -23819,7 +23904,7 @@ function setCacheHas(value) {
 
 module.exports = setCacheHas;
 
-},{}],67:[function(require,module,exports){
+},{}],70:[function(require,module,exports){
 /**
  * Converts `set` to an array of its values.
  *
@@ -23839,7 +23924,7 @@ function setToArray(set) {
 
 module.exports = setToArray;
 
-},{}],68:[function(require,module,exports){
+},{}],71:[function(require,module,exports){
 /**
  * A specialized version of `_.indexOf` which performs strict equality
  * comparisons of values, i.e. `===`.
@@ -23864,7 +23949,7 @@ function strictIndexOf(array, value, fromIndex) {
 
 module.exports = strictIndexOf;
 
-},{}],69:[function(require,module,exports){
+},{}],72:[function(require,module,exports){
 /** Used for built-in method references. */
 var funcProto = Function.prototype;
 
@@ -23892,7 +23977,7 @@ function toSource(func) {
 
 module.exports = toSource;
 
-},{}],70:[function(require,module,exports){
+},{}],73:[function(require,module,exports){
 var isObject = require('./isObject'),
     now = require('./now'),
     toNumber = require('./toNumber');
@@ -24082,7 +24167,7 @@ function debounce(func, wait, options) {
 
 module.exports = debounce;
 
-},{"./isObject":73,"./now":77,"./toNumber":79}],71:[function(require,module,exports){
+},{"./isObject":76,"./now":80,"./toNumber":82}],74:[function(require,module,exports){
 /**
  * Performs a
  * [`SameValueZero`](http://ecma-international.org/ecma-262/7.0/#sec-samevaluezero)
@@ -24121,7 +24206,7 @@ function eq(value, other) {
 
 module.exports = eq;
 
-},{}],72:[function(require,module,exports){
+},{}],75:[function(require,module,exports){
 var baseGetTag = require('./_baseGetTag'),
     isObject = require('./isObject');
 
@@ -24160,7 +24245,7 @@ function isFunction(value) {
 
 module.exports = isFunction;
 
-},{"./_baseGetTag":32,"./isObject":73}],73:[function(require,module,exports){
+},{"./_baseGetTag":35,"./isObject":76}],76:[function(require,module,exports){
 /**
  * Checks if `value` is the
  * [language type](http://www.ecma-international.org/ecma-262/7.0/#sec-ecmascript-language-types)
@@ -24193,7 +24278,7 @@ function isObject(value) {
 
 module.exports = isObject;
 
-},{}],74:[function(require,module,exports){
+},{}],77:[function(require,module,exports){
 /**
  * Checks if `value` is object-like. A value is object-like if it's not `null`
  * and has a `typeof` result of "object".
@@ -24224,7 +24309,7 @@ function isObjectLike(value) {
 
 module.exports = isObjectLike;
 
-},{}],75:[function(require,module,exports){
+},{}],78:[function(require,module,exports){
 var baseGetTag = require('./_baseGetTag'),
     isObjectLike = require('./isObjectLike');
 
@@ -24255,7 +24340,7 @@ function isSymbol(value) {
 
 module.exports = isSymbol;
 
-},{"./_baseGetTag":32,"./isObjectLike":74}],76:[function(require,module,exports){
+},{"./_baseGetTag":35,"./isObjectLike":77}],79:[function(require,module,exports){
 /**
  * This method returns `undefined`.
  *
@@ -24274,7 +24359,7 @@ function noop() {
 
 module.exports = noop;
 
-},{}],77:[function(require,module,exports){
+},{}],80:[function(require,module,exports){
 var root = require('./_root');
 
 /**
@@ -24299,7 +24384,7 @@ var now = function() {
 
 module.exports = now;
 
-},{"./_root":64}],78:[function(require,module,exports){
+},{"./_root":67}],81:[function(require,module,exports){
 var debounce = require('./debounce'),
     isObject = require('./isObject');
 
@@ -24370,7 +24455,7 @@ function throttle(func, wait, options) {
 
 module.exports = throttle;
 
-},{"./debounce":70,"./isObject":73}],79:[function(require,module,exports){
+},{"./debounce":73,"./isObject":76}],82:[function(require,module,exports){
 var isObject = require('./isObject'),
     isSymbol = require('./isSymbol');
 
@@ -24438,7 +24523,7 @@ function toNumber(value) {
 
 module.exports = toNumber;
 
-},{"./isObject":73,"./isSymbol":75}],80:[function(require,module,exports){
+},{"./isObject":76,"./isSymbol":78}],83:[function(require,module,exports){
 var baseUniq = require('./_baseUniq');
 
 /**
@@ -24468,7 +24553,7 @@ function uniqWith(array, comparator) {
 
 module.exports = uniqWith;
 
-},{"./_baseUniq":36}],81:[function(require,module,exports){
+},{"./_baseUniq":39}],84:[function(require,module,exports){
 function createEl (tagName, className, container) {
   const el = window.document.createElement(tagName)
   if (className) el.className = className
@@ -24529,7 +24614,7 @@ Toggle.prototype.isOpen = function () {
 
 module.exports = Toggle
 
-},{}],82:[function(require,module,exports){
+},{}],85:[function(require,module,exports){
 (function (global){
 (function (f) {
     if (typeof exports === 'object' && typeof module !== 'undefined') {
@@ -44128,7 +44213,7 @@ module.exports = Toggle
     }, {}, [65])(65);
 }));
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],83:[function(require,module,exports){
+},{}],86:[function(require,module,exports){
 'use strict';
 
 var range; // Create a range object for efficently rendering strings to elements.
@@ -44656,10 +44741,7 @@ function morphdomFactory(morphAttrs) {
                                 isCompatible = true;
                                 // Simply update nodeValue on the original node to
                                 // change the text value
-                                if (curFromNodeChild.nodeValue !== curToNodeChild.nodeValue) {
-                                    curFromNodeChild.nodeValue = curToNodeChild.nodeValue;
-                                }
-
+                                curFromNodeChild.nodeValue = curToNodeChild.nodeValue;
                             }
                         }
 
@@ -44758,10 +44840,7 @@ function morphdomFactory(morphAttrs) {
                 }
             } else if (morphedNodeType === TEXT_NODE || morphedNodeType === COMMENT_NODE) { // Text or comment node
                 if (toNodeType === morphedNodeType) {
-                    if (morphedNode.nodeValue !== toNode.nodeValue) {
-                        morphedNode.nodeValue = toNode.nodeValue;
-                    }
-
+                    morphedNode.nodeValue = toNode.nodeValue;
                     return morphedNode;
                 } else {
                     // Text node to something else
@@ -44812,7 +44891,7 @@ var morphdom = morphdomFactory(morphAttrs);
 
 module.exports = morphdom;
 
-},{}],84:[function(require,module,exports){
+},{}],87:[function(require,module,exports){
 /*
 object-assign
 (c) Sindre Sorhus
@@ -44904,7 +44983,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 	return to;
 };
 
-},{}],85:[function(require,module,exports){
+},{}],88:[function(require,module,exports){
 /* global MutationObserver */
 var document = require('global/document')
 var window = require('global/window')
@@ -44993,7 +45072,7 @@ function eachMutation (nodes, fn) {
   }
 }
 
-},{"global/document":16,"global/window":17}],86:[function(require,module,exports){
+},{"global/document":19,"global/window":20}],89:[function(require,module,exports){
 (function (global){
 /*! https://mths.be/punycode v1.4.1 by @mathias */
 ;(function(root) {
@@ -45530,7 +45609,7 @@ function eachMutation (nodes, fn) {
 }(this));
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],87:[function(require,module,exports){
+},{}],90:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -45616,7 +45695,7 @@ var isArray = Array.isArray || function (xs) {
   return Object.prototype.toString.call(xs) === '[object Array]';
 };
 
-},{}],88:[function(require,module,exports){
+},{}],91:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -45703,16 +45782,15 @@ var objectKeys = Object.keys || function (obj) {
   return res;
 };
 
-},{}],89:[function(require,module,exports){
+},{}],92:[function(require,module,exports){
 'use strict';
 
 exports.decode = exports.parse = require('./decode');
 exports.encode = exports.stringify = require('./encode');
 
-},{"./decode":87,"./encode":88}],90:[function(require,module,exports){
-module.exports = require('insert-css')
-
-},{"insert-css":20}],91:[function(require,module,exports){
+},{"./decode":90,"./encode":91}],93:[function(require,module,exports){
+arguments[4][3][0].apply(exports,arguments)
+},{"dup":3,"insert-css":23}],94:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -46446,7 +46524,7 @@ Url.prototype.parseHost = function() {
   if (host) this.hostname = host;
 };
 
-},{"./util":92,"punycode":86,"querystring":89}],92:[function(require,module,exports){
+},{"./util":95,"punycode":89,"querystring":92}],95:[function(require,module,exports){
 'use strict';
 
 module.exports = {
@@ -46464,7 +46542,7 @@ module.exports = {
   }
 };
 
-},{}],93:[function(require,module,exports){
+},{}],96:[function(require,module,exports){
 module.exports = extend
 
 var hasOwnProperty = Object.prototype.hasOwnProperty;
@@ -46485,7 +46563,7 @@ function extend() {
     return target
 }
 
-},{}],94:[function(require,module,exports){
+},{}],97:[function(require,module,exports){
 var bel = require('bel') // turns template tag into DOM elements
 var morphdom = require('morphdom') // efficiently diffs + morphs two DOM elements
 var defaultEvents = require('./update-events.js') // default events to be copied when dom elements update
@@ -46518,7 +46596,7 @@ module.exports.update = function (fromNode, toNode, opts) {
     var newValue = t.value
     // copy values for form elements
     if ((f.nodeName === 'INPUT' && f.type !== 'file') || f.nodeName === 'SELECT') {
-      if (!newValue && !t.hasAttribute('value')) {
+      if (!newValue) {
         t.value = f.value
       } else if (newValue !== oldValue) {
         f.value = newValue
@@ -46529,45 +46607,9 @@ module.exports.update = function (fromNode, toNode, opts) {
   }
 }
 
-},{"./update-events.js":95,"bel":7,"morphdom":83}],95:[function(require,module,exports){
-module.exports = [
-  // attribute events (can be set with attributes)
-  'onclick',
-  'ondblclick',
-  'onmousedown',
-  'onmouseup',
-  'onmouseover',
-  'onmousemove',
-  'onmouseout',
-  'ondragstart',
-  'ondrag',
-  'ondragenter',
-  'ondragleave',
-  'ondragover',
-  'ondrop',
-  'ondragend',
-  'onkeydown',
-  'onkeypress',
-  'onkeyup',
-  'onunload',
-  'onabort',
-  'onerror',
-  'onresize',
-  'onscroll',
-  'onselect',
-  'onchange',
-  'onsubmit',
-  'onreset',
-  'onfocus',
-  'onblur',
-  'oninput',
-  // other common events
-  'oncontextmenu',
-  'onfocusin',
-  'onfocusout'
-]
-
-},{}],96:[function(require,module,exports){
+},{"./update-events.js":98,"bel":10,"morphdom":86}],98:[function(require,module,exports){
+arguments[4][5][0].apply(exports,arguments)
+},{"dup":5}],99:[function(require,module,exports){
 module.exports = function yoyoifyAppendChild (el, childs) {
   for (var i = 0; i < childs.length; i++) {
     var node = childs[i]
@@ -46582,7 +46624,6 @@ module.exports = function yoyoifyAppendChild (el, childs) {
       node = node.toString()
     }
     if (typeof node === 'string') {
-      if (/^[\n\r\s]+$/.test(node)) continue
       if (el.lastChild && el.lastChild.nodeName === '#text') {
         el.lastChild.nodeValue += node
         continue
@@ -46595,7 +46636,7 @@ module.exports = function yoyoifyAppendChild (el, childs) {
   }
 }
 
-},{}],97:[function(require,module,exports){
+},{}],100:[function(require,module,exports){
 var d3 = require('d3-request');
 var qs = require('querystring');
 var elements = require('alianza-elements');
@@ -46767,7 +46808,7 @@ function onLoad() {
     backButton.updateLang(lang);
   }
 }
-},{"./info":98,"./layout":99,"./popup":100,"alianza-elements":1,"d3-request":14,"mapbox-gl":82,"mapbox-gl-toggle-control":81,"querystring":89,"sheetify/insert":90}],98:[function(require,module,exports){
+},{"./info":101,"./layout":102,"./popup":103,"alianza-elements":1,"d3-request":17,"mapbox-gl":85,"mapbox-gl-toggle-control":84,"querystring":92,"sheetify/insert":93}],101:[function(require,module,exports){
 var yo = require('yo-yo');
 var css = 0;
 
@@ -46777,7 +46818,7 @@ function Infobox(lang) {
   if (!(this instanceof Infobox)) return new Infobox(lang);
   this.el = function () {
 
-    var ac = require('/Users/karissa/node_modules/lagarto-cocha-map/node_modules/yo-yoify/lib/appendChild.js');
+    var ac = require('/Users/gregor/Dev/DdDev/lagarto-cocha-map/node_modules/yo-yoify/lib/appendChild.js');
     var bel0 = document.createElement("div");
     bel0.setAttribute("style", "display: none;");
     return bel0;
@@ -46790,7 +46831,7 @@ Infobox.prototype._getElement = function () {
   var content = {
     es: function () {
 
-      var ac = require('/Users/karissa/node_modules/lagarto-cocha-map/node_modules/yo-yoify/lib/appendChild.js');
+      var ac = require('/Users/gregor/Dev/DdDev/lagarto-cocha-map/node_modules/yo-yoify/lib/appendChild.js');
       var bel3 = document.createElement("div");
       var bel0 = document.createElement("p");
       ac(bel0, ["Este mapa muestra el territorio ancestral de los Siekopai en la zona de Lagarto Cocha, en Ecuador y Perú. Los Siekopai fueron traslados de su territorio en los años 1940 durante el conflicto entre Perú y Ecuador. Han recibido título legal a áreas en ambos países, pero a una distancia larga de esta zona importante que ahora queda dentro de parques nacionales por ambos lados de la frontera. La zona de Lagarto Cocha es importante para los Siekopai tanto por razones históricos y espirituales y por la recolección de recursos que usan en sus vidas diarias y ceremoniales."]);
@@ -46803,7 +46844,7 @@ Infobox.prototype._getElement = function () {
     }(),
     en: function () {
 
-      var ac = require('/Users/karissa/node_modules/lagarto-cocha-map/node_modules/yo-yoify/lib/appendChild.js');
+      var ac = require('/Users/gregor/Dev/DdDev/lagarto-cocha-map/node_modules/yo-yoify/lib/appendChild.js');
       var bel3 = document.createElement("div");
       var bel0 = document.createElement("p");
       ac(bel0, ["This map shows the ancestral territory of the Siekopai in the area of Lagarto Cocha in Ecuador and Peru. The Siekopai were dislocated from this land in the 1940s during the border conflict between Peru and Ecuador, and now have been granted legal title to areas in both countries, but some distance from this important area which now lies within National Parks on both sides of the border. The area of Lagarto Cocha is important to the Seikopai both for historical and spiritual reasons, and for the collection of certain resources they use in their daily and ceremonial life."]);
@@ -46819,7 +46860,7 @@ Infobox.prototype._getElement = function () {
 
   var el = function () {
 
-    var ac = require('/Users/karissa/node_modules/lagarto-cocha-map/node_modules/yo-yoify/lib/appendChild.js');
+    var ac = require('/Users/gregor/Dev/DdDev/lagarto-cocha-map/node_modules/yo-yoify/lib/appendChild.js');
     var bel3 = document.createElement("div");
     bel3.setAttribute("style", "display: none;");
     var bel2 = document.createElement("div");
@@ -46847,7 +46888,7 @@ Infobox.prototype.updateLang = function (lang) {
   this.lang = lang;
   yo.update(this.el, this._getElement());
 };
-},{"/Users/karissa/node_modules/lagarto-cocha-map/node_modules/yo-yoify/lib/appendChild.js":96,"sheetify/insert":90,"yo-yo":94}],99:[function(require,module,exports){
+},{"/Users/gregor/Dev/DdDev/lagarto-cocha-map/node_modules/yo-yoify/lib/appendChild.js":99,"sheetify/insert":93,"yo-yo":97}],102:[function(require,module,exports){
 var uniqWith = require('lodash/uniqWith');
 var d3 = require('d3-force');
 var assign = require('object-assign');
@@ -47030,51 +47071,55 @@ function forceCollide(radius) {
   };
   return force;
 }
-},{"d3-force":12,"lodash/throttle":78,"lodash/uniqWith":80,"object-assign":84}],100:[function(require,module,exports){
+},{"d3-force":15,"lodash/throttle":81,"lodash/uniqWith":83,"object-assign":87}],103:[function(require,module,exports){
 var qs = require('querystring');
 var url = require('url');
 var yo = require('yo-yo');
 var css = 0;
 
-var popupStyle = (require('sheetify/insert')("._1c5d345b {\n    width: 300px;\n    background-color: white;\n  }\n  ._1c5d345b .embed-responsive-16by9:before {\n    padding-top: 66.67%;\n  }\n  ._1c5d345b img {\n    object-fit: cover;\n  }\n  ._1c5d345b > .popup-inner {\n    padding: 10px;\n  }\n  ._1c5d345b h1 {\n    font-size: 1.5em;\n    line-height: 1.3;\n    margin-bottom: 0.2em;\n  }\n  ._1c5d345b h2 {\n    font-size: 1.25em;\n    color: grey;\n  }\n  ._1c5d345b p {\n    margin-bottom: 0.5em;\n  }") || true) && "_1c5d345b";
+var popupStyle = (require('sheetify/insert')("._e92da261 {\n    width: 300px;\n    background-color: white;\n  }\n  ._e92da261 .embed-responsive-16by9:before {\n    padding-top: 66.67%;\n  }\n  ._e92da261 img {\n    object-fit: cover;\n  }\n  ._e92da261 > .popup-inner {\n    padding: 10px;\n  }\n  ._e92da261 iframe {\n    display: block;\n  }\n\n  ._e92da261 h1 {\n    font-size: 1.5em;\n    line-height: 1.3;\n    margin-bottom: 0.1em;\n    margin-top: 0;\n  }\n  ._e92da261 h2 {\n    margin-top: 0;\n    font-size: 1.25em;\n    color: grey;\n  }\n  ._e92da261 p {\n    margin-bottom: 0.5em;\n  }") || true) && "_e92da261";
 
 module.exports = function popup(props, lang, t) {
   var fotoUrl = getFotoURL(props);
-  var nameLoc = props['nombre ' + lang] || 'Name in ' + lang;
-  var noteSey = props['nombre ' + lang] || 'Description in Siekopai';
-  var noteLoc = props['nota ' + lang] || 'Description in ' + lang;
+  var nameLoc = props['nombre ' + lang];
+  var noteSey = props['nota sey'];
+  var noteLoc = props['nota ' + lang];
   var tipoSey = t[props.tipo] && t[props.tipo].sey || props.tipo;
   var tipoLoc = t[props.tipo] && t[props.tipo][lang] || props.tipo;
   var video = props.video && props.video.indexOf('embed') > -1 ? props.video : toEmbed(props.video);
   return function () {
 
-    var ac = require('/Users/karissa/node_modules/lagarto-cocha-map/node_modules/yo-yoify/lib/appendChild.js');
-    var bel6 = document.createElement("div");
-    bel6.setAttribute("class", arguments[6]);
-    var bel5 = document.createElement("div");
-    bel5.setAttribute("class", "popup-inner");
+    var ac = require('/Users/gregor/Dev/DdDev/lagarto-cocha-map/node_modules/yo-yoify/lib/appendChild.js');
+    var bel2 = document.createElement("div");
+    bel2.setAttribute("class", arguments[4]);
+    var bel1 = document.createElement("div");
+    bel1.setAttribute("class", "popup-inner");
     var bel0 = document.createElement("h1");
     ac(bel0, [arguments[0]]);
-    var bel2 = document.createElement("p");
-    var bel1 = document.createElement("b");
-    ac(bel1, [arguments[1]]);
-    ac(bel2, [bel1, arguments[2]]);
-    var bel4 = document.createElement("p");
-    var bel3 = document.createElement("b");
-    ac(bel3, [arguments[3]]);
-    ac(bel4, [bel3, arguments[4]]);
-    ac(bel5, ["\n      ", bel0, "\n      ", arguments[5], "\n      ", bel2, "\n      ", bel4, "\n    "]);
-    ac(bel6, ["\n      ", arguments[7], "\n    ", bel5, "\n  "]);
-    return bel6;
-  }(props['nombre sey'], tipoSey, noteSey && ': ' + noteSey, tipoLoc, noteLoc && ': ' + noteLoc, nameLoc && function () {
+    ac(bel1, ["\n      ", bel0, "\n      ", arguments[1], "\n      ", arguments[2], "\n      ", arguments[3], "\n    "]);
+    ac(bel2, ["\n      ", arguments[5], "\n    ", bel1, "\n  "]);
+    return bel2;
+  }(props['nombre sey'], nameLoc && function () {
 
-    var ac = require('/Users/karissa/node_modules/lagarto-cocha-map/node_modules/yo-yoify/lib/appendChild.js');
+    var ac = require('/Users/gregor/Dev/DdDev/lagarto-cocha-map/node_modules/yo-yoify/lib/appendChild.js');
     var bel0 = document.createElement("h2");
     ac(bel0, [arguments[0]]);
     return bel0;
-  }(nameLoc), popupStyle, video ? function () {
+  }(nameLoc), noteSey && function () {
 
-    var ac = require('/Users/karissa/node_modules/lagarto-cocha-map/node_modules/yo-yoify/lib/appendChild.js');
+    var ac = require('/Users/gregor/Dev/DdDev/lagarto-cocha-map/node_modules/yo-yoify/lib/appendChild.js');
+    var bel0 = document.createElement("p");
+    ac(bel0, [arguments[0]]);
+    return bel0;
+  }(noteSey), noteLoc && function () {
+
+    var ac = require('/Users/gregor/Dev/DdDev/lagarto-cocha-map/node_modules/yo-yoify/lib/appendChild.js');
+    var bel0 = document.createElement("p");
+    ac(bel0, [arguments[0]]);
+    return bel0;
+  }(noteLoc), popupStyle, video ? function () {
+
+    var ac = require('/Users/gregor/Dev/DdDev/lagarto-cocha-map/node_modules/yo-yoify/lib/appendChild.js');
     var bel0 = document.createElement("iframe");
     bel0.setAttribute("width", "100%");
     bel0.setAttribute("allowfullscreen", "allowfullscreen");
@@ -47088,7 +47133,7 @@ function image(url) {
   if (!url) return '';
   return function () {
 
-    var ac = require('/Users/karissa/node_modules/lagarto-cocha-map/node_modules/yo-yoify/lib/appendChild.js');
+    var ac = require('/Users/gregor/Dev/DdDev/lagarto-cocha-map/node_modules/yo-yoify/lib/appendChild.js');
     var bel1 = document.createElement("div");
     bel1.setAttribute("class", "embed-responsive embed-responsive-16by9");
     var bel0 = document.createElement("img");
@@ -47112,4 +47157,4 @@ function getFotoURL(props) {
   var foto = props.foto && props.foto[0];
   return foto && foto.thumbnails && foto.thumbnails.large && foto.thumbnails.large.url || props.tipo === 'lake' && 'lake-images/' + props.id + '.png' || '';
 }
-},{"/Users/karissa/node_modules/lagarto-cocha-map/node_modules/yo-yoify/lib/appendChild.js":96,"querystring":89,"sheetify/insert":90,"url":91,"yo-yo":94}]},{},[97]);
+},{"/Users/gregor/Dev/DdDev/lagarto-cocha-map/node_modules/yo-yoify/lib/appendChild.js":99,"querystring":92,"sheetify/insert":93,"url":94,"yo-yo":97}]},{},[100]);
