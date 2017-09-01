@@ -34,7 +34,7 @@ var popupStyle = css`
 module.exports = function popup (props, lang, t) {
   var fotoUrl = getFotoURL(props)
   var nameLoc = props['nombre ' + lang] || 'Name in ' + lang
-  var noteSey = props['nombre ' + lang] || 'Description in Siekopai'
+  var noteSey = props['nota sey'] || 'Description in Siekopai'
   var noteLoc = props['nota ' + lang] || 'Description in ' + lang
   var tipoSey = (t[props.tipo] && t[props.tipo].sey) || props.tipo
   var tipoLoc = (t[props.tipo] && t[props.tipo][lang]) || props.tipo
@@ -47,8 +47,8 @@ module.exports = function popup (props, lang, t) {
     <div class='popup-inner'>
       <h1>${props['nombre sey']}</h1>
       ${nameLoc && yo`<h2>${nameLoc}</h2>`}
-      <p><b>${tipoSey}</b>${noteSey && ': ' + noteSey}</p>
-      <p><b>${tipoLoc}</b>${noteLoc && ': ' + noteLoc}</p>
+      ${noteSey && yo`<p>${noteSey}</p>`}
+      ${noteLoc && yo`<p>${noteLoc}</p>`}
     </div>
   </div>`
 }
