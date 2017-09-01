@@ -17,12 +17,18 @@ var popupStyle = css`
   :host > .popup-inner {
     padding: 10px;
   }
+  :host iframe {
+    display: block;
+  }
+
   :host h1 {
     font-size: 1.5em;
     line-height: 1.3;
-    margin-bottom: 0.2em;
+    margin-bottom: 0.1em;
+    margin-top: 0;
   }
   :host h2 {
+    margin-top: 0;
     font-size: 1.25em;
     color: grey;
   }
