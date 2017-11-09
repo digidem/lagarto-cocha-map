@@ -528,7 +528,28 @@
           "nombre es": "Orilla de platanillo.",
           "nota es": "En la orilla de este laguna hubo un asentamiento Siekopai en los años previa a 1941 y incluyo una casa ceremonial de Yajé.   Aquí también se relato de un historia muy importante de los Siekopai  que trata del resurrección de un shaman quien fue enterrado y levanto después de unas días y cruzo al otro lado (hacia el lado Ecuador) para ver sus parientes quien vivían en la orilla  de la Laguna Pë’ë Jaira o ‘Lagarto Cocha’.  ",
           "tipo": "comunidad/pai_pai_daripe",
-          "nombre sey": "Onoka të'tëpa paai pa'idaripë"
+          "nombre sey": "Onoka të'tëpa paai pa'idaripë",
+          "foto": [
+            {
+              "id": "attyGnmzOveiRGQHi",
+              "url": "https://dl.airtable.com/dVV2cfEeTkeuVqUcPPga_Onoka%20t%C3%AB't%C3%ABpa.pdf",
+              "filename": "Onoka të'tëpa.pdf",
+              "size": 268778,
+              "type": "application/pdf",
+              "thumbnails": {
+                "small": {
+                  "url": "https://dl.airtable.com/attyGnmzOveiRGQHi-25x36.png",
+                  "width": 25,
+                  "height": 36
+                },
+                "large": {
+                  "url": "https://dl.airtable.com/attyGnmzOveiRGQHi-362x512.png",
+                  "width": 362,
+                  "height": 512
+                }
+              }
+            }
+          ]
         },
         "geometry": null
       },
