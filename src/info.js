@@ -21,10 +21,17 @@ Infobox.prototype._getElement = function () {
       </div>
     `,
     en: yo`<div>
-      <p>This map shows the ancestral territory of the Siekopai in the area of Lagarto Cocha in Ecuador and Peru. The Siekopai were dislocated from this land in the 1940s during the border conflict between Peru and Ecuador, and now have been granted legal title to areas in both countries, but some distance from this important area which now lies within National Parks on both sides of the border. The area of Lagarto Cocha is important to the Seikopai both for historical and spiritual reasons, and for the collection of certain resources they use in their daily and ceremonial life.</p>
-      <p>The map was made by the Siekopai to demonstrate the significance of their territory and reconnect both young and old people to the land.</p>
-      <p>All information on the map is the cultural and intellectual property of the Siekopai, and they should be consulted before any reproduction or publication of the information.</p>
-      </div>
+    <p>
+    This map shows the ancestral territory of the Siekopai of Lagarto Cocha, in border region of Ecuador and Peru. The Siekopai were forcefully displaced from this territory in the 1940s during the conflict between Peru and Ecuador. Although they have received land titles in areas of both countries, they are far removed from this important area that is now inside national parks on both sides of the border. The Lagarto Cocha area is critically important for the Siekopai both for historical and spiritual reasons as well as for the collection of resources they use in their daily life.
+
+    </p>
+    <p>
+    The map was made by the Siekopai to demonstrate the importance of this territory both past and present, and to reconnect the young and old in an effort to recover it.
+    </p>
+
+    <p>
+    All the information on the map is the cultural and intellectual property of the Siekopai and should be consulted before any reproduction or publication of it.
+    </p>
     `
   }
   var style = css`
