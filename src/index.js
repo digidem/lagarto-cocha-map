@@ -86,8 +86,6 @@ function onLoad () {
   if (--pending > 0) return
   var airtableRecord
   layoutMarkers(map, pointLayers)
-  var langSelector = elements.language(updateLang, lang)
-  document.body.appendChild(langSelector)
 
   var nav = new mapboxgl.NavigationControl()
   map.addControl(nav, 'top-left')
@@ -192,13 +190,4 @@ function onLoad () {
     popup.update(popupDOM)
     popup.setLngLat(loc)
   })
-
-  function updateLang (_) {
-    lang = _
-    if (airtableRecord) {
-      popup.update(renderPopup(airtableRecord.properties, lang, translations))
-    }
-    infoBox.updateLang(lang)
-    backButton.updateLang(lang)
-  }
 }
