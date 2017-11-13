@@ -132,7 +132,7 @@ function onLoad () {
     map.easeTo({center: [-75.3106, -0.4793], zoom: 11.92, duration: 2500})
   }
 
-  var backButton = elements.backButton(map, {lang: lang, stop: 11.92}, function () {
+  elements.backButton(map, {language: lang, stop: 11.92}, function () {
     if (map.getZoom() > 10.75) defaultZoom()
   })
 
