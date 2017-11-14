@@ -118,7 +118,9 @@
           "nombre es": "laguna de hierva",
           "nota es": "Nombre dedicado a la abundancia presencia de especies de hiervas de agua",
           "tipo": "lake",
-          "nombre sey": "Wi'ya Jaira"
+          "nombre sey": "Wi'ya Jaira",
+          "nombre en": "Lake Wi'ya (grass)",
+          "nota en": "There are many plants and grasses in the water here."
         },
         "geometry": null
       },
@@ -132,7 +134,9 @@
           "nombre es": "Laguna de manglar",
           "nota es": "En esa laguna existen muchas manglares por tal razón le han nombrado (La laguna de manglares).",
           "tipo": "lake",
-          "nombre sey": "Dua jaira"
+          "nombre sey": "Dua jaira",
+          "nombre en": "Lake Due (mangrove)",
+          "nota en": "The lake is full of mangroves."
         },
         "geometry": null
       },
@@ -159,7 +163,9 @@
           "nombre es": "Lago de arcilla",
           "nota es": "En esta laguna existen una gran abundancia de arcillas para realizar las ceramicas. ",
           "tipo": "lake",
-          "nombre sey": "Soto Jaira"
+          "nombre sey": "Soto Jaira",
+          "nombre en": "Lake Soto (clay)",
+          "nota en": "There is good clay for making ceramics found here."
         },
         "geometry": null
       },
@@ -173,7 +179,9 @@
           "nombre es": "Yarina (chuncho) Cocha",
           "nota es": "Existen gran variedad de arboles de chuncho, que son buenos para fabricar canoas.",
           "tipo": "lake",
-          "nombre sey": "Muse Jaira"
+          "nombre sey": "Muse Jaira",
+          "nombre en": "Lake Muse (palm)",
+          "nota en": "There are many chinch trees here, great for making canoes."
         },
         "geometry": null
       },
@@ -202,7 +210,8 @@
           "nombre es": "Laguna negra",
           "nota es": "Laguna negra, le han nombrado así por que el agua de la laguna es negra.",
           "tipo": "lake",
-          "nombre sey": "Nea Jaira"
+          "nombre sey": "Nea Jaira",
+          "nombre en": "Lake Nea (black)"
         },
         "geometry": null
       },
@@ -215,7 +224,8 @@
           "id": "8731023371289088177",
           "nota es": "En esta laguna había comido la boa o mero al soldado peruano de la infanteria por eso los siekopaai han llamado laguna de infante.\n",
           "tipo": "lake",
-          "nombre sey": "Infante Jaira"
+          "nombre sey": "Infante Jaira",
+          "nombre en": "Lake Infante (child)"
         },
         "geometry": null
       },
@@ -252,7 +262,8 @@
           "nombre es": "Laguna  hacha",
           "nota es": "En esta laguna existen hachas antiguas que nuestros antepasados trabajaban como para cortar arboles para realizar sus  casas.\n",
           "tipo": "lake",
-          "nombre sey": "Tsu'u Jaira"
+          "nombre sey": "Tsu'u Jaira",
+          "nombre en": "Lake Tsu'u (axe)"
         },
         "geometry": null
       },
@@ -264,7 +275,8 @@
           "nota sey": "okotu'ipi pa'iyë ja jaira.",
           "id": "649959265187868029",
           "tipo": "lake",
-          "nombre sey": "Okotu'i Jaira"
+          "nombre sey": "Okotu'i Jaira",
+          "nombre en": "Lake Okotu'i"
         },
         "geometry": null
       },
@@ -278,7 +290,8 @@
           "nombre es": "Laguna de los defines",
           "nota es": "Existen muchos delfines en esa laguna por eso le nombraron así, laguna de los delfines. ",
           "tipo": "lake",
-          "nombre sey": "Wëwë Jaira"
+          "nombre sey": "Wëwë Jaira",
+          "nombre en": "Lake Wëwë (dolphins)"
         },
         "geometry": null
       },
@@ -290,7 +303,8 @@
           "id": "2438293092334106259",
           "nombre es": "Rio",
           "tipo": "river",
-          "nombre sey": "Tsiaya"
+          "nombre sey": "Tsiaya",
+          "nombre en": "River Tsiaya"
         },
         "geometry": null
       },
@@ -301,9 +315,10 @@
           "Item": "Laguna",
           "nota sey": "kwiñatamupi ja jaira pa'iyë",
           "id": "8220800042945209331",
-          "nota es": "Nombre especial de la laguna  por la abundante presencia de una especie de Paujil (Kwiña) que actualmente es una especie extinguida en Ecuador. En la actualidad es un sitio de llegada de los visitantes para hacer diferentes actividades como pesca o ecot",
+          "nota es": "Nombre especial de la laguna  por la abundante presencia de una especie de Paujil (Kwiña) que actualmente es una especie extinguida en Ecuador. En la actualidad es un sitio de llegada de los visitantes para hacer diferentes actividades como pesca o ecoturismo.",
           "tipo": "lake",
           "nombre sey": "Kwiña Jaira",
+          "nombre en": "Lake Kwiña (bird)",
           "video": "https://youtu.be/oJvOxOtQ9A0"
         },
         "geometry": null
@@ -323,7 +338,8 @@
           "id": "5779581844608925335",
           "nombre es": "laguna  de vieja",
           "tipo": "lake",
-          "nombre sey": "Wani Dopë (jaira)"
+          "nombre sey": "Wani Dopë (jaira)",
+          "nombre en": "Lake Want (ancient)"
         },
         "geometry": null
       },
@@ -350,7 +366,8 @@
           "id": "9680732413168321223",
           "nombre es": "Se conoce como Imuya",
           "tipo": "lake",
-          "nombre sey": "Emuyai Jaira"
+          "nombre sey": "Emuyai Jaira",
+          "nombre en": "Lake Emuyai"
         },
         "geometry": null
       },
@@ -398,7 +415,8 @@
             }
           ],
           "tipo": "lake",
-          "nombre sey": "Do'ro Jaira"
+          "nombre sey": "Do'ro Jaira",
+          "nombre en": "Lake Do'ro"
         },
         "geometry": null
       },
@@ -411,7 +429,8 @@
           "id": "3888452576363317018",
           "nombre es": "Cuatro Cocha",
           "tipo": "lake",
-          "nombre sey": "Nuni Jaira"
+          "nombre sey": "Nuni Jaira",
+          "nombre en": "Lake Nuni (four)"
         },
         "geometry": null
       },
@@ -458,7 +477,8 @@
             }
           ],
           "tipo": "lake",
-          "nombre sey": "Onoka Jaira"
+          "nombre sey": "Onoka Jaira",
+          "nombre en": "Lake Onoka (banana)"
         },
         "geometry": null
       },
@@ -472,7 +492,8 @@
           "nombre es": "Cedrococha",
           "nota es": "Le nombraron cedro cocha por en el bosque de la laguna existían muchos arboles de cedro que eran arboles para fabricar canoas.",
           "tipo": "lake",
-          "nombre sey": "Mëa Jaira"
+          "nombre sey": "Mëa Jaira",
+          "nombre en": "Lake Mëa (cedar)"
         },
         "geometry": null
       },
@@ -486,7 +507,8 @@
           "nombre es": "Laguna de los delfines rosado.",
           "nota es": "En esta laguna existes muchos delfines rosados, por eso le nombraron la laguna de los delfines rosados esta.",
           "tipo": "lake",
-          "nombre sey": "Mawëwë Jaira"
+          "nombre sey": "Mawëwë Jaira",
+          "nombre en": "Lake Mawëwë (pink dolphins)"
         },
         "geometry": null
       },
@@ -527,8 +549,6 @@
           "id": "17463864706799181072",
           "nombre es": "Orilla de platanillo.",
           "nota es": "En la orilla de este laguna hubo un asentamiento Siekopai en los años previa a 1941 y incluyo una casa ceremonial de Yajé.   Aquí también se relato de un historia muy importante de los Siekopai  que trata del resurrección de un shaman quien fue enterrado y levanto después de unas días y cruzo al otro lado (hacia el lado Ecuador) para ver sus parientes quien vivían en la orilla  de la Laguna Pë’ë Jaira o ‘Lagarto Cocha’.  ",
-          "tipo": "comunidad/pai_pai_daripe",
-          "nombre sey": "Onoka të'tëpa paai pa'idaripë",
           "foto": [
             {
               "id": "attyGnmzOveiRGQHi",
@@ -549,7 +569,9 @@
                 }
               }
             }
-          ]
+          ],
+          "tipo": "comunidad/pai_pai_daripe",
+          "nombre sey": "Onoka të'tëpa paai pa'idaripë"
         },
         "geometry": null
       },
@@ -573,6 +595,7 @@
           ],
           "tipo": "lake",
           "nombre sey": "Wakara Jaira",
+          "nombre en": "Lake Wakara (heron)",
           "video": "https://youtu.be/NPdHwiWirWw"
         },
         "geometry": null
@@ -601,7 +624,8 @@
           "nombre es": "Laguna de maní del monte.",
           "nota es": "En esta laguna existe bastante maní del monte y son frutas comestibles.",
           "tipo": "lake",
-          "nombre sey": "Suni jaira"
+          "nombre sey": "Suni jaira",
+          "nombre en": "Lake Suni (wild peanuts)"
         },
         "geometry": null
       },
@@ -615,7 +639,8 @@
           "nombre es": "Daniel cocha (camu, camu)",
           "nota es": "En toda la orilla de la laguna existen muchas frutas de camu camu, que son frutas comestibles. ",
           "tipo": "lake",
-          "nombre sey": "O'sasa Jaira"
+          "nombre sey": "O'sasa Jaira",
+          "nombre en": "Lake O'sasa "
         },
         "geometry": null
       },
@@ -629,7 +654,8 @@
           "nombre es": "Laguna de pantano",
           "nota es": "Laguna de pantano le dominan asi, por que la laguna tiene muchos pontano en toda la orilla  y  en el alrededor.",
           "tipo": "lake",
-          "nombre sey": "Jaira Dayawë"
+          "nombre sey": "Jaira Dayawë",
+          "nombre en": "Lake Dayawë (swamp)"
         },
         "geometry": null
       },
@@ -670,7 +696,8 @@
           "id": "1705200238010192066",
           "nombre es": "Laguna caraguazu",
           "tipo": "lake",
-          "nombre sey": "Tupëwani Jaira"
+          "nombre sey": "Tupëwani Jaira",
+          "nombre en": "Lake Tupëwani"
         },
         "geometry": null
       },
@@ -713,7 +740,8 @@
           "nombre es": "Camino ancestral de Angusiya / Aguarico",
           "nota es": "Este el camino ancestral que nuestros antepasados  caminaban para llegar al rio aguarico antes de llegar  al rio aguarico tenian que cruzar el rio lagarto cocha y tambien el rio aguas blancas.",
           "tipo": "camino",
-          "nombre sey": " Ai ma'a aiowa'i ku'ijë paa'isiko ukwisiyapi aguaricona."
+          "nombre sey": " Ai ma'a aiowa'i ku'ijë paa'isiko ukwisiyapi aguaricona.",
+          "nombre en": "Ancestral path Angusiya / Aguarico"
         },
         "geometry": null
       },
@@ -727,7 +755,8 @@
           "nombre es": "laguna de montaña",
           "nota es": "Es una laguna del monte aqui existen bastante peces.\n",
           "tipo": "lake",
-          "nombre sey": "Aikutiwa'ira"
+          "nombre sey": "Aikutiwa'ira",
+          "nombre en": "Lake Aikutiwa'ira"
         },
         "geometry": null
       },
@@ -761,6 +790,7 @@
           ],
           "tipo": "lake",
           "nombre sey": "Emuyai Jaira",
+          "nombre en": "Lake Emuyai",
           "video": "https://youtu.be/-kTpvlsBJB4"
         },
         "geometry": null
@@ -786,7 +816,8 @@
           "nombre es": "laguna de jungla ",
           "nota es": "Esta laguna esta ubicado muy adentro del bosque.",
           "tipo": "lake",
-          "nombre sey": "Airo Jaira"
+          "nombre sey": "Airo Jaira",
+          "nombre en": "Lake Airo (jungle)"
         },
         "geometry": null
       },
@@ -800,7 +831,8 @@
           "nombre es": "Laguna casique",
           "nota es": "En esta laguna existen muchas aves casiques en las orillas de la laguna.",
           "tipo": "lake",
-          "nombre sey": "Seo Jaira"
+          "nombre sey": "Seo Jaira",
+          "nombre en": "Lake Seo"
         },
         "geometry": null
       },
@@ -814,7 +846,8 @@
           "nombre es": "Poza de bocachicos",
           "nota es": "En esta laguna abundan los\n bocachicos.",
           "tipo": "lake",
-          "nombre sey": "Suara Dopë"
+          "nombre sey": "Suara Dopë",
+          "nombre en": "Lake Dopë"
         },
         "geometry": null
       },
@@ -857,7 +890,8 @@
           "nombre es": "Laguna Puerto estrella.",
           "nota en": " \n",
           "tipo": "lake",
-          "nombre sey": "Ma'ñoko Dopë(jaira)"
+          "nombre sey": "Ma'ñoko Dopë(jaira)",
+          "nombre en": "Lake Ma'ñoko"
         },
         "geometry": null
       },
@@ -899,7 +933,8 @@
           "nombre es": "poza de guanchinche",
           "nota es": "En esta poza abundan muchos peces de guanchinche.",
           "tipo": "lake",
-          "nombre sey": "Doye Dopë"
+          "nombre sey": "Doye Dopë",
+          "nombre en": "Lake Doye"
         },
         "geometry": null
       },
@@ -912,7 +947,8 @@
           "id": "16010414862262741386",
           "nombre es": "Laguna de pericos.",
           "tipo": "lake",
-          "nombre sey": "Këyë Jaira"
+          "nombre sey": "Këyë Jaira",
+          "nombre en": "Lake Këyë"
         },
         "geometry": null
       },
@@ -940,7 +976,8 @@
           "nombre es": "Soraida Cocha",
           "nota es": "Se nombran asi a esa laguna, por  que en esa laguna habitan los osos perezosos.",
           "tipo": "lake",
-          "nombre sey": "U'u Jaira"
+          "nombre sey": "U'u Jaira",
+          "nombre en": "Lake U'u"
         },
         "geometry": null
       },
@@ -968,7 +1005,8 @@
           "nombre es": "Poza de caraguazu",
           "nota es": "Puede ser llamado Tsiaya wekë ka'wa ?",
           "tipo": "lake",
-          "nombre sey": "Tupë Wani Dopë"
+          "nombre sey": "Tupë Wani Dopë",
+          "nombre en": "Lake Tupë Wani"
         },
         "geometry": null
       },
@@ -982,7 +1020,8 @@
           "nombre es": "laguna de martin",
           "nota es": "Nombre nuevo",
           "tipo": "lake",
-          "nombre sey": "Sa'sa Jaira"
+          "nombre sey": "Sa'sa Jaira",
+          "nombre en": "Lake Sa'sa"
         },
         "geometry": null
       },
@@ -1037,7 +1076,8 @@
           "nombre es": "Laguna de   huito",
           "nota es": "Por su  variedad se llama, huito sabalo.\n\n",
           "tipo": "lake",
-          "nombre sey": "We'era(jaira)"
+          "nombre sey": "We'era jaira",
+          "nombre en": "Lake We'era"
         },
         "geometry": null
       },
@@ -1068,7 +1108,8 @@
           "nota sey": "Wajë Mami",
           "id": "16542497418833281759",
           "tipo": "lake",
-          "nombre sey": "Mekoyë'yë Jaira"
+          "nombre sey": "Mekoyë'yë Jaira",
+          "nombre en": "Lake Mekoyë'yë"
         },
         "geometry": null
       },
@@ -1082,7 +1123,8 @@
           "nombre es": "Cueva de mero",
           "nota es": "Por esta cueva había salido el mero, ballena de agua dulce.\n",
           "tipo": "lake",
-          "nombre sey": "Añapëkë Kooje"
+          "nombre sey": "Añapëkë Kooje",
+          "nombre en": "Lake Añapëkë Kooje (giant catfish cave)"
         },
         "geometry": null
       },
@@ -1095,7 +1137,8 @@
           "id": "8994461966658285812",
           "nombre es": "Pantano.",
           "tipo": "lake",
-          "nombre sey": "Te´to Dayawë"
+          "nombre sey": "Te´to Dayawë",
+          "nombre en": "Lake Te'to (swamp)"
         },
         "geometry": null
       },
@@ -1106,10 +1149,11 @@
           "Item": "Laguna",
           "nota sey": "Kosa pa'i dopë, ai koosarepase'e pa'ikoa iye jaira të'tëpa.\n",
           "id": "3662321094468416827",
-          "nombre es": "laguna de  unguragua ",
+          "nombre es": "Laguna de Unguragua ",
           "nota es": "En la orilla de esta laguna existe bastante ungurahua es como sembrado por eso lo llamamos con este nombre.\n",
           "tipo": "lake",
-          "nombre sey": "Koosa Dopë(jaira)"
+          "nombre sey": "Koosa Dopë Jaira",
+          "nombre en": "Lake Koosa Dopë (palm fruit)"
         },
         "geometry": null
       },
@@ -1138,6 +1182,7 @@
           "nota es": "Esta laguna antes era muy peligroso por que en esa laguna existen muchos caimanes negros .",
           "tipo": "lake",
           "nombre sey": "Pë'ë Jaira",
+          "nombre en": "Lake Pë'ë (alligator)",
           "video": "https://youtu.be/fr18zamdSRI"
         },
         "geometry": null
@@ -1165,7 +1210,8 @@
           "id": "6015610521828036113",
           "nombre es": "Cueva de mero",
           "tipo": "lake",
-          "nombre sey": "Añapëkë Kooje"
+          "nombre sey": "Añapëkë Kooje",
+          "nombre en": "Lake Añapëkë Kooje (giant catfish cave)"
         },
         "geometry": null
       },
@@ -1203,7 +1249,8 @@
           "id": "309756920534618974",
           "nombre es": "laguna de pez",
           "tipo": "lake",
-          "nombre sey": "Wa'i dopë (jaira)"
+          "nombre sey": "Wa'i dopë (jaira)",
+          "nombre en": "Lake Wa'i (fish)"
         },
         "geometry": null
       },
@@ -1216,7 +1263,8 @@
           "id": "9974675424014883186",
           "nombre es": "Laguna Tucunari",
           "tipo": "lake",
-          "nombre sey": "Wa'ira / Yaupa Jaira"
+          "nombre sey": "Wa'ira / Yaupa Jaira",
+          "nombre en": "Lake Wa'ira"
         },
         "geometry": null
       },
@@ -1243,7 +1291,8 @@
           "id": "13872127350040722137",
           "nombre es": "Guacha Cocha",
           "tipo": "lake",
-          "nombre sey": "Tsoa Wa'ira"
+          "nombre sey": "Tsoa Wa'ira",
+          "nombre en": "Lake Tsoa"
         },
         "geometry": null
       },
@@ -1302,7 +1351,8 @@
           "nombre es": "Laguna  Camu camu",
           "nota es": "El camu camu  son frutas agrias pero comestible.\n",
           "tipo": "lake",
-          "nombre sey": "O'sasa Dopë (jaira)"
+          "nombre sey": "O'sasa Dopë (jaira)",
+          "nombre en": "Lake O'sasa"
         },
         "geometry": null
       },
@@ -1316,7 +1366,8 @@
           "nombre es": "Poza de palometas",
           "nota es": "En esta laguna abundan las palometas por eso se conoce como paza de palometas.\n",
           "tipo": "lake",
-          "nombre sey": "Paku Dopë"
+          "nombre sey": "Paku Dopë",
+          "nombre en": "Lake Paku (deep fish filled well)"
         },
         "geometry": null
       },
@@ -1344,7 +1395,8 @@
           "nombre es": "Poza/laguna de mojarras",
           "nota es": "Abundan las mojarras en esta poza/laguna.",
           "tipo": "lake",
-          "nombre sey": "Yaji Wani Dopë(jaira)"
+          "nombre sey": "Yaji Wani Dopë(jaira)",
+          "nombre en": "Lake Yaji Wani (deep fish filled well)"
         },
         "geometry": null
       },
@@ -1492,7 +1544,8 @@
           "nota sey": "Ya'oweapi airepa paikoaña iye jaira.",
           "id": "9746085031189048142",
           "tipo": "lake",
-          "nombre sey": "Ya'o Wea taya Jaira"
+          "nombre sey": "Ya'o Wea taya Jaira",
+          "nombre en": "Lake Ya'o Tea taya"
         },
         "geometry": null
       },
@@ -1503,9 +1556,10 @@
           "Item": "Laguna",
           "nota sey": "Okopeetopi airepa pa'ina ñani jaje kayë ikore kato.\n",
           "id": "6328189700702001610",
-          "nombre es": "Clavo cocha!!",
+          "nombre es": "Clavo cocha",
           "tipo": "lake",
-          "nombre sey": "Oko Peeto jaira"
+          "nombre sey": "Oko Peeto jaira",
+          "nombre en": "Lake Oko Peeto (nails)"
         },
         "geometry": null
       },
@@ -1544,7 +1598,8 @@
           "id": "4652925738033100594",
           "nombre es": "Cendrillo cocha",
           "tipo": "lake",
-          "nombre sey": "Jopo Jaira"
+          "nombre sey": "Jopo Jaira",
+          "nombre en": "Lake Jopo"
         },
         "geometry": null
       },
@@ -1571,7 +1626,8 @@
           "id": "668652092458876775",
           "nombre es": "America Cocha",
           "tipo": "lake",
-          "nombre sey": "Jato Jaira"
+          "nombre sey": "Jato Jaira",
+          "nombre en": "Lake Jato"
         },
         "geometry": null
       },
@@ -1585,7 +1641,8 @@
           "nombre es": "Poza de guanchinche",
           "nota es": "Tambien nombre Tapepero Jaira",
           "tipo": "lake",
-          "nombre sey": "Doye Dopë"
+          "nombre sey": "Doye Dopë",
+          "nombre en": "Lake Doye"
         },
         "geometry": null
       },
@@ -1598,7 +1655,8 @@
           "id": "16609894561463362825",
           "nombre es": "laguna de mero",
           "tipo": "lake",
-          "nombre sey": "Añapëkë Jaira"
+          "nombre sey": "Añapëkë Jaira",
+          "nombre en": "Lake Añapëkë (giant catfish)"
         },
         "geometry": null
       },
@@ -1621,7 +1679,8 @@
           "nombre es": "Laguna de manatí (vaca marina)",
           "nota es": "En esta laguna existen bastantes manatis o vaca marinas)\n",
           "tipo": "lake",
-          "nombre sey": "Tsiaya Wëkë Jaira"
+          "nombre sey": "Tsiaya Wëkë Jaira",
+          "nombre en": "Lake Tsiaya Wëkë (manatee)"
         },
         "geometry": null
       },
