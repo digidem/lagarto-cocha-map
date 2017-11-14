@@ -211,7 +211,8 @@
           "nota es": "Laguna negra, le han nombrado así por que el agua de la laguna es negra.",
           "tipo": "lake",
           "nombre sey": "Nea Jaira",
-          "nombre en": "Lake Nea (black)"
+          "nombre en": "Lake Nea (black)",
+          "nota en": "Named for the darkness of its waters."
         },
         "geometry": null
       },
@@ -225,7 +226,8 @@
           "nota es": "En esta laguna había comido la boa o mero al soldado peruano de la infanteria por eso los siekopaai han llamado laguna de infante.\n",
           "tipo": "lake",
           "nombre sey": "Infante Jaira",
-          "nombre en": "Lake Infante (child)"
+          "nombre en": "Lake Infante (soldier)",
+          "nota en": "A boa or mero swallowed up a member of the Peruvian infantry here."
         },
         "geometry": null
       },
@@ -263,7 +265,8 @@
           "nota es": "En esta laguna existen hachas antiguas que nuestros antepasados trabajaban como para cortar arboles para realizar sus  casas.\n",
           "tipo": "lake",
           "nombre sey": "Tsu'u Jaira",
-          "nombre en": "Lake Tsu'u (axe)"
+          "nombre en": "Lake Tsu'u (axe)",
+          "nota en": "Old axes were found in this lake, used by our ancestors for chopping trees."
         },
         "geometry": null
       },
@@ -291,7 +294,8 @@
           "nota es": "Existen muchos delfines en esa laguna por eso le nombraron así, laguna de los delfines. ",
           "tipo": "lake",
           "nombre sey": "Wëwë Jaira",
-          "nombre en": "Lake Wëwë (dolphins)"
+          "nombre en": "Lake Wëwë (dolphins)",
+          "nota en": "A favourite spot of river dolphins."
         },
         "geometry": null
       },
