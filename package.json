@@ -6,7 +6,6 @@
   "dependencies": {
     "alianza-elements": "^3.0.0",
     "d3-force": "^1.0.6",
-    "d3-request": "^1.0.5",
     "insert-css": "^2.0.0",
     "lodash": "^4.17.4",
     "mapbox-gl": "^0.39.1",
@@ -16,6 +15,7 @@
     "sheetify": "^6.0.1",
     "sheetify-nested": "^1.0.2",
     "tachyons": "^4.6.2",
+    "xhr": "^2.4.0",
     "yo-yo": "^1.4.0"
   },
   "devDependencies": {

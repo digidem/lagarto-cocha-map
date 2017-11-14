@@ -1,4 +1,4 @@
-const d3 = require('d3-request')
+const xhr = require('xhr')
 const qs = require('querystring')
 const elements = require('alianza-elements')
 const css = require('sheetify')
@@ -68,8 +68,11 @@ var map = window.map = new mapboxgl.Map({
   maxBounds: [-87, -9, -70, 6]
 }).on('load', onLoad)
 
-d3.json('airtable.json', function (err, _data) {
+xhr.get('airtable.json', { headers: {
+  'Content-Type': 'application/json'
+}}, function (err, resp, body) {
   if (err) return console.error(err)
+  var _data = JSON.parse(body)
   data = _data['Map Points']
   data.features.forEach(function (feature) {
     dataIndex[feature.properties.id] = feature
