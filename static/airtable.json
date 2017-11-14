@@ -736,7 +736,8 @@
           "nombre es": "Camino ancestral de Angusiya / Aguarico",
           "nota es": "Este el camino ancestral que nuestros antepasados  caminaban para llegar al rio aguarico antes de llegar  al rio aguarico tenian que cruzar el rio lagarto cocha y tambien el rio aguas blancas.",
           "tipo": "camino",
-          "nombre sey": " Ai ma'a aiowa'i ku'ijë paa'isiko ukwisiyapi aguaricona."
+          "nombre sey": " Ai ma'a aiowa'i ku'ijë paa'isiko ukwisiyapi aguaricona.",
+          "nombre en": "Ancestral path Angusiya / Aguarico"
         },
         "geometry": null
       },
@@ -1622,7 +1623,7 @@
           "nombre es": "America Cocha",
           "tipo": "lake",
           "nombre sey": "Jato Jaira",
-          "nombre en": "Lake Ja"
+          "nombre en": "Lake Jato"
         },
         "geometry": null
       },
@@ -1636,7 +1637,8 @@
           "nombre es": "Poza de guanchinche",
           "nota es": "Tambien nombre Tapepero Jaira",
           "tipo": "lake",
-          "nombre sey": "Doye Dopë"
+          "nombre sey": "Doye Dopë",
+          "nombre en": "Lake Doye"
         },
         "geometry": null
       },
@@ -1649,7 +1651,8 @@
           "id": "16609894561463362825",
           "nombre es": "laguna de mero",
           "tipo": "lake",
-          "nombre sey": "Añapëkë Jaira"
+          "nombre sey": "Añapëkë Jaira",
+          "nombre en": "Lake Añapëkë (giant catfish)"
         },
         "geometry": null
       },
@@ -1672,7 +1675,8 @@
           "nombre es": "Laguna de manatí (vaca marina)",
           "nota es": "En esta laguna existen bastantes manatis o vaca marinas)\n",
           "tipo": "lake",
-          "nombre sey": "Tsiaya Wëkë Jaira"
+          "nombre sey": "Tsiaya Wëkë Jaira",
+          "nombre en": "Lake Tsiaya Wëkë (manatee)"
         },
         "geometry": null
       },
