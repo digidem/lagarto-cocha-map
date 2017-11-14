@@ -584,6 +584,7 @@
           "id": "1111",
           "nombre es": "Garza cocha",
           "nota es": "Nombre originario que se da antiguamente por abundante presencia de muchas especies de garza.\n",
+          "nota en": "This name was given many years ago because of all the herons that lived here.",
           "foto": [
             {
               "id": "attTDmjCCdSHsXsmH",
@@ -595,9 +596,8 @@
           ],
           "tipo": "lake",
           "nombre sey": "Wakara Jaira",
-          "nombre en": "Lake Wakara (herons)",
-          "video": "https://youtu.be/NPdHwiWirWw",
-          "nota en": "This name was given many years ago because of all the herons that lived here."
+          "nombre en": "Lake Wakara (heron)",
+          "video": "https://youtu.be/NPdHwiWirWw"
         },
         "geometry": null
       },
