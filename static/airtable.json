@@ -117,10 +117,10 @@
           "id": "15189700795514535636",
           "nombre es": "laguna de hierva",
           "nota es": "Nombre dedicado a la abundancia presencia de especies de hiervas de agua",
+          "nota en": "There are many plants and grasses in the water here.",
           "tipo": "lake",
           "nombre sey": "Wi'ya Jaira",
-          "nombre en": "Lake Wi'ya (grass)",
-          "nota en": "There are many plants and grasses in the water here."
+          "nombre en": "Lake Wi'ya (grass)"
         },
         "geometry": null
       },
@@ -133,10 +133,10 @@
           "id": "4843469361727951631",
           "nombre es": "Laguna de manglar",
           "nota es": "En esa laguna existen muchas manglares por tal razón le han nombrado (La laguna de manglares).",
+          "nota en": "The lake is full of mangroves.",
           "tipo": "lake",
           "nombre sey": "Dua jaira",
-          "nombre en": "Lake Due (mangrove)",
-          "nota en": "The lake is full of mangroves."
+          "nombre en": "Lake Due (mangrove)"
         },
         "geometry": null
       },
@@ -162,10 +162,10 @@
           "id": "16607546306117930864",
           "nombre es": "Lago de arcilla",
           "nota es": "En esta laguna existen una gran abundancia de arcillas para realizar las ceramicas. ",
+          "nota en": "There is good clay for making ceramics found here.",
           "tipo": "lake",
           "nombre sey": "Soto Jaira",
-          "nombre en": "Lake Soto (clay)",
-          "nota en": "There is good clay for making ceramics found here."
+          "nombre en": "Lake Soto (clay)"
         },
         "geometry": null
       },
@@ -178,10 +178,10 @@
           "id": "1206160794007552664",
           "nombre es": "Yarina (chuncho) Cocha",
           "nota es": "Existen gran variedad de arboles de chuncho, que son buenos para fabricar canoas.",
+          "nota en": "There are many chinch trees here, great for making canoes.",
           "tipo": "lake",
           "nombre sey": "Muse Jaira",
-          "nombre en": "Lake Muse (palm)",
-          "nota en": "There are many chinch trees here, great for making canoes."
+          "nombre en": "Lake Muse (palm)"
         },
         "geometry": null
       },
@@ -596,7 +596,8 @@
           "tipo": "lake",
           "nombre sey": "Wakara Jaira",
           "nombre en": "Lake Wakara (heron)",
-          "video": "https://youtu.be/NPdHwiWirWw"
+          "video": "https://youtu.be/NPdHwiWirWw",
+          "nota en": "This name was given many years ago because of all the herons that lived here."
         },
         "geometry": null
       },
