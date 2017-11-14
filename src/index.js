@@ -31,6 +31,9 @@ var translations = {}
 var dataIndex = {}
 var pending = 2
 var lang = qs.parse(window.location.search.replace('?', '')).lang || 'es'
+var body = document.querySelector('body')
+if (lang === 'en') body.style = "font-family: 'Montserrat' !important;"
+else if (lang === 'es') body.style = "font-family: 'Helvetica' !important;"
 
 var interactiveLayers = [
   'Caminos hover',
