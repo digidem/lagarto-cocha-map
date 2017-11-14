@@ -323,7 +323,8 @@
           "tipo": "lake",
           "nombre sey": "Kwiña Jaira",
           "nombre en": "Lake Kwiña (bird)",
-          "video": "https://youtu.be/oJvOxOtQ9A0"
+          "video": "https://youtu.be/oJvOxOtQ9A0",
+          "nota en": "This lake is named after a special bird, kwiña, that is now extinct but used to live here. Nowadays people visit for ecotourism and fishing."
         },
         "geometry": null
       },
@@ -497,7 +498,8 @@
           "nota es": "Le nombraron cedro cocha por en el bosque de la laguna existían muchos arboles de cedro que eran arboles para fabricar canoas.",
           "tipo": "lake",
           "nombre sey": "Mëa Jaira",
-          "nombre en": "Lake Mëa (cedar)"
+          "nombre en": "Lake Mëa ",
+          "nota en": "."
         },
         "geometry": null
       },
@@ -512,7 +514,8 @@
           "nota es": "En esta laguna existes muchos delfines rosados, por eso le nombraron la laguna de los delfines rosados esta.",
           "tipo": "lake",
           "nombre sey": "Mawëwë Jaira",
-          "nombre en": "Lake Mawëwë (pink dolphins)"
+          "nombre en": "Lake Mawëwë (pink dolphins)",
+          "nota en": "A favourite spot of the pink river dolphin."
         },
         "geometry": null
       },
@@ -630,7 +633,8 @@
           "nota es": "En esta laguna existe bastante maní del monte y son frutas comestibles.",
           "tipo": "lake",
           "nombre sey": "Suni jaira",
-          "nombre en": "Lake Suni (wild peanuts)"
+          "nombre en": "Lake Suni (wild peanuts)",
+          "nota en": "Many edible wild peanuts plants are found near."
         },
         "geometry": null
       },
@@ -645,7 +649,8 @@
           "nota es": "En toda la orilla de la laguna existen muchas frutas de camu camu, que son frutas comestibles. ",
           "tipo": "lake",
           "nombre sey": "O'sasa Jaira",
-          "nombre en": "Lake O'sasa "
+          "nombre en": "Lake O'sasa ",
+          "nota en": "There are many came camp fruits on the banks of this lake."
         },
         "geometry": null
       },
