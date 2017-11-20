@@ -36,7 +36,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "mkdirp dist && npm run build:js && npm run build:static",
     "build:js": "browserify src/index.js -t [ sheetify/transform -u sheetify-nested ] -t yo-yoify -t es2020 > dist/bundle.js",
-    "build:static": "copyup 'static/**/*' dist",
+    "build:static": "copyup 'static/**/*' dist && copyfiles airtable.json dist",
     "deploy": "npm run build && gh-pages -d dist"
   },
   "repository": {
