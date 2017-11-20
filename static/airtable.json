@@ -209,10 +209,10 @@
           "id": "2222",
           "nombre es": "Laguna negra",
           "nota es": "Laguna negra, le han nombrado así por que el agua de la laguna es negra.",
+          "nota en": "Named for the darkness of its waters.",
           "tipo": "lake",
           "nombre sey": "Nea Jaira",
-          "nombre en": "Lake Nea (black)",
-          "nota en": "Named for the darkness of its waters."
+          "nombre en": "Lake Nea (black)"
         },
         "geometry": null
       },
@@ -224,10 +224,10 @@
           "nota sey": "infanteria peru soraopi airo sakëna anijeona jaje weyoakoa ja jaira",
           "id": "8731023371289088177",
           "nota es": "En esta laguna había comido la boa o mero al soldado peruano de la infanteria por eso los siekopaai han llamado laguna de infante.\n",
+          "nota en": "A boa or mero swallowed up a member of the Peruvian infantry here.",
           "tipo": "lake",
           "nombre sey": "Infante Jaira",
-          "nombre en": "Lake Infante (soldier)",
-          "nota en": "A boa or mero swallowed up a member of the Peruvian infantry here."
+          "nombre en": "Lake Infante (soldier)"
         },
         "geometry": null
       },
@@ -239,7 +239,7 @@
           "nota sey": "Año 2003 pai maka pai daijë paawë ti iona pëani payu'u kajë yo'oni io mami daripë weyoawë'ë mañoko.",
           "id": "10529189292030859811",
           "nombre es": "Comunidad Puerto Estrella",
-          "nota es": "Un pueblo actual de los Siekopai  en la frontera de Perú que fue re-establecido en el año 2003.  Hoy dÃ­a se encuentra con la presencia de 7 familias Siekopai y también este pueblo sirve como el punto principal de encuentros entre las familias.",
+          "nota es": "Un pueblo actual de los Siekopai  en la frontera de Perú que fue re-establecido en el año 2003.  Hoy día se encuentra con la presencia de siete familias Siekopai y también este pueblo sirve como el punto principal de encuentros entre las familias.",
           "foto": [
             {
               "id": "attG0dKdEpZBjfKN3",
@@ -263,10 +263,10 @@
           "id": "9797048935111035845",
           "nombre es": "Laguna  hacha",
           "nota es": "En esta laguna existen hachas antiguas que nuestros antepasados trabajaban como para cortar arboles para realizar sus  casas.\n",
+          "nota en": "Old axes were found in this lake, used by our ancestors for chopping trees.",
           "tipo": "lake",
           "nombre sey": "Tsu'u Jaira",
-          "nombre en": "Lake Tsu'u (axe)",
-          "nota en": "Old axes were found in this lake, used by our ancestors for chopping trees."
+          "nombre en": "Lake Tsu'u (axe)"
         },
         "geometry": null
       },
@@ -292,10 +292,10 @@
           "id": "13654139179669022758",
           "nombre es": "Laguna de los defines",
           "nota es": "Existen muchos delfines en esa laguna por eso le nombraron así, laguna de los delfines. ",
+          "nota en": "A favourite spot of river dolphins.",
           "tipo": "lake",
           "nombre sey": "Wëwë Jaira",
-          "nombre en": "Lake Wëwë (dolphins)",
-          "nota en": "A favourite spot of river dolphins."
+          "nombre en": "Lake Wëwë (dolphins)"
         },
         "geometry": null
       },
@@ -320,11 +320,11 @@
           "nota sey": "kwiñatamupi ja jaira pa'iyë",
           "id": "8220800042945209331",
           "nota es": "Nombre especial de la laguna  por la abundante presencia de una especie de Paujil (Kwiña) que actualmente es una especie extinguida en Ecuador. En la actualidad es un sitio de llegada de los visitantes para hacer diferentes actividades como pesca o ecoturismo.",
+          "nota en": "This lake is named after a special bird, kwiña, that is now extinct but used to live here. Nowadays people visit for ecotourism and fishing.",
           "tipo": "lake",
           "nombre sey": "Kwiña Jaira",
           "nombre en": "Lake Kwiña (bird)",
-          "video": "https://youtu.be/oJvOxOtQ9A0",
-          "nota en": "This lake is named after a special bird, kwiña, that is now extinct but used to live here. Nowadays people visit for ecotourism and fishing."
+          "video": "https://youtu.be/oJvOxOtQ9A0"
         },
         "geometry": null
       },
@@ -496,10 +496,10 @@
           "id": "13990912366586570676",
           "nombre es": "Cedrococha",
           "nota es": "Le nombraron cedro cocha por en el bosque de la laguna existían muchos arboles de cedro que eran arboles para fabricar canoas.",
+          "nota en": ".",
           "tipo": "lake",
           "nombre sey": "Mëa Jaira",
-          "nombre en": "Lake Mëa ",
-          "nota en": "."
+          "nombre en": "Lake Mëa "
         },
         "geometry": null
       },
@@ -512,10 +512,10 @@
           "id": "3647679523302977352",
           "nombre es": "Laguna de los delfines rosado.",
           "nota es": "En esta laguna existes muchos delfines rosados, por eso le nombraron la laguna de los delfines rosados esta.",
+          "nota en": "A favourite spot of the pink river dolphin.",
           "tipo": "lake",
           "nombre sey": "Mawëwë Jaira",
-          "nombre en": "Lake Mawëwë (pink dolphins)",
-          "nota en": "A favourite spot of the pink river dolphin."
+          "nombre en": "Lake Mawëwë (pink dolphins)"
         },
         "geometry": null
       },
@@ -631,10 +631,10 @@
           "id": "662666943055204599",
           "nombre es": "Laguna de maní del monte.",
           "nota es": "En esta laguna existe bastante maní del monte y son frutas comestibles.",
+          "nota en": "Many edible wild peanuts plants are found near.",
           "tipo": "lake",
           "nombre sey": "Suni jaira",
-          "nombre en": "Lake Suni (wild peanuts)",
-          "nota en": "Many edible wild peanuts plants are found near."
+          "nombre en": "Lake Suni (wild peanuts)"
         },
         "geometry": null
       },
@@ -647,10 +647,10 @@
           "id": "18305907333145251440",
           "nombre es": "Daniel cocha (camu, camu)",
           "nota es": "En toda la orilla de la laguna existen muchas frutas de camu camu, que son frutas comestibles. ",
+          "nota en": "There are many came camp fruits on the banks of this lake.",
           "tipo": "lake",
           "nombre sey": "O'sasa Jaira",
-          "nombre en": "Lake O'sasa ",
-          "nota en": "There are many came camp fruits on the banks of this lake."
+          "nombre en": "Lake O'sasa "
         },
         "geometry": null
       },
