@@ -13,7 +13,8 @@
           "nota es": "Un camino ancestral que conectaba la gente desde las comunidades alejado en el Río Putumayo hacia el Río Aguarico con las comunidades Siekopai en la ribera del Río Aguarico y el Río Cuyubeno",
           "tipo": "camino",
           "nombre sey": "Manoka tsa'sa",
-          "video": "https://youtu.be/BG1BUkdPq6A"
+          "video": "https://youtu.be/BG1BUkdPq6A",
+          "nombre en": "Ancestral path"
         },
         "geometry": null
       },
@@ -55,7 +56,8 @@
             }
           ],
           "tipo": "comunidad/campamento",
-          "nombre sey": "Wakara jaira kai daripë"
+          "nombre sey": "Wakara jaira kai daripë",
+          "nombre en": "Campsite on Lake Wakara"
         },
         "geometry": null
       },
@@ -69,7 +71,8 @@
           "nombre es": "Camino al Güepi",
           "nota es": "tsoe we'ña paipi karena akëpi we'yoko paa'a'koña wepi paai kato we'epi karena.",
           "tipo": "caminos/ai_maa",
-          "nombre sey": "Ma'a wepi kaa maa'a"
+          "nombre sey": "Ma'a wepi kaa maa'a",
+          "nombre en": "Ancestral path to Güepi"
         },
         "geometry": null
       },
@@ -82,7 +85,8 @@
           "id": "13884321478433118916",
           "nombre es": "Saladero de danta",
           "tipo": "natural/saladero_abierto",
-          "nombre sey": "Wekë tu'aro"
+          "nombre sey": "Wekë tu'aro",
+          "nombre en": "Tapir salt lick"
         },
         "geometry": null
       },
@@ -104,7 +108,8 @@
             }
           ],
           "tipo": "comunidad/jai_daripe",
-          "nombre sey": "Tupë sa'ro Paai pa'idaripë"
+          "nombre sey": "Tupë sa'ro Paai pa'idaripë",
+          "nombre en": "Ancestral settlement"
         },
         "geometry": null
       },
@@ -149,7 +154,8 @@
           "id": "2802796723362052602",
           "nombre es": "Saladero de danta",
           "tipo": "fauna/tapir",
-          "nombre sey": "Wekë tua'aro"
+          "nombre sey": "Wekë tua'aro",
+          "nombre en": "Tapir salt lick"
         },
         "geometry": null
       },
@@ -196,7 +202,8 @@
           "nota es": "En este sitio ocurrió uno de los eventos mas importantes y conocidos de todo la historia reciente Siekopai.  Cerca del año 1900, dos shamanes Siekopai  enfrentaron a dos meros (un tipo ballena Amazónica) cuales estaban atacando a gente la que iban de pesca. Con el poder de shamanismo lograron a matar a uno de estos meros y dejaron al otro vivo y ciega como un ejemplo del poder shamanico de los Siekopai.",
           "tipo": "fauna/boa",
           "nombre sey": "Ñakomasira",
-          "video": "https://youtu.be/_d03HkQ3X_I"
+          "video": "https://youtu.be/_d03HkQ3X_I",
+          "nombre en": "Lake Ñakomasira"
         },
         "geometry": null
       },
@@ -250,7 +257,8 @@
             }
           ],
           "tipo": "comunidad/comunidad_nueva",
-          "nombre sey": "Ma'ñoko paai pa'idaripë"
+          "nombre sey": "Ma'ñoko paai pa'idaripë",
+          "nombre en": "Mañoko community"
         },
         "geometry": null
       },
@@ -358,7 +366,8 @@
           "nombre es": "Camino ancestral Anguisilla / Pekëya / Cañon Negro",
           "nota es": "Camino de angusilla a lagarto cocha de hay que cruza al cañon negro.",
           "tipo": "camino",
-          "nombre sey": "Ukwisiyapi Pë'këyana jetani Cañon negrona etako/ Cañon Negro"
+          "nombre sey": "Ukwisiyapi Pë'këyana jetani Cañon negrona etako/ Cañon Negro",
+          "nombre en": "Ancestral path Anguisilla to Pë'këya to Cañon Negro"
         },
         "geometry": null
       },
@@ -386,7 +395,8 @@
           "nombre es": "Rio aguas blancas",
           "nota es": "Aquí es el sitio de la comunidad Siekopai que fue establecido en el año 2003.  Durante la construcción de este pueblo habían varios artefctos arqueológicos  que corresponde a la cultura Siekopai, y que incluyo un cuchillo de piedra para la raspada de Yoco (una liana estimulatorio que utiliza los Siekopai) y otros cerámicas.  Lamentablemente, todos los techos de lamina de Zinc fue robado por los militares Peruanos que pertenece al destacamento Aguas Negras  en el año 2007 y luego abandonado por los Siekopai. ",
           "tipo": "River/Río",
-          "nombre sey": "Pookoya, Aguas Blancas"
+          "nombre sey": "Pookoya, Aguas Blancas",
+          "nombre en": "Aguas blancas river"
         },
         "geometry": null
       },
@@ -448,7 +458,8 @@
           "id": "16",
           "nota es": "Camino de cruce al rio emuña.",
           "tipo": "camino",
-          "nombre sey": "Camino a Emuya Tsiaya"
+          "nombre sey": "Camino a Emuya Tsiaya",
+          "nombre en": "Path to river Emuña"
         },
         "geometry": null
       },
@@ -529,7 +540,8 @@
           "nombre es": "Camino Ancestral: Wajoya ",
           "nota es": "Camino ancestral de wajoya a la comunidad ma'ñoko",
           "tipo": "camino",
-          "nombre sey": " Wajoyapi / Mañokona daima'a, ma'a sarawa."
+          "nombre sey": " Wajoyapi / Mañokona daima'a, ma'a sarawa.",
+          "nombre en": "Ancestral path to Wajoya"
         },
         "geometry": null
       },
@@ -543,7 +555,8 @@
           "nombre es": "Camino Wiririma / Mañoko",
           "nota es": "Camino que llega de wirima a la comunidad ma'ñoko.",
           "tipo": "camino",
-          "nombre sey": "Mañokopi Wiririmana saima'a"
+          "nombre sey": "Mañokopi Wiririmana saima'a",
+          "nombre en": "Ancestral path Wiririma to Mañoko"
         },
         "geometry": null
       },
@@ -578,7 +591,8 @@
             }
           ],
           "tipo": "comunidad/pai_pai_daripe",
-          "nombre sey": "Onoka të'tëpa paai pa'idaripë"
+          "nombre sey": "Onoka të'tëpa paai pa'idaripë",
+          "nombre en": "Settlement "
         },
         "geometry": null
       },
@@ -618,7 +632,8 @@
           "nombre es": "Rastrojo de la comunidad antigua.",
           "nota es": "Rastrojo de una comunidad antigua que existía en ese lugar.",
           "tipo": "comunidad/pai_pai_daripe",
-          "nombre sey": "Paai paa'isi darip'ë"
+          "nombre sey": "Paai paa'isi darip'ë",
+          "nombre en": "Evidence of ancestral settlement"
         },
         "geometry": null
       },
@@ -679,7 +694,8 @@
           "nombre es": "Saladero de puercos del monte(Guanguana)",
           "nota es": "Es un saladero de guanguanas, siempre suelen venir a ese lugar.",
           "tipo": "fauna/huangana",
-          "nombre sey": "Sese Tu'aro"
+          "nombre sey": "Sese Tu'aro",
+          "nombre en": "Peccary salt lick"
         },
         "geometry": null
       },
@@ -693,7 +709,8 @@
           "nombre es": "Rastrojo de la casa de yaje.",
           "nota es": "Historicamente este es un lugar de encuentros ceremoniales de yagé de los chamanes de diferentes comunidades Siekopai que lamentablemente abandonaron cuando comenzó el conflicito belico  en el año 1941 entre Ecuador y Perú.",
           "tipo": "comunidad/yaje",
-          "nombre sey": "Aipë, yaje ukujë pa'isito"
+          "nombre sey": "Aipë, yaje ukujë pa'isito",
+          "nombre en": "Historic Yaje ceremonial house"
         },
         "geometry": null
       },
@@ -736,7 +753,8 @@
             }
           ],
           "tipo": "comunidad/campamento",
-          "nombre sey": "Kwiña jaira kaidaripë"
+          "nombre sey": "Kwiña jaira kaidaripë",
+          "nombre en": "Ancestral settlement"
         },
         "geometry": null
       },
@@ -871,7 +889,8 @@
           "nombre es": "Rastrojo /comunidad antigua",
           "nota es": "Antiguo pueblo Siekopai y además se conoce como el lugar mas importate de concentración de ceremonías de los shamanes Siekopai, abandonado en el año 1941 por los conflictos belicos entre Ecuador y Perú.",
           "tipo": "comunidad/jai_daripe",
-          "nombre sey": "paai daripë pa'isiko tsoewe'ña"
+          "nombre sey": "paai daripë pa'isiko tsoewe'ña",
+          "nombre en": "Ancestral settlement"
         },
         "geometry": null
       },
@@ -886,7 +905,8 @@
           "nota es": "Habia una comunidad en la bocana de Lagarto Cocha, desde alli se caminaba hasta Sokora Jaira hasta cruzar al Napo, alli tenian contacto con otros grupos indigenas (Waorani). Al ver que vivian sin ropas se les denominaron Kapeotini, de ello le dieron Tiputi.Adicionalmente,  Sra. Joaquina Payaguaje relató que hay muchos huesos de sus ancestros Siekopai enterrados aquí, y lo cuales incluye los de sus propios padres. Hoy día este sitio se encuentra el destacamento Militar Peruano Clavero.  También se cuentan que en esta época la bocana era unos cienes de metros mas abajo que lo que es actual, debido a un cambio de trayecto de los ríos. ",
           "nota en": "1473321167304750939",
           "tipo": "comunidad/jai_daripe",
-          "nombre sey": "Pë'ëkëya sarawa "
+          "nombre sey": "Pë'ëkëya sarawa ",
+          "nombre en": "Mouth of river Lagarto"
         },
         "geometry": null
       },
@@ -915,7 +935,8 @@
           "nombre es": "Campamento del río aguas blancas ",
           "nota es": "Lugar donde habitaban nuestro antepasados, en las orilla del rio aguas blancas.",
           "tipo": "comunidad/campamento",
-          "nombre sey": "Pookoya paai daripë pa'isiko"
+          "nombre sey": "Pookoya paai daripë pa'isiko",
+          "nombre en": "Campsite on Aguas Blancas river"
         },
         "geometry": null
       },
@@ -929,7 +950,8 @@
           "nombre es": "Saladero de danta en el sector de platanillo.",
           "nota es": "En el sector de los platanillos hay un saladero de dantas muy grande. ",
           "tipo": "fauna/tapir",
-          "nombre sey": "Onoka Tu'aro"
+          "nombre sey": "Onoka Tu'aro",
+          "nombre en": "Tapir salt lick"
         },
         "geometry": null
       },
@@ -972,7 +994,8 @@
           "nombre es": "Saladero de danta",
           "nota es": "Saladero de dantas.",
           "tipo": "fauna/tapir",
-          "nombre sey": "Wekë tu'aro"
+          "nombre sey": "Wekë tu'aro",
+          "nombre en": "Tapir salt lick"
         },
         "geometry": null
       },
@@ -1001,7 +1024,8 @@
           "nombre es": "Puente del río aguas blancas ",
           "nota es": "Puente y camino de cruce del rio aguas blancas.\n",
           "tipo": "Camino",
-          "nombre sey": "Je'e sa'ro"
+          "nombre sey": "Je'e sa'ro",
+          "nombre en": "Path to Aquas Blancas"
         },
         "geometry": null
       },
@@ -1044,7 +1068,8 @@
           "id": "15",
           "nota es": "Cruce al rio aguarico y cañon negro.",
           "tipo": "camino",
-          "nombre sey": "Cañon  negro"
+          "nombre sey": "Cañon  negro",
+          "nombre en": "Crossing between A"
         },
         "geometry": null
       },
@@ -1058,7 +1083,8 @@
           "nombre es": "Campamento lagarto cocha ",
           "nota es": "Campamento donde se puede descansar en el viaje por el rio lagarto y se puede quedar a hospetar la noche.",
           "tipo": "comunidad/campamento",
-          "nombre sey": "Kai daripë pë'kë'ya"
+          "nombre sey": "Kai daripë pë'kë'ya",
+          "nombre en": "Campsite"
         },
         "geometry": null
       },
@@ -1072,7 +1098,8 @@
           "nombre es": "Camino ancestral Gueppi",
           "nota es": "Este es el camino ancestral wepi, y tiene una historia que cuenta que en este camino cargaban municiones para ejercito peruanos, por que en esa época estaban en conflicto con Colombia.",
           "tipo": "camino",
-          "nombre sey": "Wepi saima´a"
+          "nombre sey": "Wepi saima´a",
+          "nombre en": "Ancestral path to Gueppi"
         },
         "geometry": null
       },
@@ -1106,7 +1133,8 @@
           "id": "18348623763743778288",
           "nota es": "En la laguna de chuncho existe un saladero de dantas. ",
           "tipo": "fauna/tapir",
-          "nombre sey": "Muse tu'aro"
+          "nombre sey": "Muse tu'aro",
+          "nombre en": "Tapir salt lick"
         },
         "geometry": null
       },
@@ -1177,7 +1205,8 @@
           "nombre es": "Isla para beber Yaje.",
           "nota es": "Se sabe que aqui habia un pueblo antiguo, por razones de las resurreccion que hubo al otro lado algunas familias se cruzaron y establecieronuna comunidad. Aqui se encuentran artefactos de cerámica en los años reciéntes.",
           "tipo": "comunidad/pai_pai_daripe",
-          "nombre sey": "Yaje uku saorowë"
+          "nombre sey": "Yaje uku saorowë",
+          "nombre en": "Historic Yaje ceremonial house"
         },
         "geometry": null
       },
@@ -1207,7 +1236,8 @@
           "nombre es": "Puesto de control Aguas Negras",
           "nota es": "Desde este sitio hubo caminos ancestrales que conectaban a las comunidades Siekopai en la región de Rio Putumayo.  Hoy día este sitio histórico se encuentra un destacamento militar Peruano 'Aguas Negras'.",
           "tipo": "comunidad/casa_temporal_pasado",
-          "nombre sey": "Puesto de Control Aguas Negras"
+          "nombre sey": "Puesto de Control Aguas Negras",
+          "nombre en": "Aguas Negras Military post"
         },
         "geometry": null
       },
@@ -1234,7 +1264,8 @@
           "id": "13074131508457660530",
           "nombre es": "Saladero.",
           "tipo": "fauna/tapir",
-          "nombre sey": "Tu'aro"
+          "nombre sey": "Tu'aro",
+          "nombre en": "Salt lick"
         },
         "geometry": null
       },
@@ -1288,7 +1319,8 @@
           "nombre es": "Camino ancestral de cruce de garza cocha a Emuña.",
           "nota es": "Camino ancestral que cruza al rio emuña desde la laguna garza cocha, para realizar su ceremonia de yaje ",
           "tipo": "Camino",
-          "nombre sey": "Wakara jaira ma'a emuña  jeni tomewe'ña"
+          "nombre sey": "Wakara jaira ma'a emuña  jeni tomewe'ña",
+          "nombre en": "Ancestral path between Lake Wakara and River Lagarto"
         },
         "geometry": null
       },
@@ -1347,7 +1379,8 @@
             }
           ],
           "tipo": "comunidad/comunidad_nueva",
-          "nombre sey": "Wakara jaira Paai pa'i daripë"
+          "nombre sey": "Wakara jaira Paai pa'i daripë",
+          "nombre en": "Ancestral settlement"
         },
         "geometry": null
       },
@@ -1391,7 +1424,8 @@
           "nombre es": "Puerto para caminar al saladero ",
           "nota es": "Puerto para ",
           "tipo": "actividad/caza",
-          "nombre sey": "Tuma sa'ro tu'aro"
+          "nombre sey": "Tuma sa'ro tu'aro",
+          "nombre en": "port"
         },
         "geometry": null
       },
@@ -1420,7 +1454,8 @@
           "nombre es": "Camino al saladero.",
           "nota es": "Camino que va a un saladero que hay en ese sector.",
           "tipo": "actividad/caza",
-          "nombre sey": "Tu'aro ma'a tuma sa'ro"
+          "nombre sey": "Tu'aro ma'a tuma sa'ro",
+          "nombre en": "Path to a salt lick"
         },
         "geometry": null
       },
@@ -1434,7 +1469,8 @@
           "nombre es": "Rastrojo donde resucito una persona muerta ",
           "nota es": "Aquí es el rastrojo donde resucito una persona muerta ",
           "tipo": "comunidad/pai_pai_daripe",
-          "nombre sey": "Pai juni wëi pa'isidaripë"
+          "nombre sey": "Pai juni wëi pa'isidaripë",
+          "nombre en": "Ancestral settlement"
         },
         "geometry": null
       },
@@ -1469,7 +1505,8 @@
             }
           ],
           "tipo": "camino",
-          "nombre sey": "Emuña ma'a"
+          "nombre sey": "Emuña ma'a",
+          "nombre en": "Path to Emuña"
         },
         "geometry": null
       },
@@ -1542,7 +1579,8 @@
             }
           ],
           "tipo": "comunidad/jai_daripe",
-          "nombre sey": "Emuña paai pa'ia daripë"
+          "nombre sey": "Emuña paai pa'ia daripë",
+          "nombre en": "Ancestral settlement"
         },
         "geometry": null
       },
@@ -1583,7 +1621,8 @@
           "nombre es": "Camino al saladero",
           "nota es": "Puerto al camino de un saladero. ",
           "tipo": "Fauna-puerto",
-          "nombre sey": "Tua'ro tumasa'ro"
+          "nombre sey": "Tua'ro tumasa'ro",
+          "nombre en": "Path to salt lick"
         },
         "geometry": null
       },
@@ -1623,7 +1662,8 @@
           "nombre es": "Camino ancestral Angusilla / Aguas Negras",
           "nota es": "Camino ancestral Angusilla que llega a salir al rio aguas negras.\n ",
           "tipo": "camino",
-          "nombre sey": "Aima'a Ukwisiyapi Neañana etasi ma'a."
+          "nombre sey": "Aima'a Ukwisiyapi Neañana etasi ma'a.",
+          "nombre en": "Ancestral path Angusilla to Aquas Negras"
         },
         "geometry": null
       },
@@ -1704,7 +1744,8 @@
           "nombre es": "Puerto de platanillo rojo ",
           "nota es": "Este es el punto donde uno de los caminos ancestral de los Siekopai y que conectaba la gente desde las comunidades alejado en el Rio Putumayo hacia el Rio Aguarico y con las comunidades Siekopai en la ribera del Rio Aguarico y el Rio Cuyabeno. ",
           "tipo": "Actividad",
-          "nombre sey": "Tumasa'ro manoka tsa'sa"
+          "nombre sey": "Tumasa'ro manoka tsa'sa",
+          "nombre en": "Port"
         },
         "geometry": null
       }
