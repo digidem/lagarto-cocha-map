@@ -13,8 +13,8 @@
           "nota es": "Un camino ancestral que conectaba la gente desde las comunidades alejado en el Río Putumayo hacia el Río Aguarico con las comunidades Siekopai en la ribera del Río Aguarico y el Río Cuyubeno",
           "tipo": "camino",
           "nombre sey": "Manoka tsa'sa",
-          "video": "https://youtu.be/BG1BUkdPq6A",
-          "nombre en": "Ancestral path"
+          "nombre en": "Ancestral path",
+          "video": "https://youtu.be/BG1BUkdPq6A"
         },
         "geometry": null
       },
@@ -202,8 +202,8 @@
           "nota es": "En este sitio ocurrió uno de los eventos mas importantes y conocidos de todo la historia reciente Siekopai.  Cerca del año 1900, dos shamanes Siekopai  enfrentaron a dos meros (un tipo ballena Amazónica) cuales estaban atacando a gente la que iban de pesca. Con el poder de shamanismo lograron a matar a uno de estos meros y dejaron al otro vivo y ciega como un ejemplo del poder shamanico de los Siekopai.",
           "tipo": "fauna/boa",
           "nombre sey": "Ñakomasira",
-          "video": "https://youtu.be/_d03HkQ3X_I",
-          "nombre en": "Lake Ñakomasira"
+          "nombre en": "Lake Ñakomasira",
+          "video": "https://youtu.be/_d03HkQ3X_I"
         },
         "geometry": null
       },
@@ -393,7 +393,7 @@
           "nota sey": "Pookoya tsiaya, ikona yuremaka wë'ña neni paa'sikoa.",
           "id": "9999",
           "nombre es": "Rio aguas blancas",
-          "nota es": "Aquí es el sitio de la comunidad Siekopai que fue establecido en el año 2003.  Durante la construcción de este pueblo habían varios artefctos arqueológicos  que corresponde a la cultura Siekopai, y que incluyo un cuchillo de piedra para la raspada de Yoco (una liana estimulatorio que utiliza los Siekopai) y otros cerámicas.  Lamentablemente, todos los techos de lamina de Zinc fue robado por los militares Peruanos que pertenece al destacamento Aguas Negras  en el año 2007 y luego abandonado por los Siekopai. ",
+          "nota es": "Este es el sitio establecido por la nacionalidad Siekopai en el año 2003.  Durante la construcción de este pueblo se encontraron varios vestigios arqueológicos que corresponden a la cultura Siekopai y que incluyen un cuchillo de piedra para raspar Yoco (liana sagrada que utilizan los Siekopai) y otras piezas de cerámica.  Lamentablemente, todos los techos de lámina de zinc utilizados por la comunidad fueron robados por militares peruanos pertenecientes al destacamento Aguas Negras en el año 2007; la constante presión militar fue una de las razones que motivó el abandono de este lugar por parte de los Siekopai.",
           "tipo": "River/Río",
           "nombre sey": "Pookoya, Aguas Blancas",
           "nombre en": "Aguas blancas river"
