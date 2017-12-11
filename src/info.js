@@ -13,11 +13,13 @@ Infobox.prototype._getElement = function () {
   var self = this
   var content = {
     es: yo`<div>
-      <p>Este mapa muestra el territorio ancestral de los Siekopai en la zona de Lagarto Cocha, en Ecuador y Perú. Los Siekopai fueron traslados de su territorio en los años 1940 durante el conflicto entre Perú y Ecuador. Han recibido título legal a áreas en ambos países, pero a una distancia larga de esta zona importante que ahora queda dentro de parques nacionales por ambos lados de la frontera. La zona de Lagarto Cocha es importante para los Siekopai tanto por razones históricos y espirituales y por la recolección de recursos que usan en sus vidas diarias y ceremoniales.</p>
+      <p>Este mapa muestra el territorio ancestral de los Siekopai en la zona de Pë’këya, Lagarto Cocha, entre Ecuador y Perú. Los Siekopai fueron desplazados de su territorio en los años cuarentas durante el conflicto entre Perú y Ecuador. Los Siekopai han recibido título legal de tierras en ambos países, pero muy lejos de este importante territorio ancestral que ahora se encuentra dentro de parques nacionales a ambos lados de la frontera. La zona de Lagarto Cocha es importante para los Siekopai tanto por razones histórico-culturales, espirituales y por el acceso a  recursos que usan en sus vidas diarias y ceremoniales.</p>
 
-      <p>El mapa fue hecha por los Siekopai para demostrar la importancia de su territorio y reconectar los jóvenes y antiguos.</p>
+<p>Este mapa fue realizado por los Siekopai para demostrar la importancia de su territorio y para reconectar a los jóvenes con sus ancestros.</p>
 
-      <p>Toda la información en el mapa es la propiedad cultural e intelectual de los Siekopai y deben ser consultados antes de cualquier reproducción o publicación de ello.</p>
+<p>Toda la información en este mapa es propiedad cultural e intelectual de los Siekopai y deben ser consultados antes de cualquier reproducción o publicación.</p>
+
+
       </div>
     `,
     en: yo`<div>
