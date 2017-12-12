@@ -345,7 +345,9 @@
       {
         "type": "Feature",
         "id": "rec7sxAGUCGCLeuTT",
-        "properties": {},
+        "properties": {
+          "nota es": "Caminos usados por los Siekopai en sus migraciones desde Perú hacia Ecuador, por última vez en 1973."
+        },
         "geometry": null
       },
       {
@@ -1079,10 +1081,11 @@
           "Item": "Camino Ancestral",
           "nota sey": " aguarico tsiyana jenitome ma'a caño de negro",
           "id": "15",
-          "nota es": "Cruce al rio aguarico y cañon negro.",
+          "nota es": "Caminos usados por los Siekopai en sus migraciones desde Perú hacia Ecuador, por última vez en 1973.",
           "tipo": "camino",
-          "nombre sey": "Cañon  negro",
-          "nombre en": "Crossing between Aguarico and Cañon Negro"
+          "nombre sey": "Okopetoya, Aguarico – Lagartococha",
+          "nombre en": "Crossing between Aguarico and Cañon Negro",
+          "nombre es": "Camino ancestral Okopetoya, Aguarico – Lagartococha"
         },
         "geometry": null
       },
@@ -1651,7 +1654,10 @@
           "nota sey": "Emuñapi saotëkapëja'a jenitomejë ku'ijë pa'iakoa. \n",
           "id": "10",
           "tipo": "camino",
-          "nombre sey": "Emuña Sotoya"
+          "nombre sey": "Emuña Sotoya",
+          "nota es": "Caminos usados por los Siekopai en sus migraciones desde Perú hacia Ecuador, por última vez en 1973.",
+          "Field 12": "x",
+          "nombre es": "Okopetoya, Aguarico – Lagartococha"
         },
         "geometry": null
       },
