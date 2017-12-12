@@ -97,7 +97,7 @@
           "Item": "Point",
           "nota sey": "iye maka paajii jai daripë siekoapai paijë paiamaka  ",
           "id": "9102455105363811224",
-          "nota es": "La historia cuenta que aqui fue un pueblo mas grande Siekopai. Dentro de esta comunidad nacio Cesario Piaguaje quien vive actualmente y da testimonio sobre la vida Siekopai antes de la guerra en 1941.",
+          "nota es": "La historia cuenta que aquí estuvo el más grande de los pueblos Siekopai. Dentro de esta comunidad nació Cesario Piaguaje quien vive actualmente y da testimonio sobre la vida Siekopai antes de la guerra en 1941. Hoy día, en este sitio histórico se encuentra el destacamento militar peruano 'Aguas Negras'.",
           "foto": [
             {
               "id": "attnZVAdln22A8la2",
@@ -108,8 +108,9 @@
             }
           ],
           "tipo": "comunidad/jai_daripe",
-          "nombre sey": "Tupë sa'ro Paai pa'idaripë",
-          "nombre en": "Ancestral settlement"
+          "nombre sey": "Wi’ya Jaira Daripë",
+          "nombre en": "Ancestral settlement",
+          "Field 12": "x"
         },
         "geometry": null
       },
@@ -392,11 +393,12 @@
           "Item": "Point",
           "nota sey": "Pookoya tsiaya, ikona yuremaka wë'ña neni paa'sikoa.",
           "id": "9999",
-          "nombre es": "Rio aguas blancas",
+          "nombre es": "Río Aguas Blancas",
           "nota es": "Este es el sitio establecido por la nacionalidad Siekopai en el año 2003.  Durante la construcción de este pueblo se encontraron varios vestigios arqueológicos que corresponden a la cultura Siekopai y que incluyen un cuchillo de piedra para raspar Yoco (liana sagrada que utilizan los Siekopai) y otras piezas de cerámica.  Lamentablemente, todos los techos de lámina de zinc utilizados por la comunidad fueron robados por militares peruanos pertenecientes al destacamento Aguas Negras en el año 2007; la constante presión militar fue una de las razones que motivó el abandono de este lugar por parte de los Siekopai.",
           "tipo": "River/Río",
-          "nombre sey": "Pookoya, Aguas Blancas",
-          "nombre en": "Aguas blancas river"
+          "nombre sey": "Po’okoya, Aguas Blancas:",
+          "nombre en": "Aguas blancas river",
+          "Field 12": "x"
         },
         "geometry": null
       },
