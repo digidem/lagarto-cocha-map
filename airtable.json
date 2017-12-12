@@ -9,12 +9,13 @@
           "Item": "Camino Ancestral",
           "nota sey": "iye makare manoka tsa'sa pa'ikoa",
           "id": "13",
-          "nombre es": "Platanillo rojo",
-          "nota es": "Un camino ancestral que conectaba la gente desde las comunidades alejado en el Río Putumayo hacia el Río Aguarico con las comunidades Siekopai en la ribera del Río Aguarico y el Río Cuyubeno",
+          "nombre es": "Camino ancestral Wati So’kora, Aguarico – Wajoya",
+          "nota es": "Un camino ancestral que conectaba la gente desde las comunidades alejado en Wajoya con las comunidades del Aguarico",
           "tipo": "camino",
           "nombre sey": "Manoka tsa'sa",
           "nombre en": "Ancestral path",
-          "video": "https://youtu.be/BG1BUkdPq6A"
+          "video": "https://youtu.be/BG1BUkdPq6A",
+          "Field 12": "x"
         },
         "geometry": null
       },
@@ -543,11 +544,12 @@
           "Item": "Camino Ancestral",
           "nota sey": "tsoeweña daijë paiama'a",
           "id": "12",
-          "nombre es": "Camino Ancestral: Wajoya ",
-          "nota es": "Camino ancestral de wajoya a la comunidad ma'ñoko",
+          "nombre es": "Camino Ancestral: Wati So’kora, Aguarico – Wajoya ",
+          "nota es": "Camino usado para comunicar las comunidades del río Wajoya con el Aguarico.",
           "tipo": "camino",
-          "nombre sey": " Wajoyapi / Mañokona daima'a, ma'a sarawa.",
-          "nombre en": "Ancestral path to Wajoya"
+          "nombre sey": "Wati So’kora, Aguarico – Wajoya",
+          "nombre en": "Ancestral path to Wajoya",
+          "Field 12": "x"
         },
         "geometry": null
       },
@@ -558,11 +560,12 @@
           "Item": "Camino Ancestral",
           "nota sey": " wiririna mañokona daripëna dai ma'a",
           "id": "4",
-          "nombre es": "Camino Wiririma / Mañoko",
+          "nombre es": "Camino ancestral Okopetoya, Aguarico – Putumayo",
           "nota es": "Okopetoya, Aguarico – Putumayo\nCamino ancestral que permite la comunicación más cercana entre los ríos Lagartococha y Angusilla. Es el camino que en la actualidad usan los Siekopai para pasar del Putumayo al Aguarico.",
           "tipo": "camino",
-          "nombre sey": "Mañokopi Wiririmana saima'a",
-          "nombre en": "Ancestral path Wiririma to Mañoko"
+          "nombre sey": "Okopetoya, Aguarico – Putumayo",
+          "nombre en": "Ancestral path Okopetoya, Aguarico – Putumayo",
+          "Field 12": "x"
         },
         "geometry": null
       },
@@ -915,7 +918,8 @@
           "nota en": "1473321167304750939",
           "tipo": "comunidad/jai_daripe",
           "nombre sey": "Pë’këya Sarahua",
-          "nombre en": "Mouth of river Lagarto"
+          "nombre en": "Mouth of river Lagarto",
+          "Field 12": "x"
         },
         "geometry": null
       },
