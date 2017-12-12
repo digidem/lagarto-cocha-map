@@ -57,7 +57,8 @@
           ],
           "tipo": "comunidad/campamento",
           "nombre sey": "Wakara jaira kai daripë",
-          "nombre en": "Campsite on Lake Wakara"
+          "nombre en": "Campsite on Lake Wakara",
+          "Field 12": "-"
         },
         "geometry": null
       },
@@ -156,7 +157,8 @@
           "nombre es": "Saladero de danta",
           "tipo": "fauna/tapir",
           "nombre sey": "Wekë tua'aro",
-          "nombre en": "Tapir salt lick"
+          "nombre en": "Tapir salt lick",
+          "Field 12": "x"
         },
         "geometry": null
       },
@@ -199,12 +201,13 @@
           "Item": "Point",
           "nota sey": "Añapëkë ai yëkona dawë yo'ojeorena te'o te'te ñakoa saiyo pa'isikoni ñakomasira we'yojë pa'isi jaira'ë.",
           "id": "6410969360746213045",
-          "nombre es": "Laguna ciega ",
-          "nota es": "En este sitio ocurrió uno de los eventos mas importantes y conocidos de todo la historia reciente Siekopai.  Cerca del año 1900, dos shamanes Siekopai  enfrentaron a dos meros (un tipo ballena Amazónica) cuales estaban atacando a gente la que iban de pesca. Con el poder de shamanismo lograron a matar a uno de estos meros y dejaron al otro vivo y ciega como un ejemplo del poder shamanico de los Siekopai.",
+          "nombre es": "La laguna de Imuya",
+          "nota es": "En este sitio ocurrió uno de los eventos más importantes y conocidos de la historia reciente de los Siekopai.  Cerca del año 1900, dos chamanes Siekopai enfrentaron a dos meros (un tipo ballena amazónica) que estaban atacando a la gente que iba de pesca. Con el poder chamánico lograron matar a uno de estos meros y dejaron al otro vivo pero tuerto,  ejemplo del poder chamánico de los Siekopai.",
           "tipo": "fauna/boa",
           "nombre sey": "Ñakomasira",
           "nombre en": "Lake Ñakomasira",
-          "video": "https://youtu.be/_d03HkQ3X_I"
+          "video": "https://youtu.be/_d03HkQ3X_I",
+          "Field 12": "x"
         },
         "geometry": null
       },
@@ -247,7 +250,7 @@
           "nota sey": "Año 2003 pai maka pai daijë paawë ti iona pëani payu'u kajë yo'oni io mami daripë weyoawë'ë mañoko.",
           "id": "10529189292030859811",
           "nombre es": "Comunidad Puerto Estrella",
-          "nota es": "Un pueblo actual de los Siekopai  en la frontera de Perú que fue re-establecido en el año 2003.  Hoy día se encuentra con la presencia de siete familias Siekopai y también este pueblo sirve como el punto principal de encuentros entre las familias.",
+          "nota es": "Comunidad actual de los Siekopai en la frontera de Perú que fue restablecida en el año 2003.  Hoy día se encuentra habitada por siete familias Siekopai y también esta comunidad sirve como el punto principal de encuentros entre las familias que vienen tanto de Ecuador como de Perú.",
           "foto": [
             {
               "id": "attG0dKdEpZBjfKN3",
@@ -258,8 +261,9 @@
             }
           ],
           "tipo": "comunidad/comunidad_nueva",
-          "nombre sey": "Ma'ñoko paai pa'idaripë",
-          "nombre en": "Mañoko community"
+          "nombre sey": "Mañoco Daripë",
+          "nombre en": "Mañoko community",
+          "Field 12": "x"
         },
         "geometry": null
       },
@@ -569,8 +573,8 @@
           "Item": "Point",
           "nota sey": "tsoe weña paai onoka jaira të'të pa daripë pa'iako",
           "id": "17463864706799181072",
-          "nombre es": "Orilla de platanillo.",
-          "nota es": "En la orilla de este laguna hubo un asentamiento Siekopai en los años previa a 1941 y incluyo una casa ceremonial de Yajé.   Aquí también se relato de un historia muy importante de los Siekopai  que trata del resurrección de un shaman quien fue enterrado y levanto después de unas días y cruzo al otro lado (hacia el lado Ecuador) para ver sus parientes quien vivían en la orilla  de la Laguna Pë’ë Jaira o ‘Lagarto Cocha’.  ",
+          "nombre es": "La orilla de laguna Redonda Cocha",
+          "nota es": "En la orilla de esta laguna hubo un asentamiento Siekopai en los años previos a 1941 que incluyó una casa ceremonial de yajé. Aquí también se relata una historia muy importante para los Siekopai que trata de la resurrección de un chamán que al morir había sido enterrado, pero que se levantó después de días y cruzó al otro lado (hacia el lado de Ecuador) para ver a sus parientes quienes vivían en la orilla de la Laguna Pë’ë Jaira o ‘Lagarto Cocha’.",
           "foto": [
             {
               "id": "attyGnmzOveiRGQHi",
@@ -593,8 +597,9 @@
             }
           ],
           "tipo": "comunidad/pai_pai_daripe",
-          "nombre sey": "Onoka të'tëpa paai pa'idaripë",
-          "nombre en": "Settlement "
+          "nombre sey": "Onoka Të’tëpa",
+          "nombre en": "Settlement ",
+          "Field 12": "x"
         },
         "geometry": null
       },
@@ -709,10 +714,11 @@
           "nota sey": "yaje wë'e pa'io paiamaka",
           "id": "14396950168013937593",
           "nombre es": "Rastrojo de la casa de yaje.",
-          "nota es": "Historicamente este es un lugar de encuentros ceremoniales de yagé de los chamanes de diferentes comunidades Siekopai que lamentablemente abandonaron cuando comenzó el conflicito belico  en el año 1941 entre Ecuador y Perú.",
+          "nota es": "Históricamente este es un lugar de encuentros ceremoniales de yagé para chamanes de diferentes comunidades Siekopai que lamentablemente se vieron forzados a abandonarlo cuando comenzó el conflicto bélico entre Ecuador y Perú en el año 1941.",
           "tipo": "comunidad/yaje",
           "nombre sey": "Aipë, yaje ukujë pa'isito",
-          "nombre en": "Historic Yaje ceremonial house"
+          "nombre en": "Historic Yaje ceremonial house",
+          "Field 12": "x"
         },
         "geometry": null
       },
@@ -737,7 +743,7 @@
           "Item": "Point",
           "nota sey": "kwiña jaira airo sani kai daripë pa'ikoa",
           "id": "8013122578254606165",
-          "nota es": "Actual campamento o punto de llegada principal de los visitantes y propios Siekopai para hacer diferentes actividades, como la recoleccion de materia prima para la elaboracion de diferentes herramientas, pesca y caceria artesanal y ecoturismo.",
+          "nota es": "Actual campamento o punto de llegada principal de los visitantes y propios Siekopai para hacer diferentes actividades como la recolección de materia prima para la elaboración de diferentes herramientas, pesca, cacería artesanal y ecoturismo.",
           "foto": [
             {
               "id": "attuV77My77KeZx1o",
@@ -756,7 +762,8 @@
           ],
           "tipo": "comunidad/campamento",
           "nombre sey": "Kwiña jaira kaidaripë",
-          "nombre en": "Ancestral settlement"
+          "nombre en": "Ancestral settlement",
+          "nombre es": "Piudi Cocha campamento"
         },
         "geometry": null
       },
@@ -1205,10 +1212,11 @@
           "nota sey": "Juni wëi yo'okëna ka'rajë jeni pëani pa'ijë pa'isi daripë",
           "id": "1988433969112786142",
           "nombre es": "Isla para beber Yaje.",
-          "nota es": "Se sabe que aqui habia un pueblo antiguo, por razones de las resurreccion que hubo al otro lado algunas familias se cruzaron y establecieronuna comunidad. Aqui se encuentran artefactos de cerámica en los años reciéntes.",
+          "nota es": "Se sabe que aquí había un pueblo antiguo y que por razones de la resurrección que hubo al otro lado, algunas familias cruzaron y establecieron aquí una comunidad. En años recientes se encontraron restos arqueológicos ornamentales y de uso domiciliar en este lugar.",
           "tipo": "comunidad/pai_pai_daripe",
           "nombre sey": "Yaje uku saorowë",
-          "nombre en": "Historic Yaje ceremonial house"
+          "nombre en": "Historic Yaje ceremonial house",
+          "Field 12": "x"
         },
         "geometry": null
       },
@@ -1358,7 +1366,7 @@
           "nota sey": "tsoeweña  wakara jaira sarawana paai pëani paijë paawë yo'oni sani sarena ecuador soraopi pëani paakoë ",
           "id": "9263350016677695422",
           "nombre es": "Rastrojo de asentamiento siekopaai en la bocana de garzacocha",
-          "nota es": "En  1994 los Siekopai intentaron a re-establecer su presencia en este sitio histórico con un asentamiento y cultivos de yuca y plátano, pero otra vez los militares quitaron el puesto y establecieron el destacamento militar ‘Patria’.",
+          "nota es": "En este sitio que se encuentra en la bocana del Río Lagarto y la Laguna Garza Cocha, había un pueblo Siekopai que era conocido como el centro sagrado dedicado a actividades ceremoniales de los chamanes Siekopai, y que fue abandonado en el año 1941 cuando comienzo la guerra con Perú. En 1994 los Siekopai intentaron restablecer su presencia en este sitio histórico  a través de un asentamiento humano y cultivos de de yuca y plátano, nuevamente los militares peruanos les despojaron de la zona y establecieron el destacamento ‘Patria’.\nPor persistencia de los Siekopai este sitio ha servido como uno de los campamentos principales durante sus visitas a este sector para la recolección de materia prima, pesca artesanal y ecoturismo.",
           "foto": [
             {
               "id": "attLdyFgei9J5n4wz",
@@ -1382,7 +1390,8 @@
           ],
           "tipo": "comunidad/comunidad_nueva",
           "nombre sey": "Wakara jaira Paai pa'i daripë",
-          "nombre en": "Ancestral settlement"
+          "nombre en": "Ancestral settlement",
+          "Field 12": "x"
         },
         "geometry": null
       },
@@ -1520,7 +1529,7 @@
           "nota sey": "tsoe weña paai paijë pa'ia daripë ",
           "id": "4949591082239758199",
           "nombre es": "Rio emuya donde habitaban los antepasados ",
-          "nota es": "Se sabe que aqui habia una comunidad antigua, que por muchas enfermedades las familias se adentraron y establecieron, de aquello como muestras hay un rastrojo donde se puede visualizar los pedasos de ceramica, yoko, yaje, especies de bambú especiales.",
+          "nota es": "En este punto se estableció una comunidad cuyos moradores llegaron huyendo de enfermedades y pestes. Como muestra de aquello, en el lugar hay un rastrojo donde se pueden encontrar los pedazos de cerámica, yoko, yajé y especies de bambú de uso regular y característico para los Siekopai",
           "foto": [
             {
               "id": "attA5Giu6qKeMbZZy",
@@ -1582,7 +1591,8 @@
           ],
           "tipo": "comunidad/jai_daripe",
           "nombre sey": "Emuña paai pa'ia daripë",
-          "nombre en": "Ancestral settlement"
+          "nombre en": "Ancestral settlement",
+          "Field 12": "x"
         },
         "geometry": null
       },
