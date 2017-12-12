@@ -559,7 +559,7 @@
           "nota sey": " wiririna mañokona daripëna dai ma'a",
           "id": "4",
           "nombre es": "Camino Wiririma / Mañoko",
-          "nota es": "Camino que llega de wirima a la comunidad ma'ñoko.",
+          "nota es": "Okopetoya, Aguarico – Putumayo\nCamino ancestral que permite la comunicación más cercana entre los ríos Lagartococha y Angusilla. Es el camino que en la actualidad usan los Siekopai para pasar del Putumayo al Aguarico.",
           "tipo": "camino",
           "nombre sey": "Mañokopi Wiririmana saima'a",
           "nombre en": "Ancestral path Wiririma to Mañoko"
@@ -774,8 +774,8 @@
           "Item": "Camino Ancestral",
           "nota sey": "Ñekwëowa'i ku'ijë pai'ako, ukwusiyapi aguaricona pë'këya kwi'ne pookoya jenitomejë pa'isiko.",
           "id": "14",
-          "nombre es": "Camino ancestral de Angusiya / Aguarico",
-          "nota es": "Este el camino ancestral que nuestros antepasados  caminaban para llegar al rio aguarico antes de llegar  al rio aguarico tenian que cruzar el rio lagarto cocha y tambien el rio aguas blancas.",
+          "nombre es": "Camino ancestral Pë’këya-Angusilla, Aguarico – Putumayo",
+          "nota es": "Pë’këya-Angusilla, Aguarico – Putumayo\nCamino ancestral que une la parte alta de los ríos Lagartocoha y Angusilla, cruzando el río Lagarto y el río Aguas Blancas. Es por esta vía que se dieron las migraciones de los Siekopai desde Perú a Ecuador en el año 1973.",
           "tipo": "camino",
           "nombre sey": " Ai ma'a aiowa'i ku'ijë paa'isiko ukwisiyapi aguaricona.",
           "nombre en": "Ancestral path Angusiya / Aguarico"
@@ -910,11 +910,11 @@
           "Item": "Point",
           "nota sey": "Pi'awajë kwi'ne Payowajeë pa'ijë pa'isito.",
           "id": "1473321167304750939",
-          "nombre es": "Bocana del lagarto cocha ",
-          "nota es": "Habia una comunidad en la bocana de Lagarto Cocha, desde alli se caminaba hasta Sokora Jaira hasta cruzar al Napo, alli tenian contacto con otros grupos indigenas (Waorani). Al ver que vivian sin ropas se les denominaron Kapeotini, de ello le dieron Tiputi.Adicionalmente,  Sra. Joaquina Payaguaje relató que hay muchos huesos de sus ancestros Siekopai enterrados aquí, y lo cuales incluye los de sus propios padres. Hoy día este sitio se encuentra el destacamento Militar Peruano Clavero.  También se cuentan que en esta época la bocana era unos cienes de metros mas abajo que lo que es actual, debido a un cambio de trayecto de los ríos. ",
+          "nombre es": "La Bocana del Río Lagarto",
+          "nota es": "Había una comunidad en la bocana del Lagarto Cocha desde donde se caminaba a Sokora Jaira hasta cruzar al río Napo. Allí tenían contacto con otros grupos indígenas como los waorani. Al ver que éstos vivían sin ropas se les denominaron Kapeotini, por esto se le dio el nombre de Tiputini. Adicionalmente la Sra. Joaquina Payaguaje relató que hay huesos de sus ancestros Siekopai enterrados aquí, que incluyen a los de sus propios padres.\nHoy en día, en este sitio se encuentra el destacamento militar peruano Clavero.  También se cuenta que en esta época la bocana era unos cientos de metros más abajo (como se encuentra actualmente) esto debido al cambio de trayecto de los ríos.",
           "nota en": "1473321167304750939",
           "tipo": "comunidad/jai_daripe",
-          "nombre sey": "Pë'ëkëya sarawa ",
+          "nombre sey": "Pë’këya Sarahua",
           "nombre en": "Mouth of river Lagarto"
         },
         "geometry": null
@@ -1104,11 +1104,12 @@
           "Item": "Camino Ancestra",
           "nota sey": "iye ma'aja tsoeweña peru soraore kata weyokaijë paaikaoni  jaje sëowë'ë iye ma'a weepi.",
           "id": "1",
-          "nombre es": "Camino ancestral Gueppi",
-          "nota es": "Este es el camino ancestral wepi, y tiene una historia que cuenta que en este camino cargaban municiones para ejercito peruanos, por que en esa época estaban en conflicto con Colombia.",
+          "nombre es": "Camino ancestral We'epi (Güeppi) Aguarico – Putumayo",
+          "nota es": "We’epi (Güeppi), Aguarico – Putumayo\nComunica la parte alta del río Lagartococha con el río Güeppi. Su nombre en Paikoka significa cargador. Hay una historia que cuenta que en este camino se transportaban municiones para el ejército peruano, porque en esa época estaban en conflicto con Colombia.",
           "tipo": "camino",
-          "nombre sey": "Wepi saima´a",
-          "nombre en": "Ancestral path to Gueppi"
+          "nombre sey": "We’epi, Aguarico – Putumayo",
+          "nombre en": "Ancestral path to Gueppi",
+          "Field 12": "x"
         },
         "geometry": null
       },
@@ -1671,8 +1672,8 @@
           "Item": "Camino Ancestral",
           "nota sey": "anguisiyapi nea tsiaya dai ma'a ",
           "id": "3",
-          "nombre es": "Camino ancestral Angusilla / Aguas Negras",
-          "nota es": "Camino ancestral Angusilla que llega a salir al rio aguas negras.\n ",
+          "nombre es": "Camino ancestral Angusilla, Aguarico – Putumayo",
+          "nota es": "Este camino ancestral comunica las comunidades de río Putumayo con la comunidad ancestral de Wi’ya Jaira y continuaba hasta el río Aguarico.  Este camino se abandonó cuando los militares Peruanos quitaron el asentamiento en Wi’ya Jaira durante el conflicto de 1941.",
           "tipo": "camino",
           "nombre sey": "Aima'a Ukwisiyapi Neañana etasi ma'a.",
           "nombre en": "Ancestral path Angusilla to Aquas Negras"
