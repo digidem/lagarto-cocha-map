@@ -1777,6 +1777,45 @@
           "nombre en": "Lake Añapëkë (giant catfish)"
         },
         "geometry": null
+      },
+      {
+        "type": "Feature",
+        "id": "recyWSOtCFOJo7uiN",
+        "properties": {
+          "Item": "Laguna",
+          "id": "17801272847442932841"
+        },
+        "geometry": null
+      },
+      {
+        "type": "Feature",
+        "id": "recycSE3yujngBaph",
+        "properties": {
+          "Item": "Laguna",
+          "nota sey": "Tsiaya wëkëpi pa'ikoa",
+          "id": "4765490255045918206",
+          "nombre es": "Laguna de manatí (vaca marina)",
+          "nota es": "En esta laguna existen bastantes manatis o vaca marinas)\n",
+          "tipo": "lake",
+          "nombre sey": "Tsiaya Wëkë Jaira",
+          "nombre en": "Lake Tsiaya Wëkë (manatee)"
+        },
+        "geometry": null
+      },
+      {
+        "type": "Feature",
+        "id": "recz1RLN4LmJ86ABL",
+        "properties": {
+          "Item": "Point",
+          "nota sey": "ma'a noka yo sa'ro ja paa'ko'ë",
+          "id": "13636346042510859888",
+          "nombre es": "Puerto de platanillo rojo ",
+          "nota es": "Este es el punto donde uno de los caminos ancestral de los Siekopai y que conectaba la gente desde las comunidades alejado en el Rio Putumayo hacia el Rio Aguarico y con las comunidades Siekopai en la ribera del Rio Aguarico y el Rio Cuyabeno. ",
+          "tipo": "Actividad",
+          "nombre sey": "Tumasa'ro manoka tsa'sa",
+          "nombre en": "Port"
+        },
+        "geometry": null
       }
     ]
   },
