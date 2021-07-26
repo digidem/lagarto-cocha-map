@@ -31,6 +31,8 @@
           "foto": [
             {
               "id": "attIA2PLKXb3JdoVh",
+              "width": 853,
+              "height": 1280,
               "url": "https://dl.airtable.com/Z7W5yNUIRLmTVSFp3ctY_DSC01702.jpg",
               "filename": "DSC01702.jpg",
               "size": 369093,
@@ -425,6 +427,8 @@
           "foto": [
             {
               "id": "atteLHDsMWXXOeyEH",
+              "width": 5472,
+              "height": 3648,
               "url": "https://dl.airtable.com/m7KNvHKuQxuqYABidPyz__MG_1011.JPG",
               "filename": "_MG_1011.JPG",
               "size": 5322976,
@@ -493,6 +497,8 @@
           "foto": [
             {
               "id": "att6LkIZ8f38rWP4n",
+              "width": 2516,
+              "height": 1408,
               "url": "https://dl.airtable.com/MtUNnGnFR2qDg4va7uqG_Ononka.png",
               "filename": "Ononka.png",
               "size": 6371557,
@@ -827,6 +833,8 @@
           "foto": [
             {
               "id": "attwSNt5Y51kDiebx",
+              "width": 4000,
+              "height": 3000,
               "url": "https://dl.airtable.com/nBK6x6S5SOunffOwDISX_IMG_7359.JPG",
               "filename": "IMG_7359.JPG",
               "size": 3670929,
@@ -1398,6 +1406,8 @@
           "foto": [
             {
               "id": "attLdyFgei9J5n4wz",
+              "width": 5472,
+              "height": 3648,
               "url": "https://dl.airtable.com/2fEWjVbfROxO3gChPKcM__MG_1070.JPG",
               "filename": "_MG_1070.JPG",
               "size": 4136256,
@@ -1530,6 +1540,8 @@
           "foto": [
             {
               "id": "attwx7V6aoyG3slWh",
+              "width": 1280,
+              "height": 853,
               "url": "https://dl.airtable.com/HPlzMlESQnOSNWGOKXzh_DSC01679.jpg",
               "filename": "DSC01679.jpg",
               "size": 439213,
@@ -1571,6 +1583,8 @@
           "foto": [
             {
               "id": "attA5Giu6qKeMbZZy",
+              "width": 4000,
+              "height": 3000,
               "url": "https://dl.airtable.com/tqoy6ossRaqHyitiP3IL_IMG_7379.JPG",
               "filename": "IMG_7379.JPG",
               "size": 2942469,
@@ -1595,6 +1609,8 @@
             },
             {
               "id": "attMdvYY2med6PJNP",
+              "width": 4000,
+              "height": 3000,
               "url": "https://dl.airtable.com/LszovQPQ3W5vcZMgvnKw_IMG_7390.JPG",
               "filename": "IMG_7390.JPG",
               "size": 2304621,
@@ -1619,6 +1635,8 @@
             },
             {
               "id": "attu1FbArhyst5Xjv",
+              "width": 4000,
+              "height": 3000,
               "url": "https://dl.airtable.com/emp7HC70QnWq3EMscF2t_IMG_7394.JPG",
               "filename": "IMG_7394.JPG",
               "size": 2459247,
