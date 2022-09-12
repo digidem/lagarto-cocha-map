@@ -61,7 +61,7 @@ Infobox.prototype._getElement = function () {
   var el = yo`<div style="display: none;">
     <div class="map-overlay ${style}">
       <div class="info-box">
-        ${content[self.lang]}
+        ${content[self.lang] || content['es']}
         <button class="btn" onclick=${hide}>${self.lang === 'es' ? 'EXPLORAR' : 'EXPLORE'}</button>
       </div>
     </div>
