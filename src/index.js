@@ -30,7 +30,9 @@ var data
 var translations = {}
 var dataIndex = {}
 var pending = 2
-var lang = qs.parse(window.location.search.replace('?', '')).lang || 'es'
+var qsLang = qs.parse(window.location.search.replace('?', '')).lang || 'es'
+// A URL mis-type can result in a trailing slash which is appended to the language query string.
+var lang = qsLang.replace(/\/$/, '')
 var body = document.querySelector('body')
 if (lang === 'en') body.style = "font-family: 'Montserrat' !important;"
 else if (lang === 'es') body.style = "font-family: 'Helvetica' !important;"
