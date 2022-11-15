@@ -13,7 +13,7 @@ Infobox.prototype._getElement = function () {
   var self = this
   var content = {
     es: yo`<div>
-      <p>Este mapa muestra el territorio ancestral de los Siekopai en la zona de Pë’këya, Lagarto Cocha, entre Ecuador y Perú. Los Siekopai fueron desplazados de su territorio en los años cuarentas durante el conflicto entre Perú y Ecuador. Los Siekopai han recibido título legal de tierras en ambos países, pero muy lejos de este importante territorio ancestral que ahora se encuentra dentro de parques nacionales a ambos lados de la frontera. La zona de Lagarto Cocha es importante para los Siekopai tanto por razones histórico-culturales, espirituales y por el acceso a  recursos que usan en sus vidas diarias y ceremoniales.</p>
+      <p id="first-paragraph">Este mapa muestra el territorio ancestral de los Siekopai en la zona de Pë’këya, Lagarto Cocha, entre Ecuador y Perú. Los Siekopai fueron desplazados de su territorio en los años cuarentas durante el conflicto entre Perú y Ecuador. Los Siekopai han recibido título legal de tierras en ambos países, pero muy lejos de este importante territorio ancestral que ahora se encuentra dentro de parques nacionales a ambos lados de la frontera. La zona de Lagarto Cocha es importante para los Siekopai tanto por razones histórico-culturales, espirituales y por el acceso a  recursos que usan en sus vidas diarias y ceremoniales.</p>
 
 <p>Este mapa fue realizado por los Siekopai para demostrar la importancia de su territorio y para reconectar a los jóvenes con sus ancestros.</p>
 
@@ -23,7 +23,7 @@ Infobox.prototype._getElement = function () {
       </div>
     `,
     en: yo`<div>
-    <p>
+    <p id="first-paragraph">
     This map shows the ancestral territory of the Siekopai of Lagarto Cocha, in border region of Ecuador and Peru. The Siekopai were forcefully displaced from this territory in the 1940s during the conflict between Peru and Ecuador. Although they have received land titles in areas of both countries, they are far removed from this important area that is now inside national parks on both sides of the border. The Lagarto Cocha area is critically important for the Siekopai both for historical and spiritual reasons as well as for the collection of resources they use in their daily life.
 
     </p>
@@ -54,6 +54,16 @@ Infobox.prototype._getElement = function () {
         flex-direction: column;
         display: flex;
         justify-content: center;
+      }
+      
+      @media (max-width: 750px) {
+        .info-box {
+          max-height: 300px;
+          justify-content: flex-start;
+          overflow: auto;
+        }
+        
+        .info-box #first-paragraph { margin-block-start: 0; }
       }
     }
   `
