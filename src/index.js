@@ -24,7 +24,7 @@ var popupOffsets = {
   'right': [-markerRadius, 0]
 }
 
-mapboxgl.accessToken = 'pk.eyJ1IjoiZ21hY2xlbm5hbiIsImEiOiJSaWVtd2lRIn0.ASYMZE2HhwkAw4Vt7SavEg'
+mapboxgl.accessToken = 'pk.eyJ1IjoiZ21hY2xlbm5hbiIsImEiOiJjbHNjMHo0cGkwaWZnMnFuc2N2MnFraGdhIn0._b-X4XvrlaVfYMLB9LzAHA'
 
 var data
 var translations = {}
